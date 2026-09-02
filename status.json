@@ -1,0 +1,1249 @@
+{
+ "lauf": "2026-09-02T18:18:01+00:00",
+ "termine": 933,
+ "serientermine": 123,
+ "neu": 0,
+ "quellen_aktiv": 68,
+ "quellen_mit_treffern": 45,
+ "quellen_mit_fehler": 5,
+ "quellen": [
+  {
+   "quelle": "Innsbruck Tourismus",
+   "url": "https://www.innsbruck.info/events/d/alle.html",
+   "aktiv": true,
+   "strategie": "innsbruckinfo",
+   "gefunden": 223,
+   "uebernommen": 194,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {
+    "kein Ort im Umkreis genannt": 14,
+    "Blasmusik": 12,
+    "Trachten": 2,
+    "Fruehschoppen": 1
+   }
+  },
+  {
+   "quelle": "TT Events",
+   "url": "https://events.tt.com/veranstaltungen/innsbruck/alle-kategorien",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 10,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 10
+   }
+  },
+  {
+   "quelle": "TT Events Innsbruck-Land",
+   "url": "https://events.tt.com/veranstaltungen/innsbruck-land/alle-kategorien",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 10,
+   "uebernommen": 10,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "meinbezirk",
+   "url": "https://www.meinbezirk.at/event/innsbruck/list",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 24,
+   "uebernommen": 24,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Innsbruck Termine",
+   "url": "https://www.innsbrucktermine.at",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 17,
+   "uebernommen": 12,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {
+    "Blasmusik": 2,
+    "Trachten": 1,
+    "ausserhalb des Zeitfensters": 2
+   }
+  },
+  {
+   "quelle": "eventfinder",
+   "url": "https://www.eventfinder.at/veranstaltungen-innsbruck.php",
+   "aktiv": true,
+   "strategie": "jsonld",
+   "gefunden": 48,
+   "uebernommen": 45,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {
+    "Schlager": 1,
+    "Blasmusik": 1,
+    "ausserhalb des Zeitfensters": 1
+   }
+  },
+  {
+   "quelle": "Freizeit Tirol",
+   "url": "https://www.freizeit-tirol.at/freizeit-events/eventkalender/",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 10,
+   "uebernommen": 10,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Stadt Innsbruck",
+   "url": "https://www.ibkinfo.at",
+   "aktiv": true,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Olympiaworld",
+   "url": "https://www.olympiaworld.at/events-tickets/",
+   "aktiv": true,
+   "strategie": "microdata",
+   "gefunden": 57,
+   "uebernommen": 54,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {
+    "Blasmusik": 1,
+    "ausserhalb des Zeitfensters": 2
+   }
+  },
+  {
+   "quelle": "Congress Messe Innsbruck",
+   "url": "https://www.cmi.at/de/veranstaltungskalender",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 114,
+   "uebernommen": 101,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 8,
+    "Schlager": 1,
+    "Volksmusik": 1,
+    "Blasmusik": 3
+   }
+  },
+  {
+   "quelle": "oeticket Innsbruck",
+   "url": "https://www.oeticket.com/city/innsbruck-605/",
+   "aktiv": false,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "Antwort laeuft wiederholt in den Timeout; Inhalte werden zudem clientseitig nachgeladen. Vorverkauf mit langem Vorlauf kommt ersatzweise ueber eventfinder und die Veranstalterseiten.",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "innsbruck weekly",
+   "url": "https://www.innsbruck-weekly.at/archive",
+   "aktiv": false,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "Kuratierter Newsletter in Fliesstext ohne Terminstruktur. Ein Parser dafuer erzeugt mehr Falschtreffer als Nutzen; die Termine stehen ohnehin bei den Veranstaltern.",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "p.m.k",
+   "url": "https://www.pmk.or.at/de/events",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 18,
+   "uebernommen": 18,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Die Bäckerei",
+   "url": "https://www.diebaeckerei.at/programm",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 32,
+   "uebernommen": 32,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Treibhaus",
+   "url": "https://www.treibhaus.at/programm.ics",
+   "aktiv": true,
+   "strategie": "ics",
+   "gefunden": 82,
+   "uebernommen": 78,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {
+    "Volksmusik": 2,
+    "Blasmusik": 2
+   }
+  },
+  {
+   "quelle": "Music Hall",
+   "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen.html",
+   "aktiv": true,
+   "strategie": "microdata",
+   "gefunden": 37,
+   "uebernommen": 35,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 2
+   }
+  },
+  {
+   "quelle": "Hafen",
+   "url": "https://hafen.cc",
+   "aktiv": false,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "Die WordPress-Installation liefert keine Programmseite: alle geprueften Pfade antworten mit 404, die Startseite verlinkt nur den Feed, und der ist leer. Das Programm des groessten VAZ laeuft offenbar ueber Kanaele, die hier ausgeschlossen sind.",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Tante Emma",
+   "url": "https://www.deinetante.at",
+   "aktiv": true,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "Programm laeuft weitgehend ueber Instagram; die Website nennt selten Termine",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Dachsbau",
+   "url": "https://dachsbau.club",
+   "aktiv": true,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "Sehr schlanke Seite, Programm ueberwiegend ueber Instagram",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Club Filou",
+   "url": "https://www.club-filou.com",
+   "aktiv": false,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "Wix-Seite, Programm wird clientseitig nachgeladen. Im ausgelieferten HTML steht kein einziger Termin.",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Mausefalle",
+   "url": "https://www.mause-falle.at",
+   "aktiv": false,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "TLS-Zertifikat der Seite ist nicht verifizierbar. Wir schalten die Pruefung nicht ab, also bleibt die Quelle aus.",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Heart of Noise",
+   "url": "https://www.heartofnoise.at",
+   "aktiv": true,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "Festival im Juni; ausserhalb der Saison ohne Termine",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Arche Ahoi (frey-tag)",
+   "url": "https://www.frey-tag.at/locations/arche-ahoi",
+   "aktiv": false,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "TLS-Zertifikat nicht verifizierbar. Der Club hat keine eigene Website, damit faellt er ersatzlos aus.",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "funkraum (ra.co)",
+   "url": "https://ra.co/clubs/242988",
+   "aktiv": false,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "ra.co beantwortet Anfragen ohne Browser mit HTTP 403 und rendert clientseitig. Eine Umgehung waere eine bewusste Sperrumgehung, darum abgeschaltet.",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Club Cubique (ra.co)",
+   "url": "https://ra.co/clubs/127677",
+   "aktiv": false,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "Wie funkraum: HTTP 403 ohne Browser.",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Tribaun",
+   "url": "https://www.tribaun.com/events",
+   "aktiv": true,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Bierstindl",
+   "url": "https://www.bierstindl.eu/veranstaltungen",
+   "aktiv": false,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "Server bricht die Verbindung ohne Antwort ab (Connection reset).",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "SixtyTwenty",
+   "url": "https://www.sixtytwenty.com/programm.php",
+   "aktiv": false,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "Antwortet dauerhaft mit HTTP 503.",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Route66",
+   "url": "https://www.route-66.at/events",
+   "aktiv": true,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Nordkette Wetterleuchten",
+   "url": "https://www.wetterleuchten.at/index.php/home/programm",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 3,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "Elektronik-Festival auf 1905 m, jaehrlich im Juli",
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 3
+   }
+  },
+  {
+   "quelle": "imkreis",
+   "url": "https://www.imkreis.at",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 21,
+   "uebernommen": 3,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 18
+   }
+  },
+  {
+   "quelle": "Gans Anders",
+   "url": "https://www.gans-anders.com",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 1,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "Berg-Elektronik, unregelmaessige Termine",
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 1
+   }
+  },
+  {
+   "quelle": "Bonanza Festival",
+   "url": "https://www.bonanza-festival.com/spumante",
+   "aktiv": true,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
+   "grund": "",
+   "hinweis": "Festival auf der Muttereralm",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Tiroler Landestheater",
+   "url": "https://www.landestheater.at/spielplan",
+   "aktiv": false,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "Der Spielplan wird vollstaendig aus einem JavaScript-Bundle aufgebaut; im ausgelieferten HTML steht kein einziger Termin. Geprueft und mit 404 beantwortet: /spielplan/kalender, /spielplan/<monat>-<jahr>, /api/spielplan. Mit ueber 600 Vorstellungen je Saison ist das die groesste Luecke im Kulturbereich.",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Leokino / Cinematograph",
+   "url": "https://www.leokino.at/programm/",
+   "aktiv": false,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "Das Wochenprogramm kommt per AJAX nach; im sichtbaren Text der Seite steht keine einzige Datumsangabe. Die Zahlen im Quelltext stammen aus SVG-Pfaden, nicht aus Terminen. Innsbrucker Kinovorstellungen kommen ersatzweise ueber UNCUT und Metropol.",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Metropol Kino",
+   "url": "https://www.metropol-kino.at/kinoprogramm/metropol",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 17,
+   "uebernommen": 17,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Cineplexx Innsbruck",
+   "url": "https://www.cineplexx.at/center/cineplexx-innsbruck/",
+   "aktiv": false,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "Spielzeiten kommen clientseitig aus einem JSON-Endpunkt, der sich ohne Browser nicht stabil ansprechen laesst. UNCUT deckt dieselben Vorstellungen serverseitig ab.",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "UNCUT Kinoprogramm",
+   "url": "https://www.uncut.at/innsbruck/",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 3,
+   "uebernommen": 2,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 1
+   }
+  },
+  {
+   "quelle": "IFFI Filmfestival",
+   "url": "https://www.iffi.at/programm/",
+   "aktiv": true,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "URLError: <urlopen error Tunnel connection failed: 502 Bad Gateway>",
+   "grund": "",
+   "hinweis": "Festival im Juni",
+   "verworfen": {}
+  },
+  {
+   "quelle": "DIAMETRALE",
+   "url": "https://www.diametrale.at/program/",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 245,
+   "uebernommen": 3,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "Festival im Oktober/November",
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 242
+   }
+  },
+  {
+   "quelle": "Nature Film Festival",
+   "url": "https://www.inff.eu",
+   "aktiv": true,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "Festival im Oktober",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Tiroler Landesmuseen",
+   "url": "https://www.tiroler-landesmuseen.at/besuch/veranstaltungen/",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 13,
+   "uebernommen": 10,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 3
+   }
+  },
+  {
+   "quelle": "Haus der Musik",
+   "url": "https://www.haus-der-musik-innsbruck.at/kalender/",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 11,
+   "uebernommen": 11,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Festwochen Alte Musik",
+   "url": "https://www.altemusik.at/de/veranstaltungen",
+   "aktiv": true,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "Festival im Juli/August",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Klangspuren Schwaz",
+   "url": "https://www.klangspuren.at/festival/festival-programm/",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 26,
+   "uebernommen": 5,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 21
+   }
+  },
+  {
+   "quelle": "Landeskonservatorium",
+   "url": "https://www.konstirol.at/termine/",
+   "aktiv": false,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "Die Terminseite enthaelt im ausgelieferten HTML genau eine Datumsangabe und keine Terminliste. Schade, denn die Konzerte sind haeufig und oft gratis -- der Volksmusikfilter stuende bereit.",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Dommusik",
+   "url": "https://www.dommusik-innsbruck.at",
+   "aktiv": false,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "Termine stehen ausschliesslich in einer PDF-Broschuere. Der Aufwand steht in keinem Verhaeltnis zum Ertrag, zumal geistliche Musik nicht zu den genannten Interessen zaehlt.",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "KRAPOLDI",
+   "url": "https://www.krapoldi.at/event/",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 67,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "Zirkusfestival; die Seite zeigt ausserhalb der Saison das vergangene Programm",
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 67
+   }
+  },
+  {
+   "quelle": "Neue Galerie / Kunstpavillon",
+   "url": "https://www.kuveti.at",
+   "aktiv": false,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "Server bricht die Verbindung ohne Antwort ab.",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Galerie Thomas Flora",
+   "url": "https://www.galerie-thomas-flora.at/ausstellungen",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 8,
+   "uebernommen": 6,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 2
+   }
+  },
+  {
+   "quelle": "Stadtbibliothek Innsbruck",
+   "url": "https://stadtbibliothek.innsbruck.gv.at/de/programm/veranstaltungskalender/5-0.html",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 7,
+   "uebernommen": 7,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Universität Innsbruck",
+   "url": "https://www.uibk.ac.at/events/feed.rss",
+   "aktiv": true,
+   "strategie": "rss",
+   "gefunden": 30,
+   "uebernommen": 30,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Austria Climbing",
+   "url": "https://data.austriaclimbing.com/Calendar",
+   "aktiv": true,
+   "strategie": "austriaclimbing",
+   "gefunden": 42,
+   "uebernommen": 7,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {
+    "ausserhalb: dornbirn": 1,
+    "ausserhalb: voecklabruck": 1,
+    "kein Ort im Umkreis genannt": 17,
+    "ausserhalb: wien": 3,
+    "ausserhalb: imst": 4,
+    "ausserhalb: graz": 4,
+    "ausserhalb: linz": 1,
+    "ausserhalb: steyr": 1,
+    "ausserhalb: ehrwald": 1,
+    "ausserhalb: schladming": 2
+   }
+  },
+  {
+   "quelle": "Kletterzentrum Innsbruck",
+   "url": "https://www.kletterzentrum-innsbruck.at/category/events/",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 10,
+   "uebernommen": 3,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 7
+   }
+  },
+  {
+   "quelle": "Laufkalender Tirol",
+   "url": "https://www.runme.at/laufkalender/tirol/",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 23,
+   "uebernommen": 9,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {
+    "ausserhalb: mayrhofen": 2,
+    "kein Ort im Umkreis genannt": 12
+   }
+  },
+  {
+   "quelle": "Innsbruck läuft",
+   "url": "https://www.innsbrucklaeuft.com/anmeldung/",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 5,
+   "uebernommen": 5,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Nordkette Vertical Run",
+   "url": "https://www.nordkette-vertical-run.at",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 4,
+   "uebernommen": 2,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 2
+   }
+  },
+  {
+   "quelle": "Alpenverein Innsbruck",
+   "url": "https://www.alpenverein.at/innsbruck/termine/index.php",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 45,
+   "uebernommen": 45,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Tiroler Skiverband",
+   "url": "https://www.tirolerskiverband.at/termine",
+   "aktiv": true,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Muttereralm",
+   "url": "https://www.muttereralm.at/en/events/events/62-0.html",
+   "aktiv": false,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "Der Server handelt einen zu schwachen Diffie-Hellman-Schluessel aus (DH_KEY_TOO_SMALL); Python lehnt die Verbindung zu Recht ab. Die Sicherheitsstufe dafuer herabzusetzen waere der falsche Weg -- das muss der Betreiber beheben.",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Patscherkofelbahn",
+   "url": "https://www.patscherkofelbahn.at/events/",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 31,
+   "uebernommen": 31,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Rosshütte Seefeld",
+   "url": "https://www.rosshuette.at/events",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 2,
+   "uebernommen": 2,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Bergisel",
+   "url": "https://www.bergisel.info",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 1,
+   "uebernommen": 1,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Airdrenaline",
+   "url": "https://airdrenaline.world",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 3,
+   "uebernommen": 3,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "VHS Tirol",
+   "url": "https://www.vhs-tirol.at/kurse",
+   "aktiv": false,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "Kursportal laedt vollstaendig clientseitig; im HTML steht kein einziger Kurstermin. Rund 1500 Kurse blieben so unerreichbar -- die groesste bekannte Luecke im Bestand.",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Töpferei Kathrein",
+   "url": "https://www.toepferei-ibk.at/kurse",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 3,
+   "uebernommen": 1,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 2
+   }
+  },
+  {
+   "quelle": "studio amano",
+   "url": "https://www.studioamano.at",
+   "aktiv": true,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Tonwerkstatt",
+   "url": "https://www.tonwerkstatt.eu/ton-kurse",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 4,
+   "uebernommen": 3,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 1
+   }
+  },
+  {
+   "quelle": "Spielraum FabLab",
+   "url": "https://fablab.spielraumfueralle.at",
+   "aktiv": true,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "IT-Syndikat",
+   "url": "https://www.it-syndikat.org",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 10,
+   "uebernommen": 2,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 8
+   }
+  },
+  {
+   "quelle": "Nähcafé",
+   "url": "https://naehcafe-innsbruck.blogspot.com",
+   "aktiv": true,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Futterkutter",
+   "url": "https://www.futterkutter-innsbruck.at/kochkurse",
+   "aktiv": true,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "coffeekult",
+   "url": "https://www.coffeekult.com/products/cupping-kaffeeverkostung",
+   "aktiv": true,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Repair-Cafe",
+   "url": "https://www.offinne.at/repair-cafe-innsbruck",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 4,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 4
+   }
+  },
+  {
+   "quelle": "Startup.Tirol",
+   "url": "https://startup.tirol/events/",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 9,
+   "uebernommen": 9,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Standortagentur Tirol",
+   "url": "https://www.standort-tirol.at/veranstaltungen",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 27,
+   "uebernommen": 27,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "MCI",
+   "url": "https://www.mci.edu/de/hochschule/events",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 11,
+   "uebernommen": 11,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Impact Hub Tirol",
+   "url": "https://tirol.impacthub.net",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 1,
+   "uebernommen": 1,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Meetup Innsbruck",
+   "url": "https://www.meetup.com/find/at--innsbruck/",
+   "aktiv": false,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "Clientseitig gerendert. Die offizielle API verlangt einen OAuth-Zugang; ohne hinterlegte Zugangsdaten nicht nutzbar. Sobald ein Schluessel vorliegt, ist die Quelle einschaltbar.",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Eventbrite Innsbruck",
+   "url": "https://www.eventbrite.com/d/austria--innsbruck/events/",
+   "aktiv": false,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "Wie Meetup: clientseitig, offizielle API braucht einen persoenlichen Token.",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Skibörse Innsbruck",
+   "url": "https://www.skiboerse.info/innsbruck",
+   "aktiv": true,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
+   "grund": "",
+   "hinweis": "Boerse Mitte Oktober",
+   "verworfen": {}
+  },
+  {
+   "quelle": "flohmarkt.at",
+   "url": "https://www.flohmarkt.at/flohmaerkte/innsbruck",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 15,
+   "uebernommen": 15,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Flohmarkt-Termine",
+   "url": "https://www.meine-flohmarkt-termine.de/ort/innsbruck",
+   "aktiv": true,
+   "strategie": "jsonld",
+   "gefunden": 31,
+   "uebernommen": 31,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "wasmachma",
+   "url": "https://www.wasmachma.at/events/bundesland/tirol/flohmarkt",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 5,
+   "uebernommen": 5,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "RadlBörse Tirol",
+   "url": "https://www.radlobby.at/tirol/radlboerse",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 3,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "Boersen im Maerz und April",
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 3
+   }
+  },
+  {
+   "quelle": "Markthalle Innsbruck",
+   "url": "https://www.markthalle-innsbruck.at",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 4,
+   "uebernommen": 4,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Gemeinde Telfs",
+   "url": "https://www.telfs.at/Veranstaltungen",
+   "aktiv": true,
+   "strategie": "gem2go",
+   "gefunden": 1,
+   "uebernommen": 1,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Stadt Hall in Tirol",
+   "url": "https://www.hall-in-tirol.at/Veranstaltungskalender",
+   "aktiv": true,
+   "strategie": "gem2go",
+   "gefunden": 1,
+   "uebernommen": 1,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Gemeinde Zirl",
+   "url": "https://www.zirl.at",
+   "aktiv": false,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "Kein Veranstaltungskalender unter den geprueften Pfaden.",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Gemeinde Völs",
+   "url": "https://www.voels.at",
+   "aktiv": false,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "Kein Veranstaltungskalender unter den geprueften Pfaden.",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Gemeinde Rum",
+   "url": "https://www.rum.at",
+   "aktiv": false,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "Kein Veranstaltungskalender unter den geprueften Pfaden.",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Gemeinde Absam",
+   "url": "https://www.absam.at",
+   "aktiv": false,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "Kein Veranstaltungskalender unter den geprueften Pfaden.",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Gemeinde Kematen",
+   "url": "https://www.kematen.at",
+   "aktiv": false,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "Kein Veranstaltungskalender unter den geprueften Pfaden.",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Gemeinde Natters",
+   "url": "https://www.natters.at",
+   "aktiv": false,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "Kein Veranstaltungskalender unter den geprueften Pfaden.",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Gemeinde Thaur",
+   "url": "https://www.thaur.at",
+   "aktiv": false,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "Kein Veranstaltungskalender unter den geprueften Pfaden.",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Gemeinde Wattens",
+   "url": "https://www.wattens.at",
+   "aktiv": false,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "Kein Veranstaltungskalender unter den geprueften Pfaden.",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Gemeinden Axams, Götzens, Mutters",
+   "url": "https://www.axams.at",
+   "aktiv": false,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "Die Domains loesen nicht auf; die im Briefing genannten tirol.gv.at-Adressen existieren nicht mehr.",
+   "hinweis": "",
+   "verworfen": {}
+  }
+ ]
+}
