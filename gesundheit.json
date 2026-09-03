@@ -1,5 +1,5 @@
 {
- "erzeugt": "2026-09-03T12:38:52+00:00",
+ "erzeugt": "2026-09-03T12:47:43+00:00",
  "befunde": [
   {
    "dringlichkeit": "fehler",
@@ -327,8 +327,8 @@
    "zuletzt": {
     "tag": "2026-09-03",
     "zustand": "ok",
-    "gefunden": 16,
-    "behalten": 16,
+    "gefunden": 15,
+    "behalten": 15,
     "fehler": ""
    }
   },
@@ -398,7 +398,7 @@
     "tag": "2026-09-03",
     "zustand": "ok",
     "gefunden": 29,
-    "behalten": 28,
+    "behalten": 27,
     "fehler": ""
    }
   },
@@ -428,7 +428,7 @@
     "tag": "2026-09-03",
     "zustand": "ok",
     "gefunden": 2,
-    "behalten": 2,
+    "behalten": 1,
     "fehler": ""
    }
   },
@@ -627,8 +627,8 @@
    "zuletzt": {
     "tag": "2026-09-03",
     "zustand": "ok",
-    "gefunden": 70,
-    "behalten": 18,
+    "gefunden": 62,
+    "behalten": 5,
     "fehler": ""
    }
   },

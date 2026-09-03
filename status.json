@@ -1,8 +1,8 @@
 {
- "lauf": "2026-09-03T12:38:52+00:00",
- "termine": 801,
+ "lauf": "2026-09-03T12:47:43+00:00",
+ "termine": 785,
  "serientermine": 123,
- "neu": 0,
+ "neu": 1,
  "quellen_aktiv": 70,
  "quellen_mit_treffern": 42,
  "quellen_mit_fehler": 3,
@@ -475,8 +475,8 @@
    "url": "https://www.metropol-kino.at/kinoprogramm/metropol",
    "aktiv": true,
    "strategie": "kino",
-   "gefunden": 16,
-   "uebernommen": 16,
+   "gefunden": 15,
+   "uebernommen": 15,
    "fehler": "",
    "grund": "",
    "hinweis": "nur das Programm des laufenden Tages; Spielzeiten kommen clientseitig nach Auswahl eines Datums",
@@ -788,14 +788,14 @@
    "quelle": "Vorbrenner",
    "url": "https://vorbrenner.at/programm",
    "aktiv": true,
-   "strategie": "heuristik",
-   "gefunden": 70,
-   "uebernommen": 18,
+   "strategie": "vorbrenner",
+   "gefunden": 62,
+   "uebernommen": 5,
    "fehler": "",
    "grund": "",
    "hinweis": "Festival im Herbst; ausserhalb der Saison steht dort wenig.",
    "verworfen": {
-    "ausserhalb des Zeitfensters": 52
+    "ausserhalb des Zeitfensters": 57
    }
   },
   {
@@ -842,12 +842,13 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 29,
-   "uebernommen": 28,
+   "uebernommen": 27,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "Begruessungsbanner statt Titel": 1
+    "Begruessungsbanner statt Titel": 1,
+    "Ortsmarke statt Titel": 1
    }
   },
   {
@@ -856,11 +857,13 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 2,
-   "uebernommen": 2,
+   "uebernommen": 1,
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {
+    "nur eine Wiederholungsregel, kein Name": 1
+   }
   },
   {
    "quelle": "Bergisel",
