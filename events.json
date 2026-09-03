@@ -299,19 +299,6 @@
   "neu": false
  },
  {
-  "titel": "Tiroler Abend mit der Familie Gundolf",
-  "datum": "2026-09-03",
-  "bis": "",
-  "zeit": "20:30",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbruck.info/events/e/122221069.html",
-  "quelle": "Innsbruck Tourismus",
-  "kategorie": "mix",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "20 Jahre Cars",
   "datum": "2026-09-03",
   "bis": "",
@@ -1066,7 +1053,7 @@
   "neu": false
  },
  {
-  "titel": "Markt am Tivoli Flohmarkt in 6020 Innsbruck",
+  "titel": "Markt am Tivoli Flohmarkt",
   "datum": "2026-09-05",
   "bis": "",
   "zeit": "12:00",
@@ -1076,7 +1063,7 @@
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": false
+  "neu": true
  },
  {
   "titel": "FuZo-Clubbing",
@@ -1092,7 +1079,7 @@
   "neu": false
  },
  {
-  "titel": "Antik- & Trödelmarkt (Herbstmarkt Innsbruck) in 6020 Innsbruck",
+  "titel": "Antik- & Trödelmarkt (Herbstmarkt Innsbruck)",
   "datum": "2026-09-05",
   "bis": "",
   "zeit": "18:00",
@@ -1102,7 +1089,7 @@
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": false
+  "neu": true
  },
  {
   "titel": "INTERLUDE - eine Performance über ein Maskottchen",
@@ -1196,19 +1183,6 @@
   "neu": false
  },
  {
-  "titel": "Herzlich Willkommen am Patscherkofel! Patscher Alm Fest ! ORF Radio Tirol Sommerfrische !",
-  "datum": "2026-09-05",
-  "bis": "",
-  "zeit": "",
-  "ort": "Patscherkofel, Innsbruck",
-  "url": "https://www.patscherkofelbahn.at/zirbenweg/",
-  "quelle": "Patscherkofelbahn",
-  "kategorie": "sport",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "inn.wien ensemble // R I S I N G",
   "datum": "2026-09-05",
   "bis": "",
@@ -1248,7 +1222,7 @@
   "neu": false
  },
  {
-  "titel": "Flohmarkt beim Greif Center in 6020 Innsbruck",
+  "titel": "Flohmarkt beim Greif Center",
   "datum": "2026-09-06",
   "bis": "",
   "zeit": "05:30",
@@ -1258,7 +1232,7 @@
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": false
+  "neu": true
  },
  {
   "titel": "Flohmarkt Greifcenter",
@@ -1266,6 +1240,19 @@
   "bis": "",
   "zeit": "05:30",
   "ort": "Greifcenter, Innsbruck",
+  "url": "https://www.flohmarkt.at/flohmaerkte/innsbruck",
+  "quelle": "flohmarkt.at",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": true,
+  "neu": false
+ },
+ {
+  "titel": "Cyta-Flohmarkt Völs",
+  "datum": "2026-09-06",
+  "bis": "",
+  "zeit": "07:00",
+  "ort": "Cyta, Völs",
   "url": "https://www.flohmarkt.at/flohmaerkte/innsbruck",
   "quelle": "flohmarkt.at",
   "kategorie": "markt",
@@ -1378,19 +1365,6 @@
   "neu": false
  },
  {
-  "titel": "Cyta-Flohmarkt in 6176 Völs",
-  "datum": "2026-09-06",
-  "bis": "",
-  "zeit": "14:00",
-  "ort": "Innsbruck",
-  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/cyta-voels",
-  "quelle": "flohmarkt.at",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Familiensonntag",
   "datum": "2026-09-06",
   "bis": "",
@@ -1404,17 +1378,17 @@
   "neu": false
  },
  {
-  "titel": "Floh- und Trödelmarkt in 6410 Telfs",
+  "titel": "Floh- und Trödelmarkt",
   "datum": "2026-09-06",
   "bis": "",
   "zeit": "16:00",
-  "ort": "Innsbruck",
+  "ort": "Telfs",
   "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/telfs-park-flohmarkt",
   "quelle": "flohmarkt.at",
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": false
+  "neu": true
  },
  {
   "titel": "THREADS – Formen des Verbundenseins",
@@ -2080,13 +2054,26 @@
   "neu": false
  },
  {
-  "titel": "Markt am Tivoli Flohmarkt in 6020 Innsbruck",
+  "titel": "Markt am Tivoli Flohmarkt",
   "datum": "2026-09-12",
   "bis": "",
   "zeit": "12:00",
   "ort": "Innsbruck",
   "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/tivolimarkt-innsbruck",
   "quelle": "flohmarkt.at",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "WG Flohmarkt Innsbruck",
+  "datum": "2026-09-12",
+  "bis": "",
+  "zeit": "12:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122278603.html",
+  "quelle": "Innsbruck Tourismus",
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
@@ -2101,19 +2088,6 @@
   "url": "https://www.innsbruck.info/events/e/122227432.html",
   "quelle": "Innsbruck Tourismus",
   "kategorie": "mix",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "WG Flohmarkt Innsbruck in 6020 Innsbruck",
-  "datum": "2026-09-12",
-  "bis": "",
-  "zeit": "18:00",
-  "ort": "Innsbruck",
-  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/339381",
-  "quelle": "flohmarkt.at",
-  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -2210,7 +2184,7 @@
   "neu": false
  },
  {
-  "titel": "Flohmarkt beim Greif Center in 6020 Innsbruck",
+  "titel": "Flohmarkt beim Greif Center",
   "datum": "2026-09-13",
   "bis": "",
   "zeit": "05:30",
@@ -2220,7 +2194,7 @@
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": false
+  "neu": true
  },
  {
   "titel": "Flohmarkt Greifcenter",
@@ -2228,6 +2202,19 @@
   "bis": "",
   "zeit": "05:30",
   "ort": "Greifcenter, Innsbruck",
+  "url": "https://www.flohmarkt.at/flohmaerkte/innsbruck",
+  "quelle": "flohmarkt.at",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": true,
+  "neu": false
+ },
+ {
+  "titel": "Cyta-Flohmarkt Völs",
+  "datum": "2026-09-13",
+  "bis": "",
+  "zeit": "07:00",
+  "ort": "Cyta, Völs",
   "url": "https://www.flohmarkt.at/flohmaerkte/innsbruck",
   "quelle": "flohmarkt.at",
   "kategorie": "markt",
@@ -2314,19 +2301,6 @@
   "neu": false
  },
  {
-  "titel": "Cyta-Flohmarkt in 6176 Völs",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "14:00",
-  "ort": "Innsbruck",
-  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/cyta-voels",
-  "quelle": "flohmarkt.at",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "WSG Tirol - TSV Egger Glas Hartberg",
   "datum": "2026-09-13",
   "bis": "",
@@ -2340,30 +2314,30 @@
   "neu": false
  },
  {
-  "titel": "Floh- und Trödelmarkt in 6410 Telfs",
+  "titel": "Floh- und Trödelmarkt",
   "datum": "2026-09-13",
   "bis": "",
   "zeit": "16:00",
-  "ort": "Innsbruck",
+  "ort": "Telfs",
   "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/telfs-park-flohmarkt",
   "quelle": "flohmarkt.at",
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": false
+  "neu": true
  },
  {
-  "titel": "Flohmarkt am Standort Parkplatz, METRO in 6063 Rum bei Innsbruck",
+  "titel": "Flohmarkt am Standort Parkplatz, METRO",
   "datum": "2026-09-13",
   "bis": "",
   "zeit": "16:00",
-  "ort": "Innsbruck",
+  "ort": "Rum bei Innsbruck",
   "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/flohmarkt-metro-rum-bei-innsbruck",
   "quelle": "flohmarkt.at",
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": false
+  "neu": true
  },
  {
   "titel": "Pubquiz Moustache",
@@ -2899,7 +2873,7 @@
   "neu": false
  },
  {
-  "titel": "Markt am Tivoli Flohmarkt in 6020 Innsbruck",
+  "titel": "Markt am Tivoli Flohmarkt",
   "datum": "2026-09-19",
   "bis": "",
   "zeit": "12:00",
@@ -2909,7 +2883,7 @@
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": false
+  "neu": true
  },
  {
   "titel": "Almabtrieb Mutters",
@@ -2951,17 +2925,17 @@
   "neu": false
  },
  {
-  "titel": "Flohmarkt von und für Kinder in 6060 Hall in Tirol",
+  "titel": "Flohmarkt von und für Kinder",
   "datum": "2026-09-19",
   "bis": "",
   "zeit": "16:00",
-  "ort": "Innsbruck",
+  "ort": "Hall in Tirol",
   "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/kinderflohmarkt-hall-in-tirol",
   "quelle": "flohmarkt.at",
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": false
+  "neu": true
  },
  {
   "titel": "HC TIWAG Innsbruck - Vienna Capitals",
@@ -3120,6 +3094,19 @@
   "neu": false
  },
  {
+  "titel": "Cyta-Flohmarkt Völs",
+  "datum": "2026-09-20",
+  "bis": "",
+  "zeit": "07:00",
+  "ort": "Cyta, Völs",
+  "url": "https://www.flohmarkt.at/flohmaerkte/innsbruck",
+  "quelle": "flohmarkt.at",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": true,
+  "neu": false
+ },
+ {
   "titel": "Lamberti Prozession in Lans",
   "datum": "2026-09-20",
   "bis": "",
@@ -3198,30 +3185,17 @@
   "neu": false
  },
  {
-  "titel": "Cyta-Flohmarkt in 6176 Völs",
-  "datum": "2026-09-20",
-  "bis": "",
-  "zeit": "14:00",
-  "ort": "Innsbruck",
-  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/cyta-voels",
-  "quelle": "flohmarkt.at",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Flohmarkt am Standort Parkplatz, METRO in 6063 Rum bei Innsbruck",
+  "titel": "Flohmarkt am Standort Parkplatz, METRO",
   "datum": "2026-09-20",
   "bis": "",
   "zeit": "16:00",
-  "ort": "Innsbruck",
+  "ort": "Rum bei Innsbruck",
   "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/flohmarkt-metro-rum-bei-innsbruck",
   "quelle": "flohmarkt.at",
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": false
+  "neu": true
  },
  {
   "titel": "The Power and the Glory - Konzert des Kirchenchor Kematen",
@@ -4472,19 +4446,6 @@
   "neu": false
  },
  {
-  "titel": "Am Freitag, den findet von 14 – 18 Uhr unser monatlicher",
-  "datum": "2026-10-02",
-  "bis": "",
-  "zeit": "18:00",
-  "ort": "Markthalle, Innsbruck",
-  "url": "https://www.markthalle-innsbruck.at",
-  "quelle": "Markthalle Innsbruck",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Ascension - A Burlesque Show by Nocturnal ...",
   "datum": "2026-10-02",
   "bis": "",
@@ -5616,19 +5577,6 @@
   "neu": false
  },
  {
-  "titel": "Tiroler Abend im STERN",
-  "datum": "2026-10-15",
-  "bis": "",
-  "zeit": "19:45",
-  "ort": "Obsteig",
-  "url": "https://www.innsbruck.info/events/e/122229935.html",
-  "quelle": "Innsbruck Tourismus",
-  "kategorie": "mix",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "LISAvienna Regulatory Affairs Konferenz 2026",
   "datum": "2026-10-15",
   "bis": "",
@@ -5650,19 +5598,6 @@
   "url": "https://www.mci.edu/de/hochschule/events/24-alumni/7349-oleksandra-matviichuk",
   "quelle": "MCI",
   "kategorie": "kurse",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "SaveTheDate: Am Donnerstag, den , feiern wir unser 4. Marktfest!",
-  "datum": "2026-10-15",
-  "bis": "",
-  "zeit": "",
-  "ort": "Markthalle, Innsbruck",
-  "url": "https://www.markthalle-innsbruck.at",
-  "quelle": "Markthalle Innsbruck",
-  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -5741,19 +5676,6 @@
   "url": "https://www.innsbruck.info/events/e/122284836.html",
   "quelle": "Innsbruck Tourismus",
   "kategorie": "mix",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Donnerstag, den findet von 10 - 22 Uhr",
-  "datum": "2026-10-16",
-  "bis": "",
-  "zeit": "22:00",
-  "ort": "Markthalle, Innsbruck",
-  "url": "https://www.markthalle-innsbruck.at",
-  "quelle": "Markthalle Innsbruck",
-  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -9204,7 +9126,7 @@
   "neu": false
  },
  {
-  "titel": "Empfehlung SAZ B2B-SnowTestival So., und weitere",
+  "titel": "SAZ B2B-SnowTestival",
   "datum": "2027-01-24",
   "bis": "",
   "zeit": "",
@@ -9214,7 +9136,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": false
+  "neu": true
  },
  {
   "titel": "Dornröschen - International Ballet Company Italia",

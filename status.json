@@ -1,11 +1,11 @@
 {
- "lauf": "2026-09-03T10:23:20+00:00",
- "termine": 787,
+ "lauf": "2026-09-03T10:53:33+00:00",
+ "termine": 781,
  "serientermine": 123,
- "neu": 0,
+ "neu": 12,
  "quellen_aktiv": 67,
- "quellen_mit_treffern": 39,
- "quellen_mit_fehler": 2,
+ "quellen_mit_treffern": 38,
+ "quellen_mit_fehler": 5,
  "quellen": [
   {
    "quelle": "Innsbruck Tourismus",
@@ -13,13 +13,13 @@
    "aktiv": true,
    "strategie": "innsbruckinfo",
    "gefunden": 228,
-   "uebernommen": 198,
+   "uebernommen": 196,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
     "kein Ort im Umkreis genannt": 16,
-    "Trachten": 1,
+    "Volksmusik": 3,
     "Blasmusik": 11,
     "Fruehschoppen": 1,
     "Titel ist nur eine Anschrift": 1
@@ -80,7 +80,7 @@
    "verworfen": {
     "Blasmusik": 1,
     "ausserhalb des Zeitfensters": 2,
-    "Trachten": 1
+    "Volksmusik": 1
    }
   },
   {
@@ -266,7 +266,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "URLError: <urlopen error [Errno 101] Network is unreachable>",
+   "fehler": "",
    "grund": "",
    "hinweis": "Sehr schlanke Seite, Programm ueberwiegend ueber Instagram",
    "verworfen": {}
@@ -801,11 +801,13 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 29,
-   "uebernommen": 29,
+   "uebernommen": 28,
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {
+    "Begruessungsbanner statt Titel": 1
+   }
   },
   {
    "quelle": "Rosshütte Seefeld",
@@ -876,7 +878,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "",
+   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
    "grund": "",
    "hinweis": "",
    "verworfen": {}
@@ -938,7 +940,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "",
+   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
    "grund": "",
    "hinweis": "",
    "verworfen": {}
@@ -1050,7 +1052,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "",
+   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
    "grund": "",
    "hinweis": "Boerse Mitte Oktober",
    "verworfen": {}
@@ -1111,10 +1113,10 @@
    "quelle": "Markthalle Innsbruck",
    "url": "https://www.markthalle-innsbruck.at",
    "aktiv": true,
-   "strategie": "heuristik",
-   "gefunden": 3,
-   "uebernommen": 3,
-   "fehler": "",
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "URLError: <urlopen error timed out>",
    "grund": "",
    "hinweis": "",
    "verworfen": {}
