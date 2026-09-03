@@ -36,7 +36,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "EXPERIENCE TIROL",
@@ -205,7 +205,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Sundowner beim Isserwirt in Lans",
@@ -790,7 +790,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "EXPERIENCE TIROL",
@@ -868,7 +868,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Weingassenfest in der Kiebachgasse/Seilergasse",
@@ -881,7 +881,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Themenführung",
@@ -959,7 +959,7 @@
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Markt am Tivoli",
@@ -998,7 +998,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "EXPERIENCE TIROL",
@@ -1089,7 +1089,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Weingassenfest in der Kiebachgasse/Seilergasse",
@@ -1102,7 +1102,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Almfest auf der Patscher Alm",
@@ -1375,7 +1375,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "EXPERIENCE TIROL",
@@ -1505,7 +1505,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Pubquiz Moustache",
@@ -1583,7 +1583,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "EXPERIENCE TIROL",
@@ -3546,19 +3546,6 @@
   "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": true,
-  "neu": false
- },
- {
-  "titel": "Richtergasse 8",
-  "datum": "2026-09-23",
-  "bis": "",
-  "zeit": "00:00",
-  "ort": "Axams",
-  "url": "https://www.innsbruck.info/events/d/alle.html",
-  "quelle": "Innsbruck Tourismus",
-  "kategorie": "mix",
-  "anmeldeschluss": "",
-  "serie": false,
   "neu": false
  },
  {

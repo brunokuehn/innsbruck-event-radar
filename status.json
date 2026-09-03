@@ -1,8 +1,8 @@
 {
- "lauf": "2026-09-03T08:16:17+00:00",
- "termine": 800,
+ "lauf": "2026-09-03T08:23:28+00:00",
+ "termine": 799,
  "serientermine": 123,
- "neu": 12,
+ "neu": 0,
  "quellen_aktiv": 67,
  "quellen_mit_treffern": 40,
  "quellen_mit_fehler": 4,
@@ -13,7 +13,7 @@
    "aktiv": true,
    "strategie": "innsbruckinfo",
    "gefunden": 221,
-   "uebernommen": 194,
+   "uebernommen": 193,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -21,7 +21,8 @@
     "kein Ort im Umkreis genannt": 14,
     "Trachten": 1,
     "Blasmusik": 11,
-    "Fruehschoppen": 1
+    "Fruehschoppen": 1,
+    "Titel ist nur eine Anschrift": 1
    }
   },
   {
