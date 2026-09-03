@@ -1,11 +1,11 @@
 {
- "lauf": "2026-09-03T11:18:35+00:00",
- "termine": 782,
+ "lauf": "2026-09-03T12:27:19+00:00",
+ "termine": 802,
  "serientermine": 123,
- "neu": 0,
- "quellen_aktiv": 67,
- "quellen_mit_treffern": 39,
- "quellen_mit_fehler": 5,
+ "neu": 25,
+ "quellen_aktiv": 70,
+ "quellen_mit_treffern": 42,
+ "quellen_mit_fehler": 4,
  "quellen": [
   {
    "quelle": "Innsbruck Tourismus",
@@ -13,7 +13,7 @@
    "aktiv": true,
    "strategie": "innsbruckinfo",
    "gefunden": 228,
-   "uebernommen": 196,
+   "uebernommen": 194,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -22,7 +22,8 @@
     "Volksmusik": 3,
     "Blasmusik": 11,
     "Fruehschoppen": 1,
-    "Titel ist nur eine Anschrift": 1
+    "Titel ist nur eine Anschrift": 1,
+    "Trachten": 2
    }
   },
   {
@@ -147,14 +148,14 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 114,
-   "uebernommen": 101,
+   "uebernommen": 100,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
     "ausserhalb des Zeitfensters": 8,
     "Schlager": 1,
-    "Volksmusik": 1,
+    "Volksmusik": 2,
     "Blasmusik": 3
    }
   },
@@ -474,8 +475,8 @@
    "url": "https://www.metropol-kino.at/kinoprogramm/metropol",
    "aktiv": true,
    "strategie": "kino",
-   "gefunden": 19,
-   "uebernommen": 19,
+   "gefunden": 17,
+   "uebernommen": 17,
    "fehler": "",
    "grund": "",
    "hinweis": "nur das Programm des laufenden Tages; Spielzeiten kommen clientseitig nach Auswahl eines Datums",
@@ -772,6 +773,46 @@
    "verworfen": {}
   },
   {
+   "quelle": "aut. architektur und tirol",
+   "url": "https://www.aut.cc/veranstaltungen",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 7,
+   "uebernommen": 7,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {}
+  },
+  {
+   "quelle": "Vorbrenner",
+   "url": "https://vorbrenner.at/programm",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 70,
+   "uebernommen": 18,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "Festival im Herbst; ausserhalb der Saison steht dort wenig.",
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 52
+   }
+  },
+  {
+   "quelle": "Alpenzoo",
+   "url": "https://www.alpenzoo.at/de/veranstaltungen",
+   "aktiv": true,
+   "strategie": "heuristik",
+   "gefunden": 5,
+   "uebernommen": 1,
+   "fehler": "",
+   "grund": "",
+   "hinweis": "",
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 4
+   }
+  },
+  {
    "quelle": "Tiroler Skiverband",
    "url": "https://www.tirolerskiverband.at/termine",
    "aktiv": true,
@@ -928,7 +969,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
+   "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {}

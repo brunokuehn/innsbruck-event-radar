@@ -4,7 +4,7 @@ Täglich gesammelte Veranstaltungstermine im Raum Innsbruck
 (Innsbruck plus rund 30 km). Dieses Repository enthält **nur die
 Ausgabe**; der Sammler liegt woanders.
 
-Stand: 2026-09-03 · **782 Termine**, davon 0 neu seit dem letzten Lauf.
+Stand: 2026-09-03 · **802 Termine**, davon 25 neu seit dem letzten Lauf.
 
 | Datei | Inhalt |
 |---|---|
@@ -13,6 +13,7 @@ Stand: 2026-09-03 · **782 Termine**, davon 0 neu seit dem letzten Lauf.
 | `neu.json` | Zugänge seit dem letzten Lauf |
 | `events.ics` | Kalenderdatei zum Abonnieren |
 | `status.json` | welche Quelle wie viel geliefert hat |
+| `gesundheit.json` | was sich beim Zustand der Quellen geändert hat |
 
 Abrufadresse mit CORS (`Access-Control-Allow-Origin: *`):
 
