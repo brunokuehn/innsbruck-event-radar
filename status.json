@@ -1,11 +1,11 @@
 {
- "lauf": "2026-09-03T07:07:50+00:00",
- "termine": 922,
+ "lauf": "2026-09-03T07:26:31+00:00",
+ "termine": 895,
  "serientermine": 123,
- "neu": 1,
+ "neu": 0,
  "quellen_aktiv": 68,
  "quellen_mit_treffern": 44,
- "quellen_mit_fehler": 3,
+ "quellen_mit_fehler": 4,
  "quellen": [
   {
    "quelle": "Innsbruck Tourismus",
@@ -874,7 +874,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "",
+   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
    "grund": "",
    "hinweis": "",
    "verworfen": {}

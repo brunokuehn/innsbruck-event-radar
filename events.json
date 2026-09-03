@@ -13,19 +13,6 @@
   "neu": false
  },
  {
-  "titel": "Tai Chi 24er Form - Taiji im Park",
-  "datum": "2026-09-03",
-  "bis": "",
-  "zeit": "07:00",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbruck.info/events/d/alle.html",
-  "quelle": "Innsbruck Tourismus",
-  "kategorie": "mix",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "s'Marktl - Bauernmarkt",
   "datum": "2026-09-03",
   "bis": "",
@@ -111,19 +98,6 @@
   "ort": "Stams",
   "url": "https://www.innsbruck.info/events/d/alle.html",
   "quelle": "Innsbruck Tourismus",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Austellung: \"Erinnerungen\" Jakob Anton Bucher",
-  "datum": "2026-09-03",
-  "bis": "",
-  "zeit": "10:00",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbrucktermine.at/veranstaltungen/austellung-erinnerungen-jakob-anton-bucher?date=1788422400",
-  "quelle": "Innsbruck Termine",
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
@@ -273,19 +247,6 @@
   "neu": false
  },
  {
-  "titel": "Abendfahrt mit der Patscherkofelbahn",
-  "datum": "2026-09-03",
-  "bis": "",
-  "zeit": "17:00",
-  "ort": "Igls",
-  "url": "https://www.innsbruck.info/events/d/alle.html",
-  "quelle": "Innsbruck Tourismus",
-  "kategorie": "mix",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Abendfahrten mit der Patscherkofelbahn",
   "datum": "2026-09-03",
   "bis": "",
@@ -294,19 +255,6 @@
   "url": "https://www.patscherkofelbahn.at/events/",
   "quelle": "Patscherkofelbahn",
   "kategorie": "sport",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Bozner Platz",
-  "datum": "2026-09-03",
-  "bis": "",
-  "zeit": "17:00",
-  "ort": "Innsbruck",
-  "url": "https://www.meinbezirk.at/event/innsbruck/list",
-  "quelle": "meinbezirk",
-  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -398,19 +346,6 @@
   "url": "https://www.treibhaus.at/programm.ics",
   "quelle": "Treibhaus",
   "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Sundown-Yoga am KOFEL",
-  "datum": "2026-09-03",
-  "bis": "",
-  "zeit": "18:30",
-  "ort": "Patscherkofel, Innsbruck",
-  "url": "https://www.patscherkofelbahn.at/events/",
-  "quelle": "Patscherkofelbahn",
-  "kategorie": "sport",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -897,19 +832,6 @@
   "neu": false
  },
  {
-  "titel": "Weingassenfest 2026",
-  "datum": "2026-09-04",
-  "bis": "",
-  "zeit": "11:00",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbruck.info/events/d/alle.html",
-  "quelle": "Innsbruck Tourismus",
-  "kategorie": "mix",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Weingassenfest 2026 - Genuss, Geselligkeit und beste Stimmung",
   "datum": "2026-09-04",
   "bis": "",
@@ -1177,19 +1099,6 @@
   "ort": "Innsbruck",
   "url": "https://www.meinbezirk.at/event/innsbruck/list",
   "quelle": "meinbezirk",
-  "kategorie": "mix",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Intensity Festival",
-  "datum": "2026-09-05",
-  "bis": "",
-  "zeit": "11:00",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbruck.info/events/d/alle.html",
-  "quelle": "Innsbruck Tourismus",
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
@@ -1508,32 +1417,6 @@
   "neu": false
  },
  {
-  "titel": "Flohmarkt Greifcenter",
-  "datum": "2026-09-06",
-  "bis": "",
-  "zeit": "05:30",
-  "ort": "Greifcenter, Innsbruck",
-  "url": "https://www.flohmarkt.at/flohmaerkte/innsbruck",
-  "quelle": "flohmarkt.at",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": true,
-  "neu": false
- },
- {
-  "titel": "Cyta-Flohmarkt Völs",
-  "datum": "2026-09-06",
-  "bis": "",
-  "zeit": "07:00",
-  "ort": "Cyta, Völs",
-  "url": "https://www.flohmarkt.at/flohmaerkte/innsbruck",
-  "quelle": "flohmarkt.at",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": true,
-  "neu": false
- },
- {
   "titel": "Ägidiprozession in Igls",
   "datum": "2026-09-06",
   "bis": "",
@@ -1594,19 +1477,6 @@
   "url": "https://www.innsbruck.info/events/d/alle.html",
   "quelle": "Innsbruck Tourismus",
   "kategorie": "mix",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Sonntag-Morgen-Yoga am KOFEL",
-  "datum": "2026-09-06",
-  "bis": "",
-  "zeit": "10:30",
-  "ort": "Patscherkofel, Innsbruck",
-  "url": "https://www.patscherkofelbahn.at/events/",
-  "quelle": "Patscherkofelbahn",
-  "kategorie": "sport",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -1867,19 +1737,6 @@
   "url": "https://www.uibk.ac.at/events/2026/09/07/80-jahre-pariser-vertrag-minderheitenschutz-im-lichte-neuer-herausfo",
   "quelle": "Universität Innsbruck",
   "kategorie": "kurse",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Die ORF Radio Tirol Sommerfrische gastiert am am Patscherkofel!",
-  "datum": "2026-09-07",
-  "bis": "",
-  "zeit": "",
-  "ort": "Patscherkofel, Innsbruck",
-  "url": "https://www.patscherkofelbahn.at/events/",
-  "quelle": "Patscherkofelbahn",
-  "kategorie": "sport",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -2418,19 +2275,6 @@
   "neu": false
  },
  {
-  "titel": "Tanz.Zeit",
-  "datum": "2026-09-11",
-  "bis": "",
-  "zeit": "19:00",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbruck.info/events/d/alle.html",
-  "quelle": "Innsbruck Tourismus",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Tanz.Zeit - Ab sofort NEU - 1 x im Monat",
   "datum": "2026-09-11",
   "bis": "",
@@ -2457,19 +2301,6 @@
   "neu": false
  },
  {
-  "titel": "KLANGSPUREN - NAOMI",
-  "datum": "2026-09-11",
-  "bis": "",
-  "zeit": "20:00",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbruck.info/events/d/alle.html",
-  "quelle": "Innsbruck Tourismus",
-  "kategorie": "mix",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Klangspuren 2026 - Naomi",
   "datum": "2026-09-11",
   "bis": "",
@@ -2478,19 +2309,6 @@
   "url": "https://www.eventfinder.at/veranstaltung/1545091/klangspuren-2026-in-innsbruck-am-2026-09-11-um-20-00-uhr/",
   "quelle": "eventfinder",
   "kategorie": "mix",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Nena",
-  "datum": "2026-09-11",
-  "bis": "",
-  "zeit": "20:00",
-  "ort": "Olympiahalle",
-  "url": "/events-tickets/nena/",
-  "quelle": "Olympiaworld",
-  "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -2639,19 +2457,6 @@
   "neu": false
  },
  {
-  "titel": "WG Flohmarkt Innsbruck",
-  "datum": "2026-09-12",
-  "bis": "",
-  "zeit": "12:00",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbruck.info/events/d/alle.html",
-  "quelle": "Innsbruck Tourismus",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Klassik am Berg 2340m - InnStrumenti",
   "datum": "2026-09-12",
   "bis": "",
@@ -2688,7 +2493,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "WG Flohmarkt Innsbruck in 6020 Innsbruck",
@@ -2844,32 +2649,6 @@
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": false
- },
- {
-  "titel": "Flohmarkt Greifcenter",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "05:30",
-  "ort": "Greifcenter, Innsbruck",
-  "url": "https://www.flohmarkt.at/flohmaerkte/innsbruck",
-  "quelle": "flohmarkt.at",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": true,
-  "neu": false
- },
- {
-  "titel": "Cyta-Flohmarkt Völs",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "07:00",
-  "ort": "Cyta, Völs",
-  "url": "https://www.flohmarkt.at/flohmaerkte/innsbruck",
-  "quelle": "flohmarkt.at",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": true,
   "neu": false
  },
  {
@@ -3159,19 +2938,6 @@
   "neu": false
  },
  {
-  "titel": "Tubular Bells",
-  "datum": "2026-09-15",
-  "bis": "",
-  "zeit": "20:00",
-  "ort": "Congress Innsbruck",
-  "url": "https://www.soundevent.at",
-  "quelle": "Congress Messe Innsbruck",
-  "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Bioeconomy Austria: Fachtagung \"Biomethan, Holzgas, Wasserstoff\"",
   "datum": "2026-09-15",
   "bis": "",
@@ -3323,19 +3089,6 @@
   "url": "https://www.pmk.or.at/de/events/ass-whoopings-beatdown-show-with-terrorist-it-joreli",
   "quelle": "p.m.k",
   "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Ein Mords-Sonntag",
-  "datum": "2026-09-17",
-  "bis": "",
-  "zeit": "19:30",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbruck.info/events/d/alle.html",
-  "quelle": "Innsbruck Tourismus",
-  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -3913,19 +3666,6 @@
   "neu": false
  },
  {
-  "titel": "Cyta-Flohmarkt Völs",
-  "datum": "2026-09-20",
-  "bis": "",
-  "zeit": "07:00",
-  "ort": "Cyta, Völs",
-  "url": "https://www.flohmarkt.at/flohmaerkte/innsbruck",
-  "quelle": "flohmarkt.at",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": true,
-  "neu": false
- },
- {
   "titel": "Lamberti Prozession in Lans",
   "datum": "2026-09-20",
   "bis": "",
@@ -4051,19 +3791,6 @@
   "url": "https://www.eventfinder.at/veranstaltung/1551938/dream-big-innsbruck/",
   "quelle": "eventfinder",
   "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "DREAM BIG: Die Kunst deine Träume zu leben",
-  "datum": "2026-09-20",
-  "bis": "",
-  "zeit": "19:00",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbruck.info/events/d/alle.html",
-  "quelle": "Innsbruck Tourismus",
-  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -4506,19 +4233,6 @@
   "url": "https://www.eventfinder.at/veranstaltung/1549763/ein-mords-sonntag-in-innsbruck-am-2026-09-24-um-19-30-uhr/",
   "quelle": "eventfinder",
   "kategorie": "mix",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Sundown Dance am KOFEL",
-  "datum": "2026-09-24",
-  "bis": "",
-  "zeit": "19:30",
-  "ort": "Patscherkofel, Innsbruck",
-  "url": "https://www.patscherkofelbahn.at/events/",
-  "quelle": "Patscherkofelbahn",
-  "kategorie": "sport",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -5493,19 +5207,6 @@
   "ort": "Die Bäckerei, Innsbruck",
   "url": "https://diebaeckerei.at/programm/2026/2026-10-01hearts-hearts-stupid-stars-tour",
   "quelle": "Die Bäckerei",
-  "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Peter Cornelius",
-  "datum": "2026-10-01",
-  "bis": "",
-  "zeit": "20:00",
-  "ort": "Congress Innsbruck",
-  "url": "https://www.lindnermusic.at/de/veranstaltungen/termine/8955616827.php",
-  "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
@@ -6716,19 +6417,6 @@
   "url": "https://www.innsbruck.info/events/d/alle.html",
   "quelle": "Innsbruck Tourismus",
   "kategorie": "mix",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "4. Biotech Summit Austria",
-  "datum": "2026-10-13",
-  "bis": "2026-10-14",
-  "zeit": "",
-  "ort": "Innsbruck",
-  "url": "https://www.standort-tirol.at/4-biotech-summit-austria-13oktober2026",
-  "quelle": "Standortagentur Tirol",
-  "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -8327,19 +8015,6 @@
   "ort": "Innsbruck",
   "url": "https://www.standort-tirol.at/ove-photovoltaik-grossanlagen-planung-inbetriebnahme-pruefung-04november2026",
   "quelle": "Standortagentur Tirol",
-  "kategorie": "kurse",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Tiroler Wirtschaftsforum 2026",
-  "datum": "2026-11-04",
-  "bis": "",
-  "zeit": "",
-  "ort": "MCI, Innsbruck",
-  "url": "https://www.mci.edu/de/hochschule/events/7184-tiroler-wirtschaftsforum-2026",
-  "quelle": "MCI",
   "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": false,
@@ -9971,19 +9646,6 @@
   "neu": false
  },
  {
-  "titel": "Sindy's Angels - die Weihnachtsshow",
-  "datum": "2026-12-05",
-  "bis": "",
-  "zeit": "19:00",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbruck.info/events/d/alle.html",
-  "quelle": "Innsbruck Tourismus",
-  "kategorie": "mix",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Sindy’s Angels – Die Weihnachtsshow ist zurück!",
   "datum": "2026-12-05",
   "bis": "",
@@ -10902,19 +10564,6 @@
   "url": "https://www.innsbruck.info/events/d/alle.html",
   "quelle": "Innsbruck Tourismus",
   "kategorie": "sport",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Holiday on Ice - Cinema of Dreams",
-  "datum": "2027-02-05",
-  "bis": "",
-  "zeit": "19:00",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbruck.info/events/d/alle.html",
-  "quelle": "Innsbruck Tourismus",
-  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
