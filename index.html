@@ -109,8 +109,15 @@
   }
   .leer { padding: 44px 4px; color: var(--stein); text-align: center; }
   .lade { padding: 60px 4px; color: var(--stein); text-align: center; font: 400 13px var(--mono); }
-  footer { margin-top: 30px; font: 400 11px/1.7 var(--mono); color: var(--stein); }
+  footer { margin-top: 34px; padding-top: 22px; border-top: 1px solid var(--linie);
+           font: 400 11px/1.7 var(--mono); color: var(--stein); }
   footer a { color: var(--gletscher); }
+  /* Der freundliche Teil darf etwas groesser und in der Textschrift stehen --
+     das Monospace der Fusszeile liest sich sonst wie ein Protokoll. */
+  footer .gruss { font: 400 13.5px/1.65 var(--schrift); color: var(--fels);
+                  max-width: 34em; margin: 0 0 12px; }
+  footer .gruss a { word-break: break-all; }
+  footer .kleingedruckt { margin-top: 14px; opacity: .75; }
 </style>
 </head>
 <body>
@@ -142,10 +149,16 @@
   <main id="liste"><p class="lade">Termine werden geladen …</p></main>
 
   <footer>
-    <p id="fuss"></p>
+    <p class="gruss">Ein kleines Herzensprojekt: alles, was in Innsbruck und
+       30&nbsp;km drumherum passiert, auf einer Seite. Ohne App, ohne Konto,
+       ohne Endlos-Feed.</p>
+    <p class="gruss">Etwas fehlt, etwas stimmt nicht, oder du kennst eine Quelle,
+       die hier hineingehört? Schreib mir — ich freue mich über jede Rückmeldung:<br>
+       <a href="mailto:ibk-events.enrich569@passmail.com">ibk-events.enrich569@passmail.com</a></p>
     <p>Kalender abonnieren: <a href="events.ics">events.ics</a> ·
        Rohdaten: <a href="events.json">events.json</a> ·
        Quellenbilanz: <a href="status.json">status.json</a></p>
+    <p class="kleingedruckt" id="fuss"></p>
   </footer>
 </div>
 
@@ -291,9 +304,9 @@
       ('0' + d.getDate()).slice(-2) + '.' + ('0' + (d.getMonth() + 1)).slice(-2) + '. um ' +
       ('0' + d.getHours()).slice(-2) + ':' + ('0' + d.getMinutes()).slice(-2);
     document.getElementById('fuss').textContent =
-      s.quellen_mit_treffern + ' von ' + s.quellen_aktiv + ' Quellen haben geliefert, ' +
-      s.quellen_mit_fehler + ' mit Fehler. Gesammelt wird täglich. ' +
-      'Termine, die nur über Instagram angekündigt werden, fehlen hier bewusst.';
+      'Gesammelt einmal täglich aus ' + s.quellen_aktiv + ' Quellen, heute haben ' +
+      s.quellen_mit_treffern + ' geliefert. Was nur auf Instagram angekündigt wird, ' +
+      'fehlt hier — das ist Absicht.';
   }).catch(function (fehler) {
     liste.innerHTML = '<p class="leer">Die Termine liessen sich nicht laden.<br>' +
       esc(fehler.message) + '</p>';
