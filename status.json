@@ -1,10 +1,10 @@
 {
- "lauf": "2026-09-02T18:18:01+00:00",
- "termine": 933,
+ "lauf": "2026-09-03T06:45:19+00:00",
+ "termine": 932,
  "serientermine": 123,
  "neu": 0,
  "quellen_aktiv": 68,
- "quellen_mit_treffern": 45,
+ "quellen_mit_treffern": 46,
  "quellen_mit_fehler": 5,
  "quellen": [
   {
@@ -12,15 +12,15 @@
    "url": "https://www.innsbruck.info/events/d/alle.html",
    "aktiv": true,
    "strategie": "innsbruckinfo",
-   "gefunden": 223,
+   "gefunden": 221,
    "uebernommen": 194,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
     "kein Ort im Umkreis genannt": 14,
-    "Blasmusik": 12,
-    "Trachten": 2,
+    "Trachten": 1,
+    "Blasmusik": 11,
     "Fruehschoppen": 1
    }
   },
@@ -67,15 +67,15 @@
    "url": "https://www.innsbrucktermine.at",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 17,
-   "uebernommen": 12,
+   "gefunden": 18,
+   "uebernommen": 14,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "Blasmusik": 2,
-    "Trachten": 1,
-    "ausserhalb des Zeitfensters": 2
+    "Blasmusik": 1,
+    "ausserhalb des Zeitfensters": 2,
+    "Trachten": 1
    }
   },
   {
@@ -83,8 +83,8 @@
    "url": "https://www.eventfinder.at/veranstaltungen-innsbruck.php",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 48,
-   "uebernommen": 45,
+   "gefunden": 49,
+   "uebernommen": 46,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -429,10 +429,10 @@
    "quelle": "Bonanza Festival",
    "url": "https://www.bonanza-festival.com/spumante",
    "aktiv": true,
-   "strategie": "",
-   "gefunden": 0,
-   "uebernommen": 0,
-   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
+   "strategie": "heuristik",
+   "gefunden": 1,
+   "uebernommen": 1,
+   "fehler": "",
    "grund": "",
    "hinweis": "Festival auf der Muttereralm",
    "verworfen": {}
@@ -506,7 +506,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "URLError: <urlopen error Tunnel connection failed: 502 Bad Gateway>",
+   "fehler": "URLError: <urlopen error [Errno -2] Name or service not known>",
    "grund": "",
    "hinweis": "Festival im Juni",
    "verworfen": {}
@@ -760,8 +760,8 @@
    "url": "https://www.alpenverein.at/innsbruck/termine/index.php",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 45,
-   "uebernommen": 45,
+   "gefunden": 44,
+   "uebernommen": 44,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -797,11 +797,13 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 31,
-   "uebernommen": 31,
+   "uebernommen": 30,
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 1
+   }
   },
   {
    "quelle": "Rosshütte Seefeld",
@@ -924,7 +926,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "",
+   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
    "grund": "",
    "hinweis": "",
    "verworfen": {}
@@ -1080,8 +1082,8 @@
    "url": "https://www.wasmachma.at/events/bundesland/tirol/flohmarkt",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 5,
-   "uebernommen": 5,
+   "gefunden": 4,
+   "uebernommen": 4,
    "fehler": "",
    "grund": "",
    "hinweis": "",
