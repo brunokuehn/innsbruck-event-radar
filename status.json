@@ -1,10 +1,10 @@
 {
- "lauf": "2026-09-03T10:53:33+00:00",
- "termine": 781,
+ "lauf": "2026-09-03T11:18:35+00:00",
+ "termine": 782,
  "serientermine": 123,
- "neu": 12,
+ "neu": 0,
  "quellen_aktiv": 67,
- "quellen_mit_treffern": 38,
+ "quellen_mit_treffern": 39,
  "quellen_mit_fehler": 5,
  "quellen": [
   {
@@ -928,7 +928,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "",
+   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
    "grund": "",
    "hinweis": "",
    "verworfen": {}
@@ -1113,13 +1113,15 @@
    "quelle": "Markthalle Innsbruck",
    "url": "https://www.markthalle-innsbruck.at",
    "aktiv": true,
-   "strategie": "",
-   "gefunden": 0,
-   "uebernommen": 0,
-   "fehler": "URLError: <urlopen error timed out>",
+   "strategie": "heuristik",
+   "gefunden": 3,
+   "uebernommen": 1,
+   "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {
+    "Fliesstext statt Titel": 2
+   }
   },
   {
    "quelle": "Gemeinde Telfs",
