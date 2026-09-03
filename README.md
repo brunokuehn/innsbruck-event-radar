@@ -14,6 +14,8 @@ Stand: 2026-09-03 · **932 Termine**, davon 0 neu seit dem letzten Lauf.
 | `events.ics` | Kalenderdatei zum Abonnieren |
 | `status.json` | welche Quelle wie viel geliefert hat |
 
+**Zum Anschauen:** [brunokuehn.github.io/innsbruck-event-radar](https://brunokuehn.github.io/innsbruck-event-radar/)
+
 Abrufadresse mit CORS (`Access-Control-Allow-Origin: *`):
 
 ```

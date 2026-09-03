@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#16222b">
+<meta name="description" content="Veranstaltungstermine im Raum Innsbruck, taeglich gesammelt.">
+<title>Innsbruck Event-Radar</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>&#127956;</text></svg>">
+<style>
+  :root {
+    --grund: #eef1f1;
+    --karte: #ffffff;
+    --fels: #16222b;
+    --stein: #63727b;
+    --linie: #d3d9da;
+    --gletscher: #17636f;
+    --signal: #b8760c;
+    --frist: #a8501c;
+    --schrift: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --eng: "Avenir Next Condensed", "Helvetica Neue", var(--schrift);
+    --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --grund: #0f1519; --karte: #161f25; --fels: #e6ebec; --stein: #8a99a1;
+      --linie: #26333b; --gletscher: #4bb3c4; --signal: #e0a53c; --frist: #e08a5a;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--grund); color: var(--fels);
+    font: 15px/1.45 var(--schrift); -webkit-font-smoothing: antialiased;
+  }
+  .huelle { max-width: 620px; margin: 0 auto; padding: 16px 14px 64px; }
+
+  /* ---------- Kopf ---------- */
+  header { padding: 6px 0 14px; }
+  .augenbraue {
+    font: 600 10.5px/1 var(--mono); letter-spacing: .16em; text-transform: uppercase;
+    color: var(--stein); margin: 0 0 6px;
+  }
+  h1 {
+    font: 700 34px/0.95 var(--eng); letter-spacing: .01em; text-transform: uppercase;
+    margin: 0 0 8px;
+  }
+  h1 em { font-style: normal; color: var(--gletscher); }
+  .stand { font: 400 12px/1.5 var(--mono); color: var(--stein); margin: 0; }
+  .stand a { color: var(--gletscher); }
+
+  /* ---------- Bedienung ---------- */
+  .suche {
+    width: 100%; margin: 14px 0 10px; padding: 11px 13px;
+    font: 15px var(--schrift); color: var(--fels);
+    background: var(--karte); border: 1px solid var(--linie); border-radius: 9px;
+  }
+  .suche:focus { outline: 2px solid var(--gletscher); outline-offset: 1px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 4px; }
+  .chip {
+    font: 600 11.5px/1 var(--mono); letter-spacing: .05em; text-transform: uppercase;
+    padding: 8px 12px; border: 1px solid var(--linie); border-radius: 999px;
+    background: transparent; color: var(--stein); cursor: pointer;
+  }
+  .chip[aria-pressed="true"] { background: var(--fels); border-color: var(--fels); color: var(--grund); }
+  .chip:focus-visible { outline: 2px solid var(--gletscher); outline-offset: 2px; }
+  .zaehler { font: 400 11.5px/1 var(--mono); color: var(--stein); padding: 10px 2px 0; }
+
+  /* ---------- Liste ---------- */
+  .monat {
+    font: 600 12px/1 var(--eng); letter-spacing: .18em; text-transform: uppercase;
+    color: var(--stein); margin: 26px 0 0; padding-bottom: 7px;
+    border-bottom: 1px solid var(--linie);
+    position: sticky; top: 0; background: var(--grund); padding-top: 10px; z-index: 1;
+  }
+  .ev {
+    display: grid; grid-template-columns: 42px 1fr; gap: 12px; align-items: start;
+    padding: 13px 2px; border-bottom: 1px solid var(--linie);
+    color: inherit; text-decoration: none;
+  }
+  .ev:focus-visible { outline: 2px solid var(--gletscher); outline-offset: 2px; border-radius: 4px; }
+  .tag { text-align: right; padding-top: 1px; }
+  .tag b { display: block; font: 600 21px/1 var(--mono); letter-spacing: -.02em; }
+  .tag span { display: block; font: 500 10px/1.5 var(--mono); letter-spacing: .1em;
+              text-transform: uppercase; color: var(--stein); }
+  .titel { font-weight: 600; font-size: 15.5px; line-height: 1.28; }
+  .punkt { display: inline-block; width: 7px; height: 7px; border-radius: 50%;
+           margin-right: 7px; vertical-align: 1.5px; flex: none; }
+  .k-sport  { background: #17636f; }
+  .k-musik  { background: #b23a48; }
+  .k-kultur { background: #4a7c3d; }
+  .k-kurse  { background: #8a6d3b; }
+  .k-markt  { background: #6e7d85; }
+  .k-mix    { background: #9aa5aa; }
+  .meta { font: 400 12px/1.5 var(--mono); color: var(--stein); margin-top: 4px; word-break: break-word; }
+  .marke {
+    display: inline-block; font: 700 9.5px/1 var(--mono); letter-spacing: .1em;
+    text-transform: uppercase; padding: 3px 5px; border-radius: 3px;
+    background: var(--signal); color: #16222b; margin-left: 6px; vertical-align: 2px;
+  }
+  .marke.serie { background: transparent; color: var(--stein); border: 1px solid var(--linie); }
+  .deadline { font: 600 11.5px/1.5 var(--mono); color: var(--frist); margin-top: 3px; }
+
+  .leer { padding: 44px 4px; color: var(--stein); text-align: center; }
+  .lade { padding: 60px 4px; color: var(--stein); text-align: center; font: 400 13px var(--mono); }
+  footer { margin-top: 30px; font: 400 11px/1.7 var(--mono); color: var(--stein); }
+  footer a { color: var(--gletscher); }
+</style>
+</head>
+<body>
+<div class="huelle">
+  <header>
+    <p class="augenbraue">Innsbruck + 30 km · ohne Instagram</p>
+    <h1>Event-<em>Radar</em></h1>
+    <p class="stand" id="stand">wird geladen …</p>
+  </header>
+
+  <input class="suche" id="suche" type="search" placeholder="Suchen — Titel, Ort, Veranstalter"
+         autocomplete="off" autocorrect="off" spellcheck="false">
+
+  <div class="chips" id="chips">
+    <button class="chip" data-f="alle" aria-pressed="true">Alle</button>
+    <button class="chip" data-f="neu" aria-pressed="false">Neu</button>
+    <button class="chip" data-f="sport" aria-pressed="false">Sport</button>
+    <button class="chip" data-f="musik" aria-pressed="false">Musik</button>
+    <button class="chip" data-f="kultur" aria-pressed="false">Kultur</button>
+    <button class="chip" data-f="kurse" aria-pressed="false">Kurse</button>
+    <button class="chip" data-f="markt" aria-pressed="false">Märkte</button>
+    <button class="chip" data-f="mix" aria-pressed="false">Sonstiges</button>
+    <button class="chip" data-f="serie" aria-pressed="false">Wöchentlich</button>
+    <button class="chip" data-f="frist" aria-pressed="false">Mit Frist</button>
+  </div>
+  <p class="zaehler" id="zaehler"></p>
+
+  <main id="liste"><p class="lade">Termine werden geladen …</p></main>
+
+  <footer>
+    <p id="fuss"></p>
+    <p>Kalender abonnieren: <a href="events.ics">events.ics</a> ·
+       Rohdaten: <a href="events.json">events.json</a> ·
+       Quellenbilanz: <a href="status.json">status.json</a></p>
+  </footer>
+</div>
+
+<script>
+(function () {
+  var MONATE = ['Jänner','Februar','März','April','Mai','Juni','Juli',
+                'August','September','Oktober','November','Dezember'];
+  var WOTAG = ['So','Mo','Di','Mi','Do','Fr','Sa'];
+
+  var liste = document.getElementById('liste');
+  var chips = document.getElementById('chips');
+  var suche = document.getElementById('suche');
+  var zaehler = document.getElementById('zaehler');
+
+  var termine = [];
+  var filter = 'alle';
+  var suchwort = '';
+
+  function esc(t) {
+    return String(t == null ? '' : t).replace(/[&<>"]/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+    });
+  }
+  function alsDatum(iso) { return new Date(iso + 'T12:00:00'); }
+  function kurz(iso) {
+    var d = alsDatum(iso);
+    return ('0' + d.getDate()).slice(-2) + '.' + ('0' + (d.getMonth() + 1)).slice(-2) + '.';
+  }
+
+  function passt(e) {
+    if (filter === 'serie') { if (!e.serie) return false; }
+    else if (e.serie) return false;              // Serien nur im eigenen Filter
+    if (filter === 'neu' && !e.neu) return false;
+    if (filter === 'frist' && !e.anmeldeschluss) return false;
+    if (['sport','musik','kultur','kurse','markt','mix'].indexOf(filter) > -1
+        && e.kategorie !== filter) return false;
+    if (suchwort) {
+      var heu = (e.titel + ' ' + e.ort + ' ' + e.quelle).toLowerCase();
+      if (heu.indexOf(suchwort) === -1) return false;
+    }
+    return true;
+  }
+
+  function zeichnen() {
+    var sichtbar = termine.filter(passt);
+    zaehler.textContent = sichtbar.length + (sichtbar.length === 1 ? ' Termin' : ' Termine');
+
+    if (!sichtbar.length) {
+      liste.innerHTML = '<p class="leer">Nichts gefunden. Anderer Filter oder anderes Suchwort?</p>';
+      return;
+    }
+
+    var teile = [];
+    var monat = '';
+    sichtbar.forEach(function (e) {
+      var d = alsDatum(e.datum);
+      var m = MONATE[d.getMonth()] + ' ' + d.getFullYear();
+      if (m !== monat) { monat = m; teile.push('<h2 class="monat">' + m + '</h2>'); }
+
+      var meta = [];
+      if (e.bis) meta.push('bis ' + kurz(e.bis));
+      if (e.zeit) meta.push(e.zeit);
+      if (e.ort) meta.push(e.ort);
+      if (e.quelle && e.quelle !== e.ort) meta.push(e.quelle);
+
+      var marken = '';
+      if (e.neu) marken += '<span class="marke">neu</span>';
+      if (e.serie) marken += '<span class="marke serie">wöchentlich</span>';
+
+      var frist = e.anmeldeschluss
+        ? '<div class="deadline">Anmeldung bis ' + kurz(e.anmeldeschluss) + '</div>' : '';
+
+      var auf = e.url ? '<a class="ev" href="' + esc(e.url) + '" target="_blank" rel="noopener">'
+                      : '<div class="ev">';
+      var zu = e.url ? '</a>' : '</div>';
+
+      teile.push(
+        auf +
+        '<div class="tag"><b>' + ('0' + d.getDate()).slice(-2) + '</b><span>' +
+          WOTAG[d.getDay()] + '</span></div>' +
+        '<div><div class="titel"><span class="punkt k-' + esc(e.kategorie) + '"></span>' +
+          esc(e.titel) + marken + '</div>' +
+        (meta.length ? '<div class="meta">' + esc(meta.join(' · ')) + '</div>' : '') +
+        frist + '</div>' + zu
+      );
+    });
+    liste.innerHTML = teile.join('');
+    window.scrollTo({ top: 0 });
+  }
+
+  chips.addEventListener('click', function (ev) {
+    var b = ev.target.closest('.chip');
+    if (!b) return;
+    filter = b.dataset.f;
+    Array.prototype.forEach.call(chips.querySelectorAll('.chip'), function (c) {
+      c.setAttribute('aria-pressed', String(c === b));
+    });
+    zeichnen();
+  });
+
+  var bremse;
+  suche.addEventListener('input', function () {
+    clearTimeout(bremse);
+    bremse = setTimeout(function () {
+      suchwort = suche.value.trim().toLowerCase();
+      zeichnen();
+    }, 160);
+  });
+
+  // Cache-Puffer umgehen: raw-Auslieferung haelt Antworten einige Minuten fest.
+  function hole(datei) {
+    return fetch(datei + '?v=' + Date.now(), { cache: 'no-store' }).then(function (r) {
+      if (!r.ok) throw new Error(datei + ': HTTP ' + r.status);
+      return r.json();
+    });
+  }
+
+  hole('events.json').then(function (roh) {
+    var heute = new Date().toISOString().slice(0, 10);
+    termine = roh
+      .filter(function (e) { return e && e.titel && (e.bis || e.datum) >= heute; })
+      .sort(function (a, b) {
+        return a.datum < b.datum ? -1 : a.datum > b.datum ? 1
+             : (a.zeit || '99:99') < (b.zeit || '99:99') ? -1 : 1;
+      });
+    zeichnen();
+    return hole('status.json');
+  }).then(function (s) {
+    var d = new Date(s.lauf);
+    document.getElementById('stand').innerHTML =
+      termine.length + ' Termine · zuletzt gesammelt ' +
+      ('0' + d.getDate()).slice(-2) + '.' + ('0' + (d.getMonth() + 1)).slice(-2) + '. um ' +
+      ('0' + d.getHours()).slice(-2) + ':' + ('0' + d.getMinutes()).slice(-2);
+    document.getElementById('fuss').textContent =
+      s.quellen_mit_treffern + ' von ' + s.quellen_aktiv + ' Quellen haben geliefert, ' +
+      s.quellen_mit_fehler + ' mit Fehler. Gesammelt wird täglich. ' +
+      'Termine, die nur über Instagram angekündigt werden, fehlen hier bewusst.';
+  }).catch(function (fehler) {
+    liste.innerHTML = '<p class="leer">Die Termine liessen sich nicht laden.<br>' +
+      esc(fehler.message) + '</p>';
+    document.getElementById('stand').textContent = 'nicht erreichbar';
+  });
+})();
+</script>
+</body>
+</html>
