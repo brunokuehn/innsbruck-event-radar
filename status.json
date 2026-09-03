@@ -1,11 +1,11 @@
 {
- "lauf": "2026-09-03T12:27:19+00:00",
- "termine": 802,
+ "lauf": "2026-09-03T12:38:52+00:00",
+ "termine": 801,
  "serientermine": 123,
- "neu": 25,
+ "neu": 0,
  "quellen_aktiv": 70,
  "quellen_mit_treffern": 42,
- "quellen_mit_fehler": 4,
+ "quellen_mit_fehler": 3,
  "quellen": [
   {
    "quelle": "Innsbruck Tourismus",
@@ -475,8 +475,8 @@
    "url": "https://www.metropol-kino.at/kinoprogramm/metropol",
    "aktiv": true,
    "strategie": "kino",
-   "gefunden": 17,
-   "uebernommen": 17,
+   "gefunden": 16,
+   "uebernommen": 16,
    "fehler": "",
    "grund": "",
    "hinweis": "nur das Programm des laufenden Tages; Spielzeiten kommen clientseitig nach Auswahl eines Datums",
@@ -508,12 +508,12 @@
   },
   {
    "quelle": "IFFI Filmfestival",
-   "url": "https://www.iffi.at/programm/",
+   "url": "https://iffi.at/programm/",
    "aktiv": true,
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "URLError: <urlopen error [Errno -2] Name or service not known>",
+   "fehler": "",
    "grund": "",
    "hinweis": "Festival im Juni",
    "verworfen": {}

@@ -10,7 +10,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Rapoldipark-Innsbruck Tai Chi 24er Form - Taiji im Park",
@@ -689,19 +689,6 @@
   "neu": false
  },
  {
-  "titel": "Vaiana",
-  "datum": "2026-09-03",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/vaiana",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Vaterland",
   "datum": "2026-09-03",
   "bis": "",
@@ -1089,7 +1076,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "INTERLUDE - eine Performance über ein Maskottchen",
@@ -1206,7 +1193,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Projekt zur Lebensraumverbesserung der Raufußhühner",
@@ -1427,7 +1414,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Pubquiz Moustache",
@@ -3528,12 +3515,12 @@
   "bis": "",
   "zeit": "18:00",
   "ort": "aut, Innsbruck",
-  "url": "https://www.aut.cc/Plone/aut/veranstaltungen/fuehrung-rebuild-2",
+  "url": "https://aut.cc/veranstaltungen/fuehrung-rebuild-2",
   "quelle": "aut. architektur und tirol",
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Hoftafel: Speisen und Spüren in Aldrans",
@@ -4430,7 +4417,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "ULTIMATE PLAYGROUND // FLINTA*-Sportler*innen",
@@ -4594,12 +4581,12 @@
   "bis": "",
   "zeit": "18:00",
   "ort": "aut, Innsbruck",
-  "url": "https://www.aut.cc/Plone/aut/veranstaltungen/lange-nacht-der-museen-2026",
+  "url": "https://aut.cc/veranstaltungen/lange-nacht-der-museen-2026",
   "quelle": "aut. architektur und tirol",
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "LITTLE ELEMENT // INDIE, TRIP-HOP, GLOBAL SOUNDS AUS INNSBRUCK",
@@ -4984,12 +4971,12 @@
   "bis": "",
   "zeit": "19:00",
   "ort": "aut, Innsbruck",
-  "url": "https://www.aut.cc/Plone/aut/veranstaltungen/vortrag-astrid-staufer",
+  "url": "https://aut.cc/veranstaltungen/vortrag-astrid-staufer",
   "quelle": "aut. architektur und tirol",
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "BRUX / Freies Theater Innsbruck",
@@ -5002,7 +4989,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Photosensitives - Lecture-Performance:",
@@ -5015,7 +5002,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "VORBRENNER: Photosensitives",
@@ -5093,7 +5080,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "MOTHERS CAKE: WE R ALL GONNA DIE // DAS FRISCH GEBACKENE ALBUM",
@@ -5119,7 +5106,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Comedy Nights • Special Guest: Carmen Chraim",
@@ -5158,7 +5145,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Tour de Tirol",
@@ -5699,12 +5686,12 @@
   "bis": "",
   "zeit": "19:00",
   "ort": "aut, Innsbruck",
-  "url": "https://www.aut.cc/Plone/aut/veranstaltungen/lewerentz-divine-darkness",
+  "url": "https://aut.cc/veranstaltungen/lewerentz-divine-darkness",
   "quelle": "aut. architektur und tirol",
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "LISAvienna Regulatory Affairs Konferenz 2026",
@@ -6120,7 +6107,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "GenAI Summit IV",
@@ -6271,12 +6258,12 @@
   "bis": "",
   "zeit": "19:00",
   "ort": "aut, Innsbruck",
-  "url": "https://www.aut.cc/Plone/aut/veranstaltungen/vortrag-christian-inderbitzin",
+  "url": "https://aut.cc/veranstaltungen/vortrag-christian-inderbitzin",
   "quelle": "aut. architektur und tirol",
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Österreicher als Massenmörder in Polen Globocnik, Eberl, Stangl",
@@ -6341,7 +6328,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "VORBRENNER: Pos. 19 Relations II Lost Objects",
@@ -6458,7 +6445,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "AUSVERKAUFT! Jules Ahoi - Magnolia Tour",
@@ -6713,12 +6700,12 @@
   "bis": "",
   "zeit": "18:00",
   "ort": "aut, Innsbruck",
-  "url": "https://www.aut.cc/Plone/aut/veranstaltungen/fuehrung-rebuild-3",
+  "url": "https://aut.cc/veranstaltungen/fuehrung-rebuild-3",
   "quelle": "aut. architektur und tirol",
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Journey Jam - Innsbruck",
@@ -6848,7 +6835,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Cavalluna \"Die Farben des Lebens\"",
@@ -6965,7 +6952,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "NIGHTMARE ON BÖGENSTREET w/ SILIUS / DEMONICERA / WORTVEHLA / TRÄGHEIT / DJ DARKER",
@@ -6991,7 +6978,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "HC TIWAG Innsbruck - HC Falkensteiner Pustertal",
@@ -7147,7 +7134,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "MANUEL RUBEY & SIMON SCHWARZ: LIEBE // VORPREMIERE",
@@ -7199,7 +7186,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "MANUEL RUBEY & SIMON SCHWARZ: LIEBE // VORPREMIERE",
@@ -10410,7 +10397,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Jeden Sonntag vom",

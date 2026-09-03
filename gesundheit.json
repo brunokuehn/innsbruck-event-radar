@@ -1,29 +1,23 @@
 {
- "erzeugt": "2026-09-03T12:27:19+00:00",
+ "erzeugt": "2026-09-03T12:38:52+00:00",
  "befunde": [
   {
    "dringlichkeit": "fehler",
    "quelle": "Futterkutter",
    "was": "seit diesem Lauf kaputt: HTTPError: HTTP Error 429: Too Many Requests",
-   "rat": "Seite im Browser oeffnen -- meist ist die Adresse umgezogen."
-  },
-  {
-   "dringlichkeit": "fehler",
-   "quelle": "IFFI Filmfestival",
-   "was": "seit diesem Lauf kaputt: URLError: <urlopen error [Errno -2] Name or service not known>",
-   "rat": "Seite im Browser oeffnen -- meist ist die Adresse umgezogen."
+   "rat": "Zu viele Abrufe. Oft teilen sich mehrere Quellen einen Server -- pruefen, ob eine weitere Quelle auf dieselbe Adresse zeigt."
   },
   {
    "dringlichkeit": "fehler",
    "quelle": "Skibörse Innsbruck",
    "was": "seit diesem Lauf kaputt: HTTPError: HTTP Error 429: Too Many Requests",
-   "rat": "Seite im Browser oeffnen -- meist ist die Adresse umgezogen."
+   "rat": "Zu viele Abrufe. Oft teilen sich mehrere Quellen einen Server -- pruefen, ob eine weitere Quelle auf dieselbe Adresse zeigt."
   },
   {
    "dringlichkeit": "fehler",
    "quelle": "studio amano",
    "was": "seit diesem Lauf kaputt: HTTPError: HTTP Error 429: Too Many Requests",
-   "rat": "Seite im Browser oeffnen -- meist ist die Adresse umgezogen."
+   "rat": "Zu viele Abrufe. Oft teilen sich mehrere Quellen einen Server -- pruefen, ob eine weitere Quelle auf dieselbe Adresse zeigt."
   }
  ],
  "dauerhaft_still": [],
@@ -222,10 +216,10 @@
    "laeufe_erfasst": 1,
    "zuletzt": {
     "tag": "2026-09-03",
-    "zustand": "fehler",
+    "zustand": "ok",
     "gefunden": 0,
     "behalten": 0,
-    "fehler": "URLError: <urlopen error [Errno -2] Name or service not known>"
+    "fehler": ""
    }
   },
   "IT-Syndikat": {
@@ -333,8 +327,8 @@
    "zuletzt": {
     "tag": "2026-09-03",
     "zustand": "ok",
-    "gefunden": 17,
-    "behalten": 17,
+    "gefunden": 16,
+    "behalten": 16,
     "fehler": ""
    }
   },
