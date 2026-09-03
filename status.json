@@ -1,8 +1,8 @@
 {
- "lauf": "2026-09-03T09:02:47+00:00",
- "termine": 803,
+ "lauf": "2026-09-03T10:10:59+00:00",
+ "termine": 805,
  "serientermine": 123,
- "neu": 4,
+ "neu": 3,
  "quellen_aktiv": 67,
  "quellen_mit_treffern": 40,
  "quellen_mit_fehler": 4,
@@ -12,13 +12,13 @@
    "url": "https://www.innsbruck.info/events/d/alle.html",
    "aktiv": true,
    "strategie": "innsbruckinfo",
-   "gefunden": 224,
-   "uebernommen": 195,
+   "gefunden": 228,
+   "uebernommen": 198,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "kein Ort im Umkreis genannt": 15,
+    "kein Ort im Umkreis genannt": 16,
     "Trachten": 1,
     "Blasmusik": 11,
     "Fruehschoppen": 1,
@@ -45,12 +45,12 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 10,
-   "uebernommen": 2,
+   "uebernommen": 1,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "kein Ort im Umkreis genannt": 8
+    "kein Ort im Umkreis genannt": 9
    }
   },
   {
@@ -800,14 +800,12 @@
    "url": "https://www.patscherkofelbahn.at/events/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 30,
+   "gefunden": 29,
    "uebernommen": 29,
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {
-    "ausserhalb des Zeitfensters": 1
-   }
+   "verworfen": {}
   },
   {
    "quelle": "Rosshütte Seefeld",
