@@ -1,18 +1,5 @@
 [
  {
-  "titel": "Ausstellung: bis (Mi-Fr: 14-18 Uhr, Sa: 10-13 Uhr)",
-  "datum": "2026-09-02",
-  "bis": "2026-10-24",
-  "zeit": "18:00",
-  "ort": "Galerie Thomas Flora, Innsbruck",
-  "url": "https://www.galerie-thomas-flora.at/ausstellungen",
-  "quelle": "Galerie Thomas Flora",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Rapoldipark-Innsbruck Tai Chi 24er Form - Taiji im Park",
   "datum": "2026-09-03",
   "bis": "",
@@ -177,19 +164,6 @@
   "url": "https://www.innsbrucklaeuft.com/anmeldung/",
   "quelle": "Innsbruck läuft",
   "kategorie": "sport",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Kinderwerkstatt",
-  "datum": "2026-09-03",
-  "bis": "",
-  "zeit": "12:00",
-  "ort": "Tiroler Landesmuseen, Innsbruck",
-  "url": "https://www.tiroler-landesmuseen.at/haus/volkskunstmuseum/",
-  "quelle": "Tiroler Landesmuseen",
-  "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -2704,6 +2678,19 @@
   "neu": false
  },
  {
+  "titel": "Konzert",
+  "datum": "2026-09-12",
+  "bis": "",
+  "zeit": "17:00",
+  "ort": "Tiroler Landesmuseen, Innsbruck",
+  "url": "https://www.tiroler-landesmuseen.at/haus/museum-aguntum-archaeologischer-park/",
+  "quelle": "Tiroler Landesmuseen",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "WG Flohmarkt Innsbruck in 6020 Innsbruck",
   "datum": "2026-09-12",
   "bis": "",
@@ -3237,19 +3224,6 @@
   "neu": false
  },
  {
-  "titel": "Erstellt von + : 19 Uhr; : 20 Uhr, Schwaz | Rabalderhaus",
-  "datum": "2026-09-16",
-  "bis": "2026-09-17",
-  "zeit": "19:00",
-  "ort": "Schwaz",
-  "url": "https://www.klangspuren.at/festival/festival-programm/",
-  "quelle": "Klangspuren Schwaz",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "New Voices presents MUSS DAS PFERD AUCH ARBEITEN?",
   "datum": "2026-09-16",
   "bis": "",
@@ -3661,19 +3635,6 @@
   "url": "/events-tickets/young-action-day-2026/",
   "quelle": "Olympiaworld",
   "kategorie": "sport",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "10:00-12:00 Uhr",
-  "datum": "2026-09-19",
-  "bis": "",
-  "zeit": "10:00",
-  "ort": "Stadtbibliothek Innsbruck",
-  "url": "https://stadtbibliothek.innsbruck.gv.at/de/programm/veranstaltungskalender/5-0.html",
-  "quelle": "Stadtbibliothek Innsbruck",
-  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -4180,19 +4141,6 @@
   "ort": "Die Bäckerei, Innsbruck",
   "url": "https://diebaeckerei.at/programm/2026/2026-09-21-dream4utopia-youth-exchange",
   "quelle": "Die Bäckerei",
-  "kategorie": "kurse",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Montag, , 18:00-20:00 Uhr. > ausverkauft",
-  "datum": "2026-09-21",
-  "bis": "",
-  "zeit": "18:00",
-  "ort": "Innsbruck",
-  "url": "https://www.tonwerkstatt.eu/ton-kurse",
-  "quelle": "Tonwerkstatt",
   "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": false,
@@ -5213,19 +5161,6 @@
   "neu": false
  },
  {
-  "titel": "14:30-16:00 Uhr",
-  "datum": "2026-09-28",
-  "bis": "",
-  "zeit": "14:30",
-  "ort": "Stadtbibliothek Innsbruck",
-  "url": "https://stadtbibliothek.innsbruck.gv.at/de/programm/veranstaltungskalender/5-0.html",
-  "quelle": "Stadtbibliothek Innsbruck",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Informationsabend für Neumitglieder",
   "datum": "2026-09-28",
   "bis": "",
@@ -5323,19 +5258,6 @@
   "zeit": "15:00",
   "ort": "Stadtbibliothek Innsbruck",
   "url": "https://www.termino.gv.at/meet/de/b/6a7ff263c9e3b8560c18c5a5bb0104d2-620594",
-  "quelle": "Stadtbibliothek Innsbruck",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "17:00 - 18:30 Uhr",
-  "datum": "2026-09-30",
-  "bis": "",
-  "zeit": "17:00",
-  "ort": "Stadtbibliothek Innsbruck",
-  "url": "https://stadtbibliothek.innsbruck.gv.at/de/programm/veranstaltungskalender/5-0.html",
   "quelle": "Stadtbibliothek Innsbruck",
   "kategorie": "kultur",
   "anmeldeschluss": "",
@@ -6734,19 +6656,6 @@
   "neu": false
  },
  {
-  "titel": "Dienstagvormittags, 9:30-12:00 Uhr. Startet am und endet am . > ausverkauft",
-  "datum": "2026-10-13",
-  "bis": "",
-  "zeit": "09:30",
-  "ort": "Innsbruck",
-  "url": "https://www.tonwerkstatt.eu/ton-kurse",
-  "quelle": "Tonwerkstatt",
-  "kategorie": "kurse",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Eine Stadt sagt DANKE",
   "datum": "2026-10-13",
   "bis": "",
@@ -6755,19 +6664,6 @@
   "url": "https://www.innsbruck.gv.at",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "mix",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Dienstagabends, 17:30-20:00 Uhr. Startet am und endet am . > ausverkauft",
-  "datum": "2026-10-13",
-  "bis": "",
-  "zeit": "17:30",
-  "ort": "Innsbruck",
-  "url": "https://www.tonwerkstatt.eu/ton-kurse",
-  "quelle": "Tonwerkstatt",
-  "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -8652,19 +8548,6 @@
   "ort": "Innsbruck",
   "url": "https://www.innsbruck.info/events/d/alle.html",
   "quelle": "Innsbruck Tourismus",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "• 11:00 (Bruch: 10:00)",
-  "datum": "2026-11-08",
-  "bis": "",
-  "zeit": "11:00",
-  "ort": "Innsbruck",
-  "url": "https://www.diametrale.at/program/",
-  "quelle": "DIAMETRALE",
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
@@ -12072,19 +11955,6 @@
   "url": "https://www.rosshuette.at/events",
   "quelle": "Rosshütte Seefeld",
   "kategorie": "sport",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "◘ Datum:",
-  "datum": "2027-07-15",
-  "bis": "",
-  "zeit": "",
-  "ort": "Muttereralm",
-  "url": "https://www.bonanza-festival.com/spumante",
-  "quelle": "Bonanza Festival",
-  "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false

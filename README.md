@@ -4,7 +4,7 @@ Täglich gesammelte Veranstaltungstermine im Raum Innsbruck
 (Innsbruck plus rund 30 km). Dieses Repository enthält **nur die
 Ausgabe**; der Sammler liegt woanders.
 
-Stand: 2026-09-03 · **932 Termine**, davon 0 neu seit dem letzten Lauf.
+Stand: 2026-09-03 · **922 Termine**, davon 1 neu seit dem letzten Lauf.
 
 | Datei | Inhalt |
 |---|---|
@@ -13,8 +13,6 @@ Stand: 2026-09-03 · **932 Termine**, davon 0 neu seit dem letzten Lauf.
 | `neu.json` | Zugänge seit dem letzten Lauf |
 | `events.ics` | Kalenderdatei zum Abonnieren |
 | `status.json` | welche Quelle wie viel geliefert hat |
-
-**Zum Anschauen:** [brunokuehn.github.io/innsbruck-event-radar](https://brunokuehn.github.io/innsbruck-event-radar/)
 
 Abrufadresse mit CORS (`Access-Control-Allow-Origin: *`):
 

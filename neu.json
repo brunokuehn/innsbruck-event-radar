@@ -1,1 +1,15 @@
-[]
+[
+ {
+  "titel": "Konzert",
+  "datum": "2026-09-12",
+  "bis": "",
+  "zeit": "17:00",
+  "ort": "Tiroler Landesmuseen, Innsbruck",
+  "url": "https://www.tiroler-landesmuseen.at/haus/museum-aguntum-archaeologischer-park/",
+  "quelle": "Tiroler Landesmuseen",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ }
+]
