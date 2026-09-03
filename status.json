@@ -1,11 +1,11 @@
 {
- "lauf": "2026-09-03T07:40:02+00:00",
- "termine": 837,
+ "lauf": "2026-09-03T08:16:17+00:00",
+ "termine": 800,
  "serientermine": 123,
- "neu": 27,
+ "neu": 12,
  "quellen_aktiv": 67,
- "quellen_mit_treffern": 36,
- "quellen_mit_fehler": 9,
+ "quellen_mit_treffern": 40,
+ "quellen_mit_fehler": 4,
  "quellen": [
   {
    "quelle": "Innsbruck Tourismus",
@@ -44,23 +44,27 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 10,
-   "uebernommen": 10,
+   "uebernommen": 2,
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {
+    "kein Ort im Umkreis genannt": 8
+   }
   },
   {
    "quelle": "meinbezirk",
    "url": "https://www.meinbezirk.at/event/innsbruck/list",
    "aktiv": true,
-   "strategie": "heuristik",
+   "strategie": "meinbezirk",
    "gefunden": 24,
-   "uebernommen": 24,
+   "uebernommen": 19,
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {
+    "kein Ort im Umkreis genannt": 5
+   }
   },
   {
    "quelle": "Innsbruck Termine",
@@ -84,12 +88,13 @@
    "aktiv": true,
    "strategie": "jsonld",
    "gefunden": 49,
-   "uebernommen": 46,
+   "uebernommen": 1,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
     "Schlager": 1,
+    "kein Ort im Umkreis genannt": 45,
     "Blasmusik": 1,
     "ausserhalb des Zeitfensters": 1
    }
@@ -100,11 +105,13 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 10,
-   "uebernommen": 10,
+   "uebernommen": 2,
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {
+    "kein Ort im Umkreis genannt": 8
+   }
   },
   {
    "quelle": "Stadt Innsbruck",
@@ -217,13 +224,15 @@
    "quelle": "Music Hall",
    "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen.html",
    "aktiv": true,
-   "strategie": "",
-   "gefunden": 0,
-   "uebernommen": 0,
-   "fehler": "HTTP 403",
+   "strategie": "microdata",
+   "gefunden": 37,
+   "uebernommen": 35,
+   "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 2
+   }
   },
   {
    "quelle": "Hafen",
@@ -537,13 +546,15 @@
    "quelle": "Tiroler Landesmuseen",
    "url": "https://www.tiroler-landesmuseen.at/besuch/veranstaltungen/",
    "aktiv": true,
-   "strategie": "",
-   "gefunden": 0,
-   "uebernommen": 0,
-   "fehler": "HTTP 403",
+   "strategie": "heuristik",
+   "gefunden": 9,
+   "uebernommen": 6,
+   "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 3
+   }
   },
   {
    "quelle": "Haus der Musik",
@@ -611,13 +622,15 @@
    "quelle": "KRAPOLDI",
    "url": "https://www.krapoldi.at/event/",
    "aktiv": true,
-   "strategie": "",
-   "gefunden": 0,
+   "strategie": "heuristik",
+   "gefunden": 64,
    "uebernommen": 0,
-   "fehler": "URLError: <urlopen error timed out>",
+   "fehler": "",
    "grund": "",
    "hinweis": "Zirkusfestival; die Seite zeigt ausserhalb der Saison das vergangene Programm",
-   "verworfen": {}
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 64
+   }
   },
   {
    "quelle": "Neue Galerie / Kunstpavillon",
@@ -811,10 +824,10 @@
    "quelle": "Bergisel",
    "url": "https://www.bergisel.info",
    "aktiv": true,
-   "strategie": "",
-   "gefunden": 0,
-   "uebernommen": 0,
-   "fehler": "HTTP 403",
+   "strategie": "heuristik",
+   "gefunden": 1,
+   "uebernommen": 1,
+   "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {}
@@ -847,13 +860,15 @@
    "quelle": "Töpferei Kathrein",
    "url": "https://www.toepferei-ibk.at/kurse",
    "aktiv": true,
-   "strategie": "",
-   "gefunden": 0,
-   "uebernommen": 0,
-   "fehler": "URLError: <urlopen error timed out>",
+   "strategie": "heuristik",
+   "gefunden": 3,
+   "uebernommen": 1,
+   "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 2
+   }
   },
   {
    "quelle": "studio amano",
@@ -862,7 +877,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "",
+   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
    "grund": "",
    "hinweis": "",
    "verworfen": {}
@@ -973,11 +988,13 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 27,
-   "uebernommen": 27,
+   "uebernommen": 4,
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {
+    "kein Ort im Umkreis genannt": 23
+   }
   },
   {
    "quelle": "MCI",
@@ -1067,13 +1084,15 @@
    "quelle": "wasmachma",
    "url": "https://www.wasmachma.at/events/bundesland/tirol/flohmarkt",
    "aktiv": true,
-   "strategie": "",
-   "gefunden": 0,
+   "strategie": "heuristik",
+   "gefunden": 4,
    "uebernommen": 0,
-   "fehler": "URLError: <urlopen error timed out>",
+   "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {
+    "kein Ort im Umkreis genannt": 4
+   }
   },
   {
    "quelle": "RadlBörse Tirol",
