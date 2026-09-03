@@ -3081,6 +3081,19 @@
   "neu": false
  },
  {
+  "titel": "Oktoberfest der Freiwilligen Feuerwehr Obsteig",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "15:00",
+  "ort": "Obsteig",
+  "url": "https://www.innsbruck.info/events/d/alle.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Flohmarkt von und für Kinder in 6060 Hall in Tirol",
   "datum": "2026-09-19",
   "bis": "",
@@ -6630,6 +6643,32 @@
   "neu": false
  },
  {
+  "titel": "REEL ROCK // KLETTER-FILM-FESTIVAL",
+  "datum": "2026-10-27",
+  "bis": "",
+  "zeit": "18:00",
+  "ort": "Treibhaus Innsbruck",
+  "url": "https://www.treibhaus.at/programm.ics",
+  "quelle": "Treibhaus",
+  "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "REEL ROCK // KLETTER-FILM-FESTIVAL",
+  "datum": "2026-10-28",
+  "bis": "",
+  "zeit": "18:00",
+  "ort": "Treibhaus Innsbruck",
+  "url": "https://www.treibhaus.at/programm.ics",
+  "quelle": "Treibhaus",
+  "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "JOSEF HADER : HADER ON ICE // TREIBHAUS im CONGRESS - SAAL TiROL",
   "datum": "2026-10-28",
   "bis": "",
@@ -6771,6 +6810,19 @@
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "Our Ceasing Voice - Album Release Party",
+  "datum": "2026-10-30",
+  "bis": "",
+  "zeit": "20:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/d/alle.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "Schwanensee",
