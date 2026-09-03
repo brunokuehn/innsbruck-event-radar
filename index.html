@@ -89,6 +89,7 @@
   .k-sport  { background: #17636f; }
   .k-musik  { background: #b23a48; }
   .k-kultur { background: #4a7c3d; }
+  .k-kino   { background: #7a4a7c; }
   .k-kurse  { background: #8a6d3b; }
   .k-markt  { background: #6e7d85; }
   .k-mix    { background: #9aa5aa; }
@@ -101,6 +102,11 @@
   .marke.serie { background: transparent; color: var(--stein); border: 1px solid var(--linie); }
   .deadline { font: 600 11.5px/1.5 var(--mono); color: var(--frist); margin-top: 3px; }
 
+  .hinweis {
+    font: 400 12px/1.6 var(--mono); color: var(--stein);
+    background: var(--karte); border: 1px solid var(--linie); border-radius: 8px;
+    padding: 10px 12px; margin: 14px 0 0;
+  }
   .leer { padding: 44px 4px; color: var(--stein); text-align: center; }
   .lade { padding: 60px 4px; color: var(--stein); text-align: center; font: 400 13px var(--mono); }
   footer { margin-top: 30px; font: 400 11px/1.7 var(--mono); color: var(--stein); }
@@ -124,6 +130,7 @@
     <button class="chip" data-f="sport" aria-pressed="false">Sport</button>
     <button class="chip" data-f="musik" aria-pressed="false">Musik</button>
     <button class="chip" data-f="kultur" aria-pressed="false">Kultur</button>
+    <button class="chip" data-f="kino" aria-pressed="false">Kino</button>
     <button class="chip" data-f="kurse" aria-pressed="false">Kurse</button>
     <button class="chip" data-f="markt" aria-pressed="false">Märkte</button>
     <button class="chip" data-f="mix" aria-pressed="false">Sonstiges</button>
@@ -169,8 +176,12 @@
   }
 
   function passt(e) {
+    // Serientermine und Kinoprogramm haben eigene Reiter. Im Hauptfeed wuerden
+    // 28 Wochenformate und dreissig Filme pro Tag alles andere begraben.
     if (filter === 'serie') { if (!e.serie) return false; }
-    else if (e.serie) return false;              // Serien nur im eigenen Filter
+    else if (e.serie) return false;
+    if (filter === 'kino') { if (e.kategorie !== 'kino') return false; }
+    else if (e.kategorie === 'kino') return false;
     if (filter === 'neu' && !e.neu) return false;
     if (filter === 'frist' && !e.anmeldeschluss) return false;
     if (['sport','musik','kultur','kurse','markt','mix'].indexOf(filter) > -1
@@ -190,8 +201,12 @@
       liste.innerHTML = '<p class="leer">Nichts gefunden. Anderer Filter oder anderes Suchwort?</p>';
       return;
     }
-
     var teile = [];
+    if (filter === 'kino') {
+      teile.push('<p class="hinweis">Das Programm des heutigen Tages, ' +
+        'zusammengetragen aus allen Innsbrucker Kinos. Spielzeiten geben die ' +
+        'Kinoseiten nur im Browser heraus — die stehen hinter dem Filmtitel.</p>');
+    }
     var monat = '';
     sichtbar.forEach(function (e) {
       var d = alsDatum(e.datum);
@@ -202,7 +217,10 @@
       if (e.bis) meta.push('bis ' + kurz(e.bis));
       if (e.zeit) meta.push(e.zeit);
       if (e.ort) meta.push(e.ort);
-      if (e.quelle && e.quelle !== e.ort) meta.push(e.quelle);
+      // Quelle nur nennen, wenn sie nicht ohnehin im Ort steckt:
+      // "Metropol Kino, Innsbruck · Metropol Kino" liest sich albern.
+      if (e.quelle && e.ort.toLowerCase().indexOf(e.quelle.toLowerCase()) === -1
+          && e.quelle.toLowerCase().indexOf(e.ort.toLowerCase()) === -1) meta.push(e.quelle);
 
       var marken = '';
       if (e.neu) marken += '<span class="marke">neu</span>';
