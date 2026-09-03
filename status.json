@@ -1,11 +1,11 @@
 {
- "lauf": "2026-09-03T10:10:59+00:00",
- "termine": 805,
+ "lauf": "2026-09-03T10:23:20+00:00",
+ "termine": 787,
  "serientermine": 123,
- "neu": 3,
+ "neu": 0,
  "quellen_aktiv": 67,
- "quellen_mit_treffern": 40,
- "quellen_mit_fehler": 4,
+ "quellen_mit_treffern": 39,
+ "quellen_mit_fehler": 2,
  "quellen": [
   {
    "quelle": "Innsbruck Tourismus",
@@ -45,12 +45,12 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 10,
-   "uebernommen": 1,
+   "uebernommen": 0,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "kein Ort im Umkreis genannt": 9
+    "kein Ort im Umkreis genannt": 10
    }
   },
   {
@@ -266,7 +266,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "",
+   "fehler": "URLError: <urlopen error [Errno 101] Network is unreachable>",
    "grund": "",
    "hinweis": "Sehr schlanke Seite, Programm ueberwiegend ueber Instagram",
    "verworfen": {}
@@ -876,7 +876,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
+   "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {}
@@ -938,7 +938,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
+   "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {}
@@ -1050,7 +1050,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
+   "fehler": "",
    "grund": "",
    "hinweis": "Boerse Mitte Oktober",
    "verworfen": {}

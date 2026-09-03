@@ -351,19 +351,6 @@
   "neu": false
  },
  {
-  "titel": "Am Anfang war das Salz – Bergbaumuseum Hall",
-  "datum": "2026-09-03",
-  "bis": "",
-  "zeit": "",
-  "ort": "",
-  "url": "https://events.tt.com/veranstaltung/39512/am-anfang-war-das-salz-bergbaumuseum-hall---dfdf",
-  "quelle": "TT Events Innsbruck-Land",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Arnie und Barney - Retten das Wasser",
   "datum": "2026-09-03",
   "bis": "",
@@ -567,19 +554,6 @@
   "url": "https://www.uibk.ac.at/events/2026/08/26/of-statues-the-augean-stable-and-calculating-mules-the-translation",
   "quelle": "Universität Innsbruck",
   "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Oh la la 2",
-  "datum": "2026-09-03",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/oh-la-la-2",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -949,19 +923,6 @@
   "neu": false
  },
  {
-  "titel": "Markt am Tivoli",
-  "datum": "2026-09-05",
-  "bis": "",
-  "zeit": "06:00",
-  "ort": "Tivoli Stadion Tirol",
-  "url": "/events-tickets/markt-am-tivoli-1/",
-  "quelle": "Olympiaworld",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Innpromenade parkrun",
   "datum": "2026-09-05",
   "bis": "",
@@ -1035,19 +996,6 @@
   "url": "https://www.innsbrucktermine.at/veranstaltungen/austellung-erinnerungen-jakob-anton-bucher?date=1788595200",
   "quelle": "Innsbruck Termine",
   "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Herbstmarkt Innsbruck",
-  "datum": "2026-09-05",
-  "bis": "",
-  "zeit": "10:00",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbruck.info/events/e/122272558.html",
-  "quelle": "Innsbruck Tourismus",
-  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -1235,19 +1183,6 @@
   "neu": false
  },
  {
-  "titel": "Herbstmarkt: Antik- &amp; Trödelmarkt Innsbruck",
-  "datum": "2026-09-05",
-  "bis": "",
-  "zeit": "",
-  "ort": "Marktplatz",
-  "url": "https://meine-flohmarkt-termine.de/herbstmarkt-antik-trodelmarkt-innsbruck/23758776/details",
-  "quelle": "Flohmarkt-Termine",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Herzlauf Tirol",
   "datum": "2026-09-05",
   "bis": "",
@@ -1282,19 +1217,6 @@
   "url": "https://www.haus-der-musik-innsbruck.at/veranstaltung/inn-wien-ensemble-r-i-s-i-n-g-05-09-26/",
   "quelle": "Haus der Musik",
   "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Markt am Tivoli Stadion Innsbruck",
-  "datum": "2026-09-05",
-  "bis": "",
-  "zeit": "",
-  "ort": "Tivoli Stadion Tirol",
-  "url": "https://meine-flohmarkt-termine.de/markt-am-tivoli-stadion-innsbruck/23691297/details",
-  "quelle": "Flohmarkt-Termine",
-  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -1336,6 +1258,19 @@
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Flohmarkt Greifcenter",
+  "datum": "2026-09-06",
+  "bis": "",
+  "zeit": "05:30",
+  "ort": "Greifcenter, Innsbruck",
+  "url": "https://www.flohmarkt.at/flohmaerkte/innsbruck",
+  "quelle": "flohmarkt.at",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": true,
   "neu": false
  },
  {
@@ -2106,19 +2041,6 @@
   "neu": false
  },
  {
-  "titel": "Markt am Tivoli",
-  "datum": "2026-09-12",
-  "bis": "",
-  "zeit": "06:00",
-  "ort": "Tivoli Stadion Tirol, Innsbruck",
-  "url": "https://www.olympiaworld.at/events-tickets/",
-  "quelle": "Olympiaworld",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": true,
-  "neu": false
- },
- {
   "titel": "Österreichische Staatsmeisterschaft Kanupolo",
   "datum": "2026-09-12",
   "bis": "",
@@ -2236,45 +2158,6 @@
   "neu": false
  },
  {
-  "titel": "Ausschweifen",
-  "datum": "2026-09-12",
-  "bis": "",
-  "zeit": "",
-  "ort": "Haus der Musik, Innsbruck",
-  "url": "https://www.haus-der-musik-innsbruck.at/veranstaltung/ausschweifen-12-09-26/",
-  "quelle": "Haus der Musik",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Empfehlung Klassik am Berg am Hoadlhaus Axamer Lizum Sa., und weitere",
-  "datum": "2026-09-12",
-  "bis": "",
-  "zeit": "",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbrucktermine.at/veranstaltungen/klassik-am-berg-am-hoadlhaus-axamer-lizum",
-  "quelle": "Innsbruck Termine",
-  "kategorie": "mix",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Markt am Tivoli Stadion Innsbruck",
-  "datum": "2026-09-12",
-  "bis": "",
-  "zeit": "",
-  "ort": "Tivoli Stadion Tirol",
-  "url": "https://meine-flohmarkt-termine.de/markt-am-tivoli-stadion-innsbruck/23691298/details",
-  "quelle": "Flohmarkt-Termine",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Piccard-Hängebrücke bei Obergurgl",
   "datum": "2026-09-12",
   "bis": "",
@@ -2292,7 +2175,7 @@
   "datum": "2026-09-12",
   "bis": "",
   "zeit": "",
-  "ort": "Haus der Begegnung, Di&amp;ouml;zese Innsbruck",
+  "ort": "Haus der Begegnung, Diözese Innsbruck",
   "url": "https://meine-flohmarkt-termine.de/schmuck-und-mineralienmesse-innsbruck/23720734/details",
   "quelle": "Flohmarkt-Termine",
   "kategorie": "markt",
@@ -2337,6 +2220,19 @@
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Flohmarkt Greifcenter",
+  "datum": "2026-09-13",
+  "bis": "",
+  "zeit": "05:30",
+  "ort": "Greifcenter, Innsbruck",
+  "url": "https://www.flohmarkt.at/flohmaerkte/innsbruck",
+  "quelle": "flohmarkt.at",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": true,
   "neu": false
  },
  {
@@ -2513,7 +2409,7 @@
   "datum": "2026-09-13",
   "bis": "",
   "zeit": "",
-  "ort": "Haus der Begegnung, Di&amp;ouml;zese Innsbruck",
+  "ort": "Haus der Begegnung, Diözese Innsbruck",
   "url": "https://meine-flohmarkt-termine.de/schmuck-und-mineralienmesse-innsbruck/23720735/details",
   "quelle": "Flohmarkt-Termine",
   "kategorie": "markt",
@@ -2912,19 +2808,6 @@
   "neu": false
  },
  {
-  "titel": "Auf dass wir so verwandelt werden",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Haus der Musik, Innsbruck",
-  "url": "https://www.haus-der-musik-innsbruck.at/veranstaltung/auf-dass-wir-so-verwandelt-werden-18-09-26/",
-  "quelle": "Haus der Musik",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Bramböck/Kuttler Jazz Collective - Organ Intermezzo",
   "datum": "2026-09-18",
   "bis": "",
@@ -2961,19 +2844,6 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": false
- },
- {
-  "titel": "Markt am Tivoli",
-  "datum": "2026-09-19",
-  "bis": "",
-  "zeit": "06:00",
-  "ort": "Tivoli Stadion Tirol, Innsbruck",
-  "url": "https://www.olympiaworld.at/events-tickets/",
-  "quelle": "Olympiaworld",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": true,
   "neu": false
  },
  {
@@ -3193,19 +3063,6 @@
   "url": "https://www.alpenverein.at/innsbruck/termine/index_detail.php?veranstaltungID=6d6c2548-0d56-4b38-a29c-13f24e81c1c7&oa=1",
   "quelle": "Alpenverein Innsbruck",
   "kategorie": "sport",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Markt am Tivoli Stadion Innsbruck",
-  "datum": "2026-09-19",
-  "bis": "",
-  "zeit": "",
-  "ort": "Tivoli Stadion Tirol",
-  "url": "https://meine-flohmarkt-termine.de/markt-am-tivoli-stadion-innsbruck/23691299/details",
-  "quelle": "Flohmarkt-Termine",
-  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -3962,7 +3819,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Typowalk #33: Wilten Süd",
@@ -4142,19 +3999,6 @@
   "url": "https://www.pmk.or.at/de/events/aural-visions-v-videodrome-laster-rosa-nebel",
   "quelle": "p.m.k",
   "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Codeborn",
-  "datum": "2026-09-26",
-  "bis": "",
-  "zeit": "",
-  "ort": "Haus der Musik, Innsbruck",
-  "url": "https://www.haus-der-musik-innsbruck.at/veranstaltung/codeborn-26-09-26/",
-  "quelle": "Haus der Musik",
-  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -4885,7 +4729,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "SEVERIN GRÖBNER: ICH BIN DAS VOLK // KABARETT",
@@ -4931,7 +4775,7 @@
   "datum": "2026-10-04",
   "bis": "",
   "zeit": "",
-  "ort": "Die B&amp;auml;ckerei &amp;ndash; Kulturbackstube",
+  "ort": "Die Bäckerei – Kulturbackstube",
   "url": "https://meine-flohmarkt-termine.de/kinderbazar-innsbruck-die-backerei-kulturbackstube/23758772/details",
   "quelle": "Flohmarkt-Termine",
   "kategorie": "markt",
@@ -5639,7 +5483,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "4. BIOTECH SUMMIT AUSTRIA 2026",
@@ -5792,19 +5636,6 @@
   "ort": "Innsbruck",
   "url": "https://www.startup.tirol/event/lisavienna-regulatory-affairs-konferenz-2026/",
   "quelle": "Startup.Tirol",
-  "kategorie": "kurse",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "MCI Welcome 2026",
-  "datum": "2026-10-15",
-  "bis": "",
-  "zeit": "",
-  "ort": "MCI, Innsbruck",
-  "url": "https://www.mci.edu/de/hochschule/events/5940-mci-welcome-de",
-  "quelle": "MCI",
   "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": false,
@@ -6448,11 +6279,11 @@
   "neu": false
  },
  {
-  "titel": "Euroantik Innsbruck - Messe für Kunst, Antiquitäten &amp; Altwaren",
+  "titel": "Euroantik Innsbruck - Messe für Kunst, Antiquitäten & Altwaren",
   "datum": "2026-10-23",
   "bis": "",
   "zeit": "",
-  "ort": "Messe Innsbruck (Halle B) Eingang S&amp;uuml;d",
+  "ort": "Messe Innsbruck (Halle B) Eingang Süd",
   "url": "https://meine-flohmarkt-termine.de/euroantik-innsbruck-messe-fur-kunst-antiquitaten-altwaren/23811973/details",
   "quelle": "Flohmarkt-Termine",
   "kategorie": "markt",
@@ -6526,11 +6357,11 @@
   "neu": false
  },
  {
-  "titel": "Euroantik Innsbruck - Messe für Kunst, Antiquitäten &amp; Altwaren",
+  "titel": "Euroantik Innsbruck - Messe für Kunst, Antiquitäten & Altwaren",
   "datum": "2026-10-24",
   "bis": "",
   "zeit": "",
-  "ort": "Messe Innsbruck (Halle B) Eingang S&amp;uuml;d",
+  "ort": "Messe Innsbruck (Halle B) Eingang Süd",
   "url": "https://meine-flohmarkt-termine.de/euroantik-innsbruck-messe-fur-kunst-antiquitaten-altwaren/23811974/details",
   "quelle": "Flohmarkt-Termine",
   "kategorie": "markt",
@@ -6617,11 +6448,11 @@
   "neu": false
  },
  {
-  "titel": "Euroantik Innsbruck - Messe für Kunst, Antiquitäten &amp; Altwaren",
+  "titel": "Euroantik Innsbruck - Messe für Kunst, Antiquitäten & Altwaren",
   "datum": "2026-10-25",
   "bis": "",
   "zeit": "",
-  "ort": "Messe Innsbruck (Halle B) Eingang S&amp;uuml;d",
+  "ort": "Messe Innsbruck (Halle B) Eingang Süd",
   "url": "https://meine-flohmarkt-termine.de/euroantik-innsbruck-messe-fur-kunst-antiquitaten-altwaren/23811975/details",
   "quelle": "Flohmarkt-Termine",
   "kategorie": "markt",
@@ -6716,19 +6547,6 @@
   "url": "https://diebaeckerei.at/programm/2026/2026-10-28-tedx-innsbruck-soft-skills-are-hardcore",
   "quelle": "Die Bäckerei",
   "kategorie": "sport",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Josef Hader: Hader on Ice",
-  "datum": "2026-10-28",
-  "bis": "",
-  "zeit": "19:30",
-  "ort": "Congress Innsbruck",
-  "url": "https://www.treibhaus.at/karten/2026/10/28/14734-josef-hader-hader-on-ice-treibhaus-im-congress-saal-tirol",
-  "quelle": "Congress Messe Innsbruck",
-  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -7362,7 +7180,7 @@
   "datum": "2026-11-08",
   "bis": "",
   "zeit": "",
-  "ort": "Die B&amp;auml;ckerei &amp;ndash; Kulturbackstube",
+  "ort": "Die Bäckerei – Kulturbackstube",
   "url": "https://meine-flohmarkt-termine.de/kinderbazar-innsbruck-die-backerei-kulturbackstube/23758773/details",
   "quelle": "Flohmarkt-Termine",
   "kategorie": "markt",
@@ -7878,19 +7696,6 @@
   "neu": false
  },
  {
-  "titel": "Alpinforum 2026",
-  "datum": "2026-11-21",
-  "bis": "",
-  "zeit": "09:00",
-  "ort": "Congress Innsbruck",
-  "url": "https://www.cmi.at/de/veranstaltungskalender",
-  "quelle": "Congress Messe Innsbruck",
-  "kategorie": "kurse",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Alpinmesse mit Alpinforum 2026",
   "datum": "2026-11-21",
   "bis": "",
@@ -7964,19 +7769,6 @@
   "url": "https://data.austriaclimbing.com/Event/3645",
   "quelle": "Austria Climbing",
   "kategorie": "sport",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Alpinmesse 2026",
-  "datum": "2026-11-21",
-  "bis": "2026-11-22",
-  "zeit": "",
-  "ort": "Congress Innsbruck",
-  "url": "https://www.alpinmesse.info/?mtm_campaign=cmi.at&mtm_source=cmi.at-event-highlight&mtm_medium=link",
-  "quelle": "Congress Messe Innsbruck",
-  "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -8354,19 +8146,6 @@
   "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/delinquent-habits-el-ritmo-30th-anniversary-album-tour.html",
   "quelle": "Music Hall",
   "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "AIRDRENALINE - 27. +",
-  "datum": "2026-11-28",
-  "bis": "",
-  "zeit": "",
-  "ort": "Bergisel, Innsbruck",
-  "url": "https://airdrenaline.world",
-  "quelle": "Airdrenaline",
-  "kategorie": "sport",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -9576,19 +9355,6 @@
   "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/avec-the-theatre-tour.html",
   "quelle": "Music Hall",
   "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Empfehlung FIL Rodel Weltmeisterschaften 2027 Fr., und weitere",
-  "datum": "2027-02-05",
-  "bis": "",
-  "zeit": "",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbrucktermine.at/veranstaltungen/fil-rodel-weltmeisterschaften-2027",
-  "quelle": "Innsbruck Termine",
-  "kategorie": "sport",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
