@@ -1,11 +1,11 @@
 {
- "lauf": "2026-09-03T07:26:31+00:00",
- "termine": 895,
+ "lauf": "2026-09-03T07:40:02+00:00",
+ "termine": 837,
  "serientermine": 123,
- "neu": 0,
- "quellen_aktiv": 68,
- "quellen_mit_treffern": 44,
- "quellen_mit_fehler": 4,
+ "neu": 27,
+ "quellen_aktiv": 67,
+ "quellen_mit_treffern": 36,
+ "quellen_mit_fehler": 9,
  "quellen": [
   {
    "quelle": "Innsbruck Tourismus",
@@ -217,15 +217,13 @@
    "quelle": "Music Hall",
    "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen.html",
    "aktiv": true,
-   "strategie": "microdata",
-   "gefunden": 37,
-   "uebernommen": 35,
-   "fehler": "",
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "HTTP 403",
    "grund": "",
    "hinweis": "",
-   "verworfen": {
-    "ausserhalb des Zeitfensters": 2
-   }
+   "verworfen": {}
   },
   {
    "quelle": "Hafen",
@@ -465,12 +463,12 @@
    "quelle": "Metropol Kino",
    "url": "https://www.metropol-kino.at/kinoprogramm/metropol",
    "aktiv": true,
-   "strategie": "heuristik",
-   "gefunden": 17,
-   "uebernommen": 17,
+   "strategie": "kino",
+   "gefunden": 19,
+   "uebernommen": 19,
    "fehler": "",
    "grund": "",
-   "hinweis": "",
+   "hinweis": "nur das Programm des laufenden Tages; Spielzeiten kommen clientseitig nach Auswahl eines Datums",
    "verworfen": {}
   },
   {
@@ -489,15 +487,13 @@
    "quelle": "UNCUT Kinoprogramm",
    "url": "https://www.uncut.at/innsbruck/",
    "aktiv": true,
-   "strategie": "heuristik",
-   "gefunden": 3,
-   "uebernommen": 2,
+   "strategie": "kino",
+   "gefunden": 15,
+   "uebernommen": 15,
    "fehler": "",
    "grund": "",
-   "hinweis": "",
-   "verworfen": {
-    "ausserhalb des Zeitfensters": 1
-   }
+   "hinweis": "Programm aller Innsbrucker Kinos fuer den laufenden Tag",
+   "verworfen": {}
   },
   {
    "quelle": "IFFI Filmfestival",
@@ -516,8 +512,8 @@
    "url": "https://www.diametrale.at/program/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 244,
-   "uebernommen": 2,
+   "gefunden": 243,
+   "uebernommen": 1,
    "fehler": "",
    "grund": "",
    "hinweis": "Festival im Oktober/November",
@@ -541,15 +537,13 @@
    "quelle": "Tiroler Landesmuseen",
    "url": "https://www.tiroler-landesmuseen.at/besuch/veranstaltungen/",
    "aktiv": true,
-   "strategie": "heuristik",
-   "gefunden": 13,
-   "uebernommen": 10,
-   "fehler": "",
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "HTTP 403",
    "grund": "",
    "hinweis": "",
-   "verworfen": {
-    "ausserhalb des Zeitfensters": 3
-   }
+   "verworfen": {}
   },
   {
    "quelle": "Haus der Musik",
@@ -617,15 +611,13 @@
    "quelle": "KRAPOLDI",
    "url": "https://www.krapoldi.at/event/",
    "aktiv": true,
-   "strategie": "heuristik",
-   "gefunden": 67,
+   "strategie": "",
+   "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "",
+   "fehler": "URLError: <urlopen error timed out>",
    "grund": "",
    "hinweis": "Zirkusfestival; die Seite zeigt ausserhalb der Saison das vergangene Programm",
-   "verworfen": {
-    "ausserhalb des Zeitfensters": 67
-   }
+   "verworfen": {}
   },
   {
    "quelle": "Neue Galerie / Kunstpavillon",
@@ -644,13 +636,13 @@
    "url": "https://www.galerie-thomas-flora.at/ausstellungen",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 7,
-   "uebernommen": 5,
+   "gefunden": 1,
+   "uebernommen": 0,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "ausserhalb des Zeitfensters": 2
+    "ausserhalb des Zeitfensters": 1
    }
   },
   {
@@ -658,8 +650,8 @@
    "url": "https://stadtbibliothek.innsbruck.gv.at/de/programm/veranstaltungskalender/5-0.html",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 4,
-   "uebernommen": 4,
+   "gefunden": 2,
+   "uebernommen": 2,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -732,12 +724,12 @@
   {
    "quelle": "Innsbruck läuft",
    "url": "https://www.innsbrucklaeuft.com/anmeldung/",
-   "aktiv": true,
-   "strategie": "heuristik",
-   "gefunden": 5,
-   "uebernommen": 5,
+   "aktiv": false,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
    "fehler": "",
-   "grund": "",
+   "grund": "Die Seite ist eine Anmeldeuebersicht, keine Terminliste. Jeder Eintrag war ein Satz ueber eine Meldefrist, und das darin genannte Datum der Anmeldeschluss statt des Laufs -- also durchgehend falsche Termine. Die Laeufe selbst kommen ueber den Laufkalender Tirol.",
    "hinweis": "",
    "verworfen": {}
   },
@@ -746,14 +738,12 @@
    "url": "https://www.nordkette-vertical-run.at",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 4,
-   "uebernommen": 2,
+   "gefunden": 1,
+   "uebernommen": 1,
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {
-    "ausserhalb des Zeitfensters": 2
-   }
+   "verworfen": {}
   },
   {
    "quelle": "Alpenverein Innsbruck",
@@ -796,8 +786,8 @@
    "url": "https://www.patscherkofelbahn.at/events/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 31,
-   "uebernommen": 30,
+   "gefunden": 30,
+   "uebernommen": 29,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -821,10 +811,10 @@
    "quelle": "Bergisel",
    "url": "https://www.bergisel.info",
    "aktiv": true,
-   "strategie": "heuristik",
-   "gefunden": 1,
-   "uebernommen": 1,
-   "fehler": "",
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "HTTP 403",
    "grund": "",
    "hinweis": "",
    "verworfen": {}
@@ -857,15 +847,13 @@
    "quelle": "Töpferei Kathrein",
    "url": "https://www.toepferei-ibk.at/kurse",
    "aktiv": true,
-   "strategie": "heuristik",
-   "gefunden": 3,
-   "uebernommen": 1,
-   "fehler": "",
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "URLError: <urlopen error timed out>",
    "grund": "",
    "hinweis": "",
-   "verworfen": {
-    "ausserhalb des Zeitfensters": 2
-   }
+   "verworfen": {}
   },
   {
    "quelle": "studio amano",
@@ -874,7 +862,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
+   "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {}
@@ -1079,10 +1067,10 @@
    "quelle": "wasmachma",
    "url": "https://www.wasmachma.at/events/bundesland/tirol/flohmarkt",
    "aktiv": true,
-   "strategie": "heuristik",
-   "gefunden": 4,
-   "uebernommen": 4,
-   "fehler": "",
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "URLError: <urlopen error timed out>",
    "grund": "",
    "hinweis": "",
    "verworfen": {}
@@ -1106,8 +1094,8 @@
    "url": "https://www.markthalle-innsbruck.at",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 4,
-   "uebernommen": 4,
+   "gefunden": 3,
+   "uebernommen": 3,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -1117,9 +1105,9 @@
    "quelle": "Gemeinde Telfs",
    "url": "https://www.telfs.at/Veranstaltungen",
    "aktiv": true,
-   "strategie": "gem2go",
-   "gefunden": 1,
-   "uebernommen": 1,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
    "fehler": "",
    "grund": "",
    "hinweis": "",
