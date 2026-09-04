@@ -1,18 +1,5 @@
 [
  {
-  "titel": "Offene Werkstatt Töpferei Kathrein",
-  "datum": "2026-09-03",
-  "bis": "",
-  "zeit": "14:30",
-  "ort": "Töpferei Kathrein, Innsbruck",
-  "url": "https://www.toepferei-ibk.at/kurse",
-  "quelle": "Töpferei Kathrein",
-  "kategorie": "kurse",
-  "anmeldeschluss": "",
-  "serie": true,
-  "neu": false
- },
- {
   "titel": "Kunsthandwerksmarkt Markthalle",
   "datum": "2026-09-04",
   "bis": "",
@@ -1593,6 +1580,19 @@
   "ort": "Tribaun, Innsbruck",
   "url": "https://www.tribaun.com/events",
   "quelle": "Tribaun",
+  "kategorie": "kurse",
+  "anmeldeschluss": "",
+  "serie": true,
+  "neu": false
+ },
+ {
+  "titel": "Offene Werkstatt Töpferei Kathrein",
+  "datum": "2026-12-03",
+  "bis": "",
+  "zeit": "14:30",
+  "ort": "Töpferei Kathrein, Innsbruck",
+  "url": "https://www.toepferei-ibk.at/kurse",
+  "quelle": "Töpferei Kathrein",
   "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": true,
