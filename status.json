@@ -1,19 +1,19 @@
 {
- "lauf": "2026-09-04T08:57:36+00:00",
- "termine": 793,
+ "lauf": "2026-09-05T08:28:29+00:00",
+ "termine": 789,
  "serientermine": 123,
- "neu": 64,
+ "neu": 54,
  "quellen_aktiv": 70,
  "quellen_mit_treffern": 43,
- "quellen_mit_fehler": 2,
+ "quellen_mit_fehler": 3,
  "quellen": [
   {
    "quelle": "Innsbruck Tourismus",
    "url": "https://www.innsbruck.info/events/d/alle.html",
    "aktiv": true,
    "strategie": "innsbruckinfo",
-   "gefunden": 226,
-   "uebernommen": 193,
+   "gefunden": 225,
+   "uebernommen": 192,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -46,12 +46,12 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 10,
-   "uebernommen": 1,
+   "uebernommen": 2,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "kein Ort im Umkreis genannt": 9
+    "kein Ort im Umkreis genannt": 8
    }
   },
   {
@@ -73,12 +73,14 @@
    "url": "https://www.innsbrucktermine.at",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 17,
-   "uebernommen": 17,
+   "gefunden": 19,
+   "uebernommen": 18,
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {
+    "Blasmusik": 1
+   }
   },
   {
    "quelle": "eventfinder",
@@ -101,14 +103,13 @@
    "url": "https://www.freizeit-tirol.at/freizeit-events/eventkalender/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 12,
+   "gefunden": 10,
    "uebernommen": 2,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "kein Ort im Umkreis genannt": 9,
-    "Volksmusik": 1
+    "kein Ort im Umkreis genannt": 8
    }
   },
   {
@@ -128,8 +129,8 @@
    "url": "https://www.olympiaworld.at/events-tickets/",
    "aktiv": true,
    "strategie": "microdata",
-   "gefunden": 58,
-   "uebernommen": 55,
+   "gefunden": 57,
+   "uebernommen": 54,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -183,8 +184,8 @@
    "url": "https://www.pmk.or.at/de/events",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 19,
-   "uebernommen": 19,
+   "gefunden": 18,
+   "uebernommen": 18,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -208,12 +209,12 @@
    "aktiv": true,
    "strategie": "ics",
    "gefunden": 84,
-   "uebernommen": 79,
+   "uebernommen": 78,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "ausserhalb des Zeitfensters": 1,
+    "ausserhalb des Zeitfensters": 2,
     "Volksmusik": 2,
     "Blasmusik": 2
    }
@@ -471,8 +472,8 @@
    "url": "https://www.metropol-kino.at/kinoprogramm/metropol",
    "aktiv": true,
    "strategie": "kino",
-   "gefunden": 22,
-   "uebernommen": 22,
+   "gefunden": 21,
+   "uebernommen": 21,
    "fehler": "",
    "grund": "",
    "hinweis": "nur das Programm des laufenden Tages; Spielzeiten kommen clientseitig nach Auswahl eines Datums",
@@ -545,8 +546,8 @@
    "url": "https://www.tiroler-landesmuseen.at/besuch/veranstaltungen/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 9,
-   "uebernommen": 6,
+   "gefunden": 8,
+   "uebernommen": 5,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -685,7 +686,7 @@
    "url": "https://data.austriaclimbing.com/Calendar",
    "aktiv": true,
    "strategie": "austriaclimbing",
-   "gefunden": 42,
+   "gefunden": 41,
    "uebernommen": 7,
    "fehler": "",
    "grund": "",
@@ -695,7 +696,7 @@
     "ausserhalb: voecklabruck": 1,
     "kein Ort im Umkreis genannt": 17,
     "ausserhalb: wien": 3,
-    "ausserhalb: imst": 4,
+    "ausserhalb: imst": 3,
     "ausserhalb: graz": 4,
     "ausserhalb: linz": 1,
     "ausserhalb: steyr": 1,
@@ -722,13 +723,13 @@
    "url": "https://www.runme.at/laufkalender/tirol/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 23,
+   "gefunden": 22,
    "uebernommen": 9,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "ausserhalb: mayrhofen": 2,
+    "ausserhalb: mayrhofen": 1,
     "kein Ort im Umkreis genannt": 12
    }
   },
@@ -799,14 +800,12 @@
    "url": "https://www.alpenzoo.at/de/veranstaltungen",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 5,
+   "gefunden": 1,
    "uebernommen": 1,
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {
-    "ausserhalb des Zeitfensters": 4
-   }
+   "verworfen": {}
   },
   {
    "quelle": "Tiroler Skiverband",
@@ -837,14 +836,13 @@
    "url": "https://www.patscherkofelbahn.at/events/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 29,
+   "gefunden": 27,
    "uebernommen": 25,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
     "Begruessungsbanner statt Titel": 1,
-    "ausserhalb des Zeitfensters": 2,
     "Ortsmarke statt Titel": 1
    }
   },
@@ -981,7 +979,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "",
+   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
    "grund": "",
    "hinweis": "Server weist Anfragen aus der Github-Aktion mit HTTP 429 ab.",
    "verworfen": {}
@@ -1043,8 +1041,8 @@
    "url": "https://www.mci.edu/de/hochschule/events",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 11,
-   "uebernommen": 11,
+   "gefunden": 12,
+   "uebernommen": 12,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -1127,13 +1125,13 @@
    "url": "https://www.wasmachma.at/events/bundesland/tirol/flohmarkt",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 5,
+   "gefunden": 6,
    "uebernommen": 0,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "kein Ort im Umkreis genannt": 5
+    "kein Ort im Umkreis genannt": 6
    }
   },
   {

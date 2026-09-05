@@ -1,18 +1,5 @@
 [
  {
-  "titel": "Kunsthandwerksmarkt Markthalle",
-  "datum": "2026-09-04",
-  "bis": "",
-  "zeit": "09:00",
-  "ort": "Markthalle, Innsbruck",
-  "url": "https://www.markthalle-innsbruck.at",
-  "quelle": "Markthalle",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": true,
-  "neu": false
- },
- {
   "titel": "Markt am Tivoli",
   "datum": "2026-09-05",
   "bis": "",
@@ -1594,6 +1581,19 @@
   "url": "https://www.toepferei-ibk.at/kurse",
   "quelle": "Töpferei Kathrein",
   "kategorie": "kurse",
+  "anmeldeschluss": "",
+  "serie": true,
+  "neu": false
+ },
+ {
+  "titel": "Kunsthandwerksmarkt Markthalle",
+  "datum": "2026-12-04",
+  "bis": "",
+  "zeit": "09:00",
+  "ort": "Markthalle, Innsbruck",
+  "url": "https://www.markthalle-innsbruck.at",
+  "quelle": "Markthalle",
+  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": true,
   "neu": false
