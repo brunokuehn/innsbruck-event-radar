@@ -1,10 +1,10 @@
 {
- "lauf": "2026-09-05T08:28:29+00:00",
- "termine": 789,
+ "lauf": "2026-09-06T08:46:49+00:00",
+ "termine": 782,
  "serientermine": 123,
- "neu": 54,
+ "neu": 65,
  "quellen_aktiv": 70,
- "quellen_mit_treffern": 43,
+ "quellen_mit_treffern": 40,
  "quellen_mit_fehler": 3,
  "quellen": [
   {
@@ -12,15 +12,15 @@
    "url": "https://www.innsbruck.info/events/d/alle.html",
    "aktiv": true,
    "strategie": "innsbruckinfo",
-   "gefunden": 225,
-   "uebernommen": 192,
+   "gefunden": 213,
+   "uebernommen": 183,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "kein Ort im Umkreis genannt": 16,
+    "kein Ort im Umkreis genannt": 14,
+    "Blasmusik": 10,
     "Volksmusik": 2,
-    "Blasmusik": 11,
     "Fruehschoppen": 1,
     "Titel ist nur eine Anschrift": 1,
     "Trachten": 2
@@ -46,12 +46,12 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 10,
-   "uebernommen": 2,
+   "uebernommen": 0,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "kein Ort im Umkreis genannt": 8
+    "kein Ort im Umkreis genannt": 10
    }
   },
   {
@@ -59,8 +59,8 @@
    "url": "https://www.meinbezirk.at/event/innsbruck/list",
    "aktiv": true,
    "strategie": "meinbezirk",
-   "gefunden": 25,
-   "uebernommen": 21,
+   "gefunden": 27,
+   "uebernommen": 23,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -73,8 +73,8 @@
    "url": "https://www.innsbrucktermine.at",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 19,
-   "uebernommen": 18,
+   "gefunden": 20,
+   "uebernommen": 19,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -87,13 +87,13 @@
    "url": "https://www.eventfinder.at/veranstaltungen-innsbruck.php",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 50,
+   "gefunden": 54,
    "uebernommen": 1,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "kein Ort im Umkreis genannt": 47,
+    "kein Ort im Umkreis genannt": 51,
     "Blasmusik": 1,
     "ausserhalb des Zeitfensters": 1
    }
@@ -104,12 +104,12 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 10,
-   "uebernommen": 2,
+   "uebernommen": 0,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "kein Ort im Umkreis genannt": 8
+    "kein Ort im Umkreis genannt": 10
    }
   },
   {
@@ -129,8 +129,8 @@
    "url": "https://www.olympiaworld.at/events-tickets/",
    "aktiv": true,
    "strategie": "microdata",
-   "gefunden": 57,
-   "uebernommen": 54,
+   "gefunden": 56,
+   "uebernommen": 53,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -224,8 +224,8 @@
    "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen.html",
    "aktiv": true,
    "strategie": "microdata",
-   "gefunden": 37,
-   "uebernommen": 35,
+   "gefunden": 36,
+   "uebernommen": 34,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -409,12 +409,12 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 22,
-   "uebernommen": 4,
+   "uebernommen": 3,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "ausserhalb des Zeitfensters": 18
+    "ausserhalb des Zeitfensters": 19
    }
   },
   {
@@ -472,8 +472,8 @@
    "url": "https://www.metropol-kino.at/kinoprogramm/metropol",
    "aktiv": true,
    "strategie": "kino",
-   "gefunden": 21,
-   "uebernommen": 21,
+   "gefunden": 20,
+   "uebernommen": 20,
    "fehler": "",
    "grund": "",
    "hinweis": "nur das Programm des laufenden Tages; Spielzeiten kommen clientseitig nach Auswahl eines Datums",
@@ -585,12 +585,12 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 25,
-   "uebernommen": 4,
+   "uebernommen": 3,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "ausserhalb des Zeitfensters": 21
+    "ausserhalb des Zeitfensters": 22
    }
   },
   {
@@ -686,7 +686,7 @@
    "url": "https://data.austriaclimbing.com/Calendar",
    "aktiv": true,
    "strategie": "austriaclimbing",
-   "gefunden": 41,
+   "gefunden": 38,
    "uebernommen": 7,
    "fehler": "",
    "grund": "",
@@ -694,9 +694,9 @@
    "verworfen": {
     "ausserhalb: dornbirn": 1,
     "ausserhalb: voecklabruck": 1,
-    "kein Ort im Umkreis genannt": 17,
+    "kein Ort im Umkreis genannt": 15,
     "ausserhalb: wien": 3,
-    "ausserhalb: imst": 3,
+    "ausserhalb: imst": 2,
     "ausserhalb: graz": 4,
     "ausserhalb: linz": 1,
     "ausserhalb: steyr": 1,
@@ -723,13 +723,12 @@
    "url": "https://www.runme.at/laufkalender/tirol/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 22,
-   "uebernommen": 9,
+   "gefunden": 20,
+   "uebernommen": 8,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "ausserhalb: mayrhofen": 1,
     "kein Ort im Umkreis genannt": 12
    }
   },
@@ -762,8 +761,8 @@
    "url": "https://www.alpenverein.at/innsbruck/termine/index.php",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 42,
-   "uebernommen": 42,
+   "gefunden": 41,
+   "uebernommen": 41,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -801,11 +800,13 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 1,
-   "uebernommen": 1,
+   "uebernommen": 0,
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 1
+   }
   },
   {
    "quelle": "Tiroler Skiverband",
@@ -837,12 +838,12 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 27,
-   "uebernommen": 25,
+   "uebernommen": 24,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "Begruessungsbanner statt Titel": 1,
+    "ausserhalb des Zeitfensters": 2,
     "Ortsmarke statt Titel": 1
    }
   },
@@ -1125,13 +1126,13 @@
    "url": "https://www.wasmachma.at/events/bundesland/tirol/flohmarkt",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 6,
+   "gefunden": 5,
    "uebernommen": 0,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "kein Ort im Umkreis genannt": 6
+    "kein Ort im Umkreis genannt": 5
    }
   },
   {
