@@ -1,11 +1,11 @@
 {
- "lauf": "2026-09-09T09:07:38+00:00",
- "termine": 638,
+ "lauf": "2026-09-10T09:04:57+00:00",
+ "termine": 601,
  "serientermine": 123,
- "neu": 62,
+ "neu": 44,
  "quellen_aktiv": 70,
- "quellen_mit_treffern": 38,
- "quellen_mit_fehler": 4,
+ "quellen_mit_treffern": 37,
+ "quellen_mit_fehler": 3,
  "quellen": [
   {
    "quelle": "Innsbruck Tourismus",
@@ -39,12 +39,12 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 10,
-   "uebernommen": 3,
+   "uebernommen": 2,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "kein Ort im Umkreis genannt": 7
+    "kein Ort im Umkreis genannt": 8
    }
   },
   {
@@ -52,14 +52,14 @@
    "url": "https://www.meinbezirk.at/event/innsbruck/list",
    "aktiv": true,
    "strategie": "meinbezirk",
-   "gefunden": 27,
+   "gefunden": 24,
    "uebernommen": 22,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "kein Ort im Umkreis genannt": 4,
-    "ausserhalb: wien": 1
+    "Schlager": 1,
+    "kein Ort im Umkreis genannt": 1
    }
   },
   {
@@ -68,12 +68,12 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 20,
-   "uebernommen": 16,
+   "uebernommen": 15,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "Blasmusik": 2,
+    "Blasmusik": 3,
     "ausserhalb des Zeitfensters": 2
    }
   },
@@ -82,15 +82,14 @@
    "url": "https://www.eventfinder.at/veranstaltungen-innsbruck.php",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 51,
-   "uebernommen": 1,
+   "gefunden": 56,
+   "uebernommen": 2,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "kein Ort im Umkreis genannt": 48,
-    "ausserhalb des Zeitfensters": 1,
-    "Blasmusik": 1
+    "kein Ort im Umkreis genannt": 52,
+    "Blasmusik": 2
    }
   },
   {
@@ -104,7 +103,8 @@
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "kein Ort im Umkreis genannt": 10
+    "kein Ort im Umkreis genannt": 9,
+    "ausserhalb: jerzens": 1
    }
   },
   {
@@ -139,8 +139,8 @@
    "url": "https://www.cmi.at/de/veranstaltungskalender",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 113,
-   "uebernommen": 99,
+   "gefunden": 114,
+   "uebernommen": 100,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -179,8 +179,8 @@
    "url": "https://www.pmk.or.at/de/events",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 22,
-   "uebernommen": 22,
+   "gefunden": 21,
+   "uebernommen": 21,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -259,7 +259,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "URLError: <urlopen error [Errno 101] Network is unreachable>",
+   "fehler": "",
    "grund": "",
    "hinweis": "Sehr schlanke Seite, Programm ueberwiegend ueber Instagram",
    "verworfen": {}
@@ -467,8 +467,8 @@
    "url": "https://www.metropol-kino.at/kinoprogramm/metropol",
    "aktiv": true,
    "strategie": "kino",
-   "gefunden": 24,
-   "uebernommen": 24,
+   "gefunden": 23,
+   "uebernommen": 23,
    "fehler": "",
    "grund": "",
    "hinweis": "nur das Programm des laufenden Tages; Spielzeiten kommen clientseitig nach Auswahl eines Datums",
@@ -579,13 +579,13 @@
    "url": "https://www.klangspuren.at/festival/festival-programm/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 25,
+   "gefunden": 24,
    "uebernommen": 2,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "ausserhalb des Zeitfensters": 23
+    "ausserhalb des Zeitfensters": 22
    }
   },
   {
@@ -668,10 +668,10 @@
    "quelle": "Universität Innsbruck",
    "url": "https://www.uibk.ac.at/events/feed.rss",
    "aktiv": true,
-   "strategie": "rss",
-   "gefunden": 30,
-   "uebernommen": 30,
-   "fehler": "",
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "HTTP 404",
    "grund": "",
    "hinweis": "",
    "verworfen": {}
@@ -793,15 +793,13 @@
    "quelle": "Alpenzoo",
    "url": "https://www.alpenzoo.at/de/veranstaltungen",
    "aktiv": true,
-   "strategie": "heuristik",
-   "gefunden": 1,
+   "strategie": "",
+   "gefunden": 0,
    "uebernommen": 0,
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {
-    "ausserhalb des Zeitfensters": 1
-   }
+   "verworfen": {}
   },
   {
    "quelle": "Tiroler Skiverband",
@@ -910,7 +908,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
+   "fehler": "",
    "grund": "",
    "hinweis": "Server weist Anfragen aus der Github-Aktion mit HTTP 429 ab.",
    "verworfen": {}
@@ -1020,13 +1018,13 @@
    "url": "https://www.standort-tirol.at/veranstaltungen",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 29,
+   "gefunden": 28,
    "uebernommen": 4,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "kein Ort im Umkreis genannt": 25
+    "kein Ort im Umkreis genannt": 24
    }
   },
   {
@@ -1118,13 +1116,13 @@
    "url": "https://www.wasmachma.at/events/bundesland/tirol/flohmarkt",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 6,
+   "gefunden": 7,
    "uebernommen": 0,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "kein Ort im Umkreis genannt": 6
+    "kein Ort im Umkreis genannt": 7
    }
   },
   {
