@@ -1,11 +1,11 @@
 {
- "lauf": "2026-09-10T09:04:57+00:00",
- "termine": 601,
+ "lauf": "2026-09-11T09:02:00+00:00",
+ "termine": 607,
  "serientermine": 123,
- "neu": 44,
+ "neu": 56,
  "quellen_aktiv": 70,
- "quellen_mit_treffern": 37,
- "quellen_mit_fehler": 3,
+ "quellen_mit_treffern": 36,
+ "quellen_mit_fehler": 2,
  "quellen": [
   {
    "quelle": "Innsbruck Tourismus",
@@ -39,12 +39,12 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 10,
-   "uebernommen": 2,
+   "uebernommen": 0,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "kein Ort im Umkreis genannt": 8
+    "kein Ort im Umkreis genannt": 10
    }
   },
   {
@@ -52,14 +52,14 @@
    "url": "https://www.meinbezirk.at/event/innsbruck/list",
    "aktiv": true,
    "strategie": "meinbezirk",
-   "gefunden": 24,
-   "uebernommen": 22,
+   "gefunden": 26,
+   "uebernommen": 23,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
     "Schlager": 1,
-    "kein Ort im Umkreis genannt": 1
+    "kein Ort im Umkreis genannt": 2
    }
   },
   {
@@ -67,14 +67,13 @@
    "url": "https://www.innsbrucktermine.at",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 20,
-   "uebernommen": 15,
+   "gefunden": 16,
+   "uebernommen": 14,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "Blasmusik": 3,
-    "ausserhalb des Zeitfensters": 2
+    "Blasmusik": 2
    }
   },
   {
@@ -83,12 +82,12 @@
    "aktiv": true,
    "strategie": "jsonld",
    "gefunden": 56,
-   "uebernommen": 2,
+   "uebernommen": 1,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "kein Ort im Umkreis genannt": 52,
+    "kein Ort im Umkreis genannt": 53,
     "Blasmusik": 2
    }
   },
@@ -203,13 +202,13 @@
    "url": "https://www.treibhaus.at/programm.ics",
    "aktiv": true,
    "strategie": "ics",
-   "gefunden": 84,
-   "uebernommen": 78,
+   "gefunden": 86,
+   "uebernommen": 79,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "ausserhalb des Zeitfensters": 2,
+    "ausserhalb des Zeitfensters": 3,
     "Volksmusik": 2,
     "Blasmusik": 2
    }
@@ -467,8 +466,8 @@
    "url": "https://www.metropol-kino.at/kinoprogramm/metropol",
    "aktiv": true,
    "strategie": "kino",
-   "gefunden": 23,
-   "uebernommen": 23,
+   "gefunden": 24,
+   "uebernommen": 24,
    "fehler": "",
    "grund": "",
    "hinweis": "nur das Programm des laufenden Tages; Spielzeiten kommen clientseitig nach Auswahl eines Datums",
@@ -541,8 +540,8 @@
    "url": "https://www.tiroler-landesmuseen.at/besuch/veranstaltungen/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 9,
-   "uebernommen": 6,
+   "gefunden": 8,
+   "uebernommen": 5,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -671,7 +670,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "HTTP 404",
+   "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {}
@@ -705,12 +704,12 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 10,
-   "uebernommen": 3,
+   "uebernommen": 4,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "ausserhalb des Zeitfensters": 7
+    "ausserhalb des Zeitfensters": 6
    }
   },
   {
@@ -830,12 +829,13 @@
    "url": "https://www.patscherkofelbahn.at/events/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 22,
-   "uebernommen": 21,
+   "gefunden": 25,
+   "uebernommen": 22,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
+    "ausserhalb des Zeitfensters": 2,
     "Ortsmarke statt Titel": 1
    }
   },
@@ -892,13 +892,13 @@
    "url": "https://www.toepferei-ibk.at/kurse",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 3,
-   "uebernommen": 1,
+   "gefunden": 4,
+   "uebernommen": 3,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "ausserhalb des Zeitfensters": 2
+    "ausserhalb des Zeitfensters": 1
    }
   },
   {
@@ -1018,13 +1018,13 @@
    "url": "https://www.standort-tirol.at/veranstaltungen",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 28,
+   "gefunden": 27,
    "uebernommen": 4,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "kein Ort im Umkreis genannt": 24
+    "kein Ort im Umkreis genannt": 23
    }
   },
   {
@@ -1116,13 +1116,13 @@
    "url": "https://www.wasmachma.at/events/bundesland/tirol/flohmarkt",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 7,
+   "gefunden": 8,
    "uebernommen": 0,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "kein Ort im Umkreis genannt": 7
+    "kein Ort im Umkreis genannt": 8
    }
   },
   {
