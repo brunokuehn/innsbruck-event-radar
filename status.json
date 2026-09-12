@@ -1,11 +1,11 @@
 {
- "lauf": "2026-09-12T08:45:04+00:00",
- "termine": 618,
+ "lauf": "2026-09-12T10:57:30+00:00",
+ "termine": 721,
  "serientermine": 123,
- "neu": 61,
+ "neu": 104,
  "quellen_aktiv": 70,
  "quellen_mit_treffern": 37,
- "quellen_mit_fehler": 1,
+ "quellen_mit_fehler": 3,
  "quellen": [
   {
    "quelle": "Innsbruck Tourismus",
@@ -39,12 +39,12 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 10,
-   "uebernommen": 1,
+   "uebernommen": 0,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "kein Ort im Umkreis genannt": 9
+    "kein Ort im Umkreis genannt": 10
    }
   },
   {
@@ -140,12 +140,14 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 114,
-   "uebernommen": 100,
+   "uebernommen": 96,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
+    "Fliesstext statt Titel": 1,
     "ausserhalb des Zeitfensters": 9,
+    "Universitaetsinterna": 3,
     "Volksmusik": 2,
     "Blasmusik": 3
    }
@@ -666,15 +668,17 @@
   },
   {
    "quelle": "Universität Innsbruck",
-   "url": "https://www.uibk.ac.at/events/feed.rss",
+   "url": "https://www.uibk.ac.at/de/events/",
    "aktiv": true,
-   "strategie": "",
-   "gefunden": 0,
-   "uebernommen": 0,
+   "strategie": "jsonld",
+   "gefunden": 116,
+   "uebernommen": 111,
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {
+    "Universitaetsinterna": 5
+   }
   },
   {
    "quelle": "Austria Climbing",
@@ -958,7 +962,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "",
+   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
    "grund": "",
    "hinweis": "",
    "verworfen": {}
@@ -970,7 +974,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "",
+   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
    "grund": "",
    "hinweis": "Server weist Anfragen aus der Github-Aktion mit HTTP 429 ab.",
    "verworfen": {}
@@ -1033,11 +1037,13 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 12,
-   "uebernommen": 12,
+   "uebernommen": 10,
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {
+    "Universitaetsinterna": 2
+   }
   },
   {
    "quelle": "Impact Hub Tirol",

@@ -1,17 +1,11 @@
 {
- "erzeugt": "2026-09-12T08:45:04+00:00",
+ "erzeugt": "2026-09-12T10:57:30+00:00",
  "befunde": [
   {
-   "dringlichkeit": "warnung",
-   "quelle": "Universität Innsbruck",
-   "was": "liefert seit 3 Laeufen nichts, vorher ueblicherweise 30",
-   "rat": "Kommt der Abruf durch, aber der Parser findet nichts, wurde meist das Seitengeruest umgebaut."
-  },
-  {
-   "dringlichkeit": "hinweis",
-   "quelle": "Futterkutter",
-   "was": "liefert wieder",
-   "rat": ""
+   "dringlichkeit": "fehler",
+   "quelle": "Nähcafé",
+   "was": "seit diesem Lauf kaputt: HTTPError: HTTP Error 429: Too Many Requests",
+   "rat": "Zu viele Abrufe. Oft teilen sich mehrere Quellen einen Server -- pruefen, ob eine weitere Quelle auf dieselbe Adresse zeigt."
   }
  ],
  "dauerhaft_still": [],
@@ -82,7 +76,7 @@
     "tag": "2026-09-12",
     "zustand": "ok",
     "gefunden": 114,
-    "behalten": 100,
+    "behalten": 96,
     "fehler": ""
    }
   },
@@ -150,10 +144,10 @@
    "laeufe_erfasst": 10,
    "zuletzt": {
     "tag": "2026-09-12",
-    "zustand": "ok",
+    "zustand": "fehler",
     "gefunden": 0,
     "behalten": 0,
-    "fehler": ""
+    "fehler": "HTTPError: HTTP Error 429: Too Many Requests"
    }
   },
   "Galerie Thomas Flora": {
@@ -302,7 +296,7 @@
     "tag": "2026-09-12",
     "zustand": "ok",
     "gefunden": 12,
-    "behalten": 12,
+    "behalten": 10,
     "fehler": ""
    }
   },
@@ -370,10 +364,10 @@
    "laeufe_erfasst": 10,
    "zuletzt": {
     "tag": "2026-09-12",
-    "zustand": "ok",
+    "zustand": "fehler",
     "gefunden": 0,
     "behalten": 0,
-    "fehler": ""
+    "fehler": "HTTPError: HTTP Error 429: Too Many Requests"
    }
   },
   "Olympiaworld": {
@@ -522,7 +516,7 @@
     "tag": "2026-09-12",
     "zustand": "ok",
     "gefunden": 10,
-    "behalten": 1,
+    "behalten": 0,
     "fehler": ""
    }
   },
@@ -611,8 +605,8 @@
    "zuletzt": {
     "tag": "2026-09-12",
     "zustand": "ok",
-    "gefunden": 0,
-    "behalten": 0,
+    "gefunden": 116,
+    "behalten": 111,
     "fehler": ""
    }
   },
