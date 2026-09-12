@@ -107,6 +107,19 @@
     background: var(--karte); border: 1px solid var(--linie); border-radius: 8px;
     padding: 10px 12px; margin: 14px 0 0;
   }
+  /* Der Jetzt-Strich. Bewusst duenn und ohne Flaeche: er markiert eine
+     Stelle, er ist kein Eintrag. Die Uhrzeit steht links, wo sonst der
+     Tag steht, damit die Spalte ruhig bleibt. */
+  .jetzt { display: flex; align-items: center; gap: 10px; margin: 4px 0;
+           padding: 6px 0; scroll-margin-top: 90px; }
+  .jetzt .uhr { flex: 0 0 44px; text-align: right;
+                font: 600 11px/1 var(--mono); letter-spacing: .04em;
+                color: var(--gletscher); }
+  .jetzt .strich { flex: 1 1 auto; height: 1px; background: var(--gletscher);
+                   opacity: .55; }
+  .jetzt .wort { font: 600 10px/1 var(--mono); letter-spacing: .1em;
+                 text-transform: uppercase; color: var(--gletscher);
+                 opacity: .85; }
   .leer { padding: 44px 4px; color: var(--stein); text-align: center; }
   .lade { padding: 60px 4px; color: var(--stein); text-align: center; font: 400 13px var(--mono); }
   footer { margin-top: 34px; padding-top: 22px; border-top: 1px solid var(--linie);
@@ -183,6 +196,14 @@
     });
   }
   function alsDatum(iso) { return new Date(iso + 'T12:00:00'); }
+
+  // Das heutige Datum in Ortszeit. toISOString() liefert UTC -- zwischen
+  // Mitternacht und zwei Uhr frueh waere hier sonst noch der Vortag, und
+  // die Liste zeigte Termine, die schon vorbei sind.
+  function ortsdatum(d) {
+    return d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) +
+           '-' + ('0' + d.getDate()).slice(-2);
+  }
   function kurz(iso) {
     var d = alsDatum(iso);
     return ('0' + d.getDate()).slice(-2) + '.' + ('0' + (d.getMonth() + 1)).slice(-2) + '.';
@@ -220,11 +241,31 @@
         'zusammengetragen aus allen Innsbrucker Kinos. Spielzeiten geben die ' +
         'Kinoseiten nur im Browser heraus — die stehen hinter dem Filmtitel.</p>');
     }
+    // Der Jetzt-Strich kommt vor den ersten Termin, der noch bevorsteht.
+    // Termine ohne Uhrzeit sortieren ans Tagesende und gelten damit als
+    // "kommt noch" -- das ist die freundlichere Annahme.
+    var jetzt = new Date();
+    var jetztTag = ortsdatum(jetzt);
+    var jetztZeit = ('0' + jetzt.getHours()).slice(-2) + ':' +
+                    ('0' + jetzt.getMinutes()).slice(-2);
+    var markeGesetzt = false;
+
+    function markeHtml() {
+      return '<div class="jetzt" id="jetzt"><span class="uhr">' + jetztZeit +
+             '</span><span class="strich"></span><span class="wort">jetzt</span></div>';
+    }
+
     var monat = '';
     sichtbar.forEach(function (e) {
       var d = alsDatum(e.datum);
       var m = MONATE[d.getMonth()] + ' ' + d.getFullYear();
       if (m !== monat) { monat = m; teile.push('<h2 class="monat">' + m + '</h2>'); }
+
+      if (!markeGesetzt && (e.datum > jetztTag ||
+          (e.datum === jetztTag && (e.zeit || '99:99') >= jetztZeit))) {
+        markeGesetzt = true;
+        teile.push(markeHtml());
+      }
 
       var meta = [];
       if (e.bis) meta.push('bis ' + kurz(e.bis));
@@ -256,8 +297,25 @@
         frist + '</div>' + zu
       );
     });
+    // Ist heute schon alles gelaufen, steht der Strich am Ende.
+    if (!markeGesetzt) teile.push(markeHtml());
+
     liste.innerHTML = teile.join('');
-    window.scrollTo({ top: 0 });
+    zumJetzt();
+  }
+
+  //: Beim ersten Laden zum Jetzt-Strich springen, danach nach oben. Bei
+  //: jedem Filterwechsel dorthin zu springen waere aufdringlich -- wer
+  //: filtert, will die ganze Auswahl sehen.
+  var ersteAnzeige = true;
+
+  function zumJetzt() {
+    if (!ersteAnzeige) { window.scrollTo({ top: 0 }); return; }
+    ersteAnzeige = false;
+    var marke = document.getElementById('jetzt');
+    if (!marke) { window.scrollTo({ top: 0 }); return; }
+    var ziel = marke.getBoundingClientRect().top + window.pageYOffset - 96;
+    window.scrollTo({ top: ziel > 24 ? ziel : 0 });
   }
 
   chips.addEventListener('click', function (ev) {
@@ -288,7 +346,7 @@
   }
 
   hole('events.json').then(function (roh) {
-    var heute = new Date().toISOString().slice(0, 10);
+    var heute = ortsdatum(new Date());
     termine = roh
       .filter(function (e) { return e && e.titel && (e.bis || e.datum) >= heute; })
       .sort(function (a, b) {
