@@ -1,13 +1,6 @@
 {
- "erzeugt": "2026-09-12T10:57:30+00:00",
- "befunde": [
-  {
-   "dringlichkeit": "fehler",
-   "quelle": "Nähcafé",
-   "was": "seit diesem Lauf kaputt: HTTPError: HTTP Error 429: Too Many Requests",
-   "rat": "Zu viele Abrufe. Oft teilen sich mehrere Quellen einen Server -- pruefen, ob eine weitere Quelle auf dieselbe Adresse zeigt."
-  }
- ],
+ "erzeugt": "2026-09-12T11:22:55+00:00",
+ "befunde": [],
  "dauerhaft_still": [],
  "quellen": {
   "Airdrenaline": {
@@ -245,8 +238,8 @@
    "zuletzt": {
     "tag": "2026-09-12",
     "zustand": "ok",
-    "gefunden": 0,
-    "behalten": 0,
+    "gefunden": 225,
+    "behalten": 207,
     "fehler": ""
    }
   },
@@ -364,10 +357,10 @@
    "laeufe_erfasst": 10,
    "zuletzt": {
     "tag": "2026-09-12",
-    "zustand": "fehler",
+    "zustand": "ok",
     "gefunden": 0,
     "behalten": 0,
-    "fehler": "HTTPError: HTTP Error 429: Too Many Requests"
+    "fehler": ""
    }
   },
   "Olympiaworld": {

@@ -1,23 +1,30 @@
 {
- "lauf": "2026-09-12T10:57:30+00:00",
- "termine": 721,
+ "lauf": "2026-09-12T11:22:55+00:00",
+ "termine": 882,
  "serientermine": 123,
- "neu": 104,
+ "neu": 43,
  "quellen_aktiv": 70,
- "quellen_mit_treffern": 37,
- "quellen_mit_fehler": 3,
+ "quellen_mit_treffern": 38,
+ "quellen_mit_fehler": 2,
  "quellen": [
   {
    "quelle": "Innsbruck Tourismus",
    "url": "https://www.innsbruck.info/events/d/alle.html",
    "aktiv": true,
-   "strategie": "",
-   "gefunden": 0,
-   "uebernommen": 0,
+   "strategie": "innsbruckinfo",
+   "gefunden": 225,
+   "uebernommen": 207,
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {
+    "Volksmusik": 3,
+    "Blasmusik": 6,
+    "Fruehschoppen": 1,
+    "kein Ort im Umkreis genannt": 5,
+    "Titel ist nur eine Anschrift": 1,
+    "Trachten": 2
+   }
   },
   {
    "quelle": "TT Events",
@@ -962,7 +969,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
+   "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {}

@@ -173,10 +173,10 @@
   "datum": "2026-09-12",
   "bis": "",
   "zeit": "11:00",
-  "ort": "aut. architektur und tirol, Innsbruck",
-  "url": "https://www.meinbezirk.at/event/innsbruck/c-ausstellung/rebuild-figures-of-space-64-haeuser-im-modell_e3950549",
-  "quelle": "meinbezirk",
-  "kategorie": "kultur",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122260168.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -219,6 +219,19 @@
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "Riding Architecture",
+  "datum": "2026-09-12",
+  "bis": "",
+  "zeit": "13:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122253655.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "InnStrumenti – 3 x Klassik am Berg, Axamer Lizum",
@@ -290,9 +303,9 @@
   "datum": "2026-09-12",
   "bis": "",
   "zeit": "20:00",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbrucktermine.at/veranstaltungen/konzert-alvaro-soler-el-camino-tour-2026?date=1789236000",
-  "quelle": "Innsbruck Termine",
+  "ort": "Telfs",
+  "url": "https://www.innsbruck.info/events/e/122215443.html",
+  "quelle": "Innsbruck Tourismus",
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
@@ -855,7 +868,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Österreichische Staatsmeisterschaft Kanupolo",
@@ -875,9 +888,22 @@
   "datum": "2026-09-13",
   "bis": "",
   "zeit": "08:30",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbrucktermine.at/veranstaltungen/prozession-maria-namen-1?date=1789281000",
-  "quelle": "Innsbruck Termine",
+  "ort": "Mutters",
+  "url": "https://www.innsbruck.info/events/e/122220073.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Erntedank-Prozession in Sistrans",
+  "datum": "2026-09-13",
+  "bis": "",
+  "zeit": "08:45",
+  "ort": "Sistrans",
+  "url": "https://www.innsbruck.info/events/e/122260968.html",
+  "quelle": "Innsbruck Tourismus",
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
@@ -927,9 +953,9 @@
   "datum": "2026-09-13",
   "bis": "",
   "zeit": "10:00",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbrucktermine.at/veranstaltungen/flohmarkt-bei-telfspark?date=1789286400",
-  "quelle": "Innsbruck Termine",
+  "ort": "Telfs",
+  "url": "https://www.innsbruck.info/events/e/122215683.html",
+  "quelle": "Innsbruck Tourismus",
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
@@ -940,9 +966,9 @@
   "datum": "2026-09-13",
   "bis": "",
   "zeit": "10:00",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbrucktermine.at/veranstaltungen/obermieminger-bauernfest-am-steirerhof?date=1789286400",
-  "quelle": "Innsbruck Termine",
+  "ort": "Mieming",
+  "url": "https://www.innsbruck.info/events/e/122227430.html",
+  "quelle": "Innsbruck Tourismus",
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
@@ -953,23 +979,36 @@
   "datum": "2026-09-13",
   "bis": "",
   "zeit": "10:00",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbrucktermine.at/veranstaltungen/schutzengel-prozession-in-kematen?date=1789286400",
-  "quelle": "Innsbruck Termine",
+  "ort": "Kematen in Tirol",
+  "url": "https://www.innsbruck.info/events/e/122281226.html",
+  "quelle": "Innsbruck Tourismus",
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
  },
  {
-  "titel": "Sonntag-Morgen-Yoga am KOFEL",
+  "titel": "Sonntag-Morgen-Yoga am Patscherkofel",
   "datum": "2026-09-13",
   "bis": "",
   "zeit": "10:30",
-  "ort": "Patscherkofel, Innsbruck",
-  "url": "https://www.patscherkofelbahn.at/events/",
-  "quelle": "Patscherkofelbahn",
+  "ort": "Igls",
+  "url": "https://www.innsbruck.info/events/e/122259703.html",
+  "quelle": "Innsbruck Tourismus",
   "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Figurentheater: Rumpelpumpelbumms! (ab 3)",
+  "datum": "2026-09-13",
+  "bis": "",
+  "zeit": "11:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122281024.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -1144,6 +1183,58 @@
   "neu": false
  },
  {
+  "titel": "Weltentfaltung. Zeichnungen des Tiroler Barock",
+  "datum": "2026-09-14",
+  "bis": "",
+  "zeit": "09:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122230959.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Gammeltour der Volkshilfe TIrol",
+  "datum": "2026-09-14",
+  "bis": "",
+  "zeit": "12:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122286046.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Grüne Schätze im Herzen Innsbrucks",
+  "datum": "2026-09-14",
+  "bis": "",
+  "zeit": "13:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122231968.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Golfschnuppern im Golfpark Mieminger Plateau",
+  "datum": "2026-09-14",
+  "bis": "",
+  "zeit": "16:15",
+  "ort": "Mieming",
+  "url": "https://www.innsbruck.info/events/e/122223216.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Klangspuren Schwaz: Solo for One",
   "datum": "2026-09-14",
   "bis": "",
@@ -1157,6 +1248,19 @@
   "neu": false
  },
  {
+  "titel": "Offenes Stimmtraining konkret",
+  "datum": "2026-09-14",
+  "bis": "",
+  "zeit": "17:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122286291.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "kurse",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "“... a cyborg culture’s fear, love, and confusion ...\": Exploring Practices of Human Augmentation through Digital Game Cultures",
   "datum": "2026-09-14",
   "bis": "",
@@ -1167,7 +1271,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Toastmasters – After Work Speakers",
@@ -1183,6 +1287,19 @@
   "neu": false
  },
  {
+  "titel": "Mit Qigong den Tag ausklingen lassen",
+  "datum": "2026-09-14",
+  "bis": "",
+  "zeit": "18:30",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122286374.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Pubquiz Galway Bay",
   "datum": "2026-09-14",
   "bis": "",
@@ -1196,6 +1313,19 @@
   "neu": false
  },
  {
+  "titel": "Telfer Marktl",
+  "datum": "2026-09-15",
+  "bis": "",
+  "zeit": "08:00",
+  "ort": "Telfs",
+  "url": "https://www.innsbruck.info/events/e/122229931.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Beyond the Bans 2026: Policies and Pedagogies in the Post-Digital Era of Restrictions",
   "datum": "2026-09-15",
   "bis": "",
@@ -1206,7 +1336,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Das Blut der Medusa - Die Korallen von Schloss Ambras",
@@ -1245,7 +1375,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Rebuild: Figures of Space: 64 Häuser im Modell",
@@ -1261,6 +1391,45 @@
   "neu": false
  },
  {
+  "titel": "Women Bird- Frauenlauf",
+  "datum": "2026-09-15",
+  "bis": "",
+  "zeit": "18:15",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122003018.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "KI - Fluch oder Segen? Gespräch im Hof",
+  "datum": "2026-09-15",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122284692.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "The Best Of Mike Oldfield’s Tubular Bells I, II & III",
+  "datum": "2026-09-15",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122285422.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Pubquiz Brennpunkt",
   "datum": "2026-09-15",
   "bis": "",
@@ -1271,19 +1440,6 @@
   "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": true,
-  "neu": false
- },
- {
-  "titel": "Tubular Bells",
-  "datum": "2026-09-15",
-  "bis": "",
-  "zeit": "20:00",
-  "ort": "Congress Innsbruck",
-  "url": "https://www.soundevent.at",
-  "quelle": "Congress Messe Innsbruck",
-  "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
   "neu": false
  },
  {
@@ -1310,7 +1466,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Das Blut der Medusa - Die Korallen von Schloss Ambras",
@@ -1352,6 +1508,19 @@
   "neu": false
  },
  {
+  "titel": "Druckgrafik aus Polen-Agnieszka Lech-Binczycka, Pawel Binczycki,...",
+  "datum": "2026-09-16",
+  "bis": "",
+  "zeit": "16:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122283913.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "WER MACHT PAUSE?",
   "datum": "2026-09-16",
   "bis": "",
@@ -1365,6 +1534,19 @@
   "neu": false
  },
  {
+  "titel": "MUSIK.moment",
+  "datum": "2026-09-16",
+  "bis": "",
+  "zeit": "17:15",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122286257.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "History Talk",
   "datum": "2026-09-16",
   "bis": "",
@@ -1373,6 +1555,19 @@
   "url": "https://www.tiroler-landesmuseen.at/haus/zeughaus/",
   "quelle": "Tiroler Landesmuseen",
   "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "New Voices presents MUSS DAS PFERD AUCH ARBEITEN?",
+  "datum": "2026-09-16",
+  "bis": "",
+  "zeit": "20:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122282682.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -1404,6 +1599,32 @@
   "neu": false
  },
  {
+  "titel": "Rapoldipark-Innsbruck Tai Chi 24er Form - Taiji im Park",
+  "datum": "2026-09-17",
+  "bis": "",
+  "zeit": "07:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122272427.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "s'Marktl - Bauernmarkt",
+  "datum": "2026-09-17",
+  "bis": "",
+  "zeit": "08:00",
+  "ort": "Telfs",
+  "url": "https://www.innsbruck.info/events/e/122252474.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Orange the Stuben: Studentische Intervention in der Dauerausstellung des Tiroler Volkskunstmuseums",
   "datum": "2026-09-17",
   "bis": "2026-12-10",
@@ -1412,6 +1633,19 @@
   "url": "https://www.uibk.ac.at/de/events/2026/09/orange-the-stuben/",
   "quelle": "Universität Innsbruck",
   "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "MITTAGS.impuls",
+  "datum": "2026-09-17",
+  "bis": "",
+  "zeit": "12:15",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122286259.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": true
@@ -1427,7 +1661,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Offene Werkstatt Töpferei Kathrein",
@@ -1453,7 +1687,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Abendfahrten mit der Patscherkofelbahn",
@@ -1482,6 +1716,32 @@
   "neu": false
  },
  {
+  "titel": "11. Rotes Sommergespräch mit Michaela Schmidt",
+  "datum": "2026-09-17",
+  "bis": "",
+  "zeit": "17:30",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122285426.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "DNA Trails: The Trail Running Community of Innsbruck",
+  "datum": "2026-09-17",
+  "bis": "",
+  "zeit": "18:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122268313.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "KONZERT DOPPEL: SOPHIE ABRAHAM & GRAVÖGL / CELLO-VIELFALT & FOLK-POESIE",
   "datum": "2026-09-17",
   "bis": "",
@@ -1495,17 +1755,17 @@
   "neu": false
  },
  {
-  "titel": "Sundown-Yoga am KOFEL",
+  "titel": "Sundown-Yoga am Patscherkofel",
   "datum": "2026-09-17",
   "bis": "",
   "zeit": "18:30",
-  "ort": "Patscherkofel, Innsbruck",
-  "url": "https://www.patscherkofelbahn.at/events/",
-  "quelle": "Patscherkofelbahn",
+  "ort": "Igls",
+  "url": "https://www.innsbruck.info/events/e/122259701.html",
+  "quelle": "Innsbruck Tourismus",
   "kategorie": "sport",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": false
+  "neu": true
  },
  {
   "titel": "ASS WHOOPINGS : BEATDOWN SHOW WITH TERRORIST (IT) | JORELIA (IT) | LAST ENCOUNTER (CZ) | HAMMERTIME (IT)",
@@ -1516,6 +1776,45 @@
   "url": "https://www.pmk.or.at/de/events/ass-whoopings-beatdown-show-with-terrorist-it-joreli",
   "quelle": "p.m.k",
   "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Ein Mords-Sonntag",
+  "datum": "2026-09-17",
+  "bis": "",
+  "zeit": "19:30",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122272761.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "KLANGSPUREN - INTIMACY",
+  "datum": "2026-09-17",
+  "bis": "",
+  "zeit": "20:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122274265.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "New Voices presents TERESAS KÖRPER",
+  "datum": "2026-09-17",
+  "bis": "",
+  "zeit": "20:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122282680.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -1544,7 +1843,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Kraut & Knolle geht in die zweite Runde",
@@ -1555,6 +1854,19 @@
   "url": "https://www.meinbezirk.at/event/innsbruck/c-markt-basar/kraut-and-knolle-geht-in-die-zweite-runde_e3989783",
   "quelle": "meinbezirk",
   "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Kasperl und Gretel backen eine Apfelkuchen",
+  "datum": "2026-09-18",
+  "bis": "",
+  "zeit": "15:00",
+  "ort": "Zirl",
+  "url": "https://www.innsbruck.info/events/e/122278612.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -1573,6 +1885,19 @@
   "neu": false
  },
  {
+  "titel": "KLANGSPUREN - AUF DASS WIR SO VERWANDELT WERDEN",
+  "datum": "2026-09-18",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122274268.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "HC TIWAG Innsbruck - Milano HC",
   "datum": "2026-09-18",
   "bis": "",
@@ -1586,6 +1911,32 @@
   "neu": false
  },
  {
+  "titel": "Akkordeon3",
+  "datum": "2026-09-18",
+  "bis": "",
+  "zeit": "20:00",
+  "ort": "Axams",
+  "url": "https://www.innsbruck.info/events/e/122284687.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Bramböck/Kuttler Konsortium - Organ Intermezzo",
+  "datum": "2026-09-18",
+  "bis": "",
+  "zeit": "20:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122278024.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "CONCERT IN THE DARK - KLANGSPUREN AT PMK",
   "datum": "2026-09-18",
   "bis": "",
@@ -1594,19 +1945,6 @@
   "url": "https://www.pmk.or.at/de/events/concert-in-the-dark---klangspuren-at-pmk",
   "quelle": "p.m.k",
   "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Auf dass wir so verwandelt werden",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Haus der Musik, Innsbruck",
-  "url": "https://www.haus-der-musik-innsbruck.at/veranstaltung/auf-dass-wir-so-verwandelt-werden-18-09-26/",
-  "quelle": "Haus der Musik",
-  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -1638,6 +1976,19 @@
   "neu": false
  },
  {
+  "titel": "Oktoberfest",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "00:00",
+  "ort": "Axams",
+  "url": "https://www.innsbruck.info/events/e/122262676.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Kinderflohmarkt",
   "datum": "2026-09-19",
   "bis": "",
@@ -1646,6 +1997,19 @@
   "url": "https://www.olympiaworld.at/events-tickets/kinderflohmarkt/",
   "quelle": "Olympiaworld",
   "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "IN TELFS LAFT'S",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "09:00",
+  "ort": "Telfs",
+  "url": "https://www.innsbruck.info/events/e/122253426.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -1664,6 +2028,58 @@
   "neu": false
  },
  {
+  "titel": "Nordkette Vertical Run",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "10:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122167163.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "FÜHRUNG DURCH DIE AUSSTELLUNG \"RLB KUNSTPREIS 2026\"",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "10:30",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122278446.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "KLANGSPUREN - STADT.KLANG.SPUREN",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "11:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122274537.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Almabtrieb in Patsch",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "12:00",
+  "ort": "Patsch",
+  "url": "https://www.innsbruck.info/events/e/122286261.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Markt am Tivoli Flohmarkt",
   "datum": "2026-09-19",
   "bis": "",
@@ -1672,6 +2088,19 @@
   "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/tivolimarkt-innsbruck",
   "quelle": "flohmarkt.at",
   "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Almabtrieb Mutters",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "12:30",
+  "ort": "Mutters",
+  "url": "https://www.innsbruck.info/events/e/122220072.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -1700,7 +2129,20 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
+ },
+ {
+  "titel": "Oktoberfest der Freiwilligen Feuerwehr Obsteig",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "15:00",
+  "ort": "Obsteig",
+  "url": "https://www.innsbruck.info/events/e/122284835.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
  },
  {
   "titel": "Flohmarkt von und für Kinder",
@@ -1729,6 +2171,19 @@
   "neu": false
  },
  {
+  "titel": "Hoftafel: Speisen und Spüren in Oberhofen",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "18:00",
+  "ort": "Oberhofen im Inntal",
+  "url": "https://www.innsbruck.info/events/e/122284479.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "DIE GOLDENE SCHINDEL OPENING w/ FLORENCE ARMAN & BAND",
   "datum": "2026-09-19",
   "bis": "",
@@ -1737,6 +2192,19 @@
   "url": "https://www.pmk.or.at/de/events/die-goldene-schindel-opening-w-florence-arman-band",
   "quelle": "p.m.k",
   "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "KLANGSPUREN - CONCERT IN THE DARK",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "21:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122274269.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -1781,19 +2249,6 @@
   "neu": false
  },
  {
-  "titel": "In Telfs laft’s",
-  "datum": "2026-09-19",
-  "bis": "",
-  "zeit": "",
-  "ort": "",
-  "url": "https://www.runme.at/oesterreich/in-telfs-laft-s/",
-  "quelle": "Laufkalender Tirol",
-  "kategorie": "sport",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Inklusions-Wanderung zum Alpengasthaus St. Magdalena",
   "datum": "2026-09-19",
   "bis": "",
@@ -1801,19 +2256,6 @@
   "ort": "Innsbruck",
   "url": "https://www.alpenverein.at/innsbruck/termine/index_detail.php?veranstaltungID=6d6c2548-0d56-4b38-a29c-13f24e81c1c7&oa=1",
   "quelle": "Alpenverein Innsbruck",
-  "kategorie": "sport",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Nordkette Vertical Run",
-  "datum": "2026-09-19",
-  "bis": "",
-  "zeit": "",
-  "ort": "Nordkette, Innsbruck",
-  "url": "https://map.max2.at/NordketteVerticalRun",
-  "quelle": "Nordkette Vertical Run",
   "kategorie": "sport",
   "anmeldeschluss": "",
   "serie": false,
@@ -1898,6 +2340,45 @@
   "neu": false
  },
  {
+  "titel": "Lamberti Prozession in Lans",
+  "datum": "2026-09-20",
+  "bis": "",
+  "zeit": "08:45",
+  "ort": "Lans",
+  "url": "https://www.innsbruck.info/events/e/122269858.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "FAFGA MEETS FUTURE 2026",
+  "datum": "2026-09-20",
+  "bis": "",
+  "zeit": "10:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122281223.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "122 Jahre Feuerwehr Vill",
+  "datum": "2026-09-20",
+  "bis": "",
+  "zeit": "10:30",
+  "ort": "Innsbruck Igls",
+  "url": "https://www.innsbruck.info/events/e/122285201.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Sonntag-Morgen-Yoga am KOFEL",
   "datum": "2026-09-20",
   "bis": "",
@@ -1906,6 +2387,32 @@
   "url": "https://www.patscherkofelbahn.at/events/",
   "quelle": "Patscherkofelbahn",
   "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Figurentheater: Kaspers Kürbisfest (ab 3)",
+  "datum": "2026-09-20",
+  "bis": "",
+  "zeit": "11:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122281025.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Almmesse beim Weidenhof",
+  "datum": "2026-09-20",
+  "bis": "",
+  "zeit": "11:30",
+  "ort": "Sellrain",
+  "url": "https://www.innsbruck.info/events/e/122230817.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -1932,6 +2439,19 @@
   "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/flohmarkt-metro-rum-bei-innsbruck",
   "quelle": "flohmarkt.at",
   "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "The Power and the Glory - Konzert des Kirchenchor Kematen",
+  "datum": "2026-09-20",
+  "bis": "",
+  "zeit": "18:00",
+  "ort": "Kematen in Tirol",
+  "url": "https://www.innsbruck.info/events/e/122284697.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -2025,7 +2545,7 @@
   "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Dream4Utopia - Youth exchange",
@@ -2049,6 +2569,19 @@
   "url": "https://www.uibk.ac.at/de/events/2026/09/informiert-ins-studium/",
   "quelle": "Universität Innsbruck",
   "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Gammeltour der Volkshilfe TIrol",
+  "datum": "2026-09-21",
+  "bis": "",
+  "zeit": "12:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122286048.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
   "neu": true
@@ -2116,7 +2649,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Informiert ins Studium – für alle Erstsemestrigen",
@@ -2129,7 +2662,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Tiroler Tourismusgespräche",
@@ -2168,7 +2701,7 @@
   "kategorie": "sport",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Pubquiz Brennpunkt",
@@ -2207,7 +2740,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Sensing Mountains: Innsbruck Summer School of Alpine Research",
@@ -2220,7 +2753,7 @@
   "kategorie": "sport",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Offene Werkstatt Töpferei Kathrein",
@@ -2246,7 +2779,7 @@
   "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Haupttagung der ÖGSD: Interaktion, Inklusion und Innovation im Sprachunterricht: Tag 1",
@@ -2259,7 +2792,20 @@
   "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
+ },
+ {
+  "titel": "Staatspreis Design 2026 - Best of Austrian Design -...",
+  "datum": "2026-09-23",
+  "bis": "",
+  "zeit": "18:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122284693.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
  },
  {
   "titel": "JOHN COLTRANE – MY FAVORiTE THiNGS: EIN TRIBUTE KONZERT DER TIROLER SZENE",
@@ -2298,7 +2844,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Take my Breath Away: Queer World-Making and ...",
@@ -2327,6 +2873,19 @@
   "neu": false
  },
  {
+  "titel": "Geldgeschichten – Von Macht, Vertrauen und Wandel",
+  "datum": "2026-09-24",
+  "bis": "",
+  "zeit": "08:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122286253.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Haupttagung der ÖGSD: Interaktion, Inklusion und Innovation im Sprachunterricht: Tag 2",
   "datum": "2026-09-24",
   "bis": "",
@@ -2337,7 +2896,7 @@
   "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "NeoLatina 2026: Alte, neue Autoritäten im Dienst der Selbstdarstellung neulateinischer Autor*innen",
@@ -2350,7 +2909,20 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
+ },
+ {
+  "titel": "Staatspreis Design 2026 – Best of Austrian Design",
+  "datum": "2026-09-24",
+  "bis": "",
+  "zeit": "13:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122284694.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
  },
  {
   "titel": "Offene Werkstatt Töpferei Kathrein",
@@ -2379,6 +2951,19 @@
   "neu": false
  },
  {
+  "titel": "After-Work Führung durch die Ausstellung 'Rebuild: Figures of...",
+  "datum": "2026-09-24",
+  "bis": "",
+  "zeit": "18:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122285420.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "führung durch die ausstellung \"rebuild: figures of space\" mit aperitif",
   "datum": "2026-09-24",
   "bis": "",
@@ -2387,6 +2972,19 @@
   "url": "https://aut.cc/veranstaltungen/fuehrung-rebuild-2",
   "quelle": "aut. architektur und tirol",
   "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Hoftafel: Speisen und Spüren in Aldrans",
+  "datum": "2026-09-24",
+  "bis": "",
+  "zeit": "18:00",
+  "ort": "Aldrans",
+  "url": "https://www.innsbruck.info/events/e/122284686.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -2431,6 +3029,19 @@
   "neu": false
  },
  {
+  "titel": "Lesecafé mit Nikolaus Kowall",
+  "datum": "2026-09-24",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122285423.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Darkness Darkness • album listening session in ...",
   "datum": "2026-09-24",
   "bis": "",
@@ -2444,14 +3055,14 @@
   "neu": false
  },
  {
-  "titel": "Sundown Dance am KOFEL",
+  "titel": "Sundown-Dance am Patscherkofel",
   "datum": "2026-09-24",
   "bis": "",
   "zeit": "19:30",
-  "ort": "Patscherkofel, Innsbruck",
-  "url": "https://www.patscherkofelbahn.at/events/",
-  "quelle": "Patscherkofelbahn",
-  "kategorie": "sport",
+  "ort": "Igls",
+  "url": "https://www.innsbruck.info/events/e/122260146.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -2493,7 +3104,7 @@
   "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "World Cafe & Exhibition",
@@ -2507,6 +3118,32 @@
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "Bella Italia - Fest am Bozner Platz",
+  "datum": "2026-09-25",
+  "bis": "",
+  "zeit": "15:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122284019.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Paperwork - Vortrag von Jumping He",
+  "datum": "2026-09-25",
+  "bis": "",
+  "zeit": "15:30",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122284695.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "KUNST: KOMÖDIE VON YASMINA REZA / MIT C. GRISSEMANN, M. RUBEY UND R. STACHEL",
@@ -2530,6 +3167,45 @@
   "url": "https://www.treibhaus.at/programm/2026/09/25/15189-kumbia-queers-frauentropipunkrock-fernweh-argentinien",
   "quelle": "Treibhaus",
   "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "12meat Social Dinner: Offline-Tisch für Begegnung",
+  "datum": "2026-09-25",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122283971.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "KLANGSPUREN - TRIPTYCHON: KÖRPER - STIMME - PULS",
+  "datum": "2026-09-25",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122277903.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "The Rocky Horror Show",
+  "datum": "2026-09-25",
+  "bis": "",
+  "zeit": "19:30",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122167402.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -2561,6 +3237,19 @@
   "neu": false
  },
  {
+  "titel": "Zarah 47 - Das totale Lied",
+  "datum": "2026-09-25",
+  "bis": "",
+  "zeit": "20:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122214546.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Dick Brave - Back for Good / Back for More Tour 2026",
   "datum": "2026-09-25",
   "bis": "2026-09-26",
@@ -2587,19 +3276,6 @@
   "neu": false
  },
  {
-  "titel": "Zarah 47. Das totale Lied",
-  "datum": "2026-09-25",
-  "bis": "",
-  "zeit": "",
-  "ort": "Haus der Musik, Innsbruck",
-  "url": "https://www.haus-der-musik-innsbruck.at/veranstaltung/zarah-47-das-totale-lied-25-09-26/",
-  "quelle": "Haus der Musik",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Firmenlauf Garderobe 2026",
   "datum": "2026-09-26",
   "bis": "",
@@ -2608,6 +3284,45 @@
   "url": "https://www.tirolerfirmenlauf.at/teilnahmeinfo/",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "MONSTER CHETWYND",
+  "datum": "2026-09-26",
+  "bis": "",
+  "zeit": "10:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122284713.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Typowalk #33: Wilten Süd",
+  "datum": "2026-09-26",
+  "bis": "",
+  "zeit": "10:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122284696.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "7. Koi Bar Food Festival am Lanser See",
+  "datum": "2026-09-26",
+  "bis": "",
+  "zeit": "12:00",
+  "ort": "Lans",
+  "url": "https://www.innsbruck.info/events/e/122283606.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -2639,6 +3354,19 @@
   "neu": false
  },
  {
+  "titel": "Tiroler Firmenlauf 2026",
+  "datum": "2026-09-26",
+  "bis": "",
+  "zeit": "15:30",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122285206.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "HC TIWAG Innsbruck - Hydro Fehervar AV 19",
   "datum": "2026-09-26",
   "bis": "",
@@ -2647,6 +3375,19 @@
   "url": "https://www.olympiaworld.at/events-tickets/hc-tiwag-innsbruck-hydro-fehervar-av-19/",
   "quelle": "Olympiaworld",
   "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Hoftafel: Speisen und Spüren in Innsbruck",
+  "datum": "2026-09-26",
+  "bis": "",
+  "zeit": "18:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122284576.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -2665,6 +3406,19 @@
   "neu": false
  },
  {
+  "titel": "Open Air Kino am St. Bartlmä Kirchlein",
+  "datum": "2026-09-26",
+  "bis": "",
+  "zeit": "18:30",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122280944.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "A Wave and Waves",
   "datum": "2026-09-26",
   "bis": "",
@@ -2673,6 +3427,19 @@
   "url": "https://klangspuren.at/festival/festival-programm/festival-detail/a-wave-and-waves/",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "KLANGSPUREN - CODEBORN",
+  "datum": "2026-09-26",
+  "bis": "",
+  "zeit": "19:30",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122274969.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -2699,19 +3466,6 @@
   "url": "https://www.pmk.or.at/de/events/aural-visions-v-videodrome-laster-rosa-nebel",
   "quelle": "p.m.k",
   "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Codeborn",
-  "datum": "2026-09-26",
-  "bis": "",
-  "zeit": "",
-  "ort": "Haus der Musik, Innsbruck",
-  "url": "https://www.haus-der-musik-innsbruck.at/veranstaltung/codeborn-26-09-26/",
-  "quelle": "Haus der Musik",
-  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -2769,6 +3523,19 @@
   "neu": false
  },
  {
+  "titel": "Schutzengel Prozession in Aldrans",
+  "datum": "2026-09-27",
+  "bis": "",
+  "zeit": "09:00",
+  "ort": "Aldrans",
+  "url": "https://www.innsbruck.info/events/e/122269865.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Archäologisches Universitätsmuseum beim Tag des Denkmals",
   "datum": "2026-09-27",
   "bis": "",
@@ -2779,17 +3546,17 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Mountain Echos am KOFEL",
   "datum": "2026-09-27",
   "bis": "",
-  "zeit": "10:10",
-  "ort": "Patscherkofel, Innsbruck",
-  "url": "https://www.patscherkofelbahn.at/events/",
-  "quelle": "Patscherkofelbahn",
-  "kategorie": "sport",
+  "zeit": "10:00",
+  "ort": "Patsch Igls",
+  "url": "https://www.innsbruck.info/events/e/122278773.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -2912,6 +3679,19 @@
   "neu": false
  },
  {
+  "titel": "Ottavio plus",
+  "datum": "2026-09-28",
+  "bis": "",
+  "zeit": "20:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122255738.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Pubquiz Galway Bay",
   "datum": "2026-09-28",
   "bis": "",
@@ -2925,6 +3705,19 @@
   "neu": false
  },
  {
+  "titel": "Kirchenpatrozinium mit Prozession",
+  "datum": "2026-09-29",
+  "bis": "",
+  "zeit": "09:00",
+  "ort": "Natters",
+  "url": "https://www.innsbruck.info/events/e/122041100.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Infosession Studienstart",
   "datum": "2026-09-29",
   "bis": "",
@@ -2935,7 +3728,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Walk & Talk gegen Einsamkeit: Gemeinsam geht mehr",
@@ -2961,7 +3754,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "MARKUS KOSCHUH: RETTE SICH WER KANN / KABARETT ZUM TOTLACHEN",
@@ -3000,7 +3793,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Offene Werkstatt Töpferei Kathrein",
@@ -3026,7 +3819,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Atelier 6020 minis. Auf Moos geht ́s los!",
@@ -3052,7 +3845,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Wissen. Wirtschaft. Wirkung. Industrie und Forschung im Dialog: Materialien und Prozesse",
@@ -3195,7 +3988,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Universitätsstudiengang Zertifizierte Kanzleiassistenz",
@@ -3208,7 +4001,7 @@
   "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Offene Werkstatt Töpferei Kathrein",
@@ -3273,7 +4066,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "HEARTS HEARTS • Stupid Stars Tour",
@@ -3287,6 +4080,19 @@
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "KI essen Seele auf",
+  "datum": "2026-10-01",
+  "bis": "",
+  "zeit": "20:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122286165.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "Peter Cornelius",
@@ -3351,7 +4157,7 @@
   "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Kunsthandwerksmarkt Markthalle",
@@ -3377,7 +4183,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "ULTIMATE PLAYGROUND // FLINTA*-Sportler*innen",
@@ -3393,6 +4199,19 @@
   "neu": false
  },
  {
+  "titel": "BEER ALPS FESTIVAL 2026",
+  "datum": "2026-10-02",
+  "bis": "",
+  "zeit": "13:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122268336.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "uWIN Sprechen ohne Worte: Nonverbale Kommunikation und Emotionsmanagement",
   "datum": "2026-10-02",
   "bis": "2026-10-03",
@@ -3403,7 +4222,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Die Rolle von Vertrauen und Kooperation für den Erfolg von Menschen & Organisationen",
@@ -3416,7 +4235,33 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
+ },
+ {
+  "titel": "Shopping Night Oktober",
+  "datum": "2026-10-02",
+  "bis": "",
+  "zeit": "17:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122282419.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Fäaschtbänkler",
+  "datum": "2026-10-02",
+  "bis": "",
+  "zeit": "18:30",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122285424.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
  },
  {
   "titel": "Ascension - A Burlesque Show by Nocturnal ...",
@@ -3510,14 +4355,53 @@
   "neu": false
  },
  {
-  "titel": "Lange Nacht der Museen 2026 \"Rebuild: Figures of Space\"",
+  "titel": "G'schmackig & G'schickt - Der Axamer Monatsmarkt am Dorfplatz",
   "datum": "2026-10-03",
   "bis": "",
-  "zeit": "18:00",
-  "ort": "aut, Innsbruck",
-  "url": "https://aut.cc/veranstaltungen/lange-nacht-der-museen-2026",
-  "quelle": "aut. architektur und tirol",
-  "kategorie": "kultur",
+  "zeit": "09:00",
+  "ort": "Axams",
+  "url": "https://www.innsbruck.info/events/e/122220069.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "ICONS: The Art of Portraiture. From Hollywood Legends to Austrian...",
+  "datum": "2026-10-03",
+  "bis": "",
+  "zeit": "11:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122285325.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Tierheimfest & Tag der offenen Tür im Tierheim Mentlberg",
+  "datum": "2026-10-03",
+  "bis": "",
+  "zeit": "12:30",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122285418.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "13_13 | 24-Stunden-Laufevent",
+  "datum": "2026-10-03",
+  "bis": "",
+  "zeit": "13:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122222914.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "sport",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -3533,7 +4417,20 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
+ },
+ {
+  "titel": "Lange Nacht der Museen 2026: Rebuild: Figures of Space. 64 Häuser...",
+  "datum": "2026-10-03",
+  "bis": "",
+  "zeit": "18:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122285584.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
  },
  {
   "titel": "LITTLE ELEMENT // INDIE, TRIP-HOP, GLOBAL SOUNDS AUS INNSBRUCK",
@@ -3614,6 +4511,32 @@
   "neu": false
  },
  {
+  "titel": "Oktoberfest",
+  "datum": "2026-10-04",
+  "bis": "",
+  "zeit": "10:00",
+  "ort": "Völs",
+  "url": "https://www.innsbruck.info/events/e/122276657.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Oldtimer Sonntag Tirol – Das monatliche Oldtimertreffen!",
+  "datum": "2026-10-04",
+  "bis": "",
+  "zeit": "10:00",
+  "ort": "Rum",
+  "url": "https://www.innsbruck.info/events/e/122273882.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Sonntag-Morgen-Yoga am KOFEL",
   "datum": "2026-10-04",
   "bis": "",
@@ -3622,6 +4545,32 @@
   "url": "https://www.patscherkofelbahn.at/events/",
   "quelle": "Patscherkofelbahn",
   "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Figurentheater: Zack Prack! Ein Drache zum Verlieben (ab 4)",
+  "datum": "2026-10-04",
+  "bis": "",
+  "zeit": "11:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122281026.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Herbstfest im Mühlauer Fuchsloch",
+  "datum": "2026-10-04",
+  "bis": "",
+  "zeit": "13:30",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122285337.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -3648,6 +4597,19 @@
   "url": "https://www.treibhaus.at/programm/2026/10/04/14987-severin-groebner-ich-bin-das-volk-kabarett-kabarett-premierentage",
   "quelle": "Treibhaus",
   "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "AVANTGARDE UND ZEITGEIST: Pilgerklang",
+  "datum": "2026-10-04",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Götzens",
+  "url": "https://www.innsbruck.info/events/e/122220064.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -3689,7 +4651,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "„Dorfoase“: Orte der Begegnung im Dorf",
@@ -3702,7 +4664,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Lieben Lecture: Memory of Chirality in Radical Chemistry",
@@ -3715,7 +4677,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "FLORIAN KLENK & FLORIAN SCHEUBA: SAG DU, FLORIAN, WAS IST JETZT SCHON WIEDER",
@@ -3741,7 +4703,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Infosession Studienstart",
@@ -3754,7 +4716,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "FSP-Tag: Do we still care? Über Demokratien in Krise",
@@ -3767,7 +4729,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Metabolisch-Bariatrische Chirurgie – Sexy or not?",
@@ -3780,7 +4742,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "THOMAS MAURER: IM FALSCHEN FILM // DIE TIROL-PREMIERE DES NEUEN PROGRAMMS",
@@ -3809,6 +4771,19 @@
   "neu": false
  },
  {
+  "titel": "Workshop: CLOWN*LAB",
+  "datum": "2026-10-06",
+  "bis": "",
+  "zeit": "18:30",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122285215.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "kurse",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Katherina Braschel \"Heim holen\" & Miriam Unterthiner \"Blutbrot\"",
   "datum": "2026-10-06",
   "bis": "",
@@ -3819,7 +4794,33 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
+ },
+ {
+  "titel": "Psychosoziale Aspekte in der Transplantationsmedizin",
+  "datum": "2026-10-06",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122283981.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Innsbrucker Herbstmesse 2026",
+  "datum": "2026-10-07",
+  "bis": "",
+  "zeit": "10:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122281225.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
  },
  {
   "titel": "Museum im Werden – Museumspraxis und Museologie: Museum: radikal demokratisch",
@@ -3832,7 +4833,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "THOMAS MAURER: IM FALSCHEN FILM // DIE TIROL-PREMIERE DES NEUEN PROGRAMMS",
@@ -3874,14 +4875,14 @@
   "neu": false
  },
  {
-  "titel": "Innsbrucker Herbstmesse 2026",
-  "datum": "2026-10-07",
-  "bis": "2026-10-11",
-  "zeit": "",
-  "ort": "Congress Innsbruck",
-  "url": "https://www.herbstmesse.info/?mtm_campaign=cmi.at&mtm_source=cmi.at-event-highlight&mtm_medium=link",
-  "quelle": "Congress Messe Innsbruck",
-  "kategorie": "markt",
+  "titel": "Yoga Retreat",
+  "datum": "2026-10-08",
+  "bis": "",
+  "zeit": "00:00",
+  "ort": "Mieming",
+  "url": "https://www.innsbruck.info/events/e/122280606.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "sport",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -3895,6 +4896,19 @@
   "url": "https://www.patscherkofelbahn.at/events/",
   "quelle": "Patscherkofelbahn",
   "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Backkurs - Regionale Brotköstlichkeiten",
+  "datum": "2026-10-08",
+  "bis": "",
+  "zeit": "17:30",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122214953.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -3924,6 +4938,19 @@
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "sto lecture: Astrid Staufer (Staufer & Hasler Architekten):...",
+  "datum": "2026-10-08",
+  "bis": "",
+  "zeit": "18:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122286262.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "Törggelen im Das Kofel",
@@ -3960,6 +4987,19 @@
   "url": "https://aut.cc/veranstaltungen/vortrag-astrid-staufer",
   "quelle": "aut. architektur und tirol",
   "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "VORBRENNER: Photosensitives",
+  "datum": "2026-10-08",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122281059.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -4040,7 +5080,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Angewandte Ethik",
@@ -4053,7 +5093,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "RENAUD GARCIA FONS & BLUE MAQAM // DER PAGANINI DES KONTRABASSES",
@@ -4121,6 +5161,19 @@
   "neu": false
  },
  {
+  "titel": "Völser Markttag",
+  "datum": "2026-10-10",
+  "bis": "",
+  "zeit": "08:00",
+  "ort": "Völs",
+  "url": "https://www.innsbruck.info/events/e/122276740.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Festival der Zeremonien",
   "datum": "2026-10-10",
   "bis": "",
@@ -4129,6 +5182,19 @@
   "url": "https://www.icar2026.at/registration",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "kurse",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Walk the Futures beim Innsbruck Nature Film Festival",
+  "datum": "2026-10-10",
+  "bis": "",
+  "zeit": "10:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122281487.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -4181,6 +5247,32 @@
   "url": "https://www.treibhaus.at/programm/2026/10/10/15249-mothers-cake-26-jahre-creations-finest-off-the-beaten-track",
   "quelle": "Treibhaus",
   "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Theaterstück \"Extrawurst\" Oberperfuss",
+  "datum": "2026-10-10",
+  "bis": "",
+  "zeit": "19:30",
+  "ort": "Oberperfuss",
+  "url": "https://www.innsbruck.info/events/e/122284683.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Oktoberfest der LJ/JB Gries im Sellrain",
+  "datum": "2026-10-10",
+  "bis": "",
+  "zeit": "20:30",
+  "ort": "Gries im Sellrain",
+  "url": "https://www.innsbruck.info/events/e/122283049.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -4251,6 +5343,19 @@
   "neu": false
  },
  {
+  "titel": "Erntedankfest",
+  "datum": "2026-10-11",
+  "bis": "",
+  "zeit": "10:00",
+  "ort": "Mutters",
+  "url": "https://www.innsbruck.info/events/e/122220067.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Sonntag-Morgen-Yoga am KOFEL",
   "datum": "2026-10-11",
   "bis": "",
@@ -4259,6 +5364,19 @@
   "url": "https://www.patscherkofelbahn.at/events/",
   "quelle": "Patscherkofelbahn",
   "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Figurentheater: Kasperl, Zwergerl und das funkelnde Geheimnis (ab...",
+  "datum": "2026-10-11",
+  "bis": "",
+  "zeit": "11:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122281060.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -4298,6 +5416,19 @@
   "url": "https://www.treibhaus.at/programm/2026/10/11/14820-krimifest-bernhard-aichner-die-totenfrau-kehrt-zurueck",
   "quelle": "Treibhaus",
   "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "AVANTGARDE UND ZEITGEIST: Klang der Herzen – Klang der Sehnsucht",
+  "datum": "2026-10-11",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Götzens",
+  "url": "https://www.innsbruck.info/events/e/122231966.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -4352,7 +5483,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Structure and function of cobalamin-dependent Radical SAM methyltransferases",
@@ -4365,7 +5496,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "KRIMIFEST // STEVE CAVANAGH: KILL FOR ME",
@@ -4404,7 +5535,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Eröffnung der International Days 2026: Gemeinsam. International.",
@@ -4417,7 +5548,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "CHRISTOPH & LOLLO: ALLES GUT. ALLES GUT? // ALBUM TAUFE",
@@ -4459,6 +5590,19 @@
   "neu": false
  },
  {
+  "titel": "Das perfekte Plagiat",
+  "datum": "2026-10-13",
+  "bis": "",
+  "zeit": "18:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122285221.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Schmelzende Zeugen: Klimakommunikation am Beispiel der Alpengletscher: Nina Maria Allmoslechner, Wolfgang Gurgiser und Chris Matt",
   "datum": "2026-10-13",
   "bis": "",
@@ -4469,7 +5613,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "„Messingguss in der Renaissance: Innsbrucks Schwarze Mander“",
@@ -4482,7 +5626,20 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
+ },
+ {
+  "titel": "Ein Mords-Sonntag",
+  "datum": "2026-10-13",
+  "bis": "",
+  "zeit": "20:00",
+  "ort": "Axams",
+  "url": "https://www.innsbruck.info/events/e/122285415.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
  },
  {
   "titel": "4. BIOTECH SUMMIT AUSTRIA 2026",
@@ -4508,7 +5665,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Fulbright Informationsveranstaltung: Eine im Rahmen der International Days 2026",
@@ -4521,7 +5678,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Ringvorlesung Klimaschutz: “Introduction to the Lecture Series: Winter Semester 2026/27”",
@@ -4534,7 +5691,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "DIRK STERMANN: 20 SPRITZER BIS AMSTETTEN // DAS NEUE PROGRAMM",
@@ -4612,7 +5769,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Abendfahrten mit der Patscherkofelbahn",
@@ -4651,7 +5808,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "POSITIVE FUTURES FESTIVAL 2026 // ERÖFFNUNG: CLEO REED & MERAL POLAT",
@@ -4675,6 +5832,19 @@
   "url": "https://www.patscherkofelbahn.at/events/",
   "quelle": "Patscherkofelbahn",
   "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Cosmó",
+  "datum": "2026-10-15",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122285425.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -4745,6 +5915,19 @@
   "neu": false
  },
  {
+  "titel": "Triolino – Flöten-Flausen (Kinder ab 3 J.)",
+  "datum": "2026-10-16",
+  "bis": "",
+  "zeit": "15:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122285216.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "MIP Alumni Homecoming Day 2026",
   "datum": "2026-10-16",
   "bis": "",
@@ -4755,7 +5938,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "DIRK STERMANN: 20 SPRITZER BIS AMSTETTEN // DAS NEUE PROGRAMM",
@@ -4807,7 +5990,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "HONAHLEI • Die Bäckerei • Upload on Tour",
@@ -4831,6 +6014,19 @@
   "url": "https://www.diametrale.at/festivals/2026-diametrale-nachtvisionen/program/reflection-in-a-dead-diamond-wattens/",
   "quelle": "DIAMETRALE",
   "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Maria Ma Pur",
+  "datum": "2026-10-16",
+  "bis": "",
+  "zeit": "20:00",
+  "ort": "Axams",
+  "url": "https://www.innsbruck.info/events/e/122284836.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -4872,7 +6068,33 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
+ },
+ {
+  "titel": "Tapas mit Pfiff Tour",
+  "datum": "2026-10-17",
+  "bis": "",
+  "zeit": "13:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122279604.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Stadtteilfest am Inn",
+  "datum": "2026-10-17",
+  "bis": "",
+  "zeit": "14:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122282420.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
  },
  {
   "titel": "Circus Roncalli 2026",
@@ -4898,7 +6120,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "CHRISTOF SPÖRK: MAXIMO LIEDER // KABARETT IN KOOP KKI",
@@ -5005,6 +6227,19 @@
   "neu": false
  },
  {
+  "titel": "Drag Brunch Innsbruck",
+  "datum": "2026-10-18",
+  "bis": "",
+  "zeit": "11:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122256085.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Adele Sympho Show & Hans Zimmer 2 Shows",
   "datum": "2026-10-18",
   "bis": "",
@@ -5039,6 +6274,32 @@
   "url": "https://www.treibhaus.at/programm/2026/10/18/15312-rebekka-bakken-solo-most-personal",
   "quelle": "Treibhaus",
   "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "AVANTGARDE UND ZEITGEIST: Stimme in unserer Zeit - Leben",
+  "datum": "2026-10-18",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Götzens",
+  "url": "https://www.innsbruck.info/events/e/122227675.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "What on Earth!",
+  "datum": "2026-10-18",
+  "bis": "",
+  "zeit": "19:30",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122285222.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -5093,7 +6354,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Friedrich Eberhard von Rochows philanthropische Musterschule in Reckahn (1773): und sein Lesebuch „Der Kinderfreund“ als Bestseller der Aufklärung",
@@ -5106,7 +6367,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "FINK :::: THE CITY IS COMING TO ERASE IT ALL.",
@@ -5132,7 +6393,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Imagines Illustrium: Eine archäologische Porträtforschung",
@@ -5145,7 +6406,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Pos. 19 Relations_Act II lost objects",
@@ -5171,7 +6432,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "GenAI Summit IV",
@@ -5197,7 +6458,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "MIKE STERN & BAND // FEAT. L. STERN, B. FRANCESCHINI, C. MINH DOKY, D. CHAMBERS",
@@ -5208,6 +6469,19 @@
   "url": "https://www.treibhaus.at/programm/2026/10/20/14942-mike-stern-band-feat-l-stern-b-franceschini-c-minh-doky-d-chambers",
   "quelle": "Treibhaus",
   "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Prostata im Fokus: Was Männer ab 45 wissen sollten",
+  "datum": "2026-10-20",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122283982.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -5262,7 +6536,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Museum im Werden – Museumspraxis und Museologie: Vom Zeigen zur gesellschaftlichen Intervention",
@@ -5275,7 +6549,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "ENDLESS WELLNESS: INDIE, FUZZ-FOLK // AUS WIEN",
@@ -5301,7 +6575,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Meisterkonzert",
@@ -5353,7 +6627,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Rechtsupdate Strafrecht: Russland-Sanktionen und Geldwäscherei",
@@ -5366,7 +6640,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "53. Radiologie-Update: Neue MR-Technologie – Wo entsteht echter Mehrwert?",
@@ -5390,6 +6664,19 @@
   "url": "https://www.treibhaus.at/programm/2026/10/22/14943-rabih-abou-khalil-der-oud-virtuose-aus-dem-libanon",
   "quelle": "Treibhaus",
   "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Backkurs - Strudel aus eigener Hand",
+  "datum": "2026-10-22",
+  "bis": "",
+  "zeit": "18:30",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122214952.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -5421,6 +6708,19 @@
   "neu": false
  },
  {
+  "titel": "Österreicher als Massenmörder in Polen Globocnik, Eberl, Stangl",
+  "datum": "2026-10-22",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122231977.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Literaturverwaltung mit Citavi",
   "datum": "2026-10-23",
   "bis": "",
@@ -5431,7 +6731,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Literaturverwaltung mit EndNote Web",
@@ -5444,7 +6744,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Literaturverwaltung mit Zotero",
@@ -5457,7 +6757,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "ARTfair Innsbruck 2026",
@@ -5467,6 +6767,19 @@
   "ort": "Olympiahalle",
   "url": "https://www.olympiaworld.at/events-tickets/artfair-innsbruck-2026/",
   "quelle": "Olympiaworld",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "ARTfair Internationale Kunstmesse - international fair for...",
+  "datum": "2026-10-23",
+  "bis": "",
+  "zeit": "11:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122278030.html",
+  "quelle": "Innsbruck Tourismus",
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
@@ -5486,6 +6799,19 @@
   "neu": false
  },
  {
+  "titel": "VORBRENNER: Pos. 19 Relations II Lost Objects",
+  "datum": "2026-10-23",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122281061.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "HC TIWAG Innsbruck - EC Red Bull Salzburg",
   "datum": "2026-10-23",
   "bis": "",
@@ -5493,6 +6819,19 @@
   "ort": "TIWAG Arena",
   "url": "https://www.olympiaworld.at/events-tickets/hc-tiwag-innsbruck-ec-red-bull-salzburg-5/",
   "quelle": "Olympiaworld",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Swing Meets Soul - Alexander's Swing-Time Orchestra feat. Chanda...",
+  "datum": "2026-10-23",
+  "bis": "",
+  "zeit": "20:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122278025.html",
+  "quelle": "Innsbruck Tourismus",
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
@@ -5720,6 +7059,32 @@
   "neu": false
  },
  {
+  "titel": "Platzlsingen - Innsbruck singt!",
+  "datum": "2026-10-26",
+  "bis": "",
+  "zeit": "14:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122279624.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Tiroler Landesjugendchor: Jubiläumskonzert 20 Jahre",
+  "datum": "2026-10-26",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122275130.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "REEL ROCK // KLETTER-FILM-FESTIVAL",
   "datum": "2026-10-27",
   "bis": "",
@@ -5743,7 +7108,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "REEL ROCK // KLETTER-FILM-FESTIVAL",
@@ -5837,6 +7202,19 @@
   "neu": false
  },
  {
+  "titel": "FIDDLER'S GREEN",
+  "datum": "2026-10-29",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122285578.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "OSKAR HAAG: LOST CAUSE. POPHYMNEN VOM AUSNAHMETALENT & INDIE-POP-WUNDERWUZZI",
   "datum": "2026-10-29",
   "bis": "",
@@ -5863,6 +7241,19 @@
   "neu": false
  },
  {
+  "titel": "European Outdoor Film Tour 26/27 - EOFT",
+  "datum": "2026-10-30",
+  "bis": "",
+  "zeit": "19:30",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122279622.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "REBEL MUSIG CREW: HOMEGROWN REGGAE, HIPHOP SKA UND FUNK",
   "datum": "2026-10-30",
   "bis": "",
@@ -5870,6 +7261,19 @@
   "ort": "Treibhaus Innsbruck",
   "url": "https://www.treibhaus.at/programm/2026/10/30/15273-rebel-musig-crew-homegrown-reggae-hiphop-ska-und-funk",
   "quelle": "Treibhaus",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Our Ceasing Voice - Album Release Party",
+  "datum": "2026-10-30",
+  "bis": "",
+  "zeit": "20:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122285336.html",
+  "quelle": "Innsbruck Tourismus",
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
@@ -6133,7 +7537,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Holt uns jetzt der Teufel?: Theologie, Politik und die neuen Machtzentren der Technologie",
@@ -6146,7 +7550,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "MANUEL RUBEY & SIMON SCHWARZ: LIEBE // VORPREMIERE",
@@ -6185,7 +7589,7 @@
   "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "WK: Abschlussfeier Meisterprüfung",
@@ -6240,17 +7644,17 @@
   "neu": false
  },
  {
-  "titel": "kunst & design markt Innsbruck: 07.–08.11.26 - Entdecken, Staunen und Genießen!",
+  "titel": "kunst & design markt",
   "datum": "2026-11-07",
   "bis": "",
   "zeit": "10:00",
-  "ort": "",
-  "url": "https://www.eventfinder.at/veranstaltung/1557984/kunst-design-markt-innsbruck-07-08-11-26-innsbruck/",
-  "quelle": "eventfinder",
-  "kategorie": "kurse",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122286268.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": false
+  "neu": true
  },
  {
   "titel": "MANUEL RUBEY & SIMON SCHWARZ: LIEBE // VORPREMIERE",
@@ -6261,6 +7665,19 @@
   "url": "https://www.treibhaus.at/programm/2026/11/07/15028-manuel-rubey-simon-schwarz-liebe-vorpremiere",
   "quelle": "Treibhaus",
   "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Konzert: Gregor Meyle \"Wohnzimmertour 2026\"",
+  "datum": "2026-11-07",
+  "bis": "",
+  "zeit": "20:00",
+  "ort": "Telfs",
+  "url": "https://www.innsbruck.info/events/e/122215445.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -6339,6 +7756,19 @@
   "url": "https://meine-flohmarkt-termine.de/markt-am-tivoli-stadion-innsbruck/23691306/details",
   "quelle": "Flohmarkt-Termine",
   "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Kasperltheater: Zauberkuchen – Kuchenzauber (ab 4)",
+  "datum": "2026-11-08",
+  "bis": "",
+  "zeit": "11:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122281062.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -6458,7 +7888,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Gemeinsam zur gesunden Jause: Eltern-Kind-Workshop und Abendjause für Mitarbeitende zusammen mit ihren Kindern ”Mitmachen, Ausprobieren, Genießen”",
@@ -6471,7 +7901,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Man versus Machine – The ‘Measurement’ of Odour",
@@ -6484,7 +7914,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "EXiT VOiD: EINE AUDIOVISUELLE SKULPTUR",
@@ -6495,6 +7925,19 @@
   "url": "https://www.treibhaus.at/programm/2026/11/09/15180-exit-void-eine-audiovisuelle-skulptur",
   "quelle": "Treibhaus",
   "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Die Gelenke aus dem Lot: Hypermobilitätskrankheiten verstehen und...",
+  "datum": "2026-11-10",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122284017.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -6523,7 +7966,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "PATRIZIA MORESCO: AUSSER KONTROLLE. WER IST HIER VERRÜCKT? KABARETT IN KOOP KKI",
@@ -6588,7 +8031,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "11. Herlinde-Pissarek-Hudelist-Vorlesung: Whose Authority? Zwischen Deutungshoheit und Sagbarkeitsgrenzen in der Religionspädagogik",
@@ -6601,7 +8044,20 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
+ },
+ {
+  "titel": "Poetry Slam: Let’s talk about Sex! – Sexualität und Sprache",
+  "datum": "2026-11-12",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122285333.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
  },
  {
   "titel": "STEAMING SATELLITES: INDIE-ROCK, PSYCHEDELIC & ELEKTRONISCHE WEITE",
@@ -6640,7 +8096,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Zur Aktualität der Bundesstaatslehre von Hans Kelsen",
@@ -6666,7 +8122,59 @@
   "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "CHRISTKINDLMARKT ALTSTADT",
+  "datum": "2026-11-13",
+  "bis": "",
+  "zeit": "11:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122286364.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
   "neu": true
+ },
+ {
+  "titel": "CHRISTKINDLMARKT MARKTPLATZ",
+  "datum": "2026-11-13",
+  "bis": "",
+  "zeit": "11:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122284332.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "KAISERWEIHNACHT BERGISEL",
+  "datum": "2026-11-13",
+  "bis": "",
+  "zeit": "14:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122286373.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "LUMAGICA Innsbruck",
+  "datum": "2026-11-13",
+  "bis": "",
+  "zeit": "17:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122283526.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
  },
  {
   "titel": "Abschlussfeier TyrolSkills 2026",
@@ -6706,6 +8214,19 @@
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "Die Magie von FAB FOX",
+  "datum": "2026-11-14",
+  "bis": "",
+  "zeit": "17:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122286027.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "Mnozil Brass",
@@ -6812,6 +8333,19 @@
   "neu": false
  },
  {
+  "titel": "Geschichten vom Storch",
+  "datum": "2026-11-17",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122285332.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "uWIN AI-driven Leadership",
   "datum": "2026-11-18",
   "bis": "",
@@ -6822,7 +8356,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "MCI Recruiting Forum 2026",
@@ -6848,7 +8382,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "THOMAS RAAB: VERLESUNG & ANDERE PEINLICHKEITEN // KABARETT",
@@ -6887,7 +8421,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Debattieren statt Polarisieren: Wie wir gemeinsam eine offene Gesellschaft stärken",
@@ -6900,7 +8434,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "VIVID EVE // STEFANIE FETTNER & HANS HAUSER // ALBUM RELEASE",
@@ -6939,7 +8473,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Literaturverwaltung mit EndNote Web",
@@ -6952,7 +8486,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Literaturverwaltung mit Zotero",
@@ -6965,7 +8499,72 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Snowfest Innsbruck",
+  "datum": "2026-11-20",
+  "bis": "",
+  "zeit": "12:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122279493.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "CHRISTKINDLMARKT HUNGERBURG",
+  "datum": "2026-11-20",
+  "bis": "",
+  "zeit": "13:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122286365.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
   "neu": true
+ },
+ {
+  "titel": "CHRISTKINDLMARKT ST. NIKOLAUS",
+  "datum": "2026-11-20",
+  "bis": "",
+  "zeit": "16:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122286372.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "WILTENER WEIHNACHTSZAUBER",
+  "datum": "2026-11-20",
+  "bis": "",
+  "zeit": "16:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122286367.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "AnotherR",
+  "datum": "2026-11-20",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122281063.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
  },
  {
   "titel": "Event Österreichischer Alpenverein (ÖAV Winter Update) 2026",
@@ -7046,14 +8645,14 @@
   "neu": false
  },
  {
-  "titel": "Alpinforum 2026",
+  "titel": "Alpinmesse mit Alpinforum 2026",
   "datum": "2026-11-21",
   "bis": "",
-  "zeit": "09:00",
-  "ort": "Congress Innsbruck",
-  "url": "https://www.cmi.at/de/veranstaltungskalender",
-  "quelle": "Congress Messe Innsbruck",
-  "kategorie": "kurse",
+  "zeit": "10:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122281479.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -7069,7 +8668,7 @@
   "kategorie": "sport",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "WSG Tirol - SC Austria Lustenau",
@@ -7189,17 +8788,17 @@
   "neu": false
  },
  {
-  "titel": "European Outdoor Film Tour 2026",
+  "titel": "European Outdoor Film Tour 26/27 - EOFT",
   "datum": "2026-11-22",
   "bis": "",
   "zeit": "19:00",
-  "ort": "Congress Innsbruck",
-  "url": "https://www.eoft.eu",
-  "quelle": "Congress Messe Innsbruck",
-  "kategorie": "kultur",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122279623.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": false
+  "neu": true
  },
  {
   "titel": "A-Cup (Boulder) Allg. Klasse - BlocAlpin - Alpinmesse Innsbruck",
@@ -7251,7 +8850,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Meisterkonzert",
@@ -7290,7 +8889,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "IIRO RANTALA, KAISA MÄENSIVU & MORTEN LUND // TRINITY",
@@ -7329,6 +8928,19 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "CHRISTKINDLMARKT MARIA-THERESIEN-STRASSE",
+  "datum": "2026-11-25",
+  "bis": "",
+  "zeit": "11:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122286361.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
   "neu": true
  },
  {
@@ -7342,7 +8954,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "THOMAS GASSNER: EINE KURZE GESCHICHTE DER TIROLER MENSCHHEIT",
@@ -7356,6 +8968,19 @@
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "PIZZERA & JAUS & FOLKSHILFE",
+  "datum": "2026-11-25",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122285581.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "Gernot & Stipsits - Lotterbuben",
@@ -7397,6 +9022,19 @@
   "neu": false
  },
  {
+  "titel": "Tiroler Weihnachtsbäckerei - Ein kulinarischer Kurs durch die...",
+  "datum": "2026-11-26",
+  "bis": "",
+  "zeit": "17:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122231997.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "kurse",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "COBARIO: STRASSENMUSIKER MACHEN WELTKARRIERE. VIVALDI - PRESTO. ET CETERA!",
   "datum": "2026-11-26",
   "bis": "",
@@ -7405,6 +9043,19 @@
   "url": "https://www.treibhaus.at/programm/2026/11/26/15307-cobario-strassenmusiker-machen-weltkarriere-vivaldi-presto-et-cetera",
   "quelle": "Treibhaus",
   "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "WECHSELSPIEL: Verrückte Verhältnisse",
+  "datum": "2026-11-26",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122281272.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -7459,6 +9110,19 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "AIRDRENALINE",
+  "datum": "2026-11-27",
+  "bis": "",
+  "zeit": "15:30",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122286159.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
   "neu": true
  },
  {
@@ -7470,6 +9134,19 @@
   "url": "https://www.olympiaworld.at/events-tickets/erotik-messe-2026/",
   "quelle": "Olympiaworld",
   "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "WECHSELSPIEL: SUPERBODIES",
+  "datum": "2026-11-27",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122281355.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -7509,6 +9186,32 @@
   "url": "https://www.olympiaworld.at/events-tickets/fc-wacker-innsbruck-first-vienna-1/",
   "quelle": "Olympiaworld",
   "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Sellroaner Tuifllauf mit Nikolauseinzug",
+  "datum": "2026-11-28",
+  "bis": "",
+  "zeit": "17:00",
+  "ort": "Sellrain",
+  "url": "https://www.innsbruck.info/events/e/122230814.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "WECHSELSPIEL: Fighting Dušman",
+  "datum": "2026-11-28",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122281356.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -7618,6 +9321,32 @@
   "neu": false
  },
  {
+  "titel": "Kindertheater: Applaus für den Fuchs (ab 5)",
+  "datum": "2026-11-29",
+  "bis": "",
+  "zeit": "11:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122281359.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Adventmarkt am Birkenberg",
+  "datum": "2026-11-29",
+  "bis": "",
+  "zeit": "13:00",
+  "ort": "Telfs",
+  "url": "https://www.innsbruck.info/events/e/122286264.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "THEATER-TRAUM // HERBERT & MIMI: OCHS & ESEL. THEATER FÜR MENSCHEN AB 3",
   "datum": "2026-11-29",
   "bis": "",
@@ -7626,6 +9355,32 @@
   "url": "https://www.treibhaus.at/programm/2026/11/29/14657-theater-traum-herbert-mimi-ochs-esel-theater-fuer-menschen-ab-3",
   "quelle": "Treibhaus",
   "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "WECHSELSPIEL: Geschichten vom Storch",
+  "datum": "2026-11-29",
+  "bis": "",
+  "zeit": "15:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122281357.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Nikolauseinzug und Krampuslaufen in Igls",
+  "datum": "2026-11-29",
+  "bis": "",
+  "zeit": "16:00",
+  "ort": "Igls",
+  "url": "https://www.innsbruck.info/events/e/122283528.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "sport",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -7667,7 +9422,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Neros Erbe im Untergrund: Die Domus Aurea und ihre architektonische Metamorphose",
@@ -7680,7 +9435,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Am , um 8:00, werden die 3h Kurse",
@@ -7696,6 +9451,19 @@
   "neu": false
  },
  {
+  "titel": "BeSt Innsbruck 2026 – Die große Messe für Beruf, Studium und...",
+  "datum": "2026-12-02",
+  "bis": "",
+  "zeit": "09:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122272052.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "HC TIWAG Innsbruck - Moser Medical Graz99ers",
   "datum": "2026-12-02",
   "bis": "",
@@ -7704,6 +9472,19 @@
   "url": "https://www.olympiaworld.at/events-tickets/hc-tiwag-innsbruck-moser-medical-graz99ers-7/",
   "quelle": "Olympiaworld",
   "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Scrooge - Viktorianischer Weihnachtsmarkt",
+  "datum": "2026-12-03",
+  "bis": "",
+  "zeit": "15:00",
+  "ort": "Telfs",
+  "url": "https://www.innsbruck.info/events/e/122284335.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -7735,6 +9516,58 @@
   "neu": false
  },
  {
+  "titel": "Christkindlmarkt in Igls",
+  "datum": "2026-12-04",
+  "bis": "",
+  "zeit": "15:00",
+  "ort": "Igls",
+  "url": "https://www.innsbruck.info/events/e/122283529.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "STORY SLAM – Bühne frei für wahre Geschichten!",
+  "datum": "2026-12-04",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122232001.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Swinging Christmas - ASTO feat. Florian Bramböck and Judith...",
+  "datum": "2026-12-04",
+  "bis": "",
+  "zeit": "20:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122278026.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Sistranser Adventmarkt",
+  "datum": "2026-12-05",
+  "bis": "",
+  "zeit": "15:00",
+  "ort": "Sistrans",
+  "url": "https://www.innsbruck.info/events/e/122284309.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "FC Wacker Innsbruck - Hertha Wels",
   "datum": "2026-12-05",
   "bis": "",
@@ -7743,6 +9576,19 @@
   "url": "https://www.olympiaworld.at/events-tickets/fc-wacker-innsbruck-hertha-wels/",
   "quelle": "Olympiaworld",
   "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Scrooge - Weihnachtsmusical nach Charles Dickens",
+  "datum": "2026-12-05",
+  "bis": "",
+  "zeit": "17:00",
+  "ort": "Telfs",
+  "url": "https://www.innsbruck.info/events/e/122215439.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -7761,6 +9607,19 @@
   "neu": false
  },
  {
+  "titel": "Sindy’s Angels – Die Weihnachtsshow ist zurück!",
+  "datum": "2026-12-05",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122281358.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Glueboys - Live 2026",
   "datum": "2026-12-05",
   "bis": "2026-12-06",
@@ -7769,6 +9628,45 @@
   "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/glueboys-live-2026.html",
   "quelle": "Music Hall",
   "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Kirchenpatrozinium \"Hl. Nikolaus\"",
+  "datum": "2026-12-06",
+  "bis": "",
+  "zeit": "09:00",
+  "ort": "Mutters",
+  "url": "https://www.innsbruck.info/events/e/122281561.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Figurentheater: Päkapikk Pikapäkk (ab 3)",
+  "datum": "2026-12-06",
+  "bis": "",
+  "zeit": "11:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122281360.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Weihnachtsmarkt in Judenstein",
+  "datum": "2026-12-06",
+  "bis": "",
+  "zeit": "11:00",
+  "ort": "Rinn",
+  "url": "https://www.innsbruck.info/events/e/122284691.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -7821,6 +9719,19 @@
   "url": "https://www.pmk.or.at/de/events/hp-zinker-friends-of-gas",
   "quelle": "p.m.k",
   "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "ADVENT DER SINNE - Mensch Maria",
+  "datum": "2026-12-08",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Götzens",
+  "url": "https://www.innsbruck.info/events/e/122237771.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -7904,6 +9815,19 @@
   "neu": false
  },
  {
+  "titel": "Patscher Adventmarkt",
+  "datum": "2026-12-12",
+  "bis": "",
+  "zeit": "12:00",
+  "ort": "Patsch",
+  "url": "https://www.innsbruck.info/events/e/122041817.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "WSG Tirol - SCR Altach",
   "datum": "2026-12-12",
   "bis": "",
@@ -7924,6 +9848,32 @@
   "ort": "Landessportzentrum",
   "url": "https://www.olympiaworld.at/events-tickets/swarco-raiders-tirol-vienna-united/",
   "quelle": "Olympiaworld",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Sonaten & Virtuoses",
+  "datum": "2026-12-12",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122286170.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Lo nostre Nadal - Klangwelten der südfranzösischen Weihnacht",
+  "datum": "2026-12-12",
+  "bis": "",
+  "zeit": "19:30",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122273299.html",
+  "quelle": "Innsbruck Tourismus",
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
@@ -8047,14 +9997,40 @@
   "neu": false
  },
  {
-  "titel": "DER NUSSKNACKER - INTERNATIONAL BALLET COMPANY ITALIA",
+  "titel": "Marionetten- & Figurentheater: Weihnachtspferd für Prinzessin...",
+  "datum": "2026-12-20",
+  "bis": "",
+  "zeit": "11:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122281361.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "DER NUSSKNACKER - International Ballet Company Italia",
   "datum": "2026-12-20",
   "bis": "",
   "zeit": "15:00",
-  "ort": "Congress Innsbruck",
-  "url": "https://coloss-art.com/",
-  "quelle": "Congress Messe Innsbruck",
-  "kategorie": "musik",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122238456.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Christkindlmarkt Gries im Sellrain",
+  "datum": "2026-12-20",
+  "bis": "",
+  "zeit": "15:30",
+  "ort": "Gries im Sellrain",
+  "url": "https://www.innsbruck.info/events/e/122282819.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -8086,6 +10062,19 @@
   "neu": false
  },
  {
+  "titel": "Igler Bergweihnacht",
+  "datum": "2026-12-23",
+  "bis": "",
+  "zeit": "17:30",
+  "ort": "Igls",
+  "url": "https://www.innsbruck.info/events/e/122231984.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "HC TIWAG Innsbruck - Pioneers Vorarlberg",
   "datum": "2026-12-28",
   "bis": "",
@@ -8106,6 +10095,19 @@
   "ort": "Congress Innsbruck",
   "url": "https://www.tsoi.at",
   "quelle": "Congress Messe Innsbruck",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Neujahrskonzert 2027",
+  "datum": "2026-12-31",
+  "bis": "",
+  "zeit": "10:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122167405.html",
+  "quelle": "Innsbruck Tourismus",
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
@@ -8203,6 +10205,19 @@
   "neu": false
  },
  {
+  "titel": "Feuerwehrball",
+  "datum": "2027-01-05",
+  "bis": "",
+  "zeit": "20:30",
+  "ort": "Gries im Sellrain",
+  "url": "https://www.innsbruck.info/events/e/122283429.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Neujahrskonzert Tiroler Kammerorchester InnStrumenti",
   "datum": "2027-01-06",
   "bis": "",
@@ -8237,6 +10252,19 @@
   "url": "https://www.oeticket.com/event/abba-mamma-mia-and-much-more-congress-innsbruck-18988936/",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Alexander's Swing-Time Orchestra: At The Cotton Club",
+  "datum": "2027-01-08",
+  "bis": "",
+  "zeit": "20:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122278027.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -8320,17 +10348,17 @@
   "neu": false
  },
  {
-  "titel": "Die Schöne und das Biest",
+  "titel": "Die Schöne und das Biest - das Musical",
   "datum": "2027-01-17",
   "bis": "",
   "zeit": "15:00",
-  "ort": "Congress Innsbruck",
-  "url": "https://www.theater-liberi.reservix.de/events?q=innsbruck",
-  "quelle": "Congress Messe Innsbruck",
-  "kategorie": "kultur",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122273273.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": false
+  "neu": true
  },
  {
   "titel": "ÖBV Straßenbautagung",
@@ -8385,14 +10413,14 @@
   "neu": false
  },
  {
-  "titel": "DORNRÖSCHEN - INTERNATIONAL BALLET COMPANY ITALIA",
+  "titel": "Dornröschen - International Ballet Company Italia",
   "datum": "2027-01-27",
   "bis": "",
   "zeit": "19:00",
-  "ort": "Congress Innsbruck",
-  "url": "https://coloss-art.com/",
-  "quelle": "Congress Messe Innsbruck",
-  "kategorie": "musik",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122269094.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -8476,6 +10504,19 @@
   "neu": false
  },
  {
+  "titel": "AVEC",
+  "datum": "2027-02-03",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122286018.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Robert Marc Lehmann",
   "datum": "2027-02-04",
   "bis": "",
@@ -8484,6 +10525,19 @@
   "url": "https://www.hoanzl.at",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "FIL Rodel Weltmeisterschaften 2027",
+  "datum": "2027-02-05",
+  "bis": "",
+  "zeit": "10:00",
+  "ort": "Igls",
+  "url": "https://www.innsbruck.info/events/e/122285203.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "sport",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -8523,19 +10577,6 @@
   "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/avec-the-theatre-tour.html",
   "quelle": "Music Hall",
   "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "FIL Rodel Weltmeisterschaften 2027",
-  "datum": "2027-02-05",
-  "bis": "",
-  "zeit": "",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbrucktermine.at/veranstaltungen/fil-rodel-weltmeisterschaften-2027",
-  "quelle": "Innsbruck Termine",
-  "kategorie": "sport",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -8671,6 +10712,19 @@
   "neu": false
  },
  {
+  "titel": "Sonate a violino solo per chiesa e camera - Virtuose Violinmusik",
+  "datum": "2027-02-21",
+  "bis": "",
+  "zeit": "19:30",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122273300.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "HC TIWAG Innsbruck - Milano HC",
   "datum": "2027-02-24",
   "bis": "",
@@ -8795,6 +10849,19 @@
   "ort": "Landessportzentrum",
   "url": "https://www.olympiaworld.at/events-tickets/swarco-raiders-tirol-woerthersee-piraten-2/",
   "quelle": "Olympiaworld",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Sincerely Sinatra - Alexander's Swing-Time Orchestra feat. Jack...",
+  "datum": "2027-03-07",
+  "bis": "",
+  "zeit": "20:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122278028.html",
+  "quelle": "Innsbruck Tourismus",
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
@@ -9061,14 +11128,14 @@
   "neu": false
  },
  {
-  "titel": "Hubert von Goisern",
+  "titel": "HUBERT VON GOISERN",
   "datum": "2027-04-10",
   "bis": "",
-  "zeit": "20:00",
-  "ort": "Congress Innsbruck",
-  "url": "https://www.soundevent.at",
-  "quelle": "Congress Messe Innsbruck",
-  "kategorie": "musik",
+  "zeit": "19:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122286022.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -9191,14 +11258,27 @@
   "neu": false
  },
  {
-  "titel": "JOSH",
-  "datum": "2027-04-26",
+  "titel": "SoloInDue - Zwei in einer: Viola da gamba trifft auf Gesang",
+  "datum": "2027-04-25",
   "bis": "",
   "zeit": "19:30",
-  "ort": "Congress Innsbruck",
-  "url": "https://www.oeticket.com/event/josh-vertikal-tour-2027-congress-innsbruck-21871002/",
-  "quelle": "Congress Messe Innsbruck",
-  "kategorie": "musik",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122273301.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "JOSH.",
+  "datum": "2027-04-26",
+  "bis": "",
+  "zeit": "18:30",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122286023.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -9321,6 +11401,19 @@
   "neu": false
  },
  {
+  "titel": "Alexander Kuttler Connection - Divided in Oneness",
+  "datum": "2027-05-21",
+  "bis": "",
+  "zeit": "20:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122278029.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Alain Frei - Alles Neu",
   "datum": "2027-05-23",
   "bis": "",
@@ -9360,16 +11453,16 @@
   "neu": false
  },
  {
-  "titel": "Simon und Garfunkel Story",
+  "titel": "THE SIMON & GARFUNKEL STORY",
   "datum": "2027-06-04",
   "bis": "",
-  "zeit": "20:00",
-  "ort": "Congress Innsbruck",
-  "url": "https://www.soundevent.at",
-  "quelle": "Congress Messe Innsbruck",
+  "zeit": "19:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122286025.html",
+  "quelle": "Innsbruck Tourismus",
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": false
+  "neu": true
  }
 ]
