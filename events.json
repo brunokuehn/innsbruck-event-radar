@@ -39,19 +39,6 @@
   "neu": false
  },
  {
-  "titel": "Flohmarkt beim Greif Center",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "05:30",
-  "ort": "Innsbruck",
-  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/flohmarkt-innsbruck-beim-greifcenter",
-  "quelle": "flohmarkt.at",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Flohmarkt Greifcenter",
   "datum": "2026-09-13",
   "bis": "",
@@ -247,19 +234,6 @@
   "neu": false
  },
  {
-  "titel": "Klassik am Berg 2340m - InnStrumenti",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "11:00",
-  "ort": "Innsbruck",
-  "url": "https://www.eventfinder.at/veranstaltung/1515502/klassik-am-berg-2340m-axams/",
-  "quelle": "eventfinder",
-  "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Klassik am Berg am Hoadlhaus Axamer Lizum",
   "datum": "2026-09-13",
   "bis": "",
@@ -325,45 +299,6 @@
   "neu": false
  },
  {
-  "titel": "WSG Tirol - TSV Egger Glas Hartberg",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "14:30",
-  "ort": "Tivoli Stadion Tirol",
-  "url": "https://www.olympiaworld.at/events-tickets/wsg-tirol-tsv-egger-glas-hartberg-3/",
-  "quelle": "Olympiaworld",
-  "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Floh- und Trödelmarkt",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "16:00",
-  "ort": "Telfs",
-  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/telfs-park-flohmarkt",
-  "quelle": "flohmarkt.at",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Flohmarkt am Standort Parkplatz, METRO",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "16:00",
-  "ort": "Rum bei Innsbruck",
-  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/flohmarkt-metro-rum-bei-innsbruck",
-  "quelle": "flohmarkt.at",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "THREADS – Formen des Verbundenseins",
   "datum": "2026-09-13",
   "bis": "",
@@ -403,58 +338,6 @@
   "neu": false
  },
  {
-  "titel": "\"Der Stein, der brennt und heilt\" Ölschieferbergbau im Karwendel",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "",
-  "ort": "Innsbruck-Land",
-  "url": "https://events.tt.com/veranstaltung/40695/-der-stein-der-brennt-und-heilt-c-lschieferbergbau-im-karwendel",
-  "quelle": "TT Events Innsbruck-Land",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "25 Jahre Shrek",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/25-jahre-shrek",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "25 Jahre The Fast and The Furious",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/the-fast-and-the-furious",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "50 Jahre Die Biene Maja",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/50-jahre-die-biene-maja",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Adams Acht",
   "datum": "2026-09-13",
   "bis": "",
@@ -468,51 +351,12 @@
   "neu": false
  },
  {
-  "titel": "Arnie und Barney - Retten das Wasser",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/arnie-und-barney",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Ausstellung Christine Knoll",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "",
-  "ort": "Innsbruck-Land",
-  "url": "https://events.tt.com/veranstaltung/40602/ausstellung-christine-knoll",
-  "quelle": "TT Events Innsbruck-Land",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
   "titel": "Coyote vs. ACME",
   "datum": "2026-09-13",
   "bis": "",
   "zeit": "",
   "ort": "Metropol Kino, Innsbruck",
   "url": "https://www.metropol-kino.at/film/metropol/coyote-vs-acme",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Das Ende der Sterne",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/das-ende-der-sterne",
   "quelle": "Metropol Kino",
   "kategorie": "kino",
   "anmeldeschluss": "",
@@ -537,48 +381,9 @@
   "datum": "2026-09-13",
   "bis": "",
   "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/david",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Denkmal für Schnee – Esther Strauß | RLB Kunstpreis",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "",
-  "ort": "Innsbruck-Land",
-  "url": "https://events.tt.com/veranstaltung/41510/denkmal-f-c-bcr-schnee-e---esther-strau-c-f-c-rlb-kunstpreis",
-  "quelle": "TT Events Innsbruck-Land",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Die Odyssee",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/die-odyssee",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Disney Channel Mitmachkino September 2026",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/disney-channel-mitmachkino-september-2026",
-  "quelle": "Metropol Kino",
+  "ort": "Innsbruck",
+  "url": "https://www.uncut.at/movies/film.php?movie_id=22956",
+  "quelle": "UNCUT Kinoprogramm",
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
@@ -589,9 +394,9 @@
   "datum": "2026-09-13",
   "bis": "",
   "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/fruehstueck-bei-audrey",
-  "quelle": "Metropol Kino",
+  "ort": "Metropol, Cinematograph",
+  "url": "https://www.uncut.at/movies/film.php?movie_id=23106",
+  "quelle": "UNCUT Kinoprogramm",
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
@@ -650,32 +455,6 @@
   "neu": false
  },
  {
-  "titel": "Marsupilami",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/marsupilami",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Minions und Monster",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/minions-und-monster",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Muss das Pferd auch arbeiten?",
   "datum": "2026-09-13",
   "bis": "",
@@ -683,19 +462,6 @@
   "ort": "Cinematograph",
   "url": "https://www.uncut.at/movies/film.php?movie_id=23992",
   "quelle": "UNCUT Kinoprogramm",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Mutiny",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/mutiny",
-  "quelle": "Metropol Kino",
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
@@ -715,38 +481,12 @@
   "neu": false
  },
  {
-  "titel": "Oh la la 2",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/oh-la-la-2",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "One Night Only",
   "datum": "2026-09-13",
   "bis": "",
   "zeit": "",
   "ort": "Metropol Kino, Innsbruck",
   "url": "https://www.metropol-kino.at/film/metropol/one-night-only",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Paw Patrol: Der Dino Film",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/paw-patrol-der-dino-film",
   "quelle": "Metropol Kino",
   "kategorie": "kino",
   "anmeldeschluss": "",
@@ -806,19 +546,6 @@
   "neu": false
  },
  {
-  "titel": "Rätermuseum und Archäologischer Park Hohe Birga. www.hohe-birga.at",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "",
-  "ort": "Innsbruck-Land",
-  "url": "https://events.tt.com/veranstaltung/38995/r-c-atermuseum-und-arch-c-aologischer-park-hohe-birga-wwwhohe-birgaat",
-  "quelle": "TT Events Innsbruck-Land",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Schmuck- und Mineralienmesse Innsbruck",
   "datum": "2026-09-13",
   "bis": "",
@@ -832,77 +559,12 @@
   "neu": false
  },
  {
-  "titel": "Sonderausstellung \"Andrea Lüth. Kommt da noch was?\"",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "",
-  "ort": "Innsbruck-Land",
-  "url": "https://events.tt.com/veranstaltung/40669/sonderausstellung-andrea-l-c-bcth-kommt-da-noch-was-",
-  "quelle": "TT Events Innsbruck-Land",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Sonderausstellung »Art Box feat. Fluoro Fleece Kunstkollektiv«",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "",
-  "ort": "Innsbruck-Land",
-  "url": "https://events.tt.com/veranstaltung/39510/sonderausstellung-c-bbart-box-feat-fluoro-fleece-kunstkollektiv-c-ab-",
-  "quelle": "TT Events Innsbruck-Land",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Sonderausstellung »Max Weiler und die Sammlerin«",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "",
-  "ort": "Innsbruck-Land",
-  "url": "https://events.tt.com/veranstaltung/41029/sonderausstellung-c-bbmax-weiler-und-die-sammlerin-c-ab",
-  "quelle": "TT Events Innsbruck-Land",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Spider-Man: Brand New Day",
   "datum": "2026-09-13",
   "bis": "",
   "zeit": "",
   "ort": "Metropol Kino, Innsbruck",
   "url": "https://www.metropol-kino.at/film/metropol/spider-man-brand-new-day",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Steckerlfischfiasko",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/steckerlfischfiasko",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Tad Stones und die Wunderlampe",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/tad-stones-und-die-wunderlampe",
   "quelle": "Metropol Kino",
   "kategorie": "kino",
   "anmeldeschluss": "",
@@ -936,45 +598,6 @@
   "neu": false
  },
  {
-  "titel": "Thomas Schütte – Haus T",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "",
-  "ort": "Innsbruck-Land",
-  "url": "https://events.tt.com/veranstaltung/40674/thomas-sch-c-bctte-e---haus-t",
-  "quelle": "TT Events Innsbruck-Land",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Toy Story 5",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/toy-story-5",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Vaiana",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/vaiana",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Wax & Gold",
   "datum": "2026-09-13",
   "bis": "",
@@ -983,32 +606,6 @@
   "url": "https://www.uncut.at/movies/film.php?movie_id=23024",
   "quelle": "UNCUT Kinoprogramm",
   "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Österreichische Staatsmeisterschaft in Kanu-Polo",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "",
-  "ort": "Innsbruck-Land",
-  "url": "https://events.tt.com/veranstaltung/42400/-c-sterreichische-staatsmeisterschaft-in-kanu-polo",
-  "quelle": "TT Events Innsbruck-Land",
-  "kategorie": "sport",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "„geschenkt, gekauft, geliehen – Ein Blick in unsere Sammlung“",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "",
-  "ort": "Innsbruck-Land",
-  "url": "https://events.tt.com/veranstaltung/42013/-e--egeschenkt-gekauft-geliehen-e---ein-blick-in-unsere-sammlung-e--c",
-  "quelle": "TT Events Innsbruck-Land",
-  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -1105,6 +702,19 @@
   "neu": false
  },
  {
+  "titel": "Klangspuren Schwaz: Solo for One",
+  "datum": "2026-09-14",
+  "bis": "",
+  "zeit": "16:30",
+  "ort": "Tiroler Landesmuseen, Innsbruck",
+  "url": "https://www.tiroler-landesmuseen.at/haus/volkskunstmuseum/",
+  "quelle": "Tiroler Landesmuseen",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Offenes Stimmtraining konkret - Besser singen durch Achtsamkeit, Körperwahrnehmung",
   "datum": "2026-09-14",
   "bis": "",
@@ -1181,6 +791,58 @@
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "Am Anfang war das Salz – Bergbaumuseum Hall",
+  "datum": "2026-09-14",
+  "bis": "",
+  "zeit": "",
+  "ort": "Innsbruck-Land",
+  "url": "https://events.tt.com/veranstaltung/39512/am-anfang-war-das-salz-bergbaumuseum-hall---dfdf",
+  "quelle": "TT Events Innsbruck-Land",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Ausstellung Christine Knoll",
+  "datum": "2026-09-14",
+  "bis": "",
+  "zeit": "",
+  "ort": "Innsbruck-Land",
+  "url": "https://events.tt.com/veranstaltung/40602/ausstellung-christine-knoll",
+  "quelle": "TT Events Innsbruck-Land",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Denkmal für Schnee – Esther Strauß | RLB Kunstpreis",
+  "datum": "2026-09-14",
+  "bis": "",
+  "zeit": "",
+  "ort": "Innsbruck-Land",
+  "url": "https://events.tt.com/veranstaltung/41510/denkmal-f-c-bcr-schnee-e---esther-strau-c-f-c-rlb-kunstpreis",
+  "quelle": "TT Events Innsbruck-Land",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Reise ins Mittelalter – Stadtführung Hall",
+  "datum": "2026-09-14",
+  "bis": "",
+  "zeit": "",
+  "ort": "Innsbruck-Land",
+  "url": "https://events.tt.com/veranstaltung/39511/reise-ins-mittelalter-stadtf-c-bchrung-hall-a-f-",
+  "quelle": "TT Events Innsbruck-Land",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "Telfer Marktl",
@@ -1339,6 +1001,32 @@
   "neu": false
  },
  {
+  "titel": "\"Der Stein, der brennt und heilt\" Ölschieferbergbau im Karwendel",
+  "datum": "2026-09-15",
+  "bis": "",
+  "zeit": "",
+  "ort": "Innsbruck-Land",
+  "url": "https://events.tt.com/veranstaltung/40695/-der-stein-der-brennt-und-heilt-c-lschieferbergbau-im-karwendel",
+  "quelle": "TT Events Innsbruck-Land",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "fit for family - Spielgruppe St. Franziskus Für Kinder bis ca. 3 Jahren",
+  "datum": "2026-09-15",
+  "bis": "",
+  "zeit": "",
+  "ort": "Innsbruck-Land",
+  "url": "https://events.tt.com/veranstaltung/30143/fit-for-family-spielgruppe-st-franziskus-f-c-bcr-kinder-bis-ca--jahren",
+  "quelle": "TT Events Innsbruck-Land",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Einladung zum 1. Österreichischen Tag der Selbsthilfe",
   "datum": "2026-09-16",
   "bis": "",
@@ -1443,6 +1131,19 @@
   "neu": false
  },
  {
+  "titel": "WER MACHT PAUSE?",
+  "datum": "2026-09-16",
+  "bis": "",
+  "zeit": "16:00",
+  "ort": "Tiroler Landesmuseen, Innsbruck",
+  "url": "https://www.tiroler-landesmuseen.at/terminart/praesentation-performance/",
+  "quelle": "Tiroler Landesmuseen",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "MUSIK.moment",
   "datum": "2026-09-16",
   "bis": "",
@@ -1451,6 +1152,19 @@
   "url": "https://www.innsbruck.info/events/e/122286257.html",
   "quelle": "Innsbruck Tourismus",
   "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "History Talk",
+  "datum": "2026-09-16",
+  "bis": "",
+  "zeit": "18:00",
+  "ort": "Tiroler Landesmuseen, Innsbruck",
+  "url": "https://www.tiroler-landesmuseen.at/haus/zeughaus/",
+  "quelle": "Tiroler Landesmuseen",
+  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -1493,6 +1207,32 @@
   "anmeldeschluss": "",
   "serie": true,
   "neu": false
+ },
+ {
+  "titel": "Frieden beginnt in Dir - Dein Einstieg in die Gewaltfreie Kommunikation nach Marshall B. Rosenberg",
+  "datum": "2026-09-16",
+  "bis": "",
+  "zeit": "",
+  "ort": "Innsbruck-Land",
+  "url": "https://events.tt.com/veranstaltung/42098/frieden-beginnt-in-dir-dein-einstieg-in-die-gewaltfreie-kommunikation-nach-marshall-b-rosenberg-f--dc",
+  "quelle": "TT Events Innsbruck-Land",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Geld regiert die Welt – Museum Münze Hall",
+  "datum": "2026-09-16",
+  "bis": "",
+  "zeit": "",
+  "ort": "Innsbruck-Land",
+  "url": "https://events.tt.com/veranstaltung/39514/geld-regiert-die-welt-museum-m-c-bcnze-hall-adabf-",
+  "quelle": "TT Events Innsbruck-Land",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "Wurzbergalm",
@@ -1732,7 +1472,7 @@
   "titel": "ASS WHOOPINGS : BEATDOWN SHOW WITH TERRORIST (IT) | JORELIA (IT) | LAST ENCOUNTER (CZ) | HAMMERTIME (IT)",
   "datum": "2026-09-17",
   "bis": "",
-  "zeit": "19:00",
+  "zeit": "19:30",
   "ort": "p.m.k, Innsbruck",
   "url": "https://www.pmk.or.at/de/events/ass-whoopings-beatdown-show-with-terrorist-it-joreli",
   "quelle": "p.m.k",
@@ -1898,6 +1638,32 @@
   "neu": false
  },
  {
+  "titel": "Speed Dating mit Museumsmitarbeiter*innen",
+  "datum": "2026-09-18",
+  "bis": "",
+  "zeit": "17:00",
+  "ort": "Tiroler Landesmuseen, Innsbruck",
+  "url": "https://www.tiroler-landesmuseen.at/haus/volkskunstmuseum/",
+  "quelle": "Tiroler Landesmuseen",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Theaterworkshop „Wir und die anderen – Geschichten über soziale Ungleichheiten“",
+  "datum": "2026-09-18",
+  "bis": "",
+  "zeit": "17:00",
+  "ort": "Tiroler Landesmuseen, Innsbruck",
+  "url": "https://www.tiroler-landesmuseen.at/haus/museum-aguntum-archaeologischer-park/",
+  "quelle": "Tiroler Landesmuseen",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "BELLA CiAO: LIEDER VON FREIHEIT & HOFFNUNG // ITALIEN",
   "datum": "2026-09-18",
   "bis": "",
@@ -1922,6 +1688,19 @@
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "Ausstellungseröffnung „Transformation“",
+  "datum": "2026-09-18",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Tiroler Landesmuseen, Innsbruck",
+  "url": "https://www.tiroler-landesmuseen.at/terminart/eroeffnung/",
+  "quelle": "Tiroler Landesmuseen",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "Klangspuren 2026 - Auf dass wir so verwandelt werden",
@@ -1976,6 +1755,19 @@
   "neu": false
  },
  {
+  "titel": "Bramböck/Kuttler Jazz Collective - Organ Intermezzo",
+  "datum": "2026-09-18",
+  "bis": "",
+  "zeit": "20:00",
+  "ort": "Haus der Musik, Innsbruck",
+  "url": "https://www.haus-der-musik-innsbruck.at/veranstaltung/bramboeck-kuttler-jazz-collective-organ-intermezzo-18-09-26/",
+  "quelle": "Haus der Musik",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Bramböck/Kuttler Konsortium - Organ Intermezzo",
   "datum": "2026-09-18",
   "bis": "",
@@ -2018,23 +1810,10 @@
   "titel": "CONCERT IN THE DARK - KLANGSPUREN AT PMK",
   "datum": "2026-09-18",
   "bis": "",
-  "zeit": "20:30",
+  "zeit": "21:00",
   "ort": "p.m.k, Innsbruck",
   "url": "https://www.pmk.or.at/de/events/concert-in-the-dark---klangspuren-at-pmk",
   "quelle": "p.m.k",
-  "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Bramböck/Kuttler Jazz Collective - Organ Intermezzo",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Haus der Musik, Innsbruck",
-  "url": "https://www.haus-der-musik-innsbruck.at/veranstaltung/bramboeck-kuttler-jazz-collective-organ-intermezzo-18-09-26/",
-  "quelle": "Haus der Musik",
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
@@ -2093,6 +1872,19 @@
   "neu": false
  },
  {
+  "titel": "Markt am Tivoli",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "06:00",
+  "ort": "Tivoli Stadion Tirol",
+  "url": "https://www.olympiaworld.at/events-tickets/markt-am-tivoli-1/",
+  "quelle": "Olympiaworld",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Innpromenade parkrun",
   "datum": "2026-09-19",
   "bis": "",
@@ -2145,6 +1937,19 @@
   "neu": false
  },
  {
+  "titel": "Stadtspaziergang",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "10:00",
+  "ort": "Tiroler Landesmuseen, Innsbruck",
+  "url": "https://www.tiroler-landesmuseen.at/terminart/fuehrung/",
+  "quelle": "Tiroler Landesmuseen",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "FÜHRUNG DURCH DIE AUSSTELLUNG \"RLB KUNSTPREIS 2026\"",
   "datum": "2026-09-19",
   "bis": "",
@@ -2179,19 +1984,6 @@
   "url": "https://www.innsbruck.info/events/e/122286261.html",
   "quelle": "Innsbruck Tourismus",
   "kategorie": "brauchtum",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Markt am Tivoli Flohmarkt",
-  "datum": "2026-09-19",
-  "bis": "",
-  "zeit": "12:00",
-  "ort": "Innsbruck",
-  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/tivolimarkt-innsbruck",
-  "quelle": "flohmarkt.at",
-  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -2262,19 +2054,6 @@
   "neu": false
  },
  {
-  "titel": "Flohmarkt von und für Kinder",
-  "datum": "2026-09-19",
-  "bis": "",
-  "zeit": "16:00",
-  "ort": "Hall in Tirol",
-  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/kinderflohmarkt-hall-in-tirol",
-  "quelle": "flohmarkt.at",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "HC TIWAG Innsbruck - Vienna Capitals",
   "datum": "2026-09-19",
   "bis": "",
@@ -2301,6 +2080,19 @@
   "neu": false
  },
  {
+  "titel": "Codeborn",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "19:30",
+  "ort": "Haus der Musik, Innsbruck",
+  "url": "https://www.haus-der-musik-innsbruck.at/veranstaltung/codeborn-19-09-26/",
+  "quelle": "Haus der Musik",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Ein Mords-Sonntag - Kriminalkomödie von Jack Jaquine",
   "datum": "2026-09-19",
   "bis": "",
@@ -2317,7 +2109,7 @@
   "titel": "DIE GOLDENE SCHINDEL OPENING w/ FLORENCE ARMAN & BAND",
   "datum": "2026-09-19",
   "bis": "",
-  "zeit": "20:00",
+  "zeit": "21:00",
   "ort": "p.m.k, Innsbruck",
   "url": "https://www.pmk.or.at/de/events/die-goldene-schindel-opening-w-florence-arman-band",
   "quelle": "p.m.k",
@@ -2353,14 +2145,14 @@
   "neu": false
  },
  {
-  "titel": "Codeborn",
+  "titel": "Seom - Essenz Tour 2026",
   "datum": "2026-09-19",
-  "bis": "",
-  "zeit": "",
-  "ort": "Haus der Musik, Innsbruck",
-  "url": "https://www.haus-der-musik-innsbruck.at/veranstaltung/codeborn-19-09-26/",
-  "quelle": "Haus der Musik",
-  "kategorie": "kultur",
+  "bis": "2026-09-20",
+  "zeit": "21:00",
+  "ort": "74 Grabenweg, Innsbruck, Tirol 6020",
+  "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/seom-essenz-tour-2026.html",
+  "quelle": "Music Hall",
+  "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -2413,7 +2205,7 @@
   "url": "https://data.austriaclimbing.com/Event/3862",
   "quelle": "Austria Climbing",
   "kategorie": "sport",
-  "anmeldeschluss": "",
+  "anmeldeschluss": "2026-09-16",
   "serie": false,
   "neu": false
  },
@@ -2426,19 +2218,6 @@
   "url": "https://www.alpenverein.at/innsbruck/termine/index_detail.php?veranstaltungID=b5c2edf8-567a-4b32-beb9-8b914a3d1666&oa=1",
   "quelle": "Alpenverein Innsbruck",
   "kategorie": "sport",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Flohmarkt beim Greif Center",
-  "datum": "2026-09-20",
-  "bis": "",
-  "zeit": "05:30",
-  "ort": "Innsbruck",
-  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/flohmarkt-innsbruck-beim-greifcenter",
-  "quelle": "flohmarkt.at",
-  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -2581,32 +2360,6 @@
   "ort": "🏡 Stams | Volksschule Stams",
   "url": "https://wasmachma.at/event/6422-stams/buechereiflohmarkt-mit-spieletauschboerse-lesungen-gewinnspiele-etc-7197130",
   "quelle": "wasmachma",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Floh- und Trödelmarkt",
-  "datum": "2026-09-20",
-  "bis": "",
-  "zeit": "16:00",
-  "ort": "Telfs",
-  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/telfs-park-flohmarkt",
-  "quelle": "flohmarkt.at",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Flohmarkt am Standort Parkplatz, METRO",
-  "datum": "2026-09-20",
-  "bis": "",
-  "zeit": "16:00",
-  "ort": "Rum bei Innsbruck",
-  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/flohmarkt-metro-rum-bei-innsbruck",
-  "quelle": "flohmarkt.at",
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
@@ -3279,7 +3032,7 @@
   "titel": "AK ́CHAMEL | URGEIST & STAAD",
   "datum": "2026-09-24",
   "bis": "",
-  "zeit": "20:00",
+  "zeit": "21:00",
   "ort": "p.m.k, Innsbruck",
   "url": "https://www.pmk.or.at/de/events/akchamel-urgeist-staad",
   "quelle": "p.m.k",
@@ -3445,10 +3198,23 @@
   "neu": false
  },
  {
-  "titel": "MOVES & BARS",
+  "titel": "Zarah 47 - Das totale Lied",
   "datum": "2026-09-25",
   "bis": "",
   "zeit": "20:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122214546.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "MOVES & BARS",
+  "datum": "2026-09-25",
+  "bis": "",
+  "zeit": "21:00",
   "ort": "p.m.k, Innsbruck",
   "url": "https://www.pmk.or.at/de/events/moves-bars",
   "quelle": "p.m.k",
@@ -3458,14 +3224,14 @@
   "neu": false
  },
  {
-  "titel": "Zarah 47 - Das totale Lied",
+  "titel": "Dick Brave - Back for Good / Back for More Tour 2026",
   "datum": "2026-09-25",
-  "bis": "",
-  "zeit": "20:00",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbruck.info/events/e/122214546.html",
-  "quelle": "Innsbruck Tourismus",
-  "kategorie": "mix",
+  "bis": "2026-09-26",
+  "zeit": "22:00",
+  "ort": "74 Grabenweg, Innsbruck, Tirol 6020",
+  "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/dick-brave-back-for-good-back-for-more-tour-2026.html",
+  "quelle": "Music Hall",
+  "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -3494,6 +3260,19 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Markt am Tivoli",
+  "datum": "2026-09-26",
+  "bis": "",
+  "zeit": "06:00",
+  "ort": "Tivoli Stadion Tirol, Innsbruck",
+  "url": "https://www.olympiaworld.at/events-tickets/",
+  "quelle": "Olympiaworld",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": true,
   "neu": false
  },
  {
@@ -3557,19 +3336,6 @@
   "url": "https://www.innsbruck.info/events/e/122283606.html",
   "quelle": "Innsbruck Tourismus",
   "kategorie": "mix",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Markt am Tivoli Flohmarkt",
-  "datum": "2026-09-26",
-  "bis": "",
-  "zeit": "12:00",
-  "ort": "Innsbruck",
-  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/tivolimarkt-innsbruck",
-  "quelle": "flohmarkt.at",
-  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -3770,19 +3536,6 @@
   "neu": false
  },
  {
-  "titel": "Flohmarkt beim Greif Center",
-  "datum": "2026-09-27",
-  "bis": "",
-  "zeit": "05:30",
-  "ort": "Innsbruck",
-  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/flohmarkt-innsbruck-beim-greifcenter",
-  "quelle": "flohmarkt.at",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Flohmarkt Greifcenter",
   "datum": "2026-09-27",
   "bis": "",
@@ -3874,32 +3627,6 @@
   "neu": false
  },
  {
-  "titel": "Floh- und Trödelmarkt",
-  "datum": "2026-09-27",
-  "bis": "",
-  "zeit": "16:00",
-  "ort": "Telfs",
-  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/telfs-park-flohmarkt",
-  "quelle": "flohmarkt.at",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Flohmarkt am Standort Parkplatz, METRO",
-  "datum": "2026-09-27",
-  "bis": "",
-  "zeit": "16:00",
-  "ort": "Rum bei Innsbruck",
-  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/flohmarkt-metro-rum-bei-innsbruck",
-  "quelle": "flohmarkt.at",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "HC TIWAG Innsbruck - HCB Südtirol Alperia",
   "datum": "2026-09-27",
   "bis": "",
@@ -3926,6 +3653,19 @@
   "neu": false
  },
  {
+  "titel": "Codeborn",
+  "datum": "2026-09-27",
+  "bis": "",
+  "zeit": "19:30",
+  "ort": "Haus der Musik, Innsbruck",
+  "url": "https://www.haus-der-musik-innsbruck.at/veranstaltung/codeborn-27-09-26/",
+  "quelle": "Haus der Musik",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Pubquiz Moustache",
   "datum": "2026-09-27",
   "bis": "",
@@ -3936,19 +3676,6 @@
   "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": true,
-  "neu": false
- },
- {
-  "titel": "Codeborn",
-  "datum": "2026-09-27",
-  "bis": "",
-  "zeit": "",
-  "ort": "Haus der Musik, Innsbruck",
-  "url": "https://www.haus-der-musik-innsbruck.at/veranstaltung/codeborn-27-09-26/",
-  "quelle": "Haus der Musik",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
   "neu": false
  },
  {
@@ -4238,6 +3965,19 @@
   "neu": false
  },
  {
+  "titel": "ConTakt 1",
+  "datum": "2026-09-30",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Haus der Musik, Innsbruck",
+  "url": "https://www.haus-der-musik-innsbruck.at/veranstaltung/contakt-1-30-09-26/",
+  "quelle": "Haus der Musik",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Musical Dinner - Ich Liebe Dich (Fast) Wie Du Bist - Ein ganzes Musical als Dinner Show",
   "datum": "2026-09-30",
   "bis": "",
@@ -4287,19 +4027,6 @@
   "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": true,
-  "neu": false
- },
- {
-  "titel": "ConTakt 1",
-  "datum": "2026-09-30",
-  "bis": "",
-  "zeit": "",
-  "ort": "Haus der Musik, Innsbruck",
-  "url": "https://www.haus-der-musik-innsbruck.at/veranstaltung/contakt-1-30-09-26/",
-  "quelle": "Haus der Musik",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
   "neu": false
  },
  {
@@ -4654,6 +4381,19 @@
   "neu": false
  },
  {
+  "titel": "1. Kammerkonzert",
+  "datum": "2026-10-02",
+  "bis": "",
+  "zeit": "19:30",
+  "ort": "Haus der Musik, Innsbruck",
+  "url": "https://www.haus-der-musik-innsbruck.at/veranstaltung/1-kammerkonzert-02-10-26/",
+  "quelle": "Haus der Musik",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Fäaschtbänkler 2026 - Pop, Blasmusik & Techno live",
   "datum": "2026-10-02",
   "bis": "",
@@ -4680,14 +4420,14 @@
   "neu": false
  },
  {
-  "titel": "1. Kammerkonzert",
+  "titel": "Codeborn",
   "datum": "2026-10-02",
   "bis": "",
-  "zeit": "",
+  "zeit": "20:00",
   "ort": "Haus der Musik, Innsbruck",
-  "url": "https://www.haus-der-musik-innsbruck.at/veranstaltung/1-kammerkonzert-02-10-26/",
+  "url": "https://www.haus-der-musik-innsbruck.at/veranstaltung/codeborn-02-10-26/",
   "quelle": "Haus der Musik",
-  "kategorie": "musik",
+  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -4701,19 +4441,6 @@
   "url": "https://www.psychoneuroimmunologie-kongress.at",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "sport",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Codeborn",
-  "datum": "2026-10-02",
-  "bis": "",
-  "zeit": "",
-  "ort": "Haus der Musik, Innsbruck",
-  "url": "https://www.haus-der-musik-innsbruck.at/veranstaltung/codeborn-02-10-26/",
-  "quelle": "Haus der Musik",
-  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -4862,6 +4589,19 @@
   "neu": false
  },
  {
+  "titel": "Codeborn",
+  "datum": "2026-10-03",
+  "bis": "",
+  "zeit": "19:30",
+  "ort": "Haus der Musik, Innsbruck",
+  "url": "https://www.haus-der-musik-innsbruck.at/veranstaltung/codeborn-03-10-26/",
+  "quelle": "Haus der Musik",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Comedy für Freunde - Deutsche Stand-Up Comedy",
   "datum": "2026-10-03",
   "bis": "",
@@ -4869,19 +4609,6 @@
   "ort": "Die Bäckerei, Innsbruck",
   "url": "https://diebaeckerei.at/programm/2026/2026-02-comedy-fuer-freunde-deutsche-stand-up-comedy-showoktober",
   "quelle": "Die Bäckerei",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Codeborn",
-  "datum": "2026-10-03",
-  "bis": "",
-  "zeit": "",
-  "ort": "Haus der Musik, Innsbruck",
-  "url": "https://www.haus-der-musik-innsbruck.at/veranstaltung/codeborn-03-10-26/",
-  "quelle": "Haus der Musik",
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
@@ -4992,6 +4719,19 @@
   "neu": false
  },
  {
+  "titel": "Die Klangwerkstatt - Das Waldhorn",
+  "datum": "2026-10-04",
+  "bis": "",
+  "zeit": "10:30",
+  "ort": "Haus der Musik, Innsbruck",
+  "url": "https://www.haus-der-musik-innsbruck.at/veranstaltung/die-klangwerkstatt-das-waldhorn-04-10-26-1/",
+  "quelle": "Haus der Musik",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Sonntag-Morgen-Yoga am KOFEL",
   "datum": "2026-10-04",
   "bis": "",
@@ -5080,19 +4820,6 @@
   "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": true,
-  "neu": false
- },
- {
-  "titel": "Die Klangwerkstatt - Das Waldhorn",
-  "datum": "2026-10-04",
-  "bis": "",
-  "zeit": "",
-  "ort": "Haus der Musik, Innsbruck",
-  "url": "https://www.haus-der-musik-innsbruck.at/veranstaltung/die-klangwerkstatt-das-waldhorn-04-10-26-1/",
-  "quelle": "Haus der Musik",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
   "neu": false
  },
  {
@@ -5528,10 +5255,23 @@
   "titel": "BELZEBONG + SUPPORT",
   "datum": "2026-10-08",
   "bis": "",
-  "zeit": "20:30",
+  "zeit": "21:00",
   "ort": "p.m.k, Innsbruck",
   "url": "https://www.pmk.or.at/de/events/belzebong-support",
   "quelle": "p.m.k",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Tarja - Frisson Live 2026",
+  "datum": "2026-10-08",
+  "bis": "2026-10-09",
+  "zeit": "21:00",
+  "ort": "74 Grabenweg, Innsbruck, Tirol 6020",
+  "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/tarja-frisson-live-2026.html",
+  "quelle": "Music Hall",
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
@@ -5824,6 +5564,19 @@
   "neu": false
  },
  {
+  "titel": "Back to The Rave - Innsbrucks Premium Drum and Bass Event",
+  "datum": "2026-10-10",
+  "bis": "2026-10-11",
+  "zeit": "23:00",
+  "ort": "74 Grabenweg, Innsbruck, Tirol 6020",
+  "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/back-to-the-rave-innsbrucks-premium-drum-and-bass-event.html",
+  "quelle": "Music Hall",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "BUGS & WELLY'S ECHO CHAMBER #7",
   "datum": "2026-10-10",
   "bis": "",
@@ -5915,17 +5668,17 @@
   "neu": false
  },
  {
-  "titel": "THEATER-TRAUM // HERBERT & MIMI: GLATT VERKEHRT. FüR MENSCHEN AB 3",
+  "titel": "HERBERT & MIMI: GLATT VERKEHRT. CLOWNTHEATER FüR MENSCHEN im BESTEN ALTER",
   "datum": "2026-10-11",
   "bis": "",
   "zeit": "14:00",
   "ort": "Treibhaus Innsbruck",
-  "url": "https://www.treibhaus.at/programm/2026/10/11/14655-theater-traum-herbert-mimi-glatt-verkehrt-fuer-menschen-ab-3",
+  "url": "https://www.treibhaus.at/programm/2026/10/11/14655-herbert-mimi-glatt-verkehrt-clowntheater-fuer-menschen-im-besten-alter",
   "quelle": "Treibhaus",
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": false
+  "neu": true
  },
  {
   "titel": "HC TIWAG Innsbruck - EC iDM Wärmepumpen VSV",
@@ -6768,6 +6521,19 @@
   "url": "https://diebaeckerei.at/programm/2026/2026-10-17-baiba-delusional-album-release",
   "quelle": "Die Bäckerei",
   "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Radio 88,6 - Rockfest Innsbruck",
+  "datum": "2026-10-17",
+  "bis": "2026-10-18",
+  "zeit": "22:00",
+  "ort": "74 Grabenweg, Innsbruck, Tirol 6020",
+  "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/radio-88,6-rockfest-innsbruck.html",
+  "quelle": "Music Hall",
+  "kategorie": "sport",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -7722,6 +7488,19 @@
   "neu": false
  },
  {
+  "titel": "Dame - Der Weg ist das Ziel Tour 2026",
+  "datum": "2026-10-25",
+  "bis": "2026-10-26",
+  "zeit": "21:00",
+  "ort": "Music Hall, Innsbruck",
+  "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/dame-der-weg-ist-das-ziel-tour-2026.html",
+  "quelle": "Music Hall",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Heinali & A.-Y. Saienko pres. Hildegard",
   "datum": "2026-10-25",
   "bis": "",
@@ -7878,17 +7657,17 @@
   "neu": false
  },
  {
-  "titel": "AMISTAT",
+  "titel": "Amistat - Everything in between Tour 2026",
   "datum": "2026-10-28",
-  "bis": "",
-  "zeit": "19:00",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbruck.info/events/e/122285577.html",
-  "quelle": "Innsbruck Tourismus",
-  "kategorie": "mix",
+  "bis": "2026-10-29",
+  "zeit": "21:00",
+  "ort": "74 Grabenweg, Innsbruck, Tirol 6020",
+  "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/amistat-everything-in-between-tour-2026.html",
+  "quelle": "Music Hall",
+  "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Farmkehralm",
@@ -7950,6 +7729,19 @@
   "ort": "Treibhaus Innsbruck",
   "url": "https://www.treibhaus.at/programm/2026/10/29/14701-oskar-haag-lost-cause-pophymnen-vom-ausnahmetalent-indie-pop-wunderwuzzi",
   "quelle": "Treibhaus",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Fiddlers Green - Jubiläumstour 35 Jahre auf der Bühne!",
+  "datum": "2026-10-29",
+  "bis": "2026-10-30",
+  "zeit": "21:00",
+  "ort": "74 Grabenweg, Innsbruck, Tirol 6020",
+  "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/fiddlers-green-jubiläumstour-35-jahre-auf-der-bühne.html",
+  "quelle": "Music Hall",
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
@@ -8125,6 +7917,19 @@
   "neu": false
  },
  {
+  "titel": "Halloween Freakshow 2026",
+  "datum": "2026-10-31",
+  "bis": "2026-11-01",
+  "zeit": "22:00",
+  "ort": "74 Grabenweg, Innsbruck, Tirol 6020",
+  "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/halloween-freakshow-2026.html",
+  "quelle": "Music Hall",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Flaurlinger Roßkogl",
   "datum": "2026-10-31",
   "bis": "",
@@ -8184,6 +7989,19 @@
   "ort": "TIWAG Arena",
   "url": "https://www.olympiaworld.at/events-tickets/hc-tiwag-innsbruck-hc-falkensteiner-pustertal/",
   "quelle": "Olympiaworld",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Dubioza Kolektiv - Tour 2026",
+  "datum": "2026-11-01",
+  "bis": "2026-11-02",
+  "zeit": "21:00",
+  "ort": "74 Grabenweg, Innsbruck, Tirol 6020",
+  "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/dubioza-kollektiv-tour-2026.html",
+  "quelle": "Music Hall",
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
@@ -8457,6 +8275,19 @@
   "ort": "Telfs",
   "url": "https://www.innsbruck.info/events/e/122215445.html",
   "quelle": "Innsbruck Tourismus",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Glory Bizarre by Andrew Clark",
+  "datum": "2026-11-07",
+  "bis": "2026-11-08",
+  "zeit": "23:00",
+  "ort": "74 Grabenweg, Innsbruck, Tirol 6020",
+  "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/glory-bizarre-by-andrew-clark-2.html",
+  "quelle": "Music Hall",
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
@@ -8996,6 +8827,19 @@
   "neu": false
  },
  {
+  "titel": "Ina Regen - Revolution der Liebeslieder Tour 2026",
+  "datum": "2026-11-13",
+  "bis": "2026-11-14",
+  "zeit": "21:00",
+  "ort": "74 Grabenweg, Innsbruck, Tirol 6020",
+  "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/ina-regen-revolution-der-liebeslieder-tour-2026.html",
+  "quelle": "Music Hall",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "48. SENaktiv mit Kreativbereich 2026",
   "datum": "2026-11-13",
   "bis": "2026-11-15",
@@ -9030,6 +8874,19 @@
   "url": "https://www.eventfinder.at/veranstaltung/1463228/mnozil-brass-innsbruck/",
   "quelle": "eventfinder",
   "kategorie": "brauchtum",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "One Step Closer - A Tribute to Linkin Park",
+  "datum": "2026-11-14",
+  "bis": "2026-11-15",
+  "zeit": "21:00",
+  "ort": "74 Grabenweg, Innsbruck, Tirol 6020",
+  "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/one-step-closer-a-tribute-to-linkin-park.html",
+  "quelle": "Music Hall",
+  "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -9386,19 +9243,6 @@
   "neu": false
  },
  {
-  "titel": "MADSEN",
-  "datum": "2026-11-20",
-  "bis": "",
-  "zeit": "19:00",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbruck.info/events/e/122285580.html",
-  "quelle": "Innsbruck Tourismus",
-  "kategorie": "mix",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
   "titel": "HC TIWAG Innsbruck - Steinbach Black Wings Linz",
   "datum": "2026-11-20",
   "bis": "",
@@ -9432,6 +9276,19 @@
   "ort": "Die Bäckerei, Innsbruck",
   "url": "https://diebaeckerei.at/programm/2026/2026-11-20-cordoba78-muss-ich-unbedingt-verpassen-tour-2026",
   "quelle": "Die Bäckerei",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Madsen - Smile Tour 2026",
+  "datum": "2026-11-20",
+  "bis": "2026-11-21",
+  "zeit": "21:00",
+  "ort": "74 Grabenweg, Innsbruck, Tirol 6020",
+  "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/madsen-smile-tour-2026.html",
+  "quelle": "Music Hall",
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
@@ -9523,6 +9380,19 @@
   "ort": "Olympiahalle",
   "url": "https://www.olympiaworld.at/events-tickets/michael-tsokos-phaenomen-forensik-faszination-rechtsmedizin-20/",
   "quelle": "Olympiaworld",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Mamma Mia Party - Die Konzertrtour als Party",
+  "datum": "2026-11-21",
+  "bis": "2026-11-22",
+  "zeit": "21:00",
+  "ort": "74 Grabenweg, Innsbruck, Tirol 6020",
+  "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/mamma-mia-party-die-konzertrtour-als-party.html",
+  "quelle": "Music Hall",
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
@@ -9971,6 +9841,19 @@
   "neu": false
  },
  {
+  "titel": "Willkuer - Explosiv wie Dynamit Tour 2026",
+  "datum": "2026-11-27",
+  "bis": "2026-11-28",
+  "zeit": "21:00",
+  "ort": "74 Grabenweg, Innsbruck, Tirol 6020",
+  "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/willkuer-explosiv-wie-dynamit-tour-2026.html",
+  "quelle": "Music Hall",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Innsbrucker Zahnprophylaxetage 2026",
   "datum": "2026-11-27",
   "bis": "2026-11-28",
@@ -10010,19 +9893,6 @@
   "neu": false
  },
  {
-  "titel": "DELINQUENT HABITS",
-  "datum": "2026-11-28",
-  "bis": "",
-  "zeit": "19:00",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbruck.info/events/e/122285582.html",
-  "quelle": "Innsbruck Tourismus",
-  "kategorie": "mix",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
   "titel": "WECHSELSPIEL: Fighting Dušman",
   "datum": "2026-11-28",
   "bis": "",
@@ -10057,6 +9927,19 @@
   "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Delinquent Habits - El Ritmo: 30th Anniversary & Album Tour",
+  "datum": "2026-11-28",
+  "bis": "2026-11-29",
+  "zeit": "21:00",
+  "ort": "74 Grabenweg, Innsbruck, Tirol 6020",
+  "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/delinquent-habits-el-ritmo-30th-anniversary-album-tour.html",
+  "quelle": "Music Hall",
+  "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -10452,19 +10335,6 @@
   "neu": false
  },
  {
-  "titel": "GLUEBOYS",
-  "datum": "2026-12-05",
-  "bis": "",
-  "zeit": "19:00",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbruck.info/events/e/122285583.html",
-  "quelle": "Innsbruck Tourismus",
-  "kategorie": "mix",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
   "titel": "Sindy’s Angels – Die Weihnachtsshow ist zurück!",
   "datum": "2026-12-05",
   "bis": "",
@@ -10473,6 +10343,19 @@
   "url": "https://www.innsbruck.info/events/e/122281358.html",
   "quelle": "Innsbruck Tourismus",
   "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Glueboys - Live 2026",
+  "datum": "2026-12-05",
+  "bis": "2026-12-06",
+  "zeit": "21:00",
+  "ort": "74 Grabenweg, Innsbruck, Tirol 6020",
+  "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/glueboys-live-2026.html",
+  "quelle": "Music Hall",
+  "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -10582,19 +10465,6 @@
   "neu": false
  },
  {
-  "titel": "AVATAR",
-  "datum": "2026-12-08",
-  "bis": "",
-  "zeit": "19:00",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbruck.info/events/e/122286017.html",
-  "quelle": "Innsbruck Tourismus",
-  "kategorie": "mix",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
   "titel": "Galakonzert - Original Tiroler Kaiserjägermusik 2026",
   "datum": "2026-12-08",
   "bis": "",
@@ -10602,6 +10472,19 @@
   "ort": "Congress Innsbruck",
   "url": "https://www.tirol-kaiserjaegermusik.at",
   "quelle": "Congress Messe Innsbruck",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Avatar - Out of the Shadows into the Dark",
+  "datum": "2026-12-08",
+  "bis": "2026-12-09",
+  "zeit": "21:00",
+  "ort": "74 Grabenweg, Innsbruck, Tirol 6020",
+  "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/avatar-out-of-the-shadows-into-the-dark.html",
+  "quelle": "Music Hall",
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
@@ -10641,6 +10524,19 @@
   "ort": "Congress Innsbruck",
   "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Rock to Mode - The Sound of Depeche Mode",
+  "datum": "2026-12-11",
+  "bis": "2026-12-12",
+  "zeit": "21:00",
+  "ort": "74 Grabenweg, Innsbruck, Tirol 6020",
+  "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/rock-to-mode-the-sound-of-depeche-mode.html",
+  "quelle": "Music Hall",
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
@@ -10712,6 +10608,19 @@
   "neu": false
  },
  {
+  "titel": "Bravo Hits Party 2.0",
+  "datum": "2026-12-12",
+  "bis": "2026-12-13",
+  "zeit": "22:00",
+  "ort": "74 Grabenweg, Innsbruck, Tirol 6020",
+  "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/bravo-hits-party-2-0.html",
+  "quelle": "Music Hall",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Tiroler Adventsingen",
   "datum": "2026-12-13",
   "bis": "",
@@ -10764,6 +10673,19 @@
   "neu": false
  },
  {
+  "titel": "X-MAS ROCK TRIBUTE FEST",
+  "datum": "2026-12-18",
+  "bis": "2026-12-19",
+  "zeit": "21:00",
+  "ort": "74 Grabenweg, Innsbruck, Tirol 6020",
+  "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/x-mas-rock-tribute-fest-3.html",
+  "quelle": "Music Hall",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "ALPINE RAGE Vol. 2",
   "datum": "2026-12-18",
   "bis": "",
@@ -10790,6 +10712,19 @@
   "neu": false
  },
  {
+  "titel": "Turbobier - \"Das Leben is a Oaschloch\" Tour 2026",
+  "datum": "2026-12-19",
+  "bis": "2026-12-20",
+  "zeit": "21:00",
+  "ort": "74 Grabenweg, Innsbruck, Tirol 6020",
+  "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/turbobier-das-leben-is-a-oaschloch-tour-2026.html",
+  "quelle": "Music Hall",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Trainingslager Innsbruck U13-U19",
   "datum": "2026-12-19",
   "bis": "2026-12-20",
@@ -10798,7 +10733,7 @@
   "url": "https://data.austriaclimbing.com/Event/3885",
   "quelle": "Austria Climbing",
   "kategorie": "kurse",
-  "anmeldeschluss": "",
+  "anmeldeschluss": "2026-11-30",
   "serie": false,
   "neu": false
  },
@@ -11193,6 +11128,19 @@
   "neu": false
  },
  {
+  "titel": "LaFee - 20 Jahre Virus Tour 2027",
+  "datum": "2027-01-11",
+  "bis": "",
+  "zeit": "20:00",
+  "ort": "74 Grabenweg, Innsbruck, Tirol 6020",
+  "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/lafee-20-jahre-virus-tour-2027.html",
+  "quelle": "Music Hall",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "3. Symphoniekonzert 2026/2027",
   "datum": "2027-01-14",
   "bis": "2027-01-15",
@@ -11219,17 +11167,17 @@
   "neu": false
  },
  {
-  "titel": "STAHLZEIT - WAS ICH LIEBE LIVE - Die spektakulärste RAMMSTEIN Tribute Show",
+  "titel": "STAHLZEIT - Was ich Liebe Live 2027",
   "datum": "2027-01-15",
-  "bis": "",
-  "zeit": "20:00",
-  "ort": "Innsbruck",
-  "url": "https://www.eventfinder.at/veranstaltung/1557569/stahlzeit-innsbruck/",
-  "quelle": "eventfinder",
+  "bis": "2027-01-16",
+  "zeit": "21:00",
+  "ort": "74 Grabenweg, Innsbruck, Tirol 6020",
+  "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/stahlzeit-was-ich-liebe-live-2027.html",
+  "quelle": "Music Hall",
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Maturaball BORG",
@@ -11583,6 +11531,32 @@
   "neu": false
  },
  {
+  "titel": "Avec - The Theatre Tour",
+  "datum": "2027-02-05",
+  "bis": "2027-02-06",
+  "zeit": "21:00",
+  "ort": "74 Grabenweg, Innsbruck, Tirol 6020",
+  "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/avec-the-theatre-tour.html",
+  "quelle": "Music Hall",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "SPRING TRIBUTE ROCK FEST",
+  "datum": "2027-02-06",
+  "bis": "2027-02-07",
+  "zeit": "21:00",
+  "ort": "74 Grabenweg, Innsbruck, Tirol 6020",
+  "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/spring-tribute-rock-fest.html",
+  "quelle": "Music Hall",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Der Ball der Tiroler Wirtschaft",
   "datum": "2027-02-06",
   "bis": "",
@@ -11720,6 +11694,19 @@
   "ort": "Congress Innsbruck",
   "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "The Rock'nRoll Wrestling Bash",
+  "datum": "2027-02-20",
+  "bis": "2027-02-21",
+  "zeit": "21:00",
+  "ort": "74 Grabenweg, Innsbruck, Tirol 6020",
+  "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/the-rock-nroll-wrestling-bash.html",
+  "quelle": "Music Hall",
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
@@ -11869,19 +11856,6 @@
   "neu": false
  },
  {
-  "titel": "DICHT & ERGREIFEND",
-  "datum": "2027-03-04",
-  "bis": "",
-  "zeit": "19:00",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbruck.info/events/e/122286020.html",
-  "quelle": "Innsbruck Tourismus",
-  "kategorie": "mix",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
   "titel": "Kakkmaddafakka • Die Bäckerei",
   "datum": "2027-03-04",
   "bis": "",
@@ -11889,6 +11863,19 @@
   "ort": "Die Bäckerei, Innsbruck",
   "url": "https://diebaeckerei.at/programm/2026/2027-03-04-kakkmaddafakka-die-baeckerei",
   "quelle": "Die Bäckerei",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Dicht & Ergreifend - Zweiländerdreieck Tour 2027",
+  "datum": "2027-03-04",
+  "bis": "2027-03-05",
+  "zeit": "21:00",
+  "ort": "74 Grabenweg, Innsbruck, Tirol 6020",
+  "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/dicht-ergreifend-zweiländerdreieck-tour-2027.html",
+  "quelle": "Music Hall",
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
@@ -11960,17 +11947,17 @@
   "neu": false
  },
  {
-  "titel": "LEMO",
+  "titel": "Lemo - Höchst persönlich Tour 2027",
   "datum": "2027-03-11",
-  "bis": "",
-  "zeit": "19:00",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbruck.info/events/e/122286021.html",
-  "quelle": "Innsbruck Tourismus",
-  "kategorie": "mix",
+  "bis": "2027-03-12",
+  "zeit": "21:00",
+  "ort": "74 Grabenweg, Innsbruck, Tirol 6020",
+  "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/lemo-höchst-persönlich-tour-2027.html",
+  "quelle": "Music Hall",
+  "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "42. Tiroler Frühjahrsmesse & 37. Tiroler Autosalon 2027",
@@ -12025,6 +12012,19 @@
   "neu": false
  },
  {
+  "titel": "Thorsteinn Einarsson - Solstice Tour 2027",
+  "datum": "2027-03-12",
+  "bis": "2027-03-13",
+  "zeit": "21:00",
+  "ort": "74 Grabenweg, Innsbruck, Tirol 6020",
+  "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/thorsteinn-einarsson-solstice-tour-2027.html",
+  "quelle": "Music Hall",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Maturaball Reithmann",
   "datum": "2027-03-12",
   "bis": "",
@@ -12071,6 +12071,19 @@
   "ort": "Congress Innsbruck",
   "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Happy Jungle Show - Rodscha aus Kambodscha und Tom Palme",
+  "datum": "2027-03-14",
+  "bis": "",
+  "zeit": "16:00",
+  "ort": "74 Grabenweg, Innsbruck, Tirol 6020",
+  "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/happy-jungle-show-rodscha-aus-kambodscha-und-tom-palme.html",
+  "quelle": "Music Hall",
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
@@ -12253,6 +12266,19 @@
   "ort": "Die Bäckerei, Innsbruck",
   "url": "https://diebaeckerei.at/programm/2026/2027-04-09-juse-ju-in-jenen-tagen-tour",
   "quelle": "Die Bäckerei",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Bibiza - Live Tour 2027",
+  "datum": "2027-04-09",
+  "bis": "2027-04-10",
+  "zeit": "22:00",
+  "ort": "74 Grabenweg, Innsbruck, Tirol 6020",
+  "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/bibiza-live-tour-2027.html",
+  "quelle": "Music Hall",
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
@@ -12584,6 +12610,19 @@
   "neu": false
  },
  {
+  "titel": "28. Alpenregionstreffen am Bergisel",
+  "datum": "2027-05-17",
+  "bis": "",
+  "zeit": "",
+  "ort": "Bergisel, Innsbruck",
+  "url": "https://www.bergisel.info/at/546-28.-alpenregionstreffen-am-bergisel",
+  "quelle": "Bergisel",
+  "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "MCI Sustainability Week 2027",
   "datum": "2027-05-18",
   "bis": "2027-05-21",
@@ -12597,17 +12636,17 @@
   "neu": false
  },
  {
-  "titel": "RIAN",
+  "titel": "Rian - Alltagsgeschichten Tour 2027",
   "datum": "2027-05-20",
-  "bis": "",
-  "zeit": "18:00",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbruck.info/events/e/122286024.html",
-  "quelle": "Innsbruck Tourismus",
-  "kategorie": "mix",
+  "bis": "2027-05-21",
+  "zeit": "22:00",
+  "ort": "74 Grabenweg, Innsbruck, Tirol 6020",
+  "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/rian-alltagsgeschichten-tour-2027.html",
+  "quelle": "Music Hall",
+  "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "7. Symphoniekonzert 2026/2027",

@@ -1,23 +1,17 @@
 {
- "erzeugt": "2026-09-13T09:39:40+00:00",
+ "erzeugt": "2026-09-13T18:18:24+00:00",
  "befunde": [
   {
    "dringlichkeit": "fehler",
-   "quelle": "Bergisel",
-   "was": "seit diesem Lauf kaputt: HTTP 403",
-   "rat": "Der Server sperrt uns aus. Das ist eine Entscheidung des Betreibers, keine Panne -- Quelle abschalten und begruenden."
+   "quelle": "flohmarkt.at",
+   "was": "seit diesem Lauf kaputt: TimeoutError: The read operation timed out",
+   "rat": "Der Server war langsam. Beim naechsten Lauf abwarten."
   },
   {
-   "dringlichkeit": "fehler",
-   "quelle": "Music Hall",
-   "was": "seit diesem Lauf kaputt: HTTP 403",
-   "rat": "Der Server sperrt uns aus. Das ist eine Entscheidung des Betreibers, keine Panne -- Quelle abschalten und begruenden."
-  },
-  {
-   "dringlichkeit": "fehler",
-   "quelle": "Tiroler Landesmuseen",
-   "was": "seit diesem Lauf kaputt: HTTP 403",
-   "rat": "Der Server sperrt uns aus. Das ist eine Entscheidung des Betreibers, keine Panne -- Quelle abschalten und begruenden."
+   "dringlichkeit": "warnung",
+   "quelle": "Metropol Kino",
+   "was": "nur noch 7 statt ueblicherweise 22",
+   "rat": "Teilweiser Umbau der Seite, oder die Quelle hat wirklich weniger im Programm."
   }
  ],
  "dauerhaft_still": [],
@@ -66,10 +60,10 @@
    "laeufe_erfasst": 11,
    "zuletzt": {
     "tag": "2026-09-13",
-    "zustand": "fehler",
-    "gefunden": 0,
-    "behalten": 0,
-    "fehler": "HTTP 403"
+    "zustand": "ok",
+    "gefunden": 1,
+    "behalten": 1,
+    "fehler": ""
    }
   },
   "Bonanza Festival": {
@@ -327,8 +321,8 @@
    "zuletzt": {
     "tag": "2026-09-13",
     "zustand": "ok",
-    "gefunden": 25,
-    "behalten": 25,
+    "gefunden": 7,
+    "behalten": 7,
     "fehler": ""
    }
   },
@@ -336,10 +330,10 @@
    "laeufe_erfasst": 11,
    "zuletzt": {
     "tag": "2026-09-13",
-    "zustand": "fehler",
-    "gefunden": 0,
-    "behalten": 0,
-    "fehler": "HTTP 403"
+    "zustand": "ok",
+    "gefunden": 36,
+    "behalten": 34,
+    "fehler": ""
    }
   },
   "Nature Film Festival": {
@@ -387,8 +381,8 @@
    "zuletzt": {
     "tag": "2026-09-13",
     "zustand": "ok",
-    "gefunden": 66,
-    "behalten": 64,
+    "gefunden": 65,
+    "behalten": 63,
     "fehler": ""
    }
   },
@@ -546,10 +540,10 @@
    "laeufe_erfasst": 11,
    "zuletzt": {
     "tag": "2026-09-13",
-    "zustand": "fehler",
-    "gefunden": 0,
-    "behalten": 0,
-    "fehler": "HTTP 403"
+    "zustand": "ok",
+    "gefunden": 10,
+    "behalten": 7,
+    "fehler": ""
    }
   },
   "Tiroler Skiverband": {
@@ -666,10 +660,10 @@
    "laeufe_erfasst": 11,
    "zuletzt": {
     "tag": "2026-09-13",
-    "zustand": "ok",
-    "gefunden": 15,
-    "behalten": 15,
-    "fehler": ""
+    "zustand": "fehler",
+    "gefunden": 0,
+    "behalten": 0,
+    "fehler": "TimeoutError: The read operation timed out"
    }
   },
   "imkreis": {
