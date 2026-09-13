@@ -4,7 +4,7 @@ Täglich gesammelte Veranstaltungstermine im Raum Innsbruck
 (Innsbruck plus rund 30 km). Dieses Repository enthält **nur die
 Ausgabe**; der Sammler liegt woanders.
 
-Stand: 2026-09-13 · **991 Termine**, davon 0 neu seit dem letzten Lauf.
+Stand: 2026-09-13 · **995 Termine**, davon 15 neu seit dem letzten Lauf.
 
 | Datei | Inhalt |
 |---|---|
@@ -28,4 +28,5 @@ Ein JSON-Array. Jeder Eintrag hat neun feste Felder — `titel`,
 `kategorie`, `anmeldeschluss` — dazu `serie` und `neu`
 als Wahrheitswerte. Datumsangaben sind `JJJJ-MM-TT` oder leer,
 Uhrzeiten `HH:MM` oder leer. `kategorie` ist eine von
-`sport`, `musik`, `kultur`, `kurse`, `markt`, `mix`.
+`sport`, `musik`, `kultur`, `kino`, `kurse`,
+`markt`, `brauchtum`, `mix`.

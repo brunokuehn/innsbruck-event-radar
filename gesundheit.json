@@ -1,10 +1,10 @@
 {
- "erzeugt": "2026-09-13T18:39:35+00:00",
+ "erzeugt": "2026-09-13T21:23:51+00:00",
  "befunde": [
   {
    "dringlichkeit": "warnung",
    "quelle": "Metropol Kino",
-   "was": "nur noch 7 statt ueblicherweise 22",
+   "was": "nur noch 3 statt ueblicherweise 22",
    "rat": "Teilweiser Umbau der Seite, oder die Quelle hat wirklich weniger im Programm."
   }
  ],
@@ -57,6 +57,16 @@
     "zustand": "ok",
     "gefunden": 1,
     "behalten": 1,
+    "fehler": ""
+   }
+  },
+  "Bierstindl": {
+   "laeufe_erfasst": 1,
+   "zuletzt": {
+    "tag": "2026-09-13",
+    "zustand": "ok",
+    "gefunden": 18,
+    "behalten": 18,
     "fehler": ""
    }
   },
@@ -315,8 +325,8 @@
    "zuletzt": {
     "tag": "2026-09-13",
     "zustand": "ok",
-    "gefunden": 7,
-    "behalten": 7,
+    "gefunden": 3,
+    "behalten": 3,
     "fehler": ""
    }
   },
