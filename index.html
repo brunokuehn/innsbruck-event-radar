@@ -84,7 +84,70 @@
      leere Listen erzeugen. Ausgegraut statt ausgeblendet -- sonst springt
      die Zeile. */
   .filter select:disabled { opacity: .4; cursor: default; }
-  .zaehler { font: 400 11.5px/1 var(--mono); color: var(--stein); padding: 10px 2px 0; }
+  .leiste { display: flex; align-items: center; justify-content: space-between;
+            gap: 10px; padding-top: 11px; }
+  .zaehler { font: 400 11.5px/1 var(--mono); color: var(--stein); margin: 0 0 0 2px; }
+  /* Der Umschalter sitzt in der Zeile des Zaehlers, die ohnehin leer war --
+     eine eigene Reihe dafuer waere genau der Wildwuchs, den wir gerade
+     losgeworden sind. */
+  .ansicht { display: flex; flex: none; border: 1px solid var(--linie);
+             border-radius: 999px; overflow: hidden; background: var(--karte); }
+  .ansicht button {
+    font: 600 10.5px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase;
+    padding: 7px 11px; border: 0; background: transparent; color: var(--stein);
+    cursor: pointer;
+  }
+  .ansicht button[aria-pressed="true"] { background: var(--fels); color: var(--grund); }
+  .ansicht button:focus-visible { outline: 2px solid var(--gletscher); outline-offset: -2px; }
+
+  /* ---------- Kalender ---------- */
+  /* Das Raster ist Navigation, keine Anzeige: unter 360 Pixel passt in eine
+     Zelle kein Titel, nur die Auskunft "hier ist etwas los". Die Termine
+     stehen darunter, in derselben Form wie in der Liste. */
+  .kalkopf { display: flex; align-items: center; justify-content: space-between;
+             margin: 20px 0 10px; }
+  .kalkopf b { font: 600 12px/1 var(--eng); letter-spacing: .18em;
+               text-transform: uppercase; }
+  .kalkopf button {
+    width: 34px; height: 34px; border: 1px solid var(--linie); border-radius: 999px;
+    background: var(--karte); color: var(--fels); font: 400 15px/1 var(--mono);
+    cursor: pointer;
+  }
+  .kalkopf button[disabled] { opacity: .3; cursor: default; }
+  .wotage, .raster { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; }
+  .wotage { font: 600 9.5px/1 var(--mono); letter-spacing: .06em;
+            text-transform: uppercase; color: var(--stein); text-align: center;
+            margin-bottom: 5px; }
+  .zelle {
+    aspect-ratio: 1 / 1; display: flex; align-items: center; justify-content: center;
+    border: 1px solid transparent; border-radius: 8px; background: transparent;
+    font: 500 13px/1 var(--mono); color: var(--linie); padding: 0;
+  }
+  .zelle.hat { color: var(--fels); cursor: pointer; }
+  /* Vier Stufen statt einer Zahl: wie voll ein Tag ist, liest man schneller
+     an der Flaeche als an einer Ziffer, die man erst vergleichen muss. */
+  .zelle.d1 { background: rgba(23, 99, 111, .09); }
+  .zelle.d2 { background: rgba(23, 99, 111, .22); }
+  .zelle.d3 { background: rgba(23, 99, 111, .38); }
+  .zelle.d4 { background: rgba(23, 99, 111, .58); }
+  .zelle.heute { border-color: var(--gletscher); font-weight: 700; }
+  .zelle.gewaehlt { background: var(--fels); border-color: var(--fels); color: var(--grund); }
+  .zelle:focus-visible { outline: 2px solid var(--gletscher); outline-offset: 1px; }
+  .kaltag { font: 600 12px/1 var(--eng); letter-spacing: .18em; text-transform: uppercase;
+            color: var(--stein); margin: 22px 0 0; padding-bottom: 7px;
+            border-bottom: 1px solid var(--linie); }
+  .legende { display: flex; align-items: center; gap: 5px; margin: 9px 2px 0;
+             font: 400 10px/1 var(--mono); color: var(--stein); }
+  .legende i { width: 12px; height: 12px; border-radius: 3px; display: block; }
+  @media (prefers-color-scheme: dark) {
+    .zelle.d1 { background: rgba(75, 179, 196, .10); }
+    .zelle.d2 { background: rgba(75, 179, 196, .24); }
+    .zelle.d3 { background: rgba(75, 179, 196, .42); }
+    .zelle.d4 { background: rgba(75, 179, 196, .62); }
+  }
+  /* In der Tagesliste steht links die Uhrzeit statt des Datums -- das Datum
+     steht schon in der Ueberschrift darueber. */
+  .tag.uhrzeit b { font: 600 13px/1.55 var(--mono); letter-spacing: 0; }
 
   /* ---------- Liste ---------- */
   .monat {
@@ -195,7 +258,13 @@
       <option value="alle">Alle Termine</option>
     </select>
   </div>
-  <p class="zaehler" id="zaehler"></p>
+  <div class="leiste">
+    <p class="zaehler" id="zaehler"></p>
+    <div class="ansicht" id="ansicht" role="group" aria-label="Ansicht">
+      <button type="button" data-v="liste" aria-pressed="true">Liste</button>
+      <button type="button" data-v="kalender" aria-pressed="false">Kalender</button>
+    </div>
+  </div>
 
   <main id="liste"><p class="lade">Termine werden geladen …</p></main>
 
@@ -218,8 +287,11 @@
   var MONATE = ['Jänner','Februar','März','April','Mai','Juni','Juli',
                 'August','September','Oktober','November','Dezember'];
   var WOTAG = ['So','Mo','Di','Mi','Do','Fr','Sa'];
+  var WOCHENTAG = ['Sonntag','Montag','Dienstag','Mittwoch','Donnerstag',
+                   'Freitag','Samstag'];
 
   var liste = document.getElementById('liste');
+  var ansichtWahl = document.getElementById('ansicht');
   var wasMenue = document.getElementById('was');
   var wannMenue = document.getElementById('wann');
   var suche = document.getElementById('suche');
@@ -229,6 +301,9 @@
   var filter = 'alle';
   var zeitraum = 'monate3';
   var suchwort = '';
+  var ansicht = 'liste';
+  var kalendermonat = '';   // "2026-09"
+  var gewaehlterTag = '';   // "2026-09-19"
 
   function esc(t) {
     return String(t == null ? '' : t).replace(/[&<>"]/g, function (c) {
@@ -316,29 +391,79 @@
     return true;
   }
 
+  function hinweisHtml() {
+    if (filter === 'brauchtum') {
+      return '<p class="hinweis">Blasmusik, Volksmusik, Schützen, ' +
+        'Prozessionen, Almabtriebe, Zelt- und Feuerwehrfeste — alles, was ' +
+        'im Hauptfeed nicht auftaucht. Gesammelt wird es trotzdem.</p>';
+    }
+    if (filter === 'kino') {
+      return '<p class="hinweis">Das Programm des heutigen Tages, ' +
+        'zusammengetragen aus allen Innsbrucker Kinos. Spielzeiten geben die ' +
+        'Kinoseiten nur im Browser heraus — die stehen hinter dem Filmtitel.</p>';
+    }
+    return '';
+  }
+
+  //: Eine Terminzeile. ``spalte`` sagt, was links steht: in der Liste das
+  //: Datum, im Kalender die Uhrzeit -- das Datum steht dort schon als
+  //: Ueberschrift darueber und muesste sich nicht zwanzigmal wiederholen.
+  function zeile(e, jetztTag, spalte) {
+    var tag = anzeigetag(e, jetztTag);
+    var laeuft = tag !== e.datum;
+    var zeit = zeitVon(e, jetztTag);
+    var d = alsDatum(tag);
+
+    var meta = [];
+    if (e.bis) meta.push((laeuft ? 'läuft noch bis ' : 'bis ') + kurz(e.bis));
+    if (zeit && spalte !== 'zeit') meta.push(zeit);
+    if (e.ort) meta.push(e.ort);
+    // Quelle nur nennen, wenn sie nicht ohnehin im Ort steckt:
+    // "Metropol Kino, Innsbruck · Metropol Kino" liest sich albern.
+    if (e.quelle && e.ort.toLowerCase().indexOf(e.quelle.toLowerCase()) === -1
+        && e.quelle.toLowerCase().indexOf(e.ort.toLowerCase()) === -1) meta.push(e.quelle);
+
+    var marken = '';
+    if (e.neu) marken += '<span class="marke">neu</span>';
+    if (e.serie) marken += '<span class="marke serie">wöchentlich</span>';
+
+    var frist = e.anmeldeschluss
+      ? '<div class="deadline">Anmeldung bis ' + kurz(e.anmeldeschluss) + '</div>' : '';
+
+    var links = spalte === 'zeit'
+      ? '<div class="tag uhrzeit"><b>' + (zeit || '–') + '</b></div>'
+      : '<div class="tag"><b>' + ('0' + d.getDate()).slice(-2) + '</b><span>' +
+        WOTAG[d.getDay()] + '</span></div>';
+
+    var auf = e.url ? '<a class="ev" href="' + esc(e.url) + '" target="_blank" rel="noopener">'
+                    : '<div class="ev">';
+    var zu = e.url ? '</a>' : '</div>';
+
+    return auf + links +
+      '<div><div class="titel"><span class="punkt k-' + esc(e.kategorie) + '"></span>' +
+        esc(e.titel) + marken + '</div>' +
+      (meta.length ? '<div class="meta">' + esc(meta.join(' · ')) + '</div>' : '') +
+      frist + '</div>' + zu;
+  }
+
   function zeichnen() {
-    offenesFenster = (filter === 'kino' || zeitraum === 'alle')
+    // Im Kalender bestimmt der Monat den Zeitraum; das Menue daneben ist
+    // dann gesperrt und sein Fenster gilt nicht.
+    offenesFenster = (ansicht === 'kalender' || filter === 'kino' || zeitraum === 'alle')
       ? null : fenster(ortsdatum(new Date()));
     var sichtbar = termine.filter(passt);
     // Welcher Zeitraum gilt, steht im Menue daneben -- hier nur die Zahl.
     zaehler.textContent = sichtbar.length +
       (sichtbar.length === 1 ? ' Termin' : ' Termine');
 
+    if (ansicht === 'kalender') { zeichneKalender(sichtbar); return; }
+
     if (!sichtbar.length) {
       liste.innerHTML = '<p class="leer">Nichts gefunden. Anderer Filter oder anderes Suchwort?</p>';
       return;
     }
     var teile = [];
-    if (filter === 'brauchtum') {
-      teile.push('<p class="hinweis">Blasmusik, Volksmusik, Schützen, ' +
-        'Prozessionen, Almabtriebe, Zelt- und Feuerwehrfeste — alles, was ' +
-        'im Hauptfeed nicht auftaucht. Gesammelt wird es trotzdem.</p>');
-    }
-    if (filter === 'kino') {
-      teile.push('<p class="hinweis">Das Programm des heutigen Tages, ' +
-        'zusammengetragen aus allen Innsbrucker Kinos. Spielzeiten geben die ' +
-        'Kinoseiten nur im Browser heraus — die stehen hinter dem Filmtitel.</p>');
-    }
+    if (hinweisHtml()) teile.push(hinweisHtml());
     // Der Jetzt-Strich kommt vor den ersten Termin, der noch bevorsteht.
     // Termine ohne Uhrzeit sortieren ans Tagesende und gelten damit als
     // "kommt noch" -- das ist die freundlichere Annahme.
@@ -356,47 +481,16 @@
     var monat = '';
     sichtbar.forEach(function (e) {
       var tag = anzeigetag(e, jetztTag);
-      var laeuft = tag !== e.datum;
-      var zeit = zeitVon(e, jetztTag);
       var d = alsDatum(tag);
       var m = MONATE[d.getMonth()] + ' ' + d.getFullYear();
       if (m !== monat) { monat = m; teile.push('<h2 class="monat">' + m + '</h2>'); }
 
       if (!markeGesetzt && (tag > jetztTag ||
-          (tag === jetztTag && (zeit || '99:99') >= jetztZeit))) {
+          (tag === jetztTag && (zeitVon(e, jetztTag) || '99:99') >= jetztZeit))) {
         markeGesetzt = true;
         teile.push(markeHtml());
       }
-
-      var meta = [];
-      if (e.bis) meta.push((laeuft ? 'läuft noch bis ' : 'bis ') + kurz(e.bis));
-      if (zeit) meta.push(zeit);
-      if (e.ort) meta.push(e.ort);
-      // Quelle nur nennen, wenn sie nicht ohnehin im Ort steckt:
-      // "Metropol Kino, Innsbruck · Metropol Kino" liest sich albern.
-      if (e.quelle && e.ort.toLowerCase().indexOf(e.quelle.toLowerCase()) === -1
-          && e.quelle.toLowerCase().indexOf(e.ort.toLowerCase()) === -1) meta.push(e.quelle);
-
-      var marken = '';
-      if (e.neu) marken += '<span class="marke">neu</span>';
-      if (e.serie) marken += '<span class="marke serie">wöchentlich</span>';
-
-      var frist = e.anmeldeschluss
-        ? '<div class="deadline">Anmeldung bis ' + kurz(e.anmeldeschluss) + '</div>' : '';
-
-      var auf = e.url ? '<a class="ev" href="' + esc(e.url) + '" target="_blank" rel="noopener">'
-                      : '<div class="ev">';
-      var zu = e.url ? '</a>' : '</div>';
-
-      teile.push(
-        auf +
-        '<div class="tag"><b>' + ('0' + d.getDate()).slice(-2) + '</b><span>' +
-          WOTAG[d.getDay()] + '</span></div>' +
-        '<div><div class="titel"><span class="punkt k-' + esc(e.kategorie) + '"></span>' +
-          esc(e.titel) + marken + '</div>' +
-        (meta.length ? '<div class="meta">' + esc(meta.join(' · ')) + '</div>' : '') +
-        frist + '</div>' + zu
-      );
+      teile.push(zeile(e, jetztTag, 'tag'));
     });
     // Ist heute schon alles gelaufen, steht der Strich am Ende.
     if (!markeGesetzt) teile.push(markeHtml());
@@ -404,6 +498,136 @@
     liste.innerHTML = teile.join('');
     zumJetzt();
   }
+
+  // ---------- Kalender ----------------------------------------------------
+
+  //: Laenger als einen Monat: dann zaehlt der Termin nur an seinem ersten
+  //: Tag. Ein Studiengang ueber neun Monate ist kein Tagestermin -- er
+  //: faerbte sonst das halbe Jahr ein, und jeder ruhige Tag saehe belebt aus.
+  var SPANNE_MAX = 31;
+
+  function nachTagen(sichtbar, abTag) {
+    var karte = {};
+    sichtbar.forEach(function (e) {
+      var anfang = alsDatum(e.datum);
+      var tage = e.bis
+        ? Math.round((alsDatum(e.bis) - anfang) / 86400000) : 0;
+      if (!(tage > 0) || tage > SPANNE_MAX) tage = 0;
+      for (var i = 0; i <= tage; i++) {
+        var iso = ortsdatum(new Date(anfang.getFullYear(), anfang.getMonth(),
+                                     anfang.getDate() + i));
+        if (iso < abTag) continue;
+        (karte[iso] = karte[iso] || []).push(e);
+      }
+    });
+    return karte;
+  }
+
+  function monatVon(iso) { return iso.slice(0, 7); }
+
+  function monatVerschieben(monat, schritte) {
+    var d = new Date(+monat.slice(0, 4), +monat.slice(5, 7) - 1 + schritte, 1);
+    return ortsdatum(d).slice(0, 7);
+  }
+
+  //: Wie voll ein Tag ist, gilt im Vergleich mit den anderen Tagen
+  //: desselben Monats. Feste Schwellen haetten nur gezeigt, wie weit der
+  //: Monat weg ist: fuer heute stehen 77 Termine im Kalender, fuer einen
+  //: Tag im Mai zwei -- nicht weil der Mai ruhig wird, sondern weil ihn
+  //: noch niemand angekuendigt hat. Im Monatsvergleich faellt das heraus,
+  //: und weil die Grenzen Quartile sind, verrutscht der Massstab auch dann
+  //: nicht, wenn ein einzelner Tag aus der Reihe faellt.
+  function grenzenVon(zahlen) {
+    var sortiert = zahlen.slice().sort(function (a, b) { return a - b; });
+    function q(anteil) { return sortiert[Math.floor(anteil * (sortiert.length - 1))]; }
+    return [q(0.25), q(0.5), q(0.75)];
+  }
+
+  function stufe(anzahl, grenzen) {
+    return anzahl > grenzen[2] ? 'd4' : anzahl > grenzen[1] ? 'd3'
+         : anzahl > grenzen[0] ? 'd2' : 'd1';
+  }
+
+  function zeichneKalender(sichtbar) {
+    var jetztTag = ortsdatum(new Date());
+    var karte = nachTagen(sichtbar, jetztTag);
+    var belegt = Object.keys(karte).sort();
+
+    if (!belegt.length) {
+      liste.innerHTML = hinweisHtml() +
+        '<p class="leer">Nichts gefunden. Anderer Filter oder anderes Suchwort?</p>';
+      return;
+    }
+    // Der Monat bleibt stehen, solange er im Bereich liegt -- wer blaettert
+    // und dann den Filter wechselt, will nicht zurueckgeworfen werden.
+    var erster = monatVon(belegt[0]), letzter = monatVon(belegt[belegt.length - 1]);
+    if (!kalendermonat || kalendermonat < erster || kalendermonat > letzter) {
+      kalendermonat = monatVon(jetztTag) >= erster ? monatVon(jetztTag) : erster;
+    }
+    if (!karte[gewaehlterTag] || monatVon(gewaehlterTag) !== kalendermonat) {
+      gewaehlterTag = '';
+      for (var i = 0; i < belegt.length; i++) {
+        if (monatVon(belegt[i]) === kalendermonat) { gewaehlterTag = belegt[i]; break; }
+      }
+    }
+
+    var jahr = +kalendermonat.slice(0, 4), mon = +kalendermonat.slice(5, 7) - 1;
+    var grenzen = grenzenVon(belegt
+      .filter(function (iso) { return monatVon(iso) === kalendermonat; })
+      .map(function (iso) { return karte[iso].length; }));
+    var erstesBlatt = new Date(jahr, mon, 1);
+    // Montag zuerst: so haengt das Wochenende zusammen, statt sich auf beide
+    // Enden der Zeile zu verteilen.
+    var vorlauf = (erstesBlatt.getDay() + 6) % 7;
+    var imMonat = new Date(jahr, mon + 1, 0).getDate();
+
+    var teile = [hinweisHtml()];
+    teile.push('<div class="kalkopf">' +
+      '<button type="button" id="zurueck" aria-label="Voriger Monat"' +
+        (kalendermonat <= erster ? ' disabled' : '') + '>‹</button>' +
+      '<b>' + MONATE[mon] + ' ' + jahr + '</b>' +
+      '<button type="button" id="vor" aria-label="Nächster Monat"' +
+        (kalendermonat >= letzter ? ' disabled' : '') + '>›</button></div>');
+    teile.push('<div class="wotage" aria-hidden="true">' +
+      ['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So']
+        .map(function (w) { return '<div>' + w + '</div>'; }).join('') + '</div>');
+
+    teile.push('<div class="raster" id="raster">');
+    for (var v = 0; v < vorlauf; v++) teile.push('<div class="zelle" aria-hidden="true"></div>');
+    for (var tagNr = 1; tagNr <= imMonat; tagNr++) {
+      var iso = ortsdatum(new Date(jahr, mon, tagNr));
+      var wieviele = (karte[iso] || []).length;
+      var klassen = ['zelle'];
+      if (wieviele) klassen.push('hat', stufe(wieviele, grenzen));
+      if (iso === jetztTag) klassen.push('heute');
+      if (iso === gewaehlterTag) klassen.push('gewaehlt');
+      teile.push(wieviele
+        ? '<button type="button" class="' + klassen.join(' ') + '" data-tag="' + iso +
+          '" aria-label="' + tagNr + '. — ' + wieviele +
+          (wieviele === 1 ? ' Termin' : ' Termine') + '"' +
+          (iso === gewaehlterTag ? ' aria-current="date"' : '') + '>' + tagNr + '</button>'
+        : '<div class="' + klassen.join(' ') + '">' + tagNr + '</div>');
+    }
+    teile.push('</div>');
+    teile.push('<p class="legende">im Monatsvergleich: ruhiger <i class="zelle d1"></i>' +
+      '<i class="zelle d2"></i><i class="zelle d3"></i><i class="zelle d4"></i> voller</p>');
+
+    if (gewaehlterTag) {
+      var d = alsDatum(gewaehlterTag);
+      var desTages = (karte[gewaehlterTag] || []).slice().sort(function (a, b) {
+        return (zeitVon(a, jetztTag) || '99:99') < (zeitVon(b, jetztTag) || '99:99') ? -1 : 1;
+      });
+      teile.push('<h2 class="kaltag">' + WOCHENTAG[d.getDay()] + ', ' + d.getDate() +
+        '. ' + MONATE[d.getMonth()] + ' · ' + desTages.length +
+        (desTages.length === 1 ? ' Termin' : ' Termine') + '</h2>');
+      desTages.forEach(function (e) { teile.push(zeile(e, jetztTag, 'zeit')); });
+    }
+
+    liste.innerHTML = teile.join('');
+    raster = document.getElementById('raster');
+  }
+
+  var raster = null;
 
   //: Beim ersten Laden zum Jetzt-Strich springen, danach nach oben. Bei
   //: jedem Filterwechsel dorthin zu springen waere aufdringlich -- wer
@@ -419,9 +643,62 @@
     window.scrollTo({ top: ziel > 24 ? ziel : 0 });
   }
 
+  function menuesAbgleichen() {
+    // Im Kalender bestimmt der Monat den Zeitraum, beim Kinoprogramm der
+    // heutige Tag. Beide Male waere eine Auswahl daneben ohne Wirkung.
+    wannMenue.disabled = (ansicht === 'kalender' || filter === 'kino');
+  }
+
+  ansichtWahl.addEventListener('click', function (ev) {
+    var b = ev.target.closest('button');
+    if (!b || b.dataset.v === ansicht) return;
+    ansicht = b.dataset.v;
+    Array.prototype.forEach.call(ansichtWahl.querySelectorAll('button'), function (c) {
+      c.setAttribute('aria-pressed', String(c === b));
+    });
+    menuesAbgleichen();
+    zeichnen();
+    window.scrollTo({ top: 0 });
+  });
+
+  //: Der Kalender wird bei jedem Zeichnen neu gebaut; die Bedienung haengt
+  //: darum an der Liste, nicht an den Zellen selbst.
+  liste.addEventListener('click', function (ev) {
+    var zelle = ev.target.closest('.zelle[data-tag]');
+    if (zelle) { gewaehlterTag = zelle.dataset.tag; zeichnen(); return; }
+    var pfeil = ev.target.closest('#zurueck, #vor');
+    if (pfeil && !pfeil.disabled) blaettern(pfeil.id === 'vor' ? 1 : -1);
+  });
+
+  function blaettern(schritte) {
+    kalendermonat = monatVerschieben(kalendermonat, schritte);
+    gewaehlterTag = '';
+    zeichnen();
+  }
+
+  // Wischen blaettert den Monat -- am Telefon die erwartete Geste.
+  var wischX = 0, wischY = 0, imRaster = false;
+  liste.addEventListener('touchstart', function (ev) {
+    imRaster = ansicht === 'kalender' && !!ev.target.closest('.raster, .wotage, .kalkopf');
+    if (!imRaster) return;
+    wischX = ev.changedTouches[0].clientX;
+    wischY = ev.changedTouches[0].clientY;
+  }, { passive: true });
+
+  liste.addEventListener('touchend', function (ev) {
+    if (!imRaster) return;
+    var dx = ev.changedTouches[0].clientX - wischX;
+    var dy = ev.changedTouches[0].clientY - wischY;
+    // Nur waagrecht, und nur wenn es eindeutig ist -- sonst blaettert schon
+    // das Scrollen den Monat um.
+    if (Math.abs(dx) < 45 || Math.abs(dx) < Math.abs(dy) * 1.5) return;
+    var grenze = document.getElementById(dx < 0 ? 'vor' : 'zurueck');
+    if (grenze && !grenze.disabled) blaettern(dx < 0 ? 1 : -1);
+  }, { passive: true });
+
   wasMenue.addEventListener('change', function () {
     filter = wasMenue.value;
-    wannMenue.disabled = (filter === 'kino');
+    menuesAbgleichen();
     zeichnen();
   });
 
