@@ -81,7 +81,9 @@
      Fragen mischte -- Kategorie, eigene Liste, Merkmal. Ein Auswahlmenue
      zeigt statt aller Moeglichkeiten die getroffene Wahl, und das Telefon
      macht daraus von selbst eine bequeme Auswahl. */
-  .filter { display: flex; gap: 8px; margin-top: 8px; }
+  /* Bezugspunkt fuer das Klappfeld: so geht es ueber die ganze Zeile auf
+     statt nur ueber die halbe, und die Beschriftungen brechen nicht um. */
+  .filter { display: flex; gap: 8px; margin-top: 8px; position: relative; }
   /* "display: flex" oben schlaegt sonst das [hidden] des Browsers. */
   .filter[hidden] { display: none; }
   .filter select {
@@ -101,7 +103,45 @@
       background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%238a99a1' stroke-width='1.5'/%3E%3C/svg%3E");
     }
   }
-  .filter select:focus-visible { outline: 2px solid var(--gletscher); outline-offset: 1px; }
+  .filter select:focus-visible,
+  .wasknopf:focus-visible { outline: 2px solid var(--gletscher); outline-offset: 1px; }
+  /* Die Schaltflaeche sieht aus wie das Menue daneben -- dieselbe Schachtel,
+     derselbe Pfeil. Was dahinter aufgeht, ist die einzige Abweichung. */
+  .mehrfach { flex: 1 1 0; min-width: 0; }
+  .wasknopf {
+    width: 100%; text-align: left;
+    font: 500 12.5px/1 var(--mono); color: var(--fels);
+    padding: 11px 28px 11px 12px;
+    border: 1px solid var(--linie); border-radius: 9px;
+    background-color: var(--karte); background-repeat: no-repeat;
+    background-position: right 10px center; background-size: 9px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%2363727b' stroke-width='1.5'/%3E%3C/svg%3E");
+    cursor: pointer; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  .wasfeld {
+    position: absolute; z-index: 5; top: calc(100% + 5px); left: 0; right: 0;
+    background: var(--karte); border: 1px solid var(--linie); border-radius: 9px;
+    padding: 6px; box-shadow: 0 8px 22px rgba(0, 0, 0, .16);
+  }
+  .wasfeld[hidden] { display: none; }
+  .wasgruppe {
+    font: 600 9.5px/1 var(--mono); letter-spacing: .12em; text-transform: uppercase;
+    color: var(--stein); margin: 9px 0 4px; padding: 0 8px;
+  }
+  .wasgruppe:first-child { margin-top: 4px; }
+  .wasfeld label {
+    display: flex; align-items: center; gap: 9px;
+    padding: 8px; border-radius: 6px; cursor: pointer;
+    font: 400 13px/1.2 var(--schrift); color: var(--fels);
+  }
+  .wasfeld label:has(input:checked) { background: rgba(23, 99, 111, .10); }
+  .wasfeld input { accent-color: var(--gletscher); width: 15px; height: 15px; flex: none; }
+  @media (prefers-color-scheme: dark) {
+    .wasknopf {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%238a99a1' stroke-width='1.5'/%3E%3C/svg%3E");
+    }
+    .wasfeld label:has(input:checked) { background: rgba(75, 179, 196, .14); }
+  }
   /* Das Kinoprogramm gilt nur fuer heute; ein Zeitraum daneben koennte nur
      leere Listen erzeugen. Ausgegraut statt ausgeblendet -- sonst springt
      die Zeile. */
@@ -265,22 +305,29 @@
        sich nicht erklaeren kann. Ausgeblendet heisst darum auch: wirkt
        nicht. -->
   <div class="filter" id="filter" hidden>
-    <select id="was" aria-label="Was">
-      <option value="alle">Alle Kategorien</option>
-      <option value="neu">Neu dazugekommen</option>
-      <optgroup label="Kategorie">
-        <option value="musik">Musik</option>
-        <option value="kultur">Kultur</option>
-        <option value="sport">Sport</option>
-        <option value="markt">Märkte</option>
-        <option value="kurse">Kurse</option>
-        <option value="mix">Sonstiges</option>
-      </optgroup>
-      <optgroup label="Eigene Listen">
-        <option value="kino">Kino heute</option>
-        <option value="brauchtum">Brauchtum</option>
-      </optgroup>
-    </select>
+    <!-- Kein <select multiple>: das rendert am Telefon als aufgeklappte
+         Liste statt als Auswahlrad und frisst den halben Bildschirm. Statt
+         dessen dieselbe Schaltflaeche wie beim Zeitmenue, dahinter ein Feld
+         mit Kaestchen. -->
+    <div class="mehrfach">
+      <button type="button" id="was" class="wasknopf" aria-expanded="false"
+              aria-controls="wasfeld">Alle Kategorien</button>
+      <div class="wasfeld" id="wasfeld" hidden>
+        <p class="wasgruppe">Kategorie</p>
+        <label><input type="checkbox" value="musik"><span>Musik</span></label>
+        <label><input type="checkbox" value="kultur"><span>Kultur</span></label>
+        <label><input type="checkbox" value="sport"><span>Sport</span></label>
+        <label><input type="checkbox" value="markt"><span>Märkte</span></label>
+        <label><input type="checkbox" value="kurse"><span>Kurse</span></label>
+        <label><input type="checkbox" value="mix"><span>Sonstiges</span></label>
+        <p class="wasgruppe">Eigene Listen</p>
+        <label><input type="checkbox" value="kino"><span>Kino heute</span></label>
+        <label><input type="checkbox" value="brauchtum"><span>Brauchtum</span></label>
+        <label><input type="checkbox" value="alpenverein"><span>Alpenverein</span></label>
+        <p class="wasgruppe">Eingrenzen</p>
+        <label><input type="checkbox" id="nurneu"><span>Nur neu dazugekommene</span></label>
+      </div>
+    </div>
     <select id="wann" aria-label="Wann">
       <option value="heute">Heute</option>
       <option value="wochenende">Am Wochenende</option>
@@ -318,13 +365,16 @@
   var liste = document.getElementById('liste');
   var ansichtWahl = document.getElementById('ansicht');
   var filterreihe = document.getElementById('filter');
-  var wasMenue = document.getElementById('was');
+  var wasKnopf = document.getElementById('was');
+  var wasFeld = document.getElementById('wasfeld');
+  var nurNeuFeld = document.getElementById('nurneu');
   var wannMenue = document.getElementById('wann');
   var suche = document.getElementById('suche');
   var zaehler = document.getElementById('zaehler');
 
   var termine = [];
-  var gewaehlteKategorie = 'alle';
+  var gewaehlt = [];   // leer heisst: der Hauptfeed
+  var nurNeu = false;
   var zeitraum = 'monate3';
   var suchworte = [];
   var ansicht = 'kalender';
@@ -403,24 +453,54 @@
   //: Wird vor jedem Zeichnen einmal gesetzt; ``null`` heisst "ohne Grenze".
   var offenesFenster = null;
 
+  //: Kinoprogramm, Brauchtum und die Touren des Alpenvereins haben eigene
+  //: Listen: dreissig Filme pro Tag, die Prozessionen des Dekanats und
+  //: vierzig Bergtouren wuerden im Hauptfeed alles andere begraben -- die
+  //: Touren allein stellen ein Drittel der Kategorie Sport. Die ersten
+  //: beiden erkennt man an der Kategorie, die dritte an der Quelle: ein
+  //: eigener Vertragswert dafuer waere eine Aenderung am Datenvertrag fuer
+  //: eine reine Anzeigefrage.
+  var EIGENE_LISTEN = ['kino', 'brauchtum', 'alpenverein'];
+
+  function gehoertZu(e, schluessel) {
+    if (schluessel === 'alpenverein') return e.quelle === 'Alpenverein Innsbruck';
+    return e.kategorie === schluessel;
+  }
+
+  function inEigenerListe(e) {
+    for (var i = 0; i < EIGENE_LISTEN.length; i++) {
+      if (gehoertZu(e, EIGENE_LISTEN[i])) return true;
+    }
+    return false;
+  }
+
   function passt(e) {
     // Im Kalender steht kein Menue daneben, also wirkt dort auch keine
     // Auswahl: ein Filter, den man nicht sieht, waere einer, den man sich
     // nicht erklaeren kann.
-    var filter = (ansicht === 'kalender') ? 'alle' : gewaehlteKategorie;
-    // Kinoprogramm und Brauchtum haben eigene Listen: dreissig Filme pro Tag
-    // und die Prozessionen des Dekanats wuerden im Hauptfeed alles andere
-    // begraben. Wochenformate taten das nie -- es sind dreissig Eintraege aus
-    // sieben Formaten, Pubquiz und Flohmarkt, die zwischen den uebrigen
-    // Terminen nicht auffallen. Sie standen nur deshalb abseits, weil die
-    // Abwaegung fuer alle drei zugleich getroffen wurde. Ihre Marke
-    // "woechentlich" sagt ohnehin, woran man ist.
-    var EIGENE_LISTE = ['kino', 'brauchtum'];
-    if (EIGENE_LISTE.indexOf(filter) > -1) { if (e.kategorie !== filter) return false; }
-    else if (EIGENE_LISTE.indexOf(e.kategorie) > -1) return false;
-    if (filter === 'neu' && !e.neu) return false;
-    if (['sport','musik','kultur','kurse','markt','mix'].indexOf(filter) > -1
-        && e.kategorie !== filter) return false;
+    var auswahl = (ansicht === 'kalender') ? [] : gewaehlt;
+
+    // Angehakt wird vereinigt, nicht geschnitten: "Musik" und "Kultur"
+    // zusammen heisst beides, nicht beides zugleich.
+    //
+    // Wer in einer eigenen Liste steht, erscheint nur, wenn genau diese
+    // angehakt ist -- auch nicht unter seiner Kategorie. Die Bergtouren
+    // tragen "sport"; ohne diese Regel staenden sie unter "Sport" wieder
+    // mitten drin, und die eigene Liste waere nur die halbe Wahrheit.
+    if (inEigenerListe(e)) {
+      var alsListe = false;
+      for (var i = 0; i < auswahl.length && !alsListe; i++) {
+        if (EIGENE_LISTEN.indexOf(auswahl[i]) > -1) alsListe = gehoertZu(e, auswahl[i]);
+      }
+      if (!alsListe) return false;
+    } else if (auswahl.length) {
+      var dabei = false;
+      for (var k = 0; k < auswahl.length && !dabei; k++) {
+        if (EIGENE_LISTEN.indexOf(auswahl[k]) === -1) dabei = gehoertZu(e, auswahl[k]);
+      }
+      if (!dabei) return false;
+    }
+    if (nurNeu && ansicht !== 'kalender' && !e.neu) return false;
     // Das Kinoprogramm gilt ohnehin nur fuer heute; ein Zeitfenster darueber
     // koennte nur leere Listen erzeugen. Das Menue ist dort gesperrt.
     if (offenesFenster) {
@@ -438,17 +518,25 @@
     return true;
   }
 
+  var HINWEISE = {
+    brauchtum: 'Blasmusik, Volksmusik, Schützen, Prozessionen, Almabtriebe, ' +
+      'Zelt- und Feuerwehrfeste — alles, was im Hauptfeed nicht auftaucht. ' +
+      'Gesammelt wird es trotzdem.',
+    kino: 'Das Programm des heutigen Tages, zusammengetragen aus allen ' +
+      'Innsbrucker Kinos. Spielzeiten geben die Kinoseiten nur im Browser ' +
+      'heraus — die stehen hinter dem Filmtitel.',
+    alpenverein: 'Die Bergtouren der Sektion Innsbruck. Vierzig Termine, die ' +
+      'sonst ein Drittel der Kategorie Sport ausmachen würden. Eine Uhrzeit ' +
+      'nennt der Alpenverein fast nie — beim Treffpunkt steht „laut ' +
+      'Vorbesprechung".'
+  };
+
   function hinweisHtml() {
     if (ansicht === 'kalender') return '';
-    if (gewaehlteKategorie === 'brauchtum') {
-      return '<p class="hinweis">Blasmusik, Volksmusik, Schützen, ' +
-        'Prozessionen, Almabtriebe, Zelt- und Feuerwehrfeste — alles, was ' +
-        'im Hauptfeed nicht auftaucht. Gesammelt wird es trotzdem.</p>';
-    }
-    if (gewaehlteKategorie === 'kino') {
-      return '<p class="hinweis">Das Programm des heutigen Tages, ' +
-        'zusammengetragen aus allen Innsbrucker Kinos. Spielzeiten geben die ' +
-        'Kinoseiten nur im Browser heraus — die stehen hinter dem Filmtitel.</p>';
+    // Nur wenn genau diese eine Liste gewaehlt ist -- sonst stuenden drei
+    // Absaetze uebereinander, bevor der erste Termin kommt.
+    if (gewaehlt.length === 1 && HINWEISE[gewaehlt[0]]) {
+      return '<p class="hinweis">' + HINWEISE[gewaehlt[0]] + '</p>';
     }
     return '';
   }
@@ -497,7 +585,7 @@
   function zeichnen() {
     // Im Kalender bestimmt der Monat den Zeitraum; das Menue daneben ist
     // dann gesperrt und sein Fenster gilt nicht.
-    offenesFenster = (ansicht === 'kalender' || gewaehlteKategorie === 'kino'
+    offenesFenster = (ansicht === 'kalender' || wannMenue.disabled
                       || zeitraum === 'alle') ? null : fenster(ortsdatum(new Date()));
     var sichtbar = termine.filter(passt);
     // Welcher Zeitraum gilt, steht im Menue daneben -- hier nur die Zahl.
@@ -505,6 +593,7 @@
       (sichtbar.length === 1 ? ' Termin' : ' Termine');
 
     if (ansicht === 'kalender') { zeichneKalender(sichtbar); return; }
+
 
     if (!sichtbar.length) {
       liste.innerHTML = '<p class="leer">Nichts gefunden. Anderer Filter oder anderes Suchwort?</p>';
@@ -693,8 +782,9 @@
     // haetten dort nichts zu entscheiden und stehen darum nicht da.
     filterreihe.hidden = (ansicht === 'kalender');
     // Das Kinoprogramm gilt nur fuer heute; ein Zeitraum daneben koennte
-    // nur leere Listen erzeugen.
-    wannMenue.disabled = (gewaehlteKategorie === 'kino');
+    // nur leere Listen erzeugen. Nur wenn es allein dasteht -- zusammen mit
+    // anderen Listen hat der Zeitraum wieder etwas zu entscheiden.
+    wannMenue.disabled = (gewaehlt.length === 1 && gewaehlt[0] === 'kino');
   }
 
   ansichtWahl.addEventListener('click', function (ev) {
@@ -744,10 +834,48 @@
     if (grenze && !grenze.disabled) blaettern(dx < 0 ? 1 : -1);
   }, { passive: true });
 
-  wasMenue.addEventListener('change', function () {
-    gewaehlteKategorie = wasMenue.value;
+  //: Die Aufschrift der Schaltflaeche. Bei zweien passen die Namen nicht
+  //: mehr nebeneinander, darum ab da die Zahl.
+  function knopfbeschriften() {
+    var namen = gewaehlt.map(function (wert) {
+      return wasFeld.querySelector('input[value="' + wert + '"]')
+                    .nextElementSibling.textContent;
+    });
+    var text = !namen.length ? (nurNeu ? 'Nur neu dazugekommene' : 'Alle Kategorien')
+             : namen.length === 1 ? namen[0]
+             : namen.length + ' Kategorien';
+    if (nurNeu && namen.length) text += ' · neu';
+    wasKnopf.textContent = text;
+  }
+
+  function feldZu() {
+    wasFeld.hidden = true;
+    wasKnopf.setAttribute('aria-expanded', 'false');
+  }
+
+  wasKnopf.addEventListener('click', function () {
+    var auf = wasFeld.hidden;
+    wasFeld.hidden = !auf;
+    wasKnopf.setAttribute('aria-expanded', String(auf));
+  });
+
+  wasFeld.addEventListener('change', function () {
+    gewaehlt = Array.prototype.filter
+      .call(wasFeld.querySelectorAll('input[value]'), function (k) { return k.checked; })
+      .map(function (k) { return k.value; });
+    nurNeu = nurNeuFeld.checked;
+    knopfbeschriften();
     menuesAbgleichen();
     zeichnen();
+  });
+
+  // Tippen daneben schliesst das Feld. Ohne das bliebe es offen und deckte
+  // die ersten Termine zu, sobald man weiterscrollt.
+  document.addEventListener('click', function (ev) {
+    if (!wasFeld.hidden && !ev.target.closest('.mehrfach')) feldZu();
+  });
+  document.addEventListener('keydown', function (ev) {
+    if (ev.key === 'Escape' && !wasFeld.hidden) { feldZu(); wasKnopf.focus(); }
   });
 
   wannMenue.addEventListener('change', function () {
