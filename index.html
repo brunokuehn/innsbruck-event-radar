@@ -6,7 +6,12 @@
 <meta name="theme-color" content="#16222b">
 <meta name="description" content="Veranstaltungstermine im Raum Innsbruck, taeglich gesammelt.">
 <title>Innsbruck Event-Radar</title>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>&#127956;</text></svg>">
+<!-- Die Nordkette in Gletscher, darueber ein Radarping in Signal, auf Fels:
+     dieselben drei Farben wie die Seite. Bei 16 Pixeln verschmilzt der Ring
+     zum Punkt und es bleibt ein sauberer Berg -- ab 32 ist der Ping da.
+     Die Rauten der Farbwerte muessen als %23 stehen, sonst schneidet der
+     Browser die Adresse am Fragmentzeichen ab. -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%2316222b'/><path d='M1 28 L11 11 L16.5 20 L21.5 8 L31 28 Z' fill='%2317636f'/><circle cx='21.5' cy='4.8' r='4.6' fill='none' stroke='%23b8760c' stroke-width='1.1' opacity='.55'/><circle cx='21.5' cy='4.8' r='2.4' fill='%23b8760c'/></svg>">
 <style>
   :root {
     --grund: #eef1f1;
