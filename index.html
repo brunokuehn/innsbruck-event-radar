@@ -206,6 +206,19 @@
     return d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) +
            '-' + ('0' + d.getDate()).slice(-2);
   }
+  //: Eine Ausstellung, die am 7. begonnen hat und bis zum 22. laeuft, ist
+  //: heute zu sehen -- nicht vorbei. Sie steht darum unter dem heutigen
+  //: Datum und nicht unter ihrem Anfang, wo sie oberhalb des Jetzt-Strichs
+  //: gelandet waere und wie ein abgelaufener Termin ausgesehen haette.
+  function laeuftSchon(e, heute) {
+    return !!(e.bis && e.datum < heute && e.bis >= heute);
+  }
+  function anzeigetag(e, heute) { return laeuftSchon(e, heute) ? heute : e.datum; }
+
+  //: Die Uhrzeit gehoert zum ersten Tag -- meist die Vernissage. Fuer einen
+  //: laufenden Termin waere sie geraten, also lieber keine.
+  function zeitVon(e, heute) { return laeuftSchon(e, heute) ? '' : e.zeit; }
+
   function kurz(iso) {
     var d = alsDatum(iso);
     return ('0' + d.getDate()).slice(-2) + '.' + ('0' + (d.getMonth() + 1)).slice(-2) + '.';
@@ -266,19 +279,22 @@
 
     var monat = '';
     sichtbar.forEach(function (e) {
-      var d = alsDatum(e.datum);
+      var tag = anzeigetag(e, jetztTag);
+      var laeuft = tag !== e.datum;
+      var zeit = zeitVon(e, jetztTag);
+      var d = alsDatum(tag);
       var m = MONATE[d.getMonth()] + ' ' + d.getFullYear();
       if (m !== monat) { monat = m; teile.push('<h2 class="monat">' + m + '</h2>'); }
 
-      if (!markeGesetzt && (e.datum > jetztTag ||
-          (e.datum === jetztTag && (e.zeit || '99:99') >= jetztZeit))) {
+      if (!markeGesetzt && (tag > jetztTag ||
+          (tag === jetztTag && (zeit || '99:99') >= jetztZeit))) {
         markeGesetzt = true;
         teile.push(markeHtml());
       }
 
       var meta = [];
-      if (e.bis) meta.push('bis ' + kurz(e.bis));
-      if (e.zeit) meta.push(e.zeit);
+      if (e.bis) meta.push((laeuft ? 'läuft noch bis ' : 'bis ') + kurz(e.bis));
+      if (zeit) meta.push(zeit);
       if (e.ort) meta.push(e.ort);
       // Quelle nur nennen, wenn sie nicht ohnehin im Ort steckt:
       // "Metropol Kino, Innsbruck · Metropol Kino" liest sich albern.
@@ -359,8 +375,9 @@
     termine = roh
       .filter(function (e) { return e && e.titel && (e.bis || e.datum) >= heute; })
       .sort(function (a, b) {
-        return a.datum < b.datum ? -1 : a.datum > b.datum ? 1
-             : (a.zeit || '99:99') < (b.zeit || '99:99') ? -1 : 1;
+        var ta = anzeigetag(a, heute), tb = anzeigetag(b, heute);
+        return ta < tb ? -1 : ta > tb ? 1
+             : (zeitVon(a, heute) || '99:99') < (zeitVon(b, heute) || '99:99') ? -1 : 1;
       });
     zeichnen();
     return hole('status.json');
