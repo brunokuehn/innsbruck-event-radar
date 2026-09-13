@@ -56,24 +56,35 @@
     background: var(--karte); border: 1px solid var(--linie); border-radius: 9px;
   }
   .suche:focus { outline: 2px solid var(--gletscher); outline-offset: 1px; }
-  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 4px; }
-  .chip {
-    font: 600 11.5px/1 var(--mono); letter-spacing: .05em; text-transform: uppercase;
-    padding: 8px 12px; border: 1px solid var(--linie); border-radius: 999px;
-    background: transparent; color: var(--stein); cursor: pointer;
+  /* Zwei Menues statt siebzehn Schaltflaechen. Siebzehn ergaben am Telefon
+     drei gestapelte Reihen, in denen die erste auch noch drei verschiedene
+     Fragen mischte -- Kategorie, eigene Liste, Merkmal. Ein Auswahlmenue
+     zeigt statt aller Moeglichkeiten die getroffene Wahl, und das Telefon
+     macht daraus von selbst eine bequeme Auswahl. */
+  .filter { display: flex; gap: 8px; margin-bottom: 2px; }
+  .filter select {
+    flex: 1 1 0; min-width: 0;
+    font: 500 12.5px/1 var(--mono); color: var(--fels);
+    padding: 11px 28px 11px 12px;
+    border: 1px solid var(--linie); border-radius: 9px;
+    background-color: var(--karte); background-repeat: no-repeat;
+    background-position: right 10px center; background-size: 9px;
+    /* Der Pfeil als Datenadresse: eine eingebettete Grafik erspart eine
+       zweite Anfrage und kann nicht ausbleiben. */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%2363727b' stroke-width='1.5'/%3E%3C/svg%3E");
+    -webkit-appearance: none; appearance: none; cursor: pointer;
   }
-  .chip[aria-pressed="true"] { background: var(--fels); border-color: var(--fels); color: var(--grund); }
-  .chip:focus-visible { outline: 2px solid var(--gletscher); outline-offset: 2px; }
+  @media (prefers-color-scheme: dark) {
+    .filter select {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%238a99a1' stroke-width='1.5'/%3E%3C/svg%3E");
+    }
+  }
+  .filter select:focus-visible { outline: 2px solid var(--gletscher); outline-offset: 1px; }
+  /* Das Kinoprogramm gilt nur fuer heute; ein Zeitraum daneben koennte nur
+     leere Listen erzeugen. Ausgegraut statt ausgeblendet -- sonst springt
+     die Zeile. */
+  .filter select:disabled { opacity: .4; cursor: default; }
   .zaehler { font: 400 11.5px/1 var(--mono); color: var(--stein); padding: 10px 2px 0; }
-  /* Die Zeitreihe ist die leisere der beiden: gleiche Form, weniger Gewicht,
-     damit der Kopf nicht wie eine Schalttafel aussieht. */
-  .chips.zeit { margin-top: 6px; }
-  /* "display: flex" oben schlaegt sonst das [hidden] des Browsers. */
-  .chips[hidden] { display: none; }
-  .chips.zeit .chip { padding: 7px 11px; font-size: 11px; }
-  .chips.zeit .chip[aria-pressed="true"] {
-    background: transparent; color: var(--gletscher); border-color: var(--gletscher);
-  }
 
   /* ---------- Liste ---------- */
   .monat {
@@ -154,28 +165,35 @@
   <input class="suche" id="suche" type="search" placeholder="Suchen — Titel, Ort, Veranstalter"
          autocomplete="off" autocorrect="off" spellcheck="false">
 
-  <div class="chips" id="chips">
-    <button class="chip" data-f="alle" aria-pressed="true">Alle</button>
-    <button class="chip" data-f="neu" aria-pressed="false">Neu</button>
-    <button class="chip" data-f="sport" aria-pressed="false">Sport</button>
-    <button class="chip" data-f="musik" aria-pressed="false">Musik</button>
-    <button class="chip" data-f="kultur" aria-pressed="false">Kultur</button>
-    <button class="chip" data-f="kino" aria-pressed="false">Kino</button>
-    <button class="chip" data-f="kurse" aria-pressed="false">Kurse</button>
-    <button class="chip" data-f="markt" aria-pressed="false">Märkte</button>
-    <button class="chip" data-f="brauchtum" aria-pressed="false">Brauchtum</button>
-    <button class="chip" data-f="mix" aria-pressed="false">Sonstiges</button>
-    <button class="chip" data-f="serie" aria-pressed="false">Wöchentlich</button>
-    <button class="chip" data-f="frist" aria-pressed="false">Mit Frist</button>
-  </div>
-  <!-- Zweite Reihe, zweite Frage. Die obere sagt was, diese sagt wann;
-       beide gelten zugleich. -->
-  <div class="chips zeit" id="zeitchips">
-    <button class="chip" data-z="heute" aria-pressed="false">Heute</button>
-    <button class="chip" data-z="wochenende" aria-pressed="false">Wochenende</button>
-    <button class="chip" data-z="tage7" aria-pressed="false">7 Tage</button>
-    <button class="chip" data-z="monate3" aria-pressed="true">3 Monate</button>
-    <button class="chip" data-z="alle" aria-pressed="false">Alles</button>
+  <!-- Zwei Fragen, zwei Menues: was, und wann. Beide gelten zugleich. -->
+  <div class="filter">
+    <select id="was" aria-label="Was">
+      <option value="alle">Alle Kategorien</option>
+      <optgroup label="Kategorie">
+        <option value="musik">Musik</option>
+        <option value="kultur">Kultur</option>
+        <option value="sport">Sport</option>
+        <option value="markt">Märkte</option>
+        <option value="kurse">Kurse</option>
+        <option value="mix">Sonstiges</option>
+      </optgroup>
+      <optgroup label="Eigene Listen">
+        <option value="kino">Kino heute</option>
+        <option value="brauchtum">Brauchtum</option>
+        <option value="serie">Wöchentlich</option>
+      </optgroup>
+      <optgroup label="Auswahl">
+        <option value="neu">Neu dazugekommen</option>
+        <option value="frist">Mit Anmeldefrist</option>
+      </optgroup>
+    </select>
+    <select id="wann" aria-label="Wann">
+      <option value="heute">Heute</option>
+      <option value="wochenende">Am Wochenende</option>
+      <option value="tage7">Nächste 7 Tage</option>
+      <option value="monate3" selected>Nächste 3 Monate</option>
+      <option value="alle">Alle Termine</option>
+    </select>
   </div>
   <p class="zaehler" id="zaehler"></p>
 
@@ -202,8 +220,8 @@
   var WOTAG = ['So','Mo','Di','Mi','Do','Fr','Sa'];
 
   var liste = document.getElementById('liste');
-  var chips = document.getElementById('chips');
-  var zeitchips = document.getElementById('zeitchips');
+  var wasMenue = document.getElementById('was');
+  var wannMenue = document.getElementById('wann');
   var suche = document.getElementById('suche');
   var zaehler = document.getElementById('zaehler');
 
@@ -302,12 +320,9 @@
     offenesFenster = (filter === 'kino' || zeitraum === 'alle')
       ? null : fenster(ortsdatum(new Date()));
     var sichtbar = termine.filter(passt);
-    var wann = (filter === 'kino') ? '' : {
-      heute: ' · heute', wochenende: ' · am Wochenende',
-      tage7: ' · in den nächsten 7 Tagen', monate3: ' · in den nächsten 3 Monaten'
-    }[zeitraum] || '';
+    // Welcher Zeitraum gilt, steht im Menue daneben -- hier nur die Zahl.
     zaehler.textContent = sichtbar.length +
-      (sichtbar.length === 1 ? ' Termin' : ' Termine') + wann;
+      (sichtbar.length === 1 ? ' Termin' : ' Termine');
 
     if (!sichtbar.length) {
       liste.innerHTML = '<p class="leer">Nichts gefunden. Anderer Filter oder anderes Suchwort?</p>';
@@ -404,26 +419,14 @@
     window.scrollTo({ top: ziel > 24 ? ziel : 0 });
   }
 
-  function reiheSchalten(reihe, b) {
-    Array.prototype.forEach.call(reihe.querySelectorAll('.chip'), function (c) {
-      c.setAttribute('aria-pressed', String(c === b));
-    });
-  }
-
-  chips.addEventListener('click', function (ev) {
-    var b = ev.target.closest('.chip');
-    if (!b) return;
-    filter = b.dataset.f;
-    reiheSchalten(chips, b);
-    zeitchips.hidden = (filter === 'kino');
+  wasMenue.addEventListener('change', function () {
+    filter = wasMenue.value;
+    wannMenue.disabled = (filter === 'kino');
     zeichnen();
   });
 
-  zeitchips.addEventListener('click', function (ev) {
-    var b = ev.target.closest('.chip');
-    if (!b) return;
-    zeitraum = b.dataset.z;
-    reiheSchalten(zeitchips, b);
+  wannMenue.addEventListener('change', function () {
+    zeitraum = wannMenue.value;
     zeichnen();
   });
 
