@@ -232,6 +232,7 @@
   <div class="filter">
     <select id="was" aria-label="Was">
       <option value="alle">Alle Kategorien</option>
+      <option value="neu">Neu dazugekommen</option>
       <optgroup label="Kategorie">
         <option value="musik">Musik</option>
         <option value="kultur">Kultur</option>
@@ -243,11 +244,6 @@
       <optgroup label="Eigene Listen">
         <option value="kino">Kino heute</option>
         <option value="brauchtum">Brauchtum</option>
-        <option value="serie">Wöchentlich</option>
-      </optgroup>
-      <optgroup label="Auswahl">
-        <option value="neu">Neu dazugekommen</option>
-        <option value="frist">Mit Anmeldefrist</option>
       </optgroup>
     </select>
     <select id="wann" aria-label="Wann">
@@ -364,20 +360,21 @@
   var offenesFenster = null;
 
   function passt(e) {
-    // Serientermine, Kinoprogramm und Brauchtum haben eigene Reiter. Im
-    // Hauptfeed wuerden 28 Wochenformate, dreissig Filme pro Tag und die
-    // Prozessionen des Dekanats alles andere begraben.
-    if (filter === 'serie') { if (!e.serie) return false; }
-    else if (e.serie) return false;
-    var EIGENER_REITER = ['kino', 'brauchtum'];
-    if (EIGENER_REITER.indexOf(filter) > -1) { if (e.kategorie !== filter) return false; }
-    else if (EIGENER_REITER.indexOf(e.kategorie) > -1) return false;
+    // Kinoprogramm und Brauchtum haben eigene Listen: dreissig Filme pro Tag
+    // und die Prozessionen des Dekanats wuerden im Hauptfeed alles andere
+    // begraben. Wochenformate taten das nie -- es sind dreissig Eintraege aus
+    // sieben Formaten, Pubquiz und Flohmarkt, die zwischen den uebrigen
+    // Terminen nicht auffallen. Sie standen nur deshalb abseits, weil die
+    // Abwaegung fuer alle drei zugleich getroffen wurde. Ihre Marke
+    // "woechentlich" sagt ohnehin, woran man ist.
+    var EIGENE_LISTE = ['kino', 'brauchtum'];
+    if (EIGENE_LISTE.indexOf(filter) > -1) { if (e.kategorie !== filter) return false; }
+    else if (EIGENE_LISTE.indexOf(e.kategorie) > -1) return false;
     if (filter === 'neu' && !e.neu) return false;
-    if (filter === 'frist' && !e.anmeldeschluss) return false;
     if (['sport','musik','kultur','kurse','markt','mix'].indexOf(filter) > -1
         && e.kategorie !== filter) return false;
     // Das Kinoprogramm gilt ohnehin nur fuer heute; ein Zeitfenster darueber
-    // koennte nur leere Listen erzeugen. Die Reihe ist dort ausgeblendet.
+    // koennte nur leere Listen erzeugen. Das Menue ist dort gesperrt.
     if (offenesFenster) {
       // Mehrtaegiges zaehlt, sobald es das Fenster beruehrt: eine
       // Ausstellung, die bis Sonntag laeuft, findet am Wochenende statt.
@@ -592,7 +589,7 @@
       ['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So']
         .map(function (w) { return '<div>' + w + '</div>'; }).join('') + '</div>');
 
-    teile.push('<div class="raster" id="raster">');
+    teile.push('<div class="raster">');
     for (var v = 0; v < vorlauf; v++) teile.push('<div class="zelle" aria-hidden="true"></div>');
     for (var tagNr = 1; tagNr <= imMonat; tagNr++) {
       var iso = ortsdatum(new Date(jahr, mon, tagNr));
@@ -624,10 +621,7 @@
     }
 
     liste.innerHTML = teile.join('');
-    raster = document.getElementById('raster');
   }
-
-  var raster = null;
 
   //: Beim ersten Laden zum Jetzt-Strich springen, danach nach oben. Bei
   //: jedem Filterwechsel dorthin zu springen waere aufdringlich -- wer
