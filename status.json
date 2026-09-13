@@ -1,10 +1,10 @@
 {
- "lauf": "2026-09-12T11:22:55+00:00",
- "termine": 882,
+ "lauf": "2026-09-13T06:41:04+00:00",
+ "termine": 896,
  "serientermine": 123,
- "neu": 43,
+ "neu": 81,
  "quellen_aktiv": 70,
- "quellen_mit_treffern": 38,
+ "quellen_mit_treffern": 39,
  "quellen_mit_fehler": 2,
  "quellen": [
   {
@@ -12,18 +12,21 @@
    "url": "https://www.innsbruck.info/events/d/alle.html",
    "aktiv": true,
    "strategie": "innsbruckinfo",
-   "gefunden": 225,
-   "uebernommen": 207,
+   "gefunden": 219,
+   "uebernommen": 212,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
+    "kein Ort im Umkreis genannt": 6,
+    "Titel ist nur eine Anschrift": 1
+   },
+   "brauchtum": {
+    "Blasmusik": 5,
     "Volksmusik": 3,
-    "Blasmusik": 6,
-    "Fruehschoppen": 1,
-    "kein Ort im Umkreis genannt": 5,
-    "Titel ist nur eine Anschrift": 1,
-    "Trachten": 2
+    "Laendliches Fest": 6,
+    "Kirchliches Brauchtum": 4,
+    "Trachten": 3
    }
   },
   {
@@ -38,7 +41,8 @@
    "hinweis": "",
    "verworfen": {
     "ausserhalb des Zeitfensters": 10
-   }
+   },
+   "brauchtum": {}
   },
   {
    "quelle": "TT Events Innsbruck-Land",
@@ -46,13 +50,14 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 10,
-   "uebernommen": 0,
+   "uebernommen": 1,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "kein Ort im Umkreis genannt": 10
-   }
+    "kein Ort im Umkreis genannt": 9
+   },
+   "brauchtum": {}
   },
   {
    "quelle": "meinbezirk",
@@ -60,27 +65,32 @@
    "aktiv": true,
    "strategie": "meinbezirk",
    "gefunden": 30,
-   "uebernommen": 25,
+   "uebernommen": 26,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "Schlager": 1,
     "kein Ort im Umkreis genannt": 4
-   }
+   },
+   "brauchtum": {}
   },
   {
    "quelle": "Innsbruck Termine",
    "url": "https://www.innsbrucktermine.at",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 17,
-   "uebernommen": 16,
+   "gefunden": 21,
+   "uebernommen": 21,
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {
-    "Blasmusik": 1
+   "verworfen": {},
+   "brauchtum": {
+    "Kirchliches Brauchtum": 2,
+    "Laendliches Fest": 1,
+    "Blasmusik": 2,
+    "Fruehschoppen": 1,
+    "Volksmusik": 1
    }
   },
   {
@@ -94,7 +104,10 @@
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "kein Ort im Umkreis genannt": 49,
+    "kein Ort im Umkreis genannt": 51
+   },
+   "brauchtum": {
+    "Laendliches Fest": 1,
     "Blasmusik": 2
    }
   },
@@ -104,15 +117,14 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 10,
-   "uebernommen": 0,
+   "uebernommen": 1,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "kein Ort im Umkreis genannt": 8,
-    "ausserhalb: jerzens": 1,
-    "Schlager": 1
-   }
+    "kein Ort im Umkreis genannt": 9
+   },
+   "brauchtum": {}
   },
   {
    "quelle": "Stadt Innsbruck",
@@ -124,7 +136,8 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Olympiaworld",
@@ -132,14 +145,14 @@
    "aktiv": true,
    "strategie": "microdata",
    "gefunden": 66,
-   "uebernommen": 63,
+   "uebernommen": 64,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "Blasmusik": 1,
     "ausserhalb des Zeitfensters": 2
-   }
+   },
+   "brauchtum": {}
   },
   {
    "quelle": "Congress Messe Innsbruck",
@@ -147,16 +160,18 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 114,
-   "uebernommen": 96,
+   "uebernommen": 100,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
     "Fliesstext statt Titel": 1,
-    "ausserhalb des Zeitfensters": 9,
-    "Universitaetsinterna": 3,
-    "Volksmusik": 2,
-    "Blasmusik": 3
+    "ausserhalb des Zeitfensters": 10,
+    "Universitaetsinterna": 3
+   },
+   "brauchtum": {
+    "Blasmusik": 3,
+    "Volksmusik": 1
    }
   },
   {
@@ -169,7 +184,8 @@
    "fehler": "",
    "grund": "Antwort laeuft wiederholt in den Timeout; Inhalte werden zudem clientseitig nachgeladen. Vorverkauf mit langem Vorlauf kommt ersatzweise ueber eventfinder und die Veranstalterseiten.",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "innsbruck weekly",
@@ -181,7 +197,8 @@
    "fehler": "",
    "grund": "Kuratierter Newsletter in Fliesstext ohne Terminstruktur. Ein Parser dafuer erzeugt mehr Falschtreffer als Nutzen; die Termine stehen ohnehin bei den Veranstaltern.",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "p.m.k",
@@ -193,7 +210,8 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Die Bäckerei",
@@ -205,7 +223,8 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Treibhaus",
@@ -213,15 +232,14 @@
    "aktiv": true,
    "strategie": "ics",
    "gefunden": 87,
-   "uebernommen": 79,
+   "uebernommen": 83,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "ausserhalb des Zeitfensters": 4,
-    "Volksmusik": 2,
-    "Blasmusik": 2
-   }
+    "ausserhalb des Zeitfensters": 4
+   },
+   "brauchtum": {}
   },
   {
    "quelle": "Music Hall",
@@ -235,7 +253,8 @@
    "hinweis": "",
    "verworfen": {
     "ausserhalb des Zeitfensters": 2
-   }
+   },
+   "brauchtum": {}
   },
   {
    "quelle": "Hafen",
@@ -247,7 +266,8 @@
    "fehler": "",
    "grund": "Die WordPress-Installation liefert keine Programmseite: alle geprueften Pfade antworten mit 404, die Startseite verlinkt nur den Feed, und der ist leer. Das Programm des groessten VAZ laeuft offenbar ueber Kanaele, die hier ausgeschlossen sind.",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Tante Emma",
@@ -259,7 +279,8 @@
    "fehler": "",
    "grund": "",
    "hinweis": "Programm laeuft weitgehend ueber Instagram; die Website nennt selten Termine",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Dachsbau",
@@ -271,7 +292,8 @@
    "fehler": "",
    "grund": "",
    "hinweis": "Sehr schlanke Seite, Programm ueberwiegend ueber Instagram",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Club Filou",
@@ -283,7 +305,8 @@
    "fehler": "",
    "grund": "Wix-Seite, Programm wird clientseitig nachgeladen. Im ausgelieferten HTML steht kein einziger Termin.",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Mausefalle",
@@ -295,7 +318,8 @@
    "fehler": "",
    "grund": "TLS-Zertifikat der Seite ist nicht verifizierbar. Wir schalten die Pruefung nicht ab, also bleibt die Quelle aus.",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Heart of Noise",
@@ -307,7 +331,8 @@
    "fehler": "",
    "grund": "",
    "hinweis": "Festival im Juni; ausserhalb der Saison ohne Termine",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Arche Ahoi (frey-tag)",
@@ -319,7 +344,8 @@
    "fehler": "",
    "grund": "TLS-Zertifikat nicht verifizierbar. Der Club hat keine eigene Website, damit faellt er ersatzlos aus.",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "funkraum (ra.co)",
@@ -331,7 +357,8 @@
    "fehler": "",
    "grund": "ra.co beantwortet Anfragen ohne Browser mit HTTP 403 und rendert clientseitig. Eine Umgehung waere eine bewusste Sperrumgehung, darum abgeschaltet.",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Club Cubique (ra.co)",
@@ -343,7 +370,8 @@
    "fehler": "",
    "grund": "Wie funkraum: HTTP 403 ohne Browser.",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Tribaun",
@@ -355,7 +383,8 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Bierstindl",
@@ -367,7 +396,8 @@
    "fehler": "",
    "grund": "Server bricht die Verbindung ohne Antwort ab (Connection reset).",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "SixtyTwenty",
@@ -379,7 +409,8 @@
    "fehler": "",
    "grund": "Antwortet dauerhaft mit HTTP 503.",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Route66",
@@ -391,7 +422,8 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Nordkette Wetterleuchten",
@@ -405,7 +437,8 @@
    "hinweis": "Elektronik-Festival auf 1905 m, jaehrlich im Juli",
    "verworfen": {
     "ausserhalb des Zeitfensters": 3
-   }
+   },
+   "brauchtum": {}
   },
   {
    "quelle": "imkreis",
@@ -419,7 +452,8 @@
    "hinweis": "",
    "verworfen": {
     "ausserhalb des Zeitfensters": 19
-   }
+   },
+   "brauchtum": {}
   },
   {
    "quelle": "Gans Anders",
@@ -433,7 +467,8 @@
    "hinweis": "Berg-Elektronik, unregelmaessige Termine",
    "verworfen": {
     "ausserhalb des Zeitfensters": 1
-   }
+   },
+   "brauchtum": {}
   },
   {
    "quelle": "Bonanza Festival",
@@ -445,7 +480,8 @@
    "fehler": "",
    "grund": "",
    "hinweis": "Festival auf der Muttereralm",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Tiroler Landestheater",
@@ -457,7 +493,8 @@
    "fehler": "",
    "grund": "Der Spielplan wird vollstaendig aus einem JavaScript-Bundle aufgebaut; im ausgelieferten HTML steht kein einziger Termin. Geprueft und mit 404 beantwortet: /spielplan/kalender, /spielplan/<monat>-<jahr>, /api/spielplan. Mit ueber 600 Vorstellungen je Saison ist das die groesste Luecke im Kulturbereich.",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Leokino / Cinematograph",
@@ -469,19 +506,21 @@
    "fehler": "",
    "grund": "Das Wochenprogramm kommt per AJAX nach; im sichtbaren Text der Seite steht keine einzige Datumsangabe. Die Zahlen im Quelltext stammen aus SVG-Pfaden, nicht aus Terminen. Innsbrucker Kinovorstellungen kommen ersatzweise ueber UNCUT und Metropol.",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Metropol Kino",
    "url": "https://www.metropol-kino.at/kinoprogramm/metropol",
    "aktiv": true,
    "strategie": "kino",
-   "gefunden": 27,
-   "uebernommen": 27,
+   "gefunden": 25,
+   "uebernommen": 25,
    "fehler": "",
    "grund": "",
    "hinweis": "nur das Programm des laufenden Tages; Spielzeiten kommen clientseitig nach Auswahl eines Datums",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Cineplexx Innsbruck",
@@ -493,7 +532,8 @@
    "fehler": "",
    "grund": "Spielzeiten kommen clientseitig aus einem JSON-Endpunkt, der sich ohne Browser nicht stabil ansprechen laesst. UNCUT deckt dieselben Vorstellungen serverseitig ab.",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "UNCUT Kinoprogramm",
@@ -505,7 +545,8 @@
    "fehler": "",
    "grund": "",
    "hinweis": "Programm aller Innsbrucker Kinos fuer den laufenden Tag",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "IFFI Filmfestival",
@@ -517,7 +558,8 @@
    "fehler": "",
    "grund": "",
    "hinweis": "Festival im Juni",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "DIAMETRALE",
@@ -531,7 +573,8 @@
    "hinweis": "Festival im Oktober/November",
    "verworfen": {
     "ausserhalb des Zeitfensters": 242
-   }
+   },
+   "brauchtum": {}
   },
   {
    "quelle": "Nature Film Festival",
@@ -543,21 +586,23 @@
    "fehler": "",
    "grund": "",
    "hinweis": "Festival im Oktober",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Tiroler Landesmuseen",
    "url": "https://www.tiroler-landesmuseen.at/besuch/veranstaltungen/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 8,
-   "uebernommen": 5,
+   "gefunden": 10,
+   "uebernommen": 7,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
     "ausserhalb des Zeitfensters": 3
-   }
+   },
+   "brauchtum": {}
   },
   {
    "quelle": "Haus der Musik",
@@ -569,7 +614,8 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Festwochen Alte Musik",
@@ -581,7 +627,8 @@
    "fehler": "",
    "grund": "",
    "hinweis": "Festival im Juli/August",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Klangspuren Schwaz",
@@ -595,7 +642,8 @@
    "hinweis": "",
    "verworfen": {
     "ausserhalb des Zeitfensters": 22
-   }
+   },
+   "brauchtum": {}
   },
   {
    "quelle": "Landeskonservatorium",
@@ -607,7 +655,8 @@
    "fehler": "",
    "grund": "Die Terminseite enthaelt im ausgelieferten HTML genau eine Datumsangabe und keine Terminliste. Schade, denn die Konzerte sind haeufig und oft gratis -- der Volksmusikfilter stuende bereit.",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Dommusik",
@@ -619,7 +668,8 @@
    "fehler": "",
    "grund": "Termine stehen ausschliesslich in einer PDF-Broschuere. Der Aufwand steht in keinem Verhaeltnis zum Ertrag, zumal geistliche Musik nicht zu den genannten Interessen zaehlt.",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "KRAPOLDI",
@@ -633,7 +683,8 @@
    "hinweis": "Zirkusfestival; die Seite zeigt ausserhalb der Saison das vergangene Programm",
    "verworfen": {
     "ausserhalb des Zeitfensters": 64
-   }
+   },
+   "brauchtum": {}
   },
   {
    "quelle": "Neue Galerie / Kunstpavillon",
@@ -645,7 +696,8 @@
    "fehler": "",
    "grund": "Server bricht die Verbindung ohne Antwort ab.",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Galerie Thomas Flora",
@@ -659,7 +711,8 @@
    "hinweis": "",
    "verworfen": {
     "ausserhalb des Zeitfensters": 1
-   }
+   },
+   "brauchtum": {}
   },
   {
    "quelle": "Stadtbibliothek Innsbruck",
@@ -671,7 +724,8 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Universität Innsbruck",
@@ -685,20 +739,21 @@
    "hinweis": "",
    "verworfen": {
     "Universitaetsinterna": 5
-   }
+   },
+   "brauchtum": {}
   },
   {
    "quelle": "Austria Climbing",
    "url": "https://data.austriaclimbing.com/Calendar",
    "aktiv": true,
    "strategie": "austriaclimbing",
-   "gefunden": 38,
+   "gefunden": 36,
    "uebernommen": 7,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "kein Ort im Umkreis genannt": 15,
+    "kein Ort im Umkreis genannt": 13,
     "ausserhalb: dornbirn": 1,
     "ausserhalb: voecklabruck": 1,
     "ausserhalb: wien": 3,
@@ -708,7 +763,8 @@
     "ausserhalb: steyr": 1,
     "ausserhalb: ehrwald": 1,
     "ausserhalb: schladming": 2
-   }
+   },
+   "brauchtum": {}
   },
   {
    "quelle": "Kletterzentrum Innsbruck",
@@ -722,21 +778,23 @@
    "hinweis": "",
    "verworfen": {
     "ausserhalb des Zeitfensters": 6
-   }
+   },
+   "brauchtum": {}
   },
   {
    "quelle": "Laufkalender Tirol",
    "url": "https://www.runme.at/laufkalender/tirol/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 19,
+   "gefunden": 18,
    "uebernommen": 9,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "kein Ort im Umkreis genannt": 10
-   }
+    "kein Ort im Umkreis genannt": 9
+   },
+   "brauchtum": {}
   },
   {
    "quelle": "Innsbruck läuft",
@@ -748,7 +806,8 @@
    "fehler": "",
    "grund": "Die Seite ist eine Anmeldeuebersicht, keine Terminliste. Jeder Eintrag war ein Satz ueber eine Meldefrist, und das darin genannte Datum der Anmeldeschluss statt des Laufs -- also durchgehend falsche Termine. Die Laeufe selbst kommen ueber den Laufkalender Tirol.",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Nordkette Vertical Run",
@@ -760,19 +819,21 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Alpenverein Innsbruck",
    "url": "https://www.alpenverein.at/innsbruck/termine/index.php",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 41,
-   "uebernommen": 41,
+   "gefunden": 40,
+   "uebernommen": 40,
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "aut. architektur und tirol",
@@ -784,7 +845,8 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Vorbrenner",
@@ -798,7 +860,8 @@
    "hinweis": "Festival im Herbst; ausserhalb der Saison steht dort wenig.",
    "verworfen": {
     "ausserhalb des Zeitfensters": 58
-   }
+   },
+   "brauchtum": {}
   },
   {
    "quelle": "Alpenzoo",
@@ -810,7 +873,8 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Tiroler Skiverband",
@@ -822,7 +886,8 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Muttereralm",
@@ -834,7 +899,8 @@
    "fehler": "",
    "grund": "Der Server handelt einen zu schwachen Diffie-Hellman-Schluessel aus (DH_KEY_TOO_SMALL); Python lehnt die Verbindung zu Recht ab. Die Sicherheitsstufe dafuer herabzusetzen waere der falsche Weg -- das muss der Betreiber beheben.",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Patscherkofelbahn",
@@ -848,7 +914,8 @@
    "hinweis": "",
    "verworfen": {
     "Ortsmarke statt Titel": 1
-   }
+   },
+   "brauchtum": {}
   },
   {
    "quelle": "Rosshütte Seefeld",
@@ -860,7 +927,8 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Bergisel",
@@ -872,7 +940,8 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Airdrenaline",
@@ -884,7 +953,8 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "VHS Tirol",
@@ -896,7 +966,8 @@
    "fehler": "",
    "grund": "Kursportal laedt vollstaendig clientseitig; im HTML steht kein einziger Kurstermin. Rund 1500 Kurse blieben so unerreichbar -- die groesste bekannte Luecke im Bestand.",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Töpferei Kathrein",
@@ -910,7 +981,8 @@
    "hinweis": "",
    "verworfen": {
     "ausserhalb des Zeitfensters": 1
-   }
+   },
+   "brauchtum": {}
   },
   {
    "quelle": "studio amano",
@@ -922,7 +994,8 @@
    "fehler": "",
    "grund": "",
    "hinweis": "Server weist Anfragen aus der Github-Aktion mit HTTP 429 ab.",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Tonwerkstatt",
@@ -934,7 +1007,8 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Spielraum FabLab",
@@ -946,7 +1020,8 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "IT-Syndikat",
@@ -960,7 +1035,8 @@
    "hinweis": "",
    "verworfen": {
     "ausserhalb des Zeitfensters": 8
-   }
+   },
+   "brauchtum": {}
   },
   {
    "quelle": "Nähcafé",
@@ -972,7 +1048,8 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Futterkutter",
@@ -981,10 +1058,11 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
+   "fehler": "",
    "grund": "",
    "hinweis": "Server weist Anfragen aus der Github-Aktion mit HTTP 429 ab.",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "coffeekult",
@@ -996,7 +1074,8 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Repair-Cafe",
@@ -1010,7 +1089,8 @@
    "hinweis": "",
    "verworfen": {
     "ausserhalb des Zeitfensters": 4
-   }
+   },
+   "brauchtum": {}
   },
   {
    "quelle": "Startup.Tirol",
@@ -1022,21 +1102,23 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Standortagentur Tirol",
    "url": "https://www.standort-tirol.at/veranstaltungen",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 26,
-   "uebernommen": 4,
+   "gefunden": 25,
+   "uebernommen": 3,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
     "kein Ort im Umkreis genannt": 22
-   }
+   },
+   "brauchtum": {}
   },
   {
    "quelle": "MCI",
@@ -1050,7 +1132,8 @@
    "hinweis": "",
    "verworfen": {
     "Universitaetsinterna": 2
-   }
+   },
+   "brauchtum": {}
   },
   {
    "quelle": "Impact Hub Tirol",
@@ -1062,7 +1145,8 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Meetup Innsbruck",
@@ -1074,7 +1158,8 @@
    "fehler": "",
    "grund": "Clientseitig gerendert. Die offizielle API verlangt einen OAuth-Zugang; ohne hinterlegte Zugangsdaten nicht nutzbar. Sobald ein Schluessel vorliegt, ist die Quelle einschaltbar.",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Eventbrite Innsbruck",
@@ -1086,7 +1171,8 @@
    "fehler": "",
    "grund": "Wie Meetup: clientseitig, offizielle API braucht einen persoenlichen Token.",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Skibörse Innsbruck",
@@ -1098,19 +1184,21 @@
    "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
    "grund": "",
    "hinweis": "Boerse Mitte Oktober",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "flohmarkt.at",
    "url": "https://www.flohmarkt.at/flohmaerkte/innsbruck",
    "aktiv": true,
-   "strategie": "heuristik",
-   "gefunden": 15,
-   "uebernommen": 15,
-   "fehler": "",
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "TimeoutError: The read operation timed out",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Flohmarkt-Termine",
@@ -1122,7 +1210,8 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "wasmachma",
@@ -1136,7 +1225,8 @@
    "hinweis": "",
    "verworfen": {
     "kein Ort im Umkreis genannt": 8
-   }
+   },
+   "brauchtum": {}
   },
   {
    "quelle": "RadlBörse Tirol",
@@ -1150,7 +1240,8 @@
    "hinweis": "Boersen im Maerz und April",
    "verworfen": {
     "ausserhalb des Zeitfensters": 3
-   }
+   },
+   "brauchtum": {}
   },
   {
    "quelle": "Markthalle Innsbruck",
@@ -1164,7 +1255,8 @@
    "hinweis": "",
    "verworfen": {
     "Fliesstext statt Titel": 2
-   }
+   },
+   "brauchtum": {}
   },
   {
    "quelle": "Gemeinde Telfs",
@@ -1176,7 +1268,8 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Stadt Hall in Tirol",
@@ -1188,7 +1281,8 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Gemeinde Zirl",
@@ -1200,7 +1294,8 @@
    "fehler": "",
    "grund": "Kein Veranstaltungskalender unter den geprueften Pfaden.",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Gemeinde Völs",
@@ -1212,7 +1307,8 @@
    "fehler": "",
    "grund": "Kein Veranstaltungskalender unter den geprueften Pfaden.",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Gemeinde Rum",
@@ -1224,7 +1320,8 @@
    "fehler": "",
    "grund": "Kein Veranstaltungskalender unter den geprueften Pfaden.",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Gemeinde Absam",
@@ -1236,7 +1333,8 @@
    "fehler": "",
    "grund": "Kein Veranstaltungskalender unter den geprueften Pfaden.",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Gemeinde Kematen",
@@ -1248,7 +1346,8 @@
    "fehler": "",
    "grund": "Kein Veranstaltungskalender unter den geprueften Pfaden.",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Gemeinde Natters",
@@ -1260,7 +1359,8 @@
    "fehler": "",
    "grund": "Kein Veranstaltungskalender unter den geprueften Pfaden.",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Gemeinde Thaur",
@@ -1272,7 +1372,8 @@
    "fehler": "",
    "grund": "Kein Veranstaltungskalender unter den geprueften Pfaden.",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Gemeinde Wattens",
@@ -1284,7 +1385,8 @@
    "fehler": "",
    "grund": "Kein Veranstaltungskalender unter den geprueften Pfaden.",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Gemeinden Axams, Götzens, Mutters",
@@ -1296,7 +1398,8 @@
    "fehler": "",
    "grund": "Die Domains loesen nicht auf; die im Briefing genannten tirol.gv.at-Adressen existieren nicht mehr.",
    "hinweis": "",
-   "verworfen": {}
+   "verworfen": {},
+   "brauchtum": {}
   }
  ]
 }
