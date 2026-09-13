@@ -1,11 +1,11 @@
 {
- "lauf": "2026-09-13T06:50:28+00:00",
- "termine": 945,
+ "lauf": "2026-09-13T07:09:31+00:00",
+ "termine": 1011,
  "serientermine": 123,
- "neu": 118,
+ "neu": 61,
  "quellen_aktiv": 70,
- "quellen_mit_treffern": 40,
- "quellen_mit_fehler": 3,
+ "quellen_mit_treffern": 41,
+ "quellen_mit_fehler": 2,
  "quellen": [
   {
    "quelle": "Innsbruck Tourismus",
@@ -155,20 +155,19 @@
    "quelle": "Congress Messe Innsbruck",
    "url": "https://www.cmi.at/de/veranstaltungskalender",
    "aktiv": true,
-   "strategie": "heuristik",
-   "gefunden": 114,
-   "uebernommen": 100,
+   "strategie": "congress",
+   "gefunden": 180,
+   "uebernommen": 158,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "Fliesstext statt Titel": 1,
-    "ausserhalb des Zeitfensters": 10,
-    "Universitaetsinterna": 3
+    "ausserhalb des Zeitfensters": 17,
+    "Universitaetsinterna": 5
    },
    "brauchtum": {
-    "Blasmusik": 3,
-    "Volksmusik": 1
+    "Volksmusik": 2,
+    "Blasmusik": 3
    }
   },
   {
@@ -567,7 +566,7 @@
    "uebernommen": 1,
    "fehler": "",
    "grund": "",
-   "hinweis": "Festival im Oktober/November",
+   "hinweis": "Die Seite fuehrt das Archiv aller Ausgaben seit 2017; 242 von 243 Terminen liegen darum in der Vergangenheit. Kein Fehler.",
    "verworfen": {
     "ausserhalb des Zeitfensters": 242
    },
@@ -677,7 +676,7 @@
    "uebernommen": 0,
    "fehler": "",
    "grund": "",
-   "hinweis": "Zirkusfestival; die Seite zeigt ausserhalb der Saison das vergangene Programm",
+   "hinweis": "Zirkusfestival. Ausserhalb der Saison zeigt die Seite die Spielorte der letzten Ausgabe als Kacheln -- daher Ortsnamen mit altem Datum.",
    "verworfen": {
     "ausserhalb des Zeitfensters": 64
    },
@@ -1188,10 +1187,10 @@
    "quelle": "flohmarkt.at",
    "url": "https://www.flohmarkt.at/flohmaerkte/innsbruck",
    "aktiv": true,
-   "strategie": "",
-   "gefunden": 0,
-   "uebernommen": 0,
-   "fehler": "TimeoutError: The read operation timed out",
+   "strategie": "heuristik",
+   "gefunden": 15,
+   "uebernommen": 15,
+   "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {},

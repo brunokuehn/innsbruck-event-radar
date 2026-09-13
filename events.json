@@ -39,6 +39,19 @@
   "neu": false
  },
  {
+  "titel": "Flohmarkt beim Greif Center",
+  "datum": "2026-09-13",
+  "bis": "",
+  "zeit": "05:30",
+  "ort": "Innsbruck",
+  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/flohmarkt-innsbruck-beim-greifcenter",
+  "quelle": "flohmarkt.at",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Flohmarkt Greifcenter",
   "datum": "2026-09-13",
   "bis": "",
@@ -192,7 +205,7 @@
   "kategorie": "brauchtum",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Sonntag-Morgen-Yoga am Patscherkofel",
@@ -218,7 +231,7 @@
   "kategorie": "brauchtum",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Impulsführung",
@@ -257,7 +270,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Klassik am Berg am Hoadlhaus Axamer Lizum",
@@ -270,7 +283,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Un ballo in maschera",
@@ -283,7 +296,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Platzkonzert nach der Schutzengelprozession",
@@ -296,7 +309,7 @@
   "kategorie": "brauchtum",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Ausstellung: Hugo Engl zum 100. Todesjahr (1852-1926)",
@@ -309,7 +322,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Ausstellungen: \"Erinnerungen\" Jakob Anton Bucher",
@@ -322,7 +335,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Historische Fechtschule im Zeughaus Innsbruck",
@@ -346,6 +359,32 @@
   "url": "https://www.olympiaworld.at/events-tickets/wsg-tirol-tsv-egger-glas-hartberg-3/",
   "quelle": "Olympiaworld",
   "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Floh- und Trödelmarkt",
+  "datum": "2026-09-13",
+  "bis": "",
+  "zeit": "16:00",
+  "ort": "Telfs",
+  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/telfs-park-flohmarkt",
+  "quelle": "flohmarkt.at",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Flohmarkt am Standort Parkplatz, METRO",
+  "datum": "2026-09-13",
+  "bis": "",
+  "zeit": "16:00",
+  "ort": "Rum bei Innsbruck",
+  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/flohmarkt-metro-rum-bei-innsbruck",
+  "quelle": "flohmarkt.at",
+  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -387,7 +426,7 @@
   "kategorie": "brauchtum",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "\"Der Stein, der brennt und heilt\" Ölschieferbergbau im Karwendel",
@@ -400,7 +439,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "25 Jahre Shrek",
@@ -413,7 +452,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "25 Jahre The Fast and The Furious",
@@ -426,7 +465,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "27. Handwerksfest Seefeld",
@@ -439,7 +478,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "50 Jahre Die Biene Maja",
@@ -452,7 +491,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Adams Acht",
@@ -465,7 +504,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Arnie und Barney - Retten das Wasser",
@@ -478,7 +517,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Coyote vs. ACME",
@@ -491,7 +530,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Das Ende der Sterne",
@@ -504,7 +543,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Das gewisse Etwas",
@@ -517,7 +556,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "David",
@@ -530,7 +569,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Denkmal für Schnee – Esther Strauß | RLB Kunstpreis",
@@ -543,7 +582,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Die Odyssee",
@@ -556,7 +595,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Disney Channel Mitmachkino September 2026",
@@ -569,7 +608,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Frühstück bei Audrey",
@@ -582,7 +621,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Gentle Monster",
@@ -595,7 +634,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Hochstubaihütte - Hoher Nebelkogel",
@@ -634,7 +673,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Marsupilami",
@@ -647,7 +686,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Minions und Monster",
@@ -660,7 +699,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Muss das Pferd auch arbeiten?",
@@ -673,7 +712,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Mutiny",
@@ -686,7 +725,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Oasis: Dont Look Back In Anger",
@@ -699,7 +738,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Oh la la 2",
@@ -712,7 +751,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "One Night Only",
@@ -725,7 +764,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Paw Patrol: Der Dino Film",
@@ -738,7 +777,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Practical Magic 2 – Zauberhafte Schwestern",
@@ -751,7 +790,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Pressure",
@@ -764,7 +803,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Resident Evil",
@@ -777,7 +816,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Runner",
@@ -790,7 +829,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Rätermuseum und Archäologischer Park Hohe Birga. www.hohe-birga.at",
@@ -803,7 +842,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Schmuck- und Mineralienmesse Innsbruck",
@@ -829,7 +868,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Sonderausstellung »Art Box feat. Fluoro Fleece Kunstkollektiv«",
@@ -842,7 +881,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Sonderausstellung »Max Weiler und die Sammlerin«",
@@ -855,7 +894,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Spider-Man: Brand New Day",
@@ -868,7 +907,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Steckerlfischfiasko",
@@ -881,7 +920,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Tad Stones und die Wunderlampe",
@@ -894,7 +933,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Teresas Körper",
@@ -907,7 +946,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "The Uprising – Für die Freiheit",
@@ -920,7 +959,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Toy Story 5",
@@ -933,7 +972,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Vaiana",
@@ -946,7 +985,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Wax & Gold",
@@ -959,7 +998,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Österreichische Staatsmeisterschaft in Kanu-Polo",
@@ -972,7 +1011,7 @@
   "kategorie": "sport",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "„geschenkt, gekauft, geliehen – Ein Blick in unsere Sammlung“",
@@ -985,7 +1024,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Das Blut der Medusa - Die Korallen von Schloss Ambras",
@@ -1063,7 +1102,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Golfschnuppern im Golfpark Mieminger Plateau",
@@ -1102,7 +1141,7 @@
   "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "“... a cyborg culture’s fear, love, and confusion ...\": Exploring Practices of Human Augmentation through Digital Game Cultures",
@@ -1167,7 +1206,7 @@
   "kategorie": "brauchtum",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Telfer Marktl",
@@ -1232,7 +1271,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Infosession Studienstart",
@@ -1271,7 +1310,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Women Bird- Frauenlauf",
@@ -1375,7 +1414,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Rebuild: Figures of Space: 64 Häuser im Modell",
@@ -1388,7 +1427,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Offene Werkstatt Töpferei Kathrein",
@@ -1479,7 +1518,7 @@
   "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "New Voices presents MUSS DAS PFERD AUCH ARBEITEN?",
@@ -1557,7 +1596,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "EXPERIENCE TIROL",
@@ -1570,7 +1609,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Rebuild: Figures of Space: 64 Häuser im Modell",
@@ -1583,7 +1622,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Orange the Stuben: Studentische Intervention in der Dauerausstellung des Tiroler Volkskunstmuseums",
@@ -1648,7 +1687,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Campusluft schnuppern",
@@ -1778,7 +1817,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Linder & Trenkwalder - \"Die härtesten Jobs der Welt\"",
@@ -1791,7 +1830,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "New Voices presents TERESAS KÖRPER",
@@ -1805,6 +1844,19 @@
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "AGA Kongress 2026 - Gesellschaft für Arthroskopie und Gelenkchirurgie",
+  "datum": "2026-09-17",
+  "bis": "2026-09-19",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "Beate Meinl-Reisinger",
@@ -1830,7 +1882,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Das Blut der Medusa - Die Korallen von Schloss Ambras",
@@ -1843,7 +1895,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "25. Österreichischer Europarechtstag: Europa als internationaler Akteur - geoökonomischer Herausforderungen für die Souveränität der EU",
@@ -1895,7 +1947,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Speed Dating mit Museumsmitarbeiter*innen",
@@ -1908,7 +1960,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Theaterworkshop „Wir und die anderen – Geschichten über soziale Ungleichheiten“",
@@ -1921,7 +1973,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "BELLA CiAO: LIEDER VON FREIHEIT & HOFFNUNG // ITALIEN",
@@ -1947,7 +1999,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Klangspuren 2026 - Auf dass wir so verwandelt werden",
@@ -1960,7 +2012,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Klangspuren 2026 - Kombi-Ticket",
@@ -1973,7 +2025,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "HC TIWAG Innsbruck - Milano HC",
@@ -2038,7 +2090,7 @@
   "kategorie": "brauchtum",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "CONCERT IN THE DARK - KLANGSPUREN AT PMK",
@@ -2077,7 +2129,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "People & Culture - HR-Forum Tirol 2026",
@@ -2103,7 +2155,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Kinderflohmarkt",
@@ -2119,19 +2171,6 @@
   "neu": false
  },
  {
-  "titel": "Markt am Tivoli",
-  "datum": "2026-09-19",
-  "bis": "",
-  "zeit": "06:00",
-  "ort": "Tivoli Stadion Tirol",
-  "url": "https://www.olympiaworld.at/events-tickets/markt-am-tivoli-1/",
-  "quelle": "Olympiaworld",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Innpromenade parkrun",
   "datum": "2026-09-19",
   "bis": "",
@@ -2142,7 +2181,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "IN TELFS LAFT'S",
@@ -2223,6 +2262,19 @@
   "neu": false
  },
  {
+  "titel": "Markt am Tivoli Flohmarkt",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "12:00",
+  "ort": "Innsbruck",
+  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/tivolimarkt-innsbruck",
+  "quelle": "flohmarkt.at",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Almabtrieb Mutters",
   "datum": "2026-09-19",
   "bis": "",
@@ -2285,7 +2337,20 @@
   "kategorie": "brauchtum",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
+ },
+ {
+  "titel": "Flohmarkt von und für Kinder",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "16:00",
+  "ort": "Hall in Tirol",
+  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/kinderflohmarkt-hall-in-tirol",
+  "quelle": "flohmarkt.at",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
  },
  {
   "titel": "HC TIWAG Innsbruck - Vienna Capitals",
@@ -2439,7 +2504,7 @@
   "url": "https://data.austriaclimbing.com/Event/3862",
   "quelle": "Austria Climbing",
   "kategorie": "sport",
-  "anmeldeschluss": "",
+  "anmeldeschluss": "2026-09-16",
   "serie": false,
   "neu": false
  },
@@ -2452,6 +2517,19 @@
   "url": "https://www.alpenverein.at/innsbruck/termine/index_detail.php?veranstaltungID=b5c2edf8-567a-4b32-beb9-8b914a3d1666&oa=1",
   "quelle": "Alpenverein Innsbruck",
   "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Flohmarkt beim Greif Center",
+  "datum": "2026-09-20",
+  "bis": "",
+  "zeit": "05:30",
+  "ort": "Innsbruck",
+  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/flohmarkt-innsbruck-beim-greifcenter",
+  "quelle": "flohmarkt.at",
+  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -2519,7 +2597,7 @@
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "122 Jahre Feuerwehr Vill",
@@ -2571,7 +2649,7 @@
   "kategorie": "brauchtum",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Almmesse beim Weidenhof",
@@ -2597,7 +2675,33 @@
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
+ },
+ {
+  "titel": "Floh- und Trödelmarkt",
+  "datum": "2026-09-20",
+  "bis": "",
+  "zeit": "16:00",
+  "ort": "Telfs",
+  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/telfs-park-flohmarkt",
+  "quelle": "flohmarkt.at",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Flohmarkt am Standort Parkplatz, METRO",
+  "datum": "2026-09-20",
+  "bis": "",
+  "zeit": "16:00",
+  "ort": "Rum bei Innsbruck",
+  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/flohmarkt-metro-rum-bei-innsbruck",
+  "quelle": "flohmarkt.at",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
  },
  {
   "titel": "The Power and the Glory - Konzert des Kirchenchor Kematen",
@@ -2652,6 +2756,19 @@
   "neu": false
  },
  {
+  "titel": "FAFGA'26 - Fachmesse für Gastronomie, Hotel und Design",
+  "datum": "2026-09-20",
+  "bis": "2026-09-22",
+  "zeit": "",
+  "ort": "Messe Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Innsbrucks größter Sonntagsfloh- und Trödelmarkt",
   "datum": "2026-09-20",
   "bis": "",
@@ -2673,19 +2790,6 @@
   "url": "https://www.startup.tirol/event/kidu-x-fafga-ki-buildathon/",
   "quelle": "Startup.Tirol",
   "kategorie": "kurse",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Messe Innsbruck",
-  "datum": "2026-09-20",
-  "bis": "2026-09-22",
-  "zeit": "",
-  "ort": "Congress Innsbruck",
-  "url": "https://www.fafga.at/?mtm_campaign=cmi.at&mtm_source=cmi.at-event-highlight&mtm_medium=link",
-  "quelle": "Congress Messe Innsbruck",
-  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -2825,7 +2929,7 @@
   "datum": "2026-09-22",
   "bis": "",
   "zeit": "13:30",
-  "ort": "Location: congresspark igls",
+  "ort": "congresspark igls",
   "url": "https://www.tourismusgespraeche.tirol/",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
@@ -3195,7 +3299,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Sundown-Yoga am KOFEL",
@@ -3280,7 +3384,7 @@
   "datum": "2026-09-25",
   "bis": "",
   "zeit": "08:30",
-  "ort": "Location: congresspark igls",
+  "ort": "congresspark igls",
   "url": "https://www.uibk.ac.at/cmbi/meeting/",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "mix",
@@ -3338,7 +3442,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Paperwork - Vortrag von Jumping He",
@@ -3484,24 +3588,24 @@
   "neu": false
  },
  {
-  "titel": "Markt am Tivoli",
-  "datum": "2026-09-26",
+  "titel": "Maturaball KBAFEP (Kettenbrücke / Falkstr.)",
+  "datum": "2026-09-25",
   "bis": "",
-  "zeit": "06:00",
-  "ort": "Tivoli Stadion Tirol, Innsbruck",
-  "url": "https://www.olympiaworld.at/events-tickets/",
-  "quelle": "Olympiaworld",
-  "kategorie": "markt",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "mix",
   "anmeldeschluss": "",
-  "serie": true,
-  "neu": false
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "Firmenlauf Garderobe 2026",
   "datum": "2026-09-26",
   "bis": "",
   "zeit": "09:00",
-  "ort": "Location: Congress Innsbruck",
+  "ort": "Congress Innsbruck",
   "url": "https://www.tirolerfirmenlauf.at/teilnahmeinfo/",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "sport",
@@ -3557,6 +3661,19 @@
   "url": "https://www.innsbruck.info/events/e/122283606.html",
   "quelle": "Innsbruck Tourismus",
   "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Markt am Tivoli Flohmarkt",
+  "datum": "2026-09-26",
+  "bis": "",
+  "zeit": "12:00",
+  "ort": "Innsbruck",
+  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/tivolimarkt-innsbruck",
+  "quelle": "flohmarkt.at",
+  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -3657,7 +3774,7 @@
   "datum": "2026-09-26",
   "bis": "",
   "zeit": "19:30",
-  "ort": "Location: Messe Innsbruck",
+  "ort": "Messe Innsbruck",
   "url": "https://klangspuren.at/festival/festival-programm/festival-detail/a-wave-and-waves/",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
@@ -3757,6 +3874,19 @@
   "neu": false
  },
  {
+  "titel": "Flohmarkt beim Greif Center",
+  "datum": "2026-09-27",
+  "bis": "",
+  "zeit": "05:30",
+  "ort": "Innsbruck",
+  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/flohmarkt-innsbruck-beim-greifcenter",
+  "quelle": "flohmarkt.at",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Flohmarkt Greifcenter",
   "datum": "2026-09-27",
   "bis": "",
@@ -3819,7 +3949,7 @@
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Mountain Echos am KOFEL",
@@ -3843,6 +3973,32 @@
   "url": "https://www.patscherkofelbahn.at/events/",
   "quelle": "Patscherkofelbahn",
   "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Floh- und Trödelmarkt",
+  "datum": "2026-09-27",
+  "bis": "",
+  "zeit": "16:00",
+  "ort": "Telfs",
+  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/telfs-park-flohmarkt",
+  "quelle": "flohmarkt.at",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Flohmarkt am Standort Parkplatz, METRO",
+  "datum": "2026-09-27",
+  "bis": "",
+  "zeit": "16:00",
+  "ort": "Rum bei Innsbruck",
+  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/flohmarkt-metro-rum-bei-innsbruck",
+  "quelle": "flohmarkt.at",
+  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -4054,6 +4210,19 @@
   "anmeldeschluss": "",
   "serie": true,
   "neu": false
+ },
+ {
+  "titel": "D|A|CH Symposium für klinische Prüfungen (Dreiländertagung)",
+  "datum": "2026-09-29",
+  "bis": "2026-09-30",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.symposium-klinische-pruefungen.com/",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "Meet&Greet für alle BA-Studierenden der Philosophisch-Historischen Fakultät",
@@ -4472,6 +4641,19 @@
   "neu": false
  },
  {
+  "titel": "ÖQUASTA Symposium 2026",
+  "datum": "2026-10-01",
+  "bis": "2026-10-02",
+  "zeit": "",
+  "ort": "congresspark igls",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "kurse",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "uWIN How to Prototype Fast",
   "datum": "2026-10-02",
   "bis": "2026-10-03",
@@ -4586,7 +4768,7 @@
   "kategorie": "brauchtum",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Ascension - A Burlesque Show by Nocturnal ...",
@@ -4613,6 +4795,19 @@
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "5. PNI Kongress - Psychoneuroimmunologie im Lauf des Lebens - Mensch beweg dich!",
+  "datum": "2026-10-02",
+  "bis": "2026-10-04",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.psychoneuroimmunologie-kongress.at",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "Codeborn",
@@ -4846,7 +5041,7 @@
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": true,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Cyta-Flohmarkt Völs",
@@ -4859,7 +5054,7 @@
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": true,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Flohmarkt bei telfsPARK",
@@ -4872,7 +5067,7 @@
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Oktoberfest",
@@ -4989,7 +5184,7 @@
   "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": true,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Die Klangwerkstatt - Das Waldhorn",
@@ -5002,7 +5197,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Innsbrucks größter Sonntagsfloh- und Trödelmarkt",
@@ -5198,6 +5393,19 @@
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "ICAR Congress 2026 - International Commission for Alpine Rescue",
+  "datum": "2026-10-06",
+  "bis": "2026-10-10",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "Sundown-Yoga und Sonntag-Morgen-Yoga am Kofel",
@@ -5538,6 +5746,19 @@
   "neu": false
  },
  {
+  "titel": "Akademische Abschlussfeier der fh Gesundheit",
+  "datum": "2026-10-09",
+  "bis": "2026-10-10",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.fhg-tirol.ac.at/page.cfm?vpath=ueber-uns/veranstaltungen/sponsion",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Inklusions-Kletterkurs-Rumkraxlerei",
   "datum": "2026-10-09",
   "bis": "2027-02-05",
@@ -5581,8 +5802,8 @@
   "datum": "2026-10-10",
   "bis": "",
   "zeit": "09:30",
-  "ort": "Location: congresspark igls",
-  "url": "https://www.icar2026.at/registration",
+  "ort": "congresspark igls",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "kurse",
   "anmeldeschluss": "",
@@ -5691,7 +5912,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Poxrucker Sisters - DNA Tour - Dialektpop, neues Album & Band",
@@ -5704,7 +5925,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Oktoberfest der LJ/JB Gries im Sellrain",
@@ -5889,6 +6110,19 @@
   "neu": false
  },
  {
+  "titel": "Herbert Pixner \"Symphonic Alps Reloaded\"",
+  "datum": "2026-10-11",
+  "bis": "2026-10-12",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.herbert-pixner.com/concerts-2026/",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Innsbrucks größter Sonntagsfloh- und Trödelmarkt",
   "datum": "2026-10-11",
   "bis": "",
@@ -5971,8 +6205,8 @@
   "datum": "2026-10-13",
   "bis": "",
   "zeit": "15:00",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.innsbruck.gv.at",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "mix",
   "anmeldeschluss": "",
@@ -6023,7 +6257,7 @@
   "datum": "2026-10-13",
   "bis": "",
   "zeit": "18:00",
-  "ort": "Location: congresspark igls",
+  "ort": "congresspark igls",
   "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "mix",
@@ -6205,8 +6439,8 @@
   "datum": "2026-10-15",
   "bis": "",
   "zeit": "14:00",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.mci.edu",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "mix",
   "anmeldeschluss": "",
@@ -6325,6 +6559,19 @@
   "ort": "Innsbruck",
   "url": "https://www.eventfinder.at/veranstaltung/1538127/cosmo-innsbruck/",
   "quelle": "eventfinder",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "1. Symphoniekonzert 2026/2027",
+  "datum": "2026-10-15",
+  "bis": "2026-10-16",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.landestheater.at/produktionen/1-symphoniekonzert-2627",
+  "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
@@ -6526,6 +6773,19 @@
   "neu": false
  },
  {
+  "titel": "Heart Of Trails Festival",
+  "datum": "2026-10-16",
+  "bis": "2026-10-17",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Silbernes Doktorjubiläum 2026",
   "datum": "2026-10-17",
   "bis": "",
@@ -6614,7 +6874,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Der Vorname",
@@ -6695,6 +6955,19 @@
   "neu": false
  },
  {
+  "titel": "Maturaball KORG",
+  "datum": "2026-10-17",
+  "bis": "",
+  "zeit": "",
+  "ort": "Messe Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Sonnjoch",
   "datum": "2026-10-17",
   "bis": "",
@@ -6738,7 +7011,7 @@
   "datum": "2026-10-18",
   "bis": "",
   "zeit": "16:00",
-  "ort": "Location: Congress Innsbruck",
+  "ort": "Congress Innsbruck",
   "url": "https://www.oeticket.com/event/lords-of-the-sound-adele-sympho-show-congress-innsbruck-20886555/",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
@@ -6946,7 +7219,7 @@
   "datum": "2026-10-20",
   "bis": "",
   "zeit": "15:00",
-  "ort": "Location: congresspark igls",
+  "ort": "congresspark igls",
   "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "kurse",
@@ -7089,7 +7362,7 @@
   "datum": "2026-10-21",
   "bis": "",
   "zeit": "19:30",
-  "ort": "Location: Congress Innsbruck",
+  "ort": "Congress Innsbruck",
   "url": "https://www.meisterkammerkonzerte.at/veranstaltungen/wdr-sinfonieorchester-marie-jacquot-antoine-tamestit-iveta-apkalna",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
@@ -7098,11 +7371,24 @@
   "neu": false
  },
  {
+  "titel": "Semester Opening",
+  "datum": "2026-10-21",
+  "bis": "",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "BMLUK Veranstaltung",
   "datum": "2026-10-22",
   "bis": "",
   "zeit": "08:30",
-  "ort": "Location: Messe Innsbruck",
+  "ort": "Messe Innsbruck",
   "url": "https://www.bmluk.gv.at/",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "kurse",
@@ -7115,8 +7401,8 @@
   "datum": "2026-10-22",
   "bis": "",
   "zeit": "09:00",
-  "ort": "Location: congresspark igls",
-  "url": "https://tiroler-volksmusikverein.at/festival/alpenlaendischer-volksmusikwettbewerb/",
+  "ort": "congresspark igls",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "kurse",
   "anmeldeschluss": "",
@@ -7228,6 +7514,19 @@
   "neu": false
  },
  {
+  "titel": "Alpenländischer Volksmusikwettbewerb",
+  "datum": "2026-10-22",
+  "bis": "2026-10-24",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "brauchtum",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Literaturverwaltung mit Citavi",
   "datum": "2026-10-23",
   "bis": "",
@@ -7303,7 +7602,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "SHAKE STEW: TEN ONE TWO – HYPNOTIC GROOVE & HIGH ENERGY JAZZ // BALL KRAWALL",
@@ -7371,6 +7670,19 @@
   "neu": false
  },
  {
+  "titel": "64. Euroantik Herbst 2026",
+  "datum": "2026-10-23",
+  "bis": "2026-10-25",
+  "zeit": "",
+  "ort": "Messe Innsbruck",
+  "url": "https://www.euroantik.at/home/",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Euroantik Innsbruck - Messe für Kunst, Antiquitäten & Altwaren",
   "datum": "2026-10-23",
   "bis": "",
@@ -7433,7 +7745,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "5/8TERL IN EHR'N: 20 JAHRE WIENER SOUL – JUBILÄUMSTOUR",
@@ -7485,7 +7797,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Euroantik Innsbruck - Messe für Kunst, Antiquitäten & Altwaren",
@@ -7576,7 +7888,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Am hohen Kreuz",
@@ -7823,7 +8135,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "European Outdoor Film Tour 26/27 - EOFT",
@@ -7869,8 +8181,8 @@
   "datum": "2026-10-30",
   "bis": "",
   "zeit": "20:00",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://mart-production.com/",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "kultur",
   "anmeldeschluss": "",
@@ -7953,7 +8265,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "DAS MYSTERiUM DER BULGARISCHEN FRAUEN-STiMMEN: THE BULGARIAN VOICES ANGELITE",
@@ -8142,7 +8454,7 @@
   "datum": "2026-11-04",
   "bis": "",
   "zeit": "11:30",
-  "ort": "Location: Congress Innsbruck",
+  "ort": "Congress Innsbruck",
   "url": "https://www.tiroler-wirtschaftsforum.at",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "kurse",
@@ -8233,8 +8545,8 @@
   "datum": "2026-11-06",
   "bis": "",
   "zeit": "14:00",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.wko.at",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "mix",
   "anmeldeschluss": "",
@@ -8265,7 +8577,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Jan Křesadlos „Astronautilia“ – Ein altgriechisch-tschechisches Sci-Fi-Epos: Erstmals ediert und ins Deutsche übersetzt",
@@ -8304,7 +8616,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "kunst & design markt Innsbruck: 07.–08.11.26 - Entdecken, Staunen und Genießen!",
@@ -8359,6 +8671,19 @@
   "neu": false
  },
  {
+  "titel": "11. Kunst & Designmarkt 2026",
+  "datum": "2026-11-07",
+  "bis": "2026-11-08",
+  "zeit": "",
+  "ort": "Messe Innsbruck",
+  "url": "https://www.kunst-designmarkt.at/innsbruck/",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Gschwandtkopf",
   "datum": "2026-11-07",
   "bis": "",
@@ -8380,19 +8705,6 @@
   "url": "https://www.alpenverein.at/innsbruck/termine/index_detail.php?veranstaltungID=6c92b7fe-c310-4618-bbfd-de67152c8f5f&oa=1",
   "quelle": "Alpenverein Innsbruck",
   "kategorie": "sport",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Kunst- und Designmarkt Messe Innsbruck",
-  "datum": "2026-11-07",
-  "bis": "",
-  "zeit": "",
-  "ort": "Messe Innsbruck",
-  "url": "https://meine-flohmarkt-termine.de/kunst-und-designmarkt-messe-innsbruck/23812707/details",
-  "quelle": "Flohmarkt-Termine",
-  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -8467,8 +8779,8 @@
   "datum": "2026-11-08",
   "bis": "",
   "zeit": "18:00",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://dema-agency.ch/",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
   "anmeldeschluss": "",
@@ -8668,7 +8980,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Eisacktaler Keschtnweg",
@@ -8736,6 +9048,19 @@
   "neu": false
  },
  {
+  "titel": "2. Symphoniekonzert 2026/2027",
+  "datum": "2026-11-12",
+  "bis": "2026-11-13",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.landestheater.at/produktionen/2-symphoniekonzert-2627",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Ella Stern",
   "datum": "2026-11-12",
   "bis": "",
@@ -8747,6 +9072,19 @@
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "Update Gastroenterologie-Stoffwechsel 2026",
+  "datum": "2026-11-12",
+  "bis": "2026-11-14",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.updategastro-stoffwechsel.at",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "Vierter Forschungstag von Sophia forscht: Forschungstag für Dissertantinnen der Katholisch-Theologischen Fakultät und des Instituts für Islamische Theologie und Religionspädagogik",
@@ -8844,8 +9182,8 @@
   "datum": "2026-11-13",
   "bis": "",
   "zeit": "18:30",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.wko.at",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "sport",
   "anmeldeschluss": "",
@@ -8879,6 +9217,19 @@
   "neu": false
  },
  {
+  "titel": "48. SENaktiv mit Kreativbereich 2026",
+  "datum": "2026-11-13",
+  "bis": "2026-11-15",
+  "zeit": "",
+  "ort": "Messe Innsbruck",
+  "url": "https://www.senaktiv.at",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Die Magie von FAB FOX",
   "datum": "2026-11-14",
   "bis": "",
@@ -8902,7 +9253,7 @@
   "kategorie": "brauchtum",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "One Step Closer - A Tribute to Linkin Park",
@@ -8948,8 +9299,8 @@
   "datum": "2026-11-15",
   "bis": "",
   "zeit": "19:00",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.oeticket.com",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "kultur",
   "anmeldeschluss": "",
@@ -9006,7 +9357,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Geschichten vom Storch",
@@ -9039,7 +9390,7 @@
   "datum": "2026-11-18",
   "bis": "",
   "zeit": "12:30",
-  "ort": "Location: Congress Innsbruck",
+  "ort": "Congress Innsbruck",
   "url": "https://www.mci4me.at/de/services/career-center/recruiting-forum",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "kultur",
@@ -9124,6 +9475,19 @@
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "Wein & Genuß",
+  "datum": "2026-11-19",
+  "bis": "2026-11-20",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.vinaria.at/weingenussinnsbruck",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "Literaturverwaltung mit Citavi",
@@ -9214,7 +9578,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "WILTENER WEIHNACHTSZAUBER",
@@ -9247,8 +9611,8 @@
   "datum": "2026-11-20",
   "bis": "",
   "zeit": "19:00",
-  "ort": "Location: Messe Innsbruck",
-  "url": "https://www.vinaria.at/weingenussinnsbruck",
+  "ort": "Messe Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "sport",
   "anmeldeschluss": "",
@@ -9306,6 +9670,19 @@
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "Benefizgala RollOn Austria 2026",
+  "datum": "2026-11-20",
+  "bis": "",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.rollon.at/",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "Workshop \"Female Athlete\"",
@@ -9533,23 +9910,10 @@
   "datum": "2026-11-23",
   "bis": "",
   "zeit": "19:30",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.meisterkammerkonzerte.at",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.meisterkammerkonzerte.at/veranstaltungen/wdr-sinfonieorchester-marie-jacquot-antoine-tamestit-iveta-apkalna",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Messe Innsbruck",
-  "datum": "2026-11-23",
-  "bis": "2026-11-25",
-  "zeit": "",
-  "ort": "Congress Innsbruck",
-  "url": "https://www.euroantik.de/?mtm_campaign=cmi.at&mtm_source=cmi.at-event-highlight&mtm_medium=link",
-  "quelle": "Congress Messe Innsbruck",
-  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -9581,17 +9945,17 @@
   "neu": false
  },
  {
-  "titel": "Gernot & Stipsits - Kabarett Lotterbuben live",
+  "titel": "Gernot & Stipsits - Lotterbuben",
   "datum": "2026-11-24",
-  "bis": "",
+  "bis": "2026-11-25",
   "zeit": "19:30",
-  "ort": "Innsbruck",
-  "url": "https://www.eventfinder.at/veranstaltung/1508706/gernot-stipsits-innsbruck/",
-  "quelle": "eventfinder",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.viktorgernot.at/",
+  "quelle": "Congress Messe Innsbruck",
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "DGPuK Advertising Communication Division Annual Conference: \"Persuasion in Transition? Current Topics in Persuasion and Advertising Research\"",
@@ -9669,7 +10033,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Erste Hilfe im Gebirge",
@@ -9741,7 +10105,7 @@
   "datum": "2026-11-26",
   "bis": "",
   "zeit": "19:30",
-  "ort": "Location: Congress Innsbruck",
+  "ort": "Congress Innsbruck",
   "url": "https://www.oeticket.com/event/gery-seidl-aufputzt-is-congress-innsbruck-20771749/",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "kultur",
@@ -9867,6 +10231,19 @@
   "neu": false
  },
  {
+  "titel": "Innsbrucker Zahnprophylaxetage 2026",
+  "datum": "2026-11-27",
+  "bis": "2026-11-28",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "FC Wacker Innsbruck - First Vienna",
   "datum": "2026-11-28",
   "bis": "",
@@ -9923,8 +10300,8 @@
   "datum": "2026-11-28",
   "bis": "",
   "zeit": "20:00",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.oeticket.com/",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "kultur",
   "anmeldeschluss": "",
@@ -9994,7 +10371,7 @@
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Music Production Weekend mit LITTLE ELEMENT ...",
@@ -10098,7 +10475,7 @@
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Leitersteig bei Mittenwald",
@@ -10190,6 +10567,19 @@
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "30. Internationales HolzBau-Forum (IHF 2026)",
+  "datum": "2026-12-02",
+  "bis": "2026-12-04",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.forum-holzbau.com",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "Scrooge - Viktorianischer Weihnachtsmarkt",
@@ -10404,8 +10794,8 @@
   "datum": "2026-12-06",
   "bis": "",
   "zeit": "20:00",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.oeticket.com",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
   "anmeldeschluss": "",
@@ -10417,7 +10807,7 @@
   "datum": "2026-12-07",
   "bis": "",
   "zeit": "20:00",
-  "ort": "Location: Congress Innsbruck",
+  "ort": "Congress Innsbruck",
   "url": "https://singlebells.live/",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
@@ -10456,7 +10846,7 @@
   "datum": "2026-12-08",
   "bis": "",
   "zeit": "19:00",
-  "ort": "Location: Congress Innsbruck",
+  "ort": "Congress Innsbruck",
   "url": "https://www.tirol-kaiserjaegermusik.at",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
@@ -10508,8 +10898,8 @@
   "datum": "2026-12-11",
   "bis": "",
   "zeit": "20:45",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://dema-agency.ch/",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
   "anmeldeschluss": "",
@@ -10579,7 +10969,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Lo nostre Nadal - Klangwelten der südfranzösischen Weihnacht",
@@ -10612,13 +11002,13 @@
   "datum": "2026-12-13",
   "bis": "",
   "zeit": "14:00",
-  "ort": "Location: Congress Innsbruck",
+  "ort": "Congress Innsbruck",
   "url": "https://tiroler-volksmusikverein.at/?event=tiroler-adventsingen",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Weihnachtsfeier in den Vereinsräumlichkeiten im 1. Stock der Tschamlerstraße",
@@ -10638,8 +11028,8 @@
   "datum": "2026-12-16",
   "bis": "",
   "zeit": "19:30",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.meisterkammerkonzerte.at",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.meisterkammerkonzerte.at/veranstaltungen/wdr-sinfonieorchester-marie-jacquot-antoine-tamestit-iveta-apkalna",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
   "anmeldeschluss": "",
@@ -10690,8 +11080,8 @@
   "datum": "2026-12-19",
   "bis": "",
   "zeit": "19:30",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://coloss-art.com/",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
   "anmeldeschluss": "",
@@ -10720,7 +11110,7 @@
   "url": "https://data.austriaclimbing.com/Event/3885",
   "quelle": "Austria Climbing",
   "kategorie": "kurse",
-  "anmeldeschluss": "",
+  "anmeldeschluss": "2026-11-30",
   "serie": false,
   "neu": false
  },
@@ -10768,8 +11158,8 @@
   "datum": "2026-12-22",
   "bis": "",
   "zeit": "19:00",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.oeticket.com",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "kultur",
   "anmeldeschluss": "",
@@ -10813,20 +11203,20 @@
   "kategorie": "brauchtum",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Ein Feuerwerk der Blasmusik",
   "datum": "2026-12-27",
   "bis": "",
   "zeit": "17:00",
-  "ort": "Location: Congress Innsbruck",
+  "ort": "Congress Innsbruck",
   "url": "https://www.wiltener.at/events-2/?event=2014",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "brauchtum",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "HC TIWAG Innsbruck - Pioneers Vorarlberg",
@@ -10846,8 +11236,8 @@
   "datum": "2026-12-31",
   "bis": "",
   "zeit": "10:00",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.tsoi.at",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
   "anmeldeschluss": "",
@@ -10881,12 +11271,25 @@
   "neu": false
  },
  {
+  "titel": "Silvester Beats",
+  "datum": "2026-12-31",
+  "bis": "2027-01-01",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Neujahrskonzert",
   "datum": "2027-01-01",
   "bis": "",
   "zeit": "17:00",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.tsoi.at",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
   "anmeldeschluss": "",
@@ -10911,7 +11314,7 @@
   "datum": "2027-01-02",
   "bis": "",
   "zeit": "19:00",
-  "ort": "Location: Congress Innsbruck",
+  "ort": "Congress Innsbruck",
   "url": "https://www.brassband.at",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
@@ -10937,10 +11340,10 @@
   "datum": "2027-01-03",
   "bis": "",
   "zeit": "20:00",
-  "ort": "Location: Congress Innsbruck",
+  "ort": "Congress Innsbruck",
   "url": "https://www.dienachtdermusicals.de",
   "quelle": "Congress Messe Innsbruck",
-  "kategorie": "musik",
+  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -10950,7 +11353,7 @@
   "datum": "2027-01-04",
   "bis": "",
   "zeit": "19:30",
-  "ort": "Location: Congress Innsbruck",
+  "ort": "Congress Innsbruck",
   "url": "https://artetoileproduction.com/home-deu",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "kultur",
@@ -10963,13 +11366,13 @@
   "datum": "2027-01-05",
   "bis": "",
   "zeit": "19:45",
-  "ort": "Location: congresspark igls",
+  "ort": "congresspark igls",
   "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "brauchtum",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Feuerwehrball",
@@ -10989,7 +11392,7 @@
   "datum": "2027-01-06",
   "bis": "",
   "zeit": "10:30",
-  "ort": "Location: Congress Innsbruck",
+  "ort": "Congress Innsbruck",
   "url": "https://www.innstrumenti.at",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
@@ -11002,7 +11405,7 @@
   "datum": "2027-01-07",
   "bis": "",
   "zeit": "20:00",
-  "ort": "Location: Congress Innsbruck",
+  "ort": "Congress Innsbruck",
   "url": "https://showtime-ticket.com/events/",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
@@ -11015,7 +11418,7 @@
   "datum": "2027-01-08",
   "bis": "",
   "zeit": "19:30",
-  "ort": "Location: Congress Innsbruck",
+  "ort": "Congress Innsbruck",
   "url": "https://www.oeticket.com/event/abba-mamma-mia-and-much-more-congress-innsbruck-18988936/",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "kultur",
@@ -11037,6 +11440,32 @@
   "neu": false
  },
  {
+  "titel": "Maturaball BRG in der Au",
+  "datum": "2027-01-08",
+  "bis": "",
+  "zeit": "",
+  "ort": "Messe Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Maturaball HTL Imst",
+  "datum": "2027-01-08",
+  "bis": "",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "HC TIWAG Innsbruck - Hydro Fehervar AV 19",
   "datum": "2027-01-09",
   "bis": "",
@@ -11048,6 +11477,19 @@
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "Debütantenball der Tanzschule Polai",
+  "datum": "2027-01-09",
+  "bis": "",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.polai.at/events/debuetantenball-2023",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "HC TIWAG Innsbruck - EC iDM Wärmepumpen VSV",
@@ -11076,6 +11518,19 @@
   "neu": false
  },
  {
+  "titel": "3. Symphoniekonzert 2026/2027",
+  "datum": "2027-01-14",
+  "bis": "2027-01-15",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.landestheater.at/produktionen/3-symphoniekonzert-2627",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "KI-Cup 2026 (Schüler & Erwachsene)",
   "datum": "2027-01-14",
   "bis": "",
@@ -11102,17 +11557,56 @@
   "neu": false
  },
  {
+  "titel": "Maturaball BORG",
+  "datum": "2027-01-15",
+  "bis": "",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Mano Ezoh - Pop meets Classic - The Experience",
   "datum": "2027-01-16",
   "bis": "",
   "zeit": "20:00",
-  "ort": "Location: Congress Innsbruck",
+  "ort": "Congress Innsbruck",
   "url": "https://www.oeticket.com/event/pop-meets-classic-the-experience-congress-innsbruck-19531658/#tab=",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "Hochzeiten & Feste 2027",
+  "datum": "2027-01-16",
+  "bis": "2027-01-17",
+  "zeit": "",
+  "ort": "Messe Innsbruck",
+  "url": "https://www.hochzeiten-feste.at",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Maturaball Ferrari",
+  "datum": "2027-01-16",
+  "bis": "",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "Die Schöne und das Biest - das Musical",
@@ -11132,7 +11626,7 @@
   "datum": "2027-01-18",
   "bis": "",
   "zeit": "09:00",
-  "ort": "Location: Congress Innsbruck",
+  "ort": "Congress Innsbruck",
   "url": "https://gestrata.at/programm-strassenbautagung-2026/",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "kurse",
@@ -11141,30 +11635,69 @@
   "neu": false
  },
  {
-  "titel": "Gernot Kulis",
+  "titel": "GERNOT KULIS",
   "datum": "2027-01-21",
   "bis": "",
   "zeit": "19:30",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.hoanzl.at/",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
-  "kategorie": "kultur",
+  "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "Maturaball SILLGASSE",
+  "datum": "2027-01-22",
+  "bis": "",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "Universitätsorchester Innsbruck 2027",
   "datum": "2027-01-23",
   "bis": "",
   "zeit": "19:30",
-  "ort": "Location: Congress Innsbruck",
+  "ort": "Congress Innsbruck",
   "url": "https://www.uibk.ac.at/uniorchester",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "Maturaball HLWest",
+  "datum": "2027-01-23",
+  "bis": "",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "EPITA Symposium 2027",
+  "datum": "2027-01-24",
+  "bis": "2027-01-26",
+  "zeit": "",
+  "ort": "congresspark igls",
+  "url": "https://esot.org/esot-events/epita-symposium-2026/",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "SAZ B2B-SnowTestival",
@@ -11210,8 +11743,8 @@
   "datum": "2027-01-28",
   "bis": "",
   "zeit": "19:30",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.meisterkammerkonzerte.at",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.meisterkammerkonzerte.at/veranstaltungen/wdr-sinfonieorchester-marie-jacquot-antoine-tamestit-iveta-apkalna",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
   "anmeldeschluss": "",
@@ -11232,6 +11765,45 @@
   "neu": false
  },
  {
+  "titel": "Technikerball",
+  "datum": "2027-01-29",
+  "bis": "",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Tiroler Hausbau & Energie Messe Innsbruck 2027",
+  "datum": "2027-01-29",
+  "bis": "2027-01-31",
+  "zeit": "",
+  "ort": "Messe Innsbruck",
+  "url": "https://www.tiroler-hausbaumesse.at",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Tiroler Bauernbundball",
+  "datum": "2027-01-30",
+  "bis": "",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Swarco Raiders Tirol - Union Deutsch Wagram Alligators",
   "datum": "2027-01-31",
   "bis": "",
@@ -11249,8 +11821,8 @@
   "datum": "2027-02-01",
   "bis": "",
   "zeit": "18:00",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.star-entertainment.org",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
   "anmeldeschluss": "",
@@ -11262,8 +11834,8 @@
   "datum": "2027-02-01",
   "bis": "",
   "zeit": "21:00",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.star-entertainment.org",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
   "anmeldeschluss": "",
@@ -11288,8 +11860,8 @@
   "datum": "2027-02-04",
   "bis": "",
   "zeit": "20:00",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.hoanzl.at",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "kultur",
   "anmeldeschluss": "",
@@ -11362,6 +11934,19 @@
   "neu": false
  },
  {
+  "titel": "Der Ball der Tiroler Wirtschaft",
+  "datum": "2027-02-06",
+  "bis": "",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.wko.at/pages/ball-der-tiroler-wirtschaft/startseite-ball-tiroler-wirtschaft2025?utm_source=mailworx&utm_medium=email&utm_content=2024-12-05 ball der wirtschaft 2025&utm_campaign=",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "HC TIWAG Innsbruck - Moser Medical Graz99ers",
   "datum": "2027-02-07",
   "bis": "",
@@ -11379,8 +11964,8 @@
   "datum": "2027-02-11",
   "bis": "",
   "zeit": "19:30",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.meisterkammerkonzerte.at",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.meisterkammerkonzerte.at/veranstaltungen/wdr-sinfonieorchester-marie-jacquot-antoine-tamestit-iveta-apkalna",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
   "anmeldeschluss": "",
@@ -11398,14 +11983,14 @@
   "kategorie": "brauchtum",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Die Schöne & das Biest – Das Musical",
   "datum": "2027-02-12",
   "bis": "",
   "zeit": "19:00",
-  "ort": "Location: Congress Innsbruck",
+  "ort": "Congress Innsbruck",
   "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
@@ -11418,8 +12003,8 @@
   "datum": "2027-02-13",
   "bis": "",
   "zeit": "16:00",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.oeticket.com/en/event/rammstein-symphonic-tribute-herzfeuer-congress-innsbruck-22069303/",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
   "anmeldeschluss": "",
@@ -11444,7 +12029,7 @@
   "datum": "2027-02-13",
   "bis": "",
   "zeit": "20:00",
-  "ort": "Location: Congress Innsbruck",
+  "ort": "Congress Innsbruck",
   "url": "https://www.oeticket.com/en/event/rammstein-symphonic-tribute-herzfeuer-congress-innsbruck-22069303/",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
@@ -11453,12 +12038,38 @@
   "neu": false
  },
  {
+  "titel": "Jahresauftakt Forever Living Products 2027",
+  "datum": "2027-02-13",
+  "bis": "2027-02-14",
+  "zeit": "",
+  "ort": "Messe Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "4. Symphoniekonzert 2026/2027",
+  "datum": "2027-02-18",
+  "bis": "2027-02-19",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.landestheater.at/produktionen/4-symphoniekonzert-2627",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "ABBA Gold - The Concert Show 2027",
   "datum": "2027-02-20",
   "bis": "",
   "zeit": "20:00",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.showfactory.at",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
   "anmeldeschluss": "",
@@ -11505,6 +12116,19 @@
   "neu": false
  },
  {
+  "titel": "Michael Niavarani",
+  "datum": "2027-02-22",
+  "bis": "2027-02-23",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "HC TIWAG Innsbruck - Milano HC",
   "datum": "2027-02-24",
   "bis": "",
@@ -11518,12 +12142,25 @@
   "neu": false
  },
  {
+  "titel": "25. Internationale Weinmesse Innsbruck",
+  "datum": "2027-02-25",
+  "bis": "2027-02-27",
+  "zeit": "",
+  "ort": "Messe Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "DIE UDO JÜRGENS STORY",
   "datum": "2027-02-26",
   "bis": "",
   "zeit": "19:30",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.cofo.at/",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "kultur",
   "anmeldeschluss": "",
@@ -11535,8 +12172,8 @@
   "datum": "2027-02-27",
   "bis": "",
   "zeit": "20:00",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.kunst-designmarkt.at/innsbruck/",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
   "anmeldeschluss": "",
@@ -11557,6 +12194,19 @@
   "neu": false
  },
  {
+  "titel": "12. Kunst & Designmarkt 2027",
+  "datum": "2027-02-27",
+  "bis": "2027-02-28",
+  "zeit": "",
+  "ort": "Messe Innsbruck",
+  "url": "https://www.kunst-designmarkt.at/innsbruck/",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Am , um 8:00, werden die 3h Kurse",
   "datum": "2027-03-01",
   "bis": "",
@@ -11574,8 +12224,8 @@
   "datum": "2027-03-04",
   "bis": "",
   "zeit": "09:00",
-  "ort": "Location: Messe Innsbruck",
-  "url": "https://www.bfi-tirol.at",
+  "ort": "Messe Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "kurse",
   "anmeldeschluss": "",
@@ -11607,6 +12257,19 @@
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "29. Kardiologie-Kongress Innsbruck 2027",
+  "datum": "2027-03-04",
+  "bis": "2027-03-06",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.kardiologie-innsbruck.at/",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "James Blunt - Airplane Mode Tour",
@@ -11652,8 +12315,8 @@
   "datum": "2027-03-10",
   "bis": "",
   "zeit": "20:00",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.hoanzl.at",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "kultur",
   "anmeldeschluss": "",
@@ -11672,6 +12335,19 @@
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "42. Tiroler Frühjahrsmesse & 37. Tiroler Autosalon 2027",
+  "datum": "2027-03-11",
+  "bis": "2027-03-14",
+  "zeit": "",
+  "ort": "Messe Innsbruck",
+  "url": "https://www.fruehjahrsmesse.at",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "BlocTour 2026 im Kletterzentrum Innsbruck",
@@ -11704,13 +12380,13 @@
   "datum": "2027-03-12",
   "bis": "",
   "zeit": "20:00",
-  "ort": "Location: Congress Innsbruck",
+  "ort": "Congress Innsbruck",
   "url": "https://www.wiltener.at/events-2/?event=2014",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "brauchtum",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Thorsteinn Einarsson - Solstice Tour 2027",
@@ -11724,6 +12400,19 @@
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "Maturaball Reithmann",
+  "datum": "2027-03-12",
+  "bis": "",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "Swarco Raiders Tirol - BBU Salzburg",
@@ -11743,13 +12432,26 @@
   "datum": "2027-03-13",
   "bis": "",
   "zeit": "20:00",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.cofo.at/",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "Hofgarten Stadtcafe Revival",
+  "datum": "2027-03-13",
+  "bis": "",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "Happy Jungle Show - Rodscha aus Kambodscha und Tom Palme",
@@ -11768,9 +12470,9 @@
   "titel": "SCHWANENSEE - INTERNATIONAL BALLET COMPANY ITALIA",
   "datum": "2027-03-14",
   "bis": "",
-  "zeit": "18:00",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://coloss-art.com/",
+  "zeit": "19:30",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
   "anmeldeschluss": "",
@@ -11795,13 +12497,26 @@
   "datum": "2027-03-18",
   "bis": "",
   "zeit": "09:00",
-  "ort": "Location: Messe Innsbruck",
-  "url": "https://www.bfi-tirol.at",
+  "ort": "Messe Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "5. Symphoniekonzert 2026/2027",
+  "datum": "2027-03-18",
+  "bis": "2027-03-19",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.landestheater.at/produktionen/5-symphoniekonzert-2627",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "TRIPLE THRASH ALLIANCE | EVIL INVADERS | HEATHEN | EXHORDER | support Warfield",
@@ -11834,8 +12549,8 @@
   "datum": "2027-03-20",
   "bis": "",
   "zeit": "16:00",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.hoanzl.at/",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "kultur",
   "anmeldeschluss": "",
@@ -11847,10 +12562,10 @@
   "datum": "2027-03-25",
   "bis": "",
   "zeit": "20:00",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.sixxpaxx.com",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
-  "kategorie": "musik",
+  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -11873,8 +12588,8 @@
   "datum": "2027-04-03",
   "bis": "",
   "zeit": "19:30",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.polai.at",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
   "anmeldeschluss": "",
@@ -11886,13 +12601,39 @@
   "datum": "2027-04-07",
   "bis": "",
   "zeit": "20:00",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.hoanzl.at",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "6. Symphoniekonzert 2026/2027",
+  "datum": "2027-04-08",
+  "bis": "2027-04-09",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.landestheater.at/produktionen/6-symphoniekonzert-2627",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Semesteropening",
+  "datum": "2027-04-08",
+  "bis": "",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "JUSE JU • IN JENEN TAGEN TOUR",
@@ -11938,7 +12679,7 @@
   "datum": "2027-04-14",
   "bis": "",
   "zeit": "10:00",
-  "ort": "Location: Congress Innsbruck",
+  "ort": "Congress Innsbruck",
   "url": "https://www.career-competence.at/",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "kultur",
@@ -11951,8 +12692,8 @@
   "datum": "2027-04-15",
   "bis": "",
   "zeit": "20:00",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.anklang.cc",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "brauchtum",
   "anmeldeschluss": "",
@@ -11964,8 +12705,8 @@
   "datum": "2027-04-17",
   "bis": "",
   "zeit": "20:00",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.stadtkapelle-memmingen.de",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
   "anmeldeschluss": "",
@@ -11977,7 +12718,7 @@
   "datum": "2027-04-18",
   "bis": "",
   "zeit": "20:00",
-  "ort": "Location: Congress Innsbruck",
+  "ort": "Congress Innsbruck",
   "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
@@ -11986,11 +12727,24 @@
   "neu": false
  },
  {
+  "titel": "INAC Inter-Alpine Natural Hazards Conference, Innsbruck (CI)",
+  "datum": "2027-04-19",
+  "bis": "2027-04-20",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Snow Crystal Gala - im Rahmen der Interalpin 2027",
   "datum": "2027-04-20",
   "bis": "",
   "zeit": "18:30",
-  "ort": "Location: Congress Innsbruck",
+  "ort": "Congress Innsbruck",
   "url": "https://www.interalpin.at",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "mix",
@@ -11999,12 +12753,25 @@
   "neu": false
  },
  {
+  "titel": "INTERALPIN 2027 - Int. Fachmesse für alpine Technologien (26. Ausgabe)",
+  "datum": "2027-04-20",
+  "bis": "2027-04-23",
+  "zeit": "",
+  "ort": "Messe Innsbruck",
+  "url": "https://www.interalpin.eu",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Weinviertel DAC Jahrgangspräsentation",
   "datum": "2027-04-21",
   "bis": "",
   "zeit": "14:00",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.uibk.ac.at/uniorchester",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "kultur",
   "anmeldeschluss": "",
@@ -12016,7 +12783,7 @@
   "datum": "2027-04-21",
   "bis": "",
   "zeit": "20:00",
-  "ort": "Location: Congress Innsbruck",
+  "ort": "Congress Innsbruck",
   "url": "https://www.uibk.ac.at/uniorchester",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
@@ -12029,8 +12796,8 @@
   "datum": "2027-04-23",
   "bis": "",
   "zeit": "19:30",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.meisterkammerkonzerte.at",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.meisterkammerkonzerte.at/veranstaltungen/wdr-sinfonieorchester-marie-jacquot-antoine-tamestit-iveta-apkalna",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
   "anmeldeschluss": "",
@@ -12055,7 +12822,7 @@
   "datum": "2027-04-25",
   "bis": "",
   "zeit": "19:00",
-  "ort": "Location: Congress Innsbruck",
+  "ort": "Congress Innsbruck",
   "url": "https://www.elvis-musical.co",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
@@ -12090,6 +12857,19 @@
   "neu": false
  },
  {
+  "titel": "IFIMP 2027 - Forum für Intensivmedizin und Pflege",
+  "datum": "2027-04-28",
+  "bis": "2027-04-29",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.ifimp.at",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Innsbruck Alpine Trailrun Festival",
   "datum": "2027-04-28",
   "bis": "2027-05-01",
@@ -12107,8 +12887,8 @@
   "datum": "2027-04-29",
   "bis": "",
   "zeit": "20:00",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.oeticket.com/",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
   "anmeldeschluss": "",
@@ -12116,12 +12896,25 @@
   "neu": false
  },
  {
+  "titel": "IATF Innsbruck Alpine Trailrun Festival 2027",
+  "datum": "2027-05-05",
+  "bis": "2027-05-08",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://innsbruckalpine.at/",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Klaus Eckel",
   "datum": "2027-05-07",
   "bis": "",
   "zeit": "20:00",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.hoanzl.at",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "kultur",
   "anmeldeschluss": "",
@@ -12133,7 +12926,7 @@
   "datum": "2027-05-08",
   "bis": "",
   "zeit": "19:00",
-  "ort": "Location: Congress Innsbruck",
+  "ort": "Congress Innsbruck",
   "url": "https://www.saengerknaben.com/de/",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
@@ -12142,17 +12935,43 @@
   "neu": false
  },
  {
+  "titel": "Sportlerehrung der Stadt Innsbruck",
+  "datum": "2027-05-11",
+  "bis": "",
+  "zeit": "",
+  "ort": "congresspark igls",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "David Garrett",
   "datum": "2027-05-12",
   "bis": "",
   "zeit": "20:00",
-  "ort": "Location: Congress Innsbruck",
+  "ort": "Congress Innsbruck",
   "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "Maturaball HAK",
+  "datum": "2027-05-14",
+  "bis": "",
+  "zeit": "",
+  "ort": "Messe Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "herzlich ein. Aber Vorsicht: Auch wer ohne Bugs kommt wird nicht ohne",
@@ -12207,6 +13026,19 @@
   "neu": false
  },
  {
+  "titel": "7. Symphoniekonzert 2026/2027",
+  "datum": "2027-05-20",
+  "bis": "2027-05-21",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.landestheater.at/produktionen/7-symphoniekonzert-2627",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Alexander Kuttler Connection - Divided in Oneness",
   "datum": "2027-05-21",
   "bis": "",
@@ -12224,8 +13056,8 @@
   "datum": "2027-05-23",
   "bis": "",
   "zeit": "19:00",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.hoanzl.at",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
   "anmeldeschluss": "",
@@ -12237,13 +13069,26 @@
   "datum": "2027-05-28",
   "bis": "",
   "zeit": "19:30",
-  "ort": "Location: Congress Innsbruck",
-  "url": "https://www.meisterkammerkonzerte.at",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.meisterkammerkonzerte.at/veranstaltungen/wdr-sinfonieorchester-marie-jacquot-antoine-tamestit-iveta-apkalna",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "INNFERNO Fighting Championship NEU",
+  "datum": "2027-05-29",
+  "bis": "",
+  "zeit": "",
+  "ort": "Congress Innsbruck",
+  "url": "https://www.innferno.at/",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "Juli bis September 2027 freigeschalten",
@@ -12270,6 +13115,19 @@
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "Maturaball APP",
+  "datum": "2027-06-05",
+  "bis": "",
+  "zeit": "",
+  "ort": "Messe Innsbruck",
+  "url": "https://www.cmi.at/de/veranstaltungskalender",
+  "quelle": "Congress Messe Innsbruck",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "Stubaier G'spiel und G'sang",

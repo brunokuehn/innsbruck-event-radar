@@ -1,13 +1,6 @@
 {
- "erzeugt": "2026-09-13T06:50:28+00:00",
- "befunde": [
-  {
-   "dringlichkeit": "fehler",
-   "quelle": "flohmarkt.at",
-   "was": "seit diesem Lauf kaputt: TimeoutError: The read operation timed out",
-   "rat": "Der Server war langsam. Beim naechsten Lauf abwarten."
-  }
- ],
+ "erzeugt": "2026-09-13T07:09:31+00:00",
+ "befunde": [],
  "dauerhaft_still": [],
  "quellen": {
   "Airdrenaline": {
@@ -75,8 +68,8 @@
    "zuletzt": {
     "tag": "2026-09-13",
     "zustand": "ok",
-    "gefunden": 114,
-    "behalten": 100,
+    "gefunden": 180,
+    "behalten": 158,
     "fehler": ""
    }
   },
@@ -654,10 +647,10 @@
    "laeufe_erfasst": 11,
    "zuletzt": {
     "tag": "2026-09-13",
-    "zustand": "fehler",
-    "gefunden": 0,
-    "behalten": 0,
-    "fehler": "TimeoutError: The read operation timed out"
+    "zustand": "ok",
+    "gefunden": 15,
+    "behalten": 15,
+    "fehler": ""
    }
   },
   "imkreis": {
