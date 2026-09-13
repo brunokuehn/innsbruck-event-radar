@@ -81,7 +81,9 @@
      Fragen mischte -- Kategorie, eigene Liste, Merkmal. Ein Auswahlmenue
      zeigt statt aller Moeglichkeiten die getroffene Wahl, und das Telefon
      macht daraus von selbst eine bequeme Auswahl. */
-  .filter { display: flex; gap: 8px; margin-bottom: 2px; }
+  .filter { display: flex; gap: 8px; margin-top: 8px; }
+  /* "display: flex" oben schlaegt sonst das [hidden] des Browsers. */
+  .filter[hidden] { display: none; }
   .filter select {
     flex: 1 1 0; min-width: 0;
     font: 500 12.5px/1 var(--mono); color: var(--fels);
@@ -104,17 +106,16 @@
      leere Listen erzeugen. Ausgegraut statt ausgeblendet -- sonst springt
      die Zeile. */
   .filter select:disabled { opacity: .4; cursor: default; }
-  .leiste { display: flex; align-items: center; justify-content: space-between;
-            gap: 10px; padding-top: 11px; }
-  .zaehler { font: 400 11.5px/1 var(--mono); color: var(--stein); margin: 0 0 0 2px; }
-  /* Der Umschalter sitzt in der Zeile des Zaehlers, die ohnehin leer war --
-     eine eigene Reihe dafuer waere genau der Wildwuchs, den wir gerade
-     losgeworden sind. */
-  .ansicht { display: flex; flex: none; border: 1px solid var(--linie);
-             border-radius: 999px; overflow: hidden; background: var(--karte); }
+  .zaehler { font: 400 11.5px/1 var(--mono); color: var(--stein); margin: 12px 0 0 2px; }
+  /* Der Umschalter steht ueber die volle Breite und ganz oben: er entscheidet,
+     was die Menues darunter ueberhaupt bedeuten. Zwei gleiche Haelften, damit
+     keine der beiden Ansichten wie die zweite Wahl aussieht. */
+  .ansicht { display: flex; margin-top: 10px; border: 1px solid var(--linie);
+             border-radius: 9px; overflow: hidden; background: var(--karte); }
   .ansicht button {
-    font: 600 10.5px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase;
-    padding: 7px 11px; border: 0; background: transparent; color: var(--stein);
+    flex: 1 1 0; min-width: 0;
+    font: 600 11.5px/1 var(--mono); letter-spacing: .1em; text-transform: uppercase;
+    padding: 12px 8px; border: 0; background: transparent; color: var(--stein);
     cursor: pointer;
   }
   .ansicht button[aria-pressed="true"] { background: var(--fels); color: var(--grund); }
@@ -150,9 +151,6 @@
   .zelle.d2 { background: rgba(23, 99, 111, .22); }
   .zelle.d3 { background: rgba(23, 99, 111, .38); }
   .zelle.d4 { background: rgba(23, 99, 111, .58); }
-  .zelle.heute { border-color: var(--gletscher); font-weight: 700; }
-  .zelle.gewaehlt { background: var(--fels); border-color: var(--fels); color: var(--grund); }
-  .zelle:focus-visible { outline: 2px solid var(--gletscher); outline-offset: 1px; }
   .kaltag { font: 600 12px/1 var(--eng); letter-spacing: .18em; text-transform: uppercase;
             color: var(--stein); margin: 22px 0 0; padding-bottom: 7px;
             border-bottom: 1px solid var(--linie); }
@@ -165,6 +163,13 @@
     .zelle.d3 { background: rgba(75, 179, 196, .42); }
     .zelle.d4 { background: rgba(75, 179, 196, .62); }
   }
+  /* Heute und der gewaehlte Tag stehen bewusst hinter dem Block fuer den
+     dunklen Modus. Beide Regeln sind gleich spezifisch; die spaetere
+     gewinnt. Standen sie davor, ueberschrieb im Dunkeln die Dichtefarbe den
+     gewaehlten Tag, und man sah nicht mehr, welcher Tag unten steht. */
+  .zelle.heute { border-color: var(--gletscher); font-weight: 700; }
+  .zelle.gewaehlt { background: var(--fels); border-color: var(--fels); color: var(--grund); }
+  .zelle:focus-visible { outline: 2px solid var(--gletscher); outline-offset: 1px; }
   /* In der Tagesliste steht links die Uhrzeit statt des Datums -- das Datum
      steht schon in der Ueberschrift darueber. */
   .tag.uhrzeit b { font: 600 13px/1.55 var(--mono); letter-spacing: 0; }
@@ -248,8 +253,18 @@
   <input class="suche" id="suche" type="search" placeholder="Suchen — Titel, Ort, Veranstalter"
          autocomplete="off" autocorrect="off" spellcheck="false">
 
-  <!-- Zwei Fragen, zwei Menues: was, und wann. Beide gelten zugleich. -->
-  <div class="filter">
+  <!-- Zuerst die Ansicht, dann erst, was darin zu sehen ist. -->
+  <div class="ansicht" id="ansicht" role="group" aria-label="Ansicht">
+    <button type="button" data-v="liste" aria-pressed="false">Liste</button>
+    <button type="button" data-v="kalender" aria-pressed="true">Kalender</button>
+  </div>
+
+  <!-- Zwei Fragen, zwei Menues: was, und wann. Beide gelten zugleich.
+       Im Kalender sind sie ausgeblendet -- dort bestimmt der Monat den
+       Zeitraum, und ein Filter, den man nicht sieht, waere einer, den man
+       sich nicht erklaeren kann. Ausgeblendet heisst darum auch: wirkt
+       nicht. -->
+  <div class="filter" id="filter" hidden>
     <select id="was" aria-label="Was">
       <option value="alle">Alle Kategorien</option>
       <option value="neu">Neu dazugekommen</option>
@@ -274,13 +289,7 @@
       <option value="alle">Alle Termine</option>
     </select>
   </div>
-  <div class="leiste">
-    <p class="zaehler" id="zaehler"></p>
-    <div class="ansicht" id="ansicht" role="group" aria-label="Ansicht">
-      <button type="button" data-v="liste" aria-pressed="true">Liste</button>
-      <button type="button" data-v="kalender" aria-pressed="false">Kalender</button>
-    </div>
-  </div>
+  <p class="zaehler" id="zaehler"></p>
 
   <main id="liste"><p class="lade">Termine werden geladen …</p></main>
 
@@ -308,16 +317,17 @@
 
   var liste = document.getElementById('liste');
   var ansichtWahl = document.getElementById('ansicht');
+  var filterreihe = document.getElementById('filter');
   var wasMenue = document.getElementById('was');
   var wannMenue = document.getElementById('wann');
   var suche = document.getElementById('suche');
   var zaehler = document.getElementById('zaehler');
 
   var termine = [];
-  var filter = 'alle';
+  var gewaehlteKategorie = 'alle';
   var zeitraum = 'monate3';
   var suchwort = '';
-  var ansicht = 'liste';
+  var ansicht = 'kalender';
   var kalendermonat = '';   // "2026-09"
   var gewaehlterTag = '';   // "2026-09-19"
 
@@ -380,6 +390,10 @@
   var offenesFenster = null;
 
   function passt(e) {
+    // Im Kalender steht kein Menue daneben, also wirkt dort auch keine
+    // Auswahl: ein Filter, den man nicht sieht, waere einer, den man sich
+    // nicht erklaeren kann.
+    var filter = (ansicht === 'kalender') ? 'alle' : gewaehlteKategorie;
     // Kinoprogramm und Brauchtum haben eigene Listen: dreissig Filme pro Tag
     // und die Prozessionen des Dekanats wuerden im Hauptfeed alles andere
     // begraben. Wochenformate taten das nie -- es sind dreissig Eintraege aus
@@ -409,12 +423,13 @@
   }
 
   function hinweisHtml() {
-    if (filter === 'brauchtum') {
+    if (ansicht === 'kalender') return '';
+    if (gewaehlteKategorie === 'brauchtum') {
       return '<p class="hinweis">Blasmusik, Volksmusik, Schützen, ' +
         'Prozessionen, Almabtriebe, Zelt- und Feuerwehrfeste — alles, was ' +
         'im Hauptfeed nicht auftaucht. Gesammelt wird es trotzdem.</p>';
     }
-    if (filter === 'kino') {
+    if (gewaehlteKategorie === 'kino') {
       return '<p class="hinweis">Das Programm des heutigen Tages, ' +
         'zusammengetragen aus allen Innsbrucker Kinos. Spielzeiten geben die ' +
         'Kinoseiten nur im Browser heraus — die stehen hinter dem Filmtitel.</p>';
@@ -466,8 +481,8 @@
   function zeichnen() {
     // Im Kalender bestimmt der Monat den Zeitraum; das Menue daneben ist
     // dann gesperrt und sein Fenster gilt nicht.
-    offenesFenster = (ansicht === 'kalender' || filter === 'kino' || zeitraum === 'alle')
-      ? null : fenster(ortsdatum(new Date()));
+    offenesFenster = (ansicht === 'kalender' || gewaehlteKategorie === 'kino'
+                      || zeitraum === 'alle') ? null : fenster(ortsdatum(new Date()));
     var sichtbar = termine.filter(passt);
     // Welcher Zeitraum gilt, steht im Menue daneben -- hier nur die Zahl.
     zaehler.textContent = sichtbar.length +
@@ -658,9 +673,12 @@
   }
 
   function menuesAbgleichen() {
-    // Im Kalender bestimmt der Monat den Zeitraum, beim Kinoprogramm der
-    // heutige Tag. Beide Male waere eine Auswahl daneben ohne Wirkung.
-    wannMenue.disabled = (ansicht === 'kalender' || filter === 'kino');
+    // Im Kalender bestimmt der Monat den Zeitraum -- die beiden Menues
+    // haetten dort nichts zu entscheiden und stehen darum nicht da.
+    filterreihe.hidden = (ansicht === 'kalender');
+    // Das Kinoprogramm gilt nur fuer heute; ein Zeitraum daneben koennte
+    // nur leere Listen erzeugen.
+    wannMenue.disabled = (gewaehlteKategorie === 'kino');
   }
 
   ansichtWahl.addEventListener('click', function (ev) {
@@ -711,7 +729,7 @@
   }, { passive: true });
 
   wasMenue.addEventListener('change', function () {
-    filter = wasMenue.value;
+    gewaehlteKategorie = wasMenue.value;
     menuesAbgleichen();
     zeichnen();
   });
@@ -737,6 +755,8 @@
       return r.json();
     });
   }
+
+  menuesAbgleichen();
 
   hole('events.json').then(function (roh) {
     var heute = ortsdatum(new Date());
