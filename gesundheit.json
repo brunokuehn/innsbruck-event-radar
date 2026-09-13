@@ -1,6 +1,25 @@
 {
- "erzeugt": "2026-09-13T07:09:31+00:00",
- "befunde": [],
+ "erzeugt": "2026-09-13T09:39:40+00:00",
+ "befunde": [
+  {
+   "dringlichkeit": "fehler",
+   "quelle": "Bergisel",
+   "was": "seit diesem Lauf kaputt: HTTP 403",
+   "rat": "Der Server sperrt uns aus. Das ist eine Entscheidung des Betreibers, keine Panne -- Quelle abschalten und begruenden."
+  },
+  {
+   "dringlichkeit": "fehler",
+   "quelle": "Music Hall",
+   "was": "seit diesem Lauf kaputt: HTTP 403",
+   "rat": "Der Server sperrt uns aus. Das ist eine Entscheidung des Betreibers, keine Panne -- Quelle abschalten und begruenden."
+  },
+  {
+   "dringlichkeit": "fehler",
+   "quelle": "Tiroler Landesmuseen",
+   "was": "seit diesem Lauf kaputt: HTTP 403",
+   "rat": "Der Server sperrt uns aus. Das ist eine Entscheidung des Betreibers, keine Panne -- Quelle abschalten und begruenden."
+  }
+ ],
  "dauerhaft_still": [],
  "quellen": {
   "Airdrenaline": {
@@ -47,10 +66,10 @@
    "laeufe_erfasst": 11,
    "zuletzt": {
     "tag": "2026-09-13",
-    "zustand": "ok",
-    "gefunden": 1,
-    "behalten": 1,
-    "fehler": ""
+    "zustand": "fehler",
+    "gefunden": 0,
+    "behalten": 0,
+    "fehler": "HTTP 403"
    }
   },
   "Bonanza Festival": {
@@ -317,10 +336,10 @@
    "laeufe_erfasst": 11,
    "zuletzt": {
     "tag": "2026-09-13",
-    "zustand": "ok",
-    "gefunden": 36,
-    "behalten": 34,
-    "fehler": ""
+    "zustand": "fehler",
+    "gefunden": 0,
+    "behalten": 0,
+    "fehler": "HTTP 403"
    }
   },
   "Nature Film Festival": {
@@ -527,10 +546,10 @@
    "laeufe_erfasst": 11,
    "zuletzt": {
     "tag": "2026-09-13",
-    "zustand": "ok",
-    "gefunden": 10,
-    "behalten": 7,
-    "fehler": ""
+    "zustand": "fehler",
+    "gefunden": 0,
+    "behalten": 0,
+    "fehler": "HTTP 403"
    }
   },
   "Tiroler Skiverband": {
@@ -638,8 +657,8 @@
    "zuletzt": {
     "tag": "2026-09-13",
     "zustand": "ok",
-    "gefunden": 52,
-    "behalten": 52,
+    "gefunden": 53,
+    "behalten": 53,
     "fehler": ""
    }
   },
