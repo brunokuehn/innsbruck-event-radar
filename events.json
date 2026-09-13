@@ -39,6 +39,19 @@
   "neu": false
  },
  {
+  "titel": "Flohmarkt beim Greif Center",
+  "datum": "2026-09-13",
+  "bis": "",
+  "zeit": "05:30",
+  "ort": "Innsbruck",
+  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/flohmarkt-innsbruck-beim-greifcenter",
+  "quelle": "flohmarkt.at",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Flohmarkt Greifcenter",
   "datum": "2026-09-13",
   "bis": "",
@@ -49,6 +62,19 @@
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": true,
+  "neu": false
+ },
+ {
+  "titel": "Innsbrucks größter Sonntagsfloh- und Trödelmarkt",
+  "datum": "2026-09-13",
+  "bis": "",
+  "zeit": "05:30",
+  "ort": "Greif Center",
+  "url": "https://meine-flohmarkt-termine.de/innsbrucks-grosster-sonntagsfloh-und-trodelmarkt/23711739/details",
+  "quelle": "Flohmarkt-Termine",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
   "neu": false
  },
  {
@@ -164,6 +190,19 @@
   "url": "https://www.innsbrucktermine.at/veranstaltungen/obermieminger-bauernfest-am-steirerhof?date=1789286400",
   "quelle": "Innsbruck Termine",
   "kategorie": "brauchtum",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Schmuck- und Mineralienmesse Innsbruck",
+  "datum": "2026-09-13",
+  "bis": "",
+  "zeit": "10:00",
+  "ort": "Haus der Begegnung, Diözese Innsbruck",
+  "url": "https://meine-flohmarkt-termine.de/schmuck-und-mineralienmesse-innsbruck/23720735/details",
+  "quelle": "Flohmarkt-Termine",
+  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -299,6 +338,32 @@
   "neu": false
  },
  {
+  "titel": "Floh- und Trödelmarkt",
+  "datum": "2026-09-13",
+  "bis": "",
+  "zeit": "16:00",
+  "ort": "Telfs",
+  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/telfs-park-flohmarkt",
+  "quelle": "flohmarkt.at",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Flohmarkt am Standort Parkplatz, METRO",
+  "datum": "2026-09-13",
+  "bis": "",
+  "zeit": "16:00",
+  "ort": "Rum bei Innsbruck",
+  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/flohmarkt-metro-rum-bei-innsbruck",
+  "quelle": "flohmarkt.at",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "THREADS – Formen des Verbundenseins",
   "datum": "2026-09-13",
   "bis": "",
@@ -429,19 +494,6 @@
   "neu": false
  },
  {
-  "titel": "Innsbrucks größter Sonntagsfloh- und Trödelmarkt",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "",
-  "ort": "Greif Center",
-  "url": "https://meine-flohmarkt-termine.de/innsbrucks-grosster-sonntagsfloh-und-trodelmarkt/23711739/details",
-  "quelle": "Flohmarkt-Termine",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Insidious: Out of the Further",
   "datum": "2026-09-13",
   "bis": "",
@@ -541,19 +593,6 @@
   "url": "https://www.uncut.at/movies/film.php?movie_id=24158",
   "quelle": "UNCUT Kinoprogramm",
   "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Schmuck- und Mineralienmesse Innsbruck",
-  "datum": "2026-09-13",
-  "bis": "",
-  "zeit": "",
-  "ort": "Haus der Begegnung, Diözese Innsbruck",
-  "url": "https://meine-flohmarkt-termine.de/schmuck-und-mineralienmesse-innsbruck/23720735/details",
-  "quelle": "Flohmarkt-Termine",
-  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -803,7 +842,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Ausstellung Christine Knoll",
@@ -816,7 +855,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Denkmal für Schnee – Esther Strauß | RLB Kunstpreis",
@@ -829,7 +868,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Reise ins Mittelalter – Stadtführung Hall",
@@ -842,7 +881,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Telfer Marktl",
@@ -1011,7 +1050,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "fit for family - Spielgruppe St. Franziskus Für Kinder bis ca. 3 Jahren",
@@ -1024,7 +1063,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Einladung zum 1. Österreichischen Tag der Selbsthilfe",
@@ -1219,7 +1258,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Geld regiert die Welt – Museum Münze Hall",
@@ -1232,7 +1271,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Wurzbergalm",
@@ -1308,6 +1347,19 @@
   "url": "https://www.meinbezirk.at/event/innsbruck/c-ausstellung/rebuild-figures-of-space-64-haeuser-im-modell_e3950549",
   "quelle": "meinbezirk",
   "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Beate Meinl-Reisinger",
+  "datum": "2026-09-17",
+  "bis": "",
+  "zeit": "12:00",
+  "ort": "MCI, Innsbruck",
+  "url": "https://www.mci.edu/de/hochschule/events/24-alumni/7417-beate-meinl-reisinger",
+  "quelle": "MCI",
+  "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -1547,19 +1599,6 @@
   "neu": false
  },
  {
-  "titel": "Beate Meinl-Reisinger",
-  "datum": "2026-09-17",
-  "bis": "",
-  "zeit": "",
-  "ort": "MCI, Innsbruck",
-  "url": "https://www.mci.edu/de/hochschule/events/24-alumni/7417-beate-meinl-reisinger",
-  "quelle": "MCI",
-  "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Ausstellung - Tanja Winkler",
   "datum": "2026-09-18",
   "bis": "",
@@ -1700,7 +1739,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Klangspuren 2026 - Auf dass wir so verwandelt werden",
@@ -1872,13 +1911,13 @@
   "neu": false
  },
  {
-  "titel": "Markt am Tivoli",
+  "titel": "Markt am Tivoli Stadion Innsbruck",
   "datum": "2026-09-19",
   "bis": "",
   "zeit": "06:00",
   "ort": "Tivoli Stadion Tirol",
-  "url": "https://www.olympiaworld.at/events-tickets/markt-am-tivoli-1/",
-  "quelle": "Olympiaworld",
+  "url": "https://meine-flohmarkt-termine.de/markt-am-tivoli-stadion-innsbruck/23691299/details",
+  "quelle": "Flohmarkt-Termine",
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
@@ -1947,7 +1986,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "FÜHRUNG DURCH DIE AUSSTELLUNG \"RLB KUNSTPREIS 2026\"",
@@ -2049,6 +2088,19 @@
   "url": "https://www.eventfinder.at/veranstaltung/1551430/oktoberfest-im-hoadl-haus-in-axams-am-2026-09-19-um-15-00-uhr/",
   "quelle": "eventfinder",
   "kategorie": "brauchtum",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Flohmarkt von und für Kinder",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "16:00",
+  "ort": "Hall in Tirol",
+  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/kinderflohmarkt-hall-in-tirol",
+  "quelle": "flohmarkt.at",
+  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -2223,6 +2275,19 @@
   "neu": false
  },
  {
+  "titel": "Flohmarkt beim Greif Center",
+  "datum": "2026-09-20",
+  "bis": "",
+  "zeit": "05:30",
+  "ort": "Innsbruck",
+  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/flohmarkt-innsbruck-beim-greifcenter",
+  "quelle": "flohmarkt.at",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Flohmarkt Greifcenter",
   "datum": "2026-09-20",
   "bis": "",
@@ -2233,6 +2298,19 @@
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": true,
+  "neu": false
+ },
+ {
+  "titel": "Innsbrucks größter Sonntagsfloh- und Trödelmarkt",
+  "datum": "2026-09-20",
+  "bis": "",
+  "zeit": "05:30",
+  "ort": "Greif Center",
+  "url": "https://meine-flohmarkt-termine.de/innsbrucks-grosster-sonntagsfloh-und-trodelmarkt/23711740/details",
+  "quelle": "Flohmarkt-Termine",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
   "neu": false
  },
  {
@@ -2366,6 +2444,32 @@
   "neu": false
  },
  {
+  "titel": "Floh- und Trödelmarkt",
+  "datum": "2026-09-20",
+  "bis": "",
+  "zeit": "16:00",
+  "ort": "Telfs",
+  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/telfs-park-flohmarkt",
+  "quelle": "flohmarkt.at",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Flohmarkt am Standort Parkplatz, METRO",
+  "datum": "2026-09-20",
+  "bis": "",
+  "zeit": "16:00",
+  "ort": "Rum bei Innsbruck",
+  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/flohmarkt-metro-rum-bei-innsbruck",
+  "quelle": "flohmarkt.at",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "The Power and the Glory - Konzert des Kirchenchor Kematen",
   "datum": "2026-09-20",
   "bis": "",
@@ -2426,19 +2530,6 @@
   "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Innsbrucks größter Sonntagsfloh- und Trödelmarkt",
-  "datum": "2026-09-20",
-  "bis": "",
-  "zeit": "",
-  "ort": "Greif Center",
-  "url": "https://meine-flohmarkt-termine.de/innsbrucks-grosster-sonntagsfloh-und-trodelmarkt/23711740/details",
-  "quelle": "Flohmarkt-Termine",
-  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -3263,16 +3354,16 @@
   "neu": false
  },
  {
-  "titel": "Markt am Tivoli",
+  "titel": "Markt am Tivoli Stadion Innsbruck",
   "datum": "2026-09-26",
   "bis": "",
   "zeit": "06:00",
-  "ort": "Tivoli Stadion Tirol, Innsbruck",
-  "url": "https://www.olympiaworld.at/events-tickets/",
-  "quelle": "Olympiaworld",
+  "ort": "Tivoli Stadion Tirol",
+  "url": "https://meine-flohmarkt-termine.de/markt-am-tivoli-stadion-innsbruck/23691300/details",
+  "quelle": "Flohmarkt-Termine",
   "kategorie": "markt",
   "anmeldeschluss": "",
-  "serie": true,
+  "serie": false,
   "neu": false
  },
  {
@@ -3419,6 +3510,19 @@
   "neu": false
  },
  {
+  "titel": "AURAL VISIONS V | VIDEODROME | LASTER | ROSA NEBEL",
+  "datum": "2026-09-26",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "p.m.k, Innsbruck",
+  "url": "https://www.pmk.or.at/de/events/aural-visions-v-videodrome-laster-rosa-nebel",
+  "quelle": "p.m.k",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Der Vorname",
   "datum": "2026-09-26",
   "bis": "",
@@ -3497,19 +3601,6 @@
   "neu": false
  },
  {
-  "titel": "AURAL VISIONS V | VIDEODROME | LASTER | ROSA NEBEL",
-  "datum": "2026-09-26",
-  "bis": "",
-  "zeit": "",
-  "ort": "p.m.k, Innsbruck",
-  "url": "https://www.pmk.or.at/de/events/aural-visions-v-videodrome-laster-rosa-nebel",
-  "quelle": "p.m.k",
-  "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Klettern am Gardasee",
   "datum": "2026-09-26",
   "bis": "2026-09-27",
@@ -3536,6 +3627,19 @@
   "neu": false
  },
  {
+  "titel": "Flohmarkt beim Greif Center",
+  "datum": "2026-09-27",
+  "bis": "",
+  "zeit": "05:30",
+  "ort": "Innsbruck",
+  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/flohmarkt-innsbruck-beim-greifcenter",
+  "quelle": "flohmarkt.at",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Flohmarkt Greifcenter",
   "datum": "2026-09-27",
   "bis": "",
@@ -3546,6 +3650,19 @@
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": true,
+  "neu": false
+ },
+ {
+  "titel": "Innsbrucks größter Sonntagsfloh- und Trödelmarkt",
+  "datum": "2026-09-27",
+  "bis": "",
+  "zeit": "05:30",
+  "ort": "Greif Center",
+  "url": "https://meine-flohmarkt-termine.de/innsbrucks-grosster-sonntagsfloh-und-trodelmarkt/23711741/details",
+  "quelle": "Flohmarkt-Termine",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
   "neu": false
  },
  {
@@ -3627,6 +3744,32 @@
   "neu": false
  },
  {
+  "titel": "Floh- und Trödelmarkt",
+  "datum": "2026-09-27",
+  "bis": "",
+  "zeit": "16:00",
+  "ort": "Telfs",
+  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/telfs-park-flohmarkt",
+  "quelle": "flohmarkt.at",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Flohmarkt am Standort Parkplatz, METRO",
+  "datum": "2026-09-27",
+  "bis": "",
+  "zeit": "16:00",
+  "ort": "Rum bei Innsbruck",
+  "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/flohmarkt-metro-rum-bei-innsbruck",
+  "quelle": "flohmarkt.at",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "HC TIWAG Innsbruck - HCB Südtirol Alperia",
   "datum": "2026-09-27",
   "bis": "",
@@ -3687,19 +3830,6 @@
   "url": "https://www.alpenverein.at/innsbruck/termine/index_detail.php?veranstaltungID=647d465b-82f1-4db5-b6e3-7fb2e1a9e91a&oa=1",
   "quelle": "Alpenverein Innsbruck",
   "kategorie": "sport",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Innsbrucks größter Sonntagsfloh- und Trödelmarkt",
-  "datum": "2026-09-27",
-  "bis": "",
-  "zeit": "",
-  "ort": "Greif Center",
-  "url": "https://meine-flohmarkt-termine.de/innsbrucks-grosster-sonntagsfloh-und-trodelmarkt/23711741/details",
-  "quelle": "Flohmarkt-Termine",
-  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -4225,6 +4355,19 @@
   "neu": false
  },
  {
+  "titel": "WEEDPECKER | Support: LAZER",
+  "datum": "2026-10-01",
+  "bis": "",
+  "zeit": "21:00",
+  "ort": "p.m.k, Innsbruck",
+  "url": "https://www.pmk.or.at/de/events/weedpecker-support-lazer",
+  "quelle": "p.m.k",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Anforderungsprofil - Überprüfung Elite",
   "datum": "2026-10-01",
   "bis": "2026-10-02",
@@ -4233,19 +4376,6 @@
   "url": "https://data.austriaclimbing.com/Event/3879",
   "quelle": "Austria Climbing",
   "kategorie": "sport",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "WEEDPECKER | Support: LAZER",
-  "datum": "2026-10-01",
-  "bis": "",
-  "zeit": "",
-  "ort": "p.m.k, Innsbruck",
-  "url": "https://www.pmk.or.at/de/events/weedpecker-support-lazer",
-  "quelle": "p.m.k",
-  "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -4355,6 +4485,19 @@
   "neu": false
  },
  {
+  "titel": "Joseph Schumpeter Forum 2026",
+  "datum": "2026-10-02",
+  "bis": "",
+  "zeit": "13:30",
+  "ort": "MCI, Innsbruck",
+  "url": "https://www.mci.edu/de/hochschule/events/24-alumni/7367-joseph-schumpeter-forum-2026",
+  "quelle": "MCI",
+  "kategorie": "kurse",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Die Rolle von Vertrauen und Kooperation für den Erfolg von Menschen & Organisationen",
   "datum": "2026-10-02",
   "bis": "",
@@ -4433,6 +4576,19 @@
   "neu": false
  },
  {
+  "titel": "KILL JOHNNY MESSER – ALBUM RELEASE SHOW",
+  "datum": "2026-10-02",
+  "bis": "",
+  "zeit": "20:00",
+  "ort": "p.m.k, Innsbruck",
+  "url": "https://www.pmk.or.at/de/events/kill-johnny-messer-album-release-show",
+  "quelle": "p.m.k",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "5. PNI Kongress - Psychoneuroimmunologie im Lauf des Lebens - Mensch beweg dich!",
   "datum": "2026-10-02",
   "bis": "2026-10-04",
@@ -4459,42 +4615,16 @@
   "neu": false
  },
  {
-  "titel": "Joseph Schumpeter Forum 2026",
-  "datum": "2026-10-02",
-  "bis": "",
-  "zeit": "",
-  "ort": "MCI, Innsbruck",
-  "url": "https://www.mci.edu/de/hochschule/events/24-alumni/7367-joseph-schumpeter-forum-2026",
-  "quelle": "MCI",
-  "kategorie": "kurse",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "KILL JOHNNY MESSER – ALBUM RELEASE SHOW",
-  "datum": "2026-10-02",
-  "bis": "",
-  "zeit": "",
-  "ort": "p.m.k, Innsbruck",
-  "url": "https://www.pmk.or.at/de/events/kill-johnny-messer-album-release-show",
-  "quelle": "p.m.k",
-  "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Markt am Tivoli",
+  "titel": "Markt am Tivoli Stadion Innsbruck",
   "datum": "2026-10-03",
   "bis": "",
   "zeit": "06:00",
-  "ort": "Tivoli Stadion Tirol, Innsbruck",
-  "url": "https://www.olympiaworld.at/events-tickets/",
-  "quelle": "Olympiaworld",
+  "ort": "Tivoli Stadion Tirol",
+  "url": "https://meine-flohmarkt-termine.de/markt-am-tivoli-stadion-innsbruck/23691301/details",
+  "quelle": "Flohmarkt-Termine",
   "kategorie": "markt",
   "anmeldeschluss": "",
-  "serie": true,
+  "serie": false,
   "neu": false
  },
  {
@@ -4667,6 +4797,19 @@
   "neu": false
  },
  {
+  "titel": "Innsbrucks größter Sonntagsfloh- und Trödelmarkt",
+  "datum": "2026-10-04",
+  "bis": "",
+  "zeit": "05:30",
+  "ort": "Greif Center",
+  "url": "https://meine-flohmarkt-termine.de/innsbrucks-grosster-sonntagsfloh-und-trodelmarkt/23711742/details",
+  "quelle": "Flohmarkt-Termine",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Cyta-Flohmarkt Völs",
   "datum": "2026-10-04",
   "bis": "",
@@ -4677,6 +4820,19 @@
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": true,
+  "neu": false
+ },
+ {
+  "titel": "Kinderbazar Innsbruck - Die Bäckerei – Kulturbackstube",
+  "datum": "2026-10-04",
+  "bis": "",
+  "zeit": "09:00",
+  "ort": "Die Bäckerei – Kulturbackstube",
+  "url": "https://meine-flohmarkt-termine.de/kinderbazar-innsbruck-die-backerei-kulturbackstube/23758772/details",
+  "quelle": "Flohmarkt-Termine",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
   "neu": false
  },
  {
@@ -4820,32 +4976,6 @@
   "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": true,
-  "neu": false
- },
- {
-  "titel": "Innsbrucks größter Sonntagsfloh- und Trödelmarkt",
-  "datum": "2026-10-04",
-  "bis": "",
-  "zeit": "",
-  "ort": "Greif Center",
-  "url": "https://meine-flohmarkt-termine.de/innsbrucks-grosster-sonntagsfloh-und-trodelmarkt/23711742/details",
-  "quelle": "Flohmarkt-Termine",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Kinderbazar Innsbruck - Die Bäckerei – Kulturbackstube",
-  "datum": "2026-10-04",
-  "bis": "",
-  "zeit": "",
-  "ort": "Die Bäckerei – Kulturbackstube",
-  "url": "https://meine-flohmarkt-termine.de/kinderbazar-innsbruck-die-backerei-kulturbackstube/23758772/details",
-  "quelle": "Flohmarkt-Termine",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
   "neu": false
  },
  {
@@ -5408,6 +5538,19 @@
   "neu": false
  },
  {
+  "titel": "Markt am Tivoli Stadion Innsbruck",
+  "datum": "2026-10-10",
+  "bis": "",
+  "zeit": "06:00",
+  "ort": "Tivoli Stadion Tirol",
+  "url": "https://meine-flohmarkt-termine.de/markt-am-tivoli-stadion-innsbruck/23691302/details",
+  "quelle": "Flohmarkt-Termine",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Völser Markttag",
   "datum": "2026-10-10",
   "bis": "",
@@ -5603,19 +5746,6 @@
   "neu": false
  },
  {
-  "titel": "Markt am Tivoli Stadion Innsbruck",
-  "datum": "2026-10-10",
-  "bis": "",
-  "zeit": "",
-  "ort": "Tivoli Stadion Tirol",
-  "url": "https://meine-flohmarkt-termine.de/markt-am-tivoli-stadion-innsbruck/23691302/details",
-  "quelle": "Flohmarkt-Termine",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Tour de Tirol",
   "datum": "2026-10-10",
   "bis": "2026-10-11",
@@ -5624,6 +5754,19 @@
   "url": "https://www.runme.at/oesterreich/tour-de-tirol-soell/",
   "quelle": "Laufkalender Tirol",
   "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Innsbrucks größter Sonntagsfloh- und Trödelmarkt",
+  "datum": "2026-10-11",
+  "bis": "",
+  "zeit": "05:30",
+  "ort": "Greif Center",
+  "url": "https://meine-flohmarkt-termine.de/innsbrucks-grosster-sonntagsfloh-und-trodelmarkt/23711743/details",
+  "quelle": "Flohmarkt-Termine",
+  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -5678,7 +5821,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "HC TIWAG Innsbruck - EC iDM Wärmepumpen VSV",
@@ -5741,19 +5884,6 @@
   "url": "https://www.herbert-pixner.com/concerts-2026/",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Innsbrucks größter Sonntagsfloh- und Trödelmarkt",
-  "datum": "2026-10-11",
-  "bis": "",
-  "zeit": "",
-  "ort": "Greif Center",
-  "url": "https://meine-flohmarkt-termine.de/innsbrucks-grosster-sonntagsfloh-und-trodelmarkt/23711743/details",
-  "quelle": "Flohmarkt-Termine",
-  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -6058,6 +6188,19 @@
   "neu": false
  },
  {
+  "titel": "Oleksandra Matviichuk",
+  "datum": "2026-10-15",
+  "bis": "",
+  "zeit": "04:30",
+  "ort": "MCI, Innsbruck",
+  "url": "https://www.mci.edu/de/hochschule/events/24-alumni/7349-oleksandra-matviichuk",
+  "quelle": "MCI",
+  "kategorie": "kurse",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "MCI Erstsemestrigen Welcome 2026",
   "datum": "2026-10-15",
   "bis": "",
@@ -6240,19 +6383,6 @@
   "neu": false
  },
  {
-  "titel": "Oleksandra Matviichuk",
-  "datum": "2026-10-15",
-  "bis": "",
-  "zeit": "",
-  "ort": "MCI, Innsbruck",
-  "url": "https://www.mci.edu/de/hochschule/events/24-alumni/7349-oleksandra-matviichuk",
-  "quelle": "MCI",
-  "kategorie": "kurse",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Triolino – Flöten-Flausen (Kinder ab 3 J.)",
   "datum": "2026-10-16",
   "bis": "",
@@ -6404,6 +6534,19 @@
   "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Markt am Tivoli Stadion Innsbruck",
+  "datum": "2026-10-17",
+  "bis": "",
+  "zeit": "06:00",
+  "ort": "Tivoli Stadion Tirol",
+  "url": "https://meine-flohmarkt-termine.de/markt-am-tivoli-stadion-innsbruck/23691303/details",
+  "quelle": "Flohmarkt-Termine",
+  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -6565,19 +6708,6 @@
   "neu": false
  },
  {
-  "titel": "Markt am Tivoli Stadion Innsbruck",
-  "datum": "2026-10-17",
-  "bis": "",
-  "zeit": "",
-  "ort": "Tivoli Stadion Tirol",
-  "url": "https://meine-flohmarkt-termine.de/markt-am-tivoli-stadion-innsbruck/23691303/details",
-  "quelle": "Flohmarkt-Termine",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Maturaball KORG",
   "datum": "2026-10-17",
   "bis": "",
@@ -6599,6 +6729,19 @@
   "url": "https://www.alpenverein.at/innsbruck/termine/index_detail.php?veranstaltungID=c16c4841-2a66-4af1-8c34-105c042df4c9&oa=1",
   "quelle": "Alpenverein Innsbruck",
   "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Innsbrucks größter Sonntagsfloh- und Trödelmarkt",
+  "datum": "2026-10-18",
+  "bis": "",
+  "zeit": "05:30",
+  "ort": "Greif Center",
+  "url": "https://meine-flohmarkt-termine.de/innsbrucks-grosster-sonntagsfloh-und-trodelmarkt/23711744/details",
+  "quelle": "Flohmarkt-Termine",
+  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -6721,19 +6864,6 @@
   "neu": false
  },
  {
-  "titel": "Innsbrucks größter Sonntagsfloh- und Trödelmarkt",
-  "datum": "2026-10-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Greif Center",
-  "url": "https://meine-flohmarkt-termine.de/innsbrucks-grosster-sonntagsfloh-und-trodelmarkt/23711744/details",
-  "quelle": "Flohmarkt-Termine",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Niedere Munde – Hintereggensteig - Neue Alplhütte",
   "datum": "2026-10-18",
   "bis": "",
@@ -6851,6 +6981,19 @@
   "neu": false
  },
  {
+  "titel": "Online Infosessions",
+  "datum": "2026-10-20",
+  "bis": "",
+  "zeit": "15:00",
+  "ort": "MCI, Innsbruck",
+  "url": "https://www.mci.edu/de/hochschule/events/2345-online-infosessions",
+  "quelle": "MCI",
+  "kategorie": "kurse",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "KI. Der neue Gott?: Miteinander Zukunft gestalten. Eine interreligiöse Gesprächsreihe.",
   "datum": "2026-10-20",
   "bis": "",
@@ -6890,23 +7033,10 @@
   "neu": false
  },
  {
-  "titel": "digital.tirol Impulsworkshops: Daten & KI verstehen, ausprobieren und nutzen",
-  "datum": "2026-10-20",
-  "bis": "",
-  "zeit": "",
-  "ort": "",
-  "url": "https://www.standort-tirol.at/digitaltirol-impulsworkshops-daten--ki-verstehen-ausprobieren-und-nutzen-20oktober2026",
-  "quelle": "Standortagentur Tirol",
-  "kategorie": "kurse",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Mykki Blanco",
   "datum": "2026-10-20",
   "bis": "",
-  "zeit": "",
+  "zeit": "20:00",
   "ort": "p.m.k, Innsbruck",
   "url": "https://www.pmk.or.at/de/events/mykki-blanco",
   "quelle": "p.m.k",
@@ -6916,13 +7046,13 @@
   "neu": false
  },
  {
-  "titel": "Online Infosessions",
+  "titel": "digital.tirol Impulsworkshops: Daten & KI verstehen, ausprobieren und nutzen",
   "datum": "2026-10-20",
   "bis": "",
   "zeit": "",
-  "ort": "MCI, Innsbruck",
-  "url": "https://www.mci.edu/de/hochschule/events/2345-online-infosessions",
-  "quelle": "MCI",
+  "ort": "",
+  "url": "https://www.standort-tirol.at/digitaltirol-impulsworkshops-daten--ki-verstehen-ausprobieren-und-nutzen-20oktober2026",
+  "quelle": "Standortagentur Tirol",
   "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": false,
@@ -7215,6 +7345,32 @@
   "neu": false
  },
  {
+  "titel": "Euroantik Innsbruck - Messe für Kunst, Antiquitäten & Altwaren",
+  "datum": "2026-10-23",
+  "bis": "",
+  "zeit": "13:00",
+  "ort": "Messe Innsbruck (Halle B) Eingang Süd",
+  "url": "https://meine-flohmarkt-termine.de/euroantik-innsbruck-messe-fur-kunst-antiquitaten-altwaren/23811973/details",
+  "quelle": "Flohmarkt-Termine",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "SG Ban Ki-moon",
+  "datum": "2026-10-23",
+  "bis": "",
+  "zeit": "14:00",
+  "ort": "MCI, Innsbruck",
+  "url": "https://www.mci.edu/de/hochschule/events/24-alumni/7366-sg-ban-ki-moon",
+  "quelle": "MCI",
+  "kategorie": "kurse",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Aya",
   "datum": "2026-10-23",
   "bis": "",
@@ -7306,32 +7462,6 @@
   "neu": false
  },
  {
-  "titel": "Euroantik Innsbruck - Messe für Kunst, Antiquitäten & Altwaren",
-  "datum": "2026-10-23",
-  "bis": "",
-  "zeit": "",
-  "ort": "Messe Innsbruck (Halle B) Eingang Süd",
-  "url": "https://meine-flohmarkt-termine.de/euroantik-innsbruck-messe-fur-kunst-antiquitaten-altwaren/23811973/details",
-  "quelle": "Flohmarkt-Termine",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "SG Ban Ki-moon",
-  "datum": "2026-10-23",
-  "bis": "",
-  "zeit": "",
-  "ort": "MCI, Innsbruck",
-  "url": "https://www.mci.edu/de/hochschule/events/24-alumni/7366-sg-ban-ki-moon",
-  "quelle": "MCI",
-  "kategorie": "kurse",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Wanderwoche LANZAROTE",
   "datum": "2026-10-23",
   "bis": "2026-10-30",
@@ -7340,6 +7470,32 @@
   "url": "https://www.alpenverein.at/innsbruck/termine/index_detail.php?veranstaltungID=e23a2741-aa26-4eb1-a042-939886f8125e",
   "quelle": "Alpenverein Innsbruck",
   "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Markt am Tivoli Stadion Innsbruck",
+  "datum": "2026-10-24",
+  "bis": "",
+  "zeit": "06:00",
+  "ort": "Tivoli Stadion Tirol",
+  "url": "https://meine-flohmarkt-termine.de/markt-am-tivoli-stadion-innsbruck/23691304/details",
+  "quelle": "Flohmarkt-Termine",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Euroantik Innsbruck - Messe für Kunst, Antiquitäten & Altwaren",
+  "datum": "2026-10-24",
+  "bis": "",
+  "zeit": "10:00",
+  "ort": "Messe Innsbruck (Halle B) Eingang Süd",
+  "url": "https://meine-flohmarkt-termine.de/euroantik-innsbruck-messe-fur-kunst-antiquitaten-altwaren/23811974/details",
+  "quelle": "Flohmarkt-Termine",
+  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -7423,19 +7579,6 @@
   "neu": false
  },
  {
-  "titel": "Euroantik Innsbruck - Messe für Kunst, Antiquitäten & Altwaren",
-  "datum": "2026-10-24",
-  "bis": "",
-  "zeit": "",
-  "ort": "Messe Innsbruck (Halle B) Eingang Süd",
-  "url": "https://meine-flohmarkt-termine.de/euroantik-innsbruck-messe-fur-kunst-antiquitaten-altwaren/23811974/details",
-  "quelle": "Flohmarkt-Termine",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Gratlspitze",
   "datum": "2026-10-24",
   "bis": "",
@@ -7449,12 +7592,12 @@
   "neu": false
  },
  {
-  "titel": "Markt am Tivoli Stadion Innsbruck",
-  "datum": "2026-10-24",
+  "titel": "Innsbrucks größter Sonntagsfloh- und Trödelmarkt",
+  "datum": "2026-10-25",
   "bis": "",
-  "zeit": "",
-  "ort": "Tivoli Stadion Tirol",
-  "url": "https://meine-flohmarkt-termine.de/markt-am-tivoli-stadion-innsbruck/23691304/details",
+  "zeit": "05:30",
+  "ort": "Greif Center",
+  "url": "https://meine-flohmarkt-termine.de/innsbrucks-grosster-sonntagsfloh-und-trodelmarkt/23711745/details",
   "quelle": "Flohmarkt-Termine",
   "kategorie": "markt",
   "anmeldeschluss": "",
@@ -7470,6 +7613,19 @@
   "url": "https://www.patscherkofelbahn.at/events/",
   "quelle": "Patscherkofelbahn",
   "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Euroantik Innsbruck - Messe für Kunst, Antiquitäten & Altwaren",
+  "datum": "2026-10-25",
+  "bis": "",
+  "zeit": "11:00",
+  "ort": "Messe Innsbruck (Halle B) Eingang Süd",
+  "url": "https://meine-flohmarkt-termine.de/euroantik-innsbruck-messe-fur-kunst-antiquitaten-altwaren/23811975/details",
+  "quelle": "Flohmarkt-Termine",
+  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -7522,32 +7678,6 @@
   "url": "https://www.alpenverein.at/innsbruck/termine/index_detail.php?veranstaltungID=2a36f56e-47ab-4e69-84a0-151e598c3ef3&oa=1",
   "quelle": "Alpenverein Innsbruck",
   "kategorie": "sport",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Euroantik Innsbruck - Messe für Kunst, Antiquitäten & Altwaren",
-  "datum": "2026-10-25",
-  "bis": "",
-  "zeit": "",
-  "ort": "Messe Innsbruck (Halle B) Eingang Süd",
-  "url": "https://meine-flohmarkt-termine.de/euroantik-innsbruck-messe-fur-kunst-antiquitaten-altwaren/23811975/details",
-  "quelle": "Flohmarkt-Termine",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Innsbrucks größter Sonntagsfloh- und Trödelmarkt",
-  "datum": "2026-10-25",
-  "bis": "",
-  "zeit": "",
-  "ort": "Greif Center",
-  "url": "https://meine-flohmarkt-termine.de/innsbrucks-grosster-sonntagsfloh-und-trodelmarkt/23711745/details",
-  "quelle": "Flohmarkt-Termine",
-  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -7816,7 +7946,7 @@
   "titel": "OUR CEASING VOICE - Record Release with NUTCRACKER, LE_MOL",
   "datum": "2026-10-30",
   "bis": "",
-  "zeit": "",
+  "zeit": "21:00",
   "ort": "p.m.k, Innsbruck",
   "url": "https://www.pmk.or.at/de/events/our-ceasing-voice---record-release-with-nutcracker-l",
   "quelle": "p.m.k",
@@ -7834,6 +7964,19 @@
   "url": "https://vorbrenner.at/programm/tintinnabulum",
   "quelle": "Vorbrenner",
   "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Markt am Tivoli Stadion Innsbruck",
+  "datum": "2026-10-31",
+  "bis": "",
+  "zeit": "06:00",
+  "ort": "Tivoli Stadion Tirol",
+  "url": "https://meine-flohmarkt-termine.de/markt-am-tivoli-stadion-innsbruck/23691305/details",
+  "quelle": "Flohmarkt-Termine",
+  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -7917,6 +8060,19 @@
   "neu": false
  },
  {
+  "titel": "NIGHTMARE ON BÖGENSTREET w/ SILIUS / DEMONICERA / WORTVEHLA / TRÄGHEIT / DJ DARKER",
+  "datum": "2026-10-31",
+  "bis": "",
+  "zeit": "21:00",
+  "ort": "p.m.k, Innsbruck",
+  "url": "https://www.pmk.or.at/de/events/nightmare-on-bgenstreet-w-silius-demonicera-wortvehl",
+  "quelle": "p.m.k",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Halloween Freakshow 2026",
   "datum": "2026-10-31",
   "bis": "2026-11-01",
@@ -7943,27 +8099,14 @@
   "neu": false
  },
  {
-  "titel": "Markt am Tivoli Stadion Innsbruck",
-  "datum": "2026-10-31",
+  "titel": "Innsbrucks größter Sonntagsfloh- und Trödelmarkt",
+  "datum": "2026-11-01",
   "bis": "",
-  "zeit": "",
-  "ort": "Tivoli Stadion Tirol",
-  "url": "https://meine-flohmarkt-termine.de/markt-am-tivoli-stadion-innsbruck/23691305/details",
+  "zeit": "05:30",
+  "ort": "Greif Center",
+  "url": "https://meine-flohmarkt-termine.de/innsbrucks-grosster-sonntagsfloh-und-trodelmarkt/23711746/details",
   "quelle": "Flohmarkt-Termine",
   "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "NIGHTMARE ON BÖGENSTREET w/ SILIUS / DEMONICERA / WORTVEHLA / TRÄGHEIT / DJ DARKER",
-  "datum": "2026-10-31",
-  "bis": "",
-  "zeit": "",
-  "ort": "p.m.k, Innsbruck",
-  "url": "https://www.pmk.or.at/de/events/nightmare-on-bgenstreet-w-silius-demonicera-wortvehl",
-  "quelle": "p.m.k",
-  "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -8003,19 +8146,6 @@
   "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/dubioza-kollektiv-tour-2026.html",
   "quelle": "Music Hall",
   "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Innsbrucks größter Sonntagsfloh- und Trödelmarkt",
-  "datum": "2026-11-01",
-  "bis": "",
-  "zeit": "",
-  "ort": "Greif Center",
-  "url": "https://meine-flohmarkt-termine.de/innsbrucks-grosster-sonntagsfloh-und-trodelmarkt/23711746/details",
-  "quelle": "Flohmarkt-Termine",
-  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -8232,11 +8362,24 @@
   "titel": "EAT x Inncontro Filmfestival x Premierentage",
   "datum": "2026-11-06",
   "bis": "",
-  "zeit": "",
+  "zeit": "22:30",
   "ort": "p.m.k, Innsbruck",
   "url": "https://www.pmk.or.at/de/events/eat-x-inncontro-filmfestival-x-premierentage",
   "quelle": "p.m.k",
   "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Markt am Tivoli Stadion Innsbruck",
+  "datum": "2026-11-07",
+  "bis": "",
+  "zeit": "06:00",
+  "ort": "Tivoli Stadion Tirol",
+  "url": "https://meine-flohmarkt-termine.de/markt-am-tivoli-stadion-innsbruck/23691306/details",
+  "quelle": "Flohmarkt-Termine",
+  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -8250,6 +8393,19 @@
   "url": "https://www.eventfinder.at/veranstaltung/1557984/kunst-design-markt-innsbruck-07-08-11-26-innsbruck/",
   "quelle": "eventfinder",
   "kategorie": "kurse",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Kunst- und Designmarkt Messe Innsbruck",
+  "datum": "2026-11-07",
+  "bis": "",
+  "zeit": "10:00",
+  "ort": "Messe Innsbruck",
+  "url": "https://meine-flohmarkt-termine.de/kunst-und-designmarkt-messe-innsbruck/23812707/details",
+  "quelle": "Flohmarkt-Termine",
+  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -8294,19 +8450,6 @@
   "neu": false
  },
  {
-  "titel": "11. Kunst & Designmarkt 2026",
-  "datum": "2026-11-07",
-  "bis": "2026-11-08",
-  "zeit": "",
-  "ort": "Messe Innsbruck",
-  "url": "https://www.kunst-designmarkt.at/innsbruck/",
-  "quelle": "Congress Messe Innsbruck",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Gschwandtkopf",
   "datum": "2026-11-07",
   "bis": "",
@@ -8346,12 +8489,38 @@
   "neu": false
  },
  {
-  "titel": "Markt am Tivoli Stadion Innsbruck",
-  "datum": "2026-11-07",
+  "titel": "Innsbrucks größter Sonntagsfloh- und Trödelmarkt",
+  "datum": "2026-11-08",
   "bis": "",
-  "zeit": "",
-  "ort": "Tivoli Stadion Tirol",
-  "url": "https://meine-flohmarkt-termine.de/markt-am-tivoli-stadion-innsbruck/23691306/details",
+  "zeit": "05:30",
+  "ort": "Greif Center",
+  "url": "https://meine-flohmarkt-termine.de/innsbrucks-grosster-sonntagsfloh-und-trodelmarkt/23711747/details",
+  "quelle": "Flohmarkt-Termine",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Kinderbazar Innsbruck - Die Bäckerei – Kulturbackstube",
+  "datum": "2026-11-08",
+  "bis": "",
+  "zeit": "09:00",
+  "ort": "Die Bäckerei – Kulturbackstube",
+  "url": "https://meine-flohmarkt-termine.de/kinderbazar-innsbruck-die-backerei-kulturbackstube/23758773/details",
+  "quelle": "Flohmarkt-Termine",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Kunst- und Designmarkt Messe Innsbruck",
+  "datum": "2026-11-08",
+  "bis": "",
+  "zeit": "10:00",
+  "ort": "Messe Innsbruck",
+  "url": "https://meine-flohmarkt-termine.de/kunst-und-designmarkt-messe-innsbruck/23812708/details",
   "quelle": "Flohmarkt-Termine",
   "kategorie": "markt",
   "anmeldeschluss": "",
@@ -8419,45 +8588,6 @@
   "url": "https://www.treibhaus.at/programm/2026/11/08/14981-die-klezmer-connection-trio-meschugge-20-zum-weinen-schoen",
   "quelle": "Treibhaus",
   "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Innsbrucks größter Sonntagsfloh- und Trödelmarkt",
-  "datum": "2026-11-08",
-  "bis": "",
-  "zeit": "",
-  "ort": "Greif Center",
-  "url": "https://meine-flohmarkt-termine.de/innsbrucks-grosster-sonntagsfloh-und-trodelmarkt/23711747/details",
-  "quelle": "Flohmarkt-Termine",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Kinderbazar Innsbruck - Die Bäckerei – Kulturbackstube",
-  "datum": "2026-11-08",
-  "bis": "",
-  "zeit": "",
-  "ort": "Die Bäckerei – Kulturbackstube",
-  "url": "https://meine-flohmarkt-termine.de/kinderbazar-innsbruck-die-backerei-kulturbackstube/23758773/details",
-  "quelle": "Flohmarkt-Termine",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Kunst- und Designmarkt Messe Innsbruck",
-  "datum": "2026-11-08",
-  "bis": "",
-  "zeit": "",
-  "ort": "Messe Innsbruck",
-  "url": "https://meine-flohmarkt-termine.de/kunst-und-designmarkt-messe-innsbruck/23812708/details",
-  "quelle": "Flohmarkt-Termine",
-  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -8671,6 +8801,19 @@
   "neu": false
  },
  {
+  "titel": "Ella Stern",
+  "datum": "2026-11-12",
+  "bis": "",
+  "zeit": "20:00",
+  "ort": "p.m.k, Innsbruck",
+  "url": "https://www.pmk.or.at/de/events/ella-stern",
+  "quelle": "p.m.k",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "2. Symphoniekonzert 2026/2027",
   "datum": "2026-11-12",
   "bis": "2026-11-13",
@@ -8678,19 +8821,6 @@
   "ort": "Congress Innsbruck",
   "url": "https://www.landestheater.at/produktionen/2-symphoniekonzert-2627",
   "quelle": "Congress Messe Innsbruck",
-  "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Ella Stern",
-  "datum": "2026-11-12",
-  "bis": "",
-  "zeit": "",
-  "ort": "p.m.k, Innsbruck",
-  "url": "https://www.pmk.or.at/de/events/ella-stern",
-  "quelle": "p.m.k",
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
@@ -8853,6 +8983,19 @@
   "neu": false
  },
  {
+  "titel": "Markt am Tivoli Stadion Innsbruck",
+  "datum": "2026-11-14",
+  "bis": "",
+  "zeit": "06:00",
+  "ort": "Tivoli Stadion Tirol",
+  "url": "https://meine-flohmarkt-termine.de/markt-am-tivoli-stadion-innsbruck/23691307/details",
+  "quelle": "Flohmarkt-Termine",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Die Magie von FAB FOX",
   "datum": "2026-11-14",
   "bis": "",
@@ -8905,12 +9048,12 @@
   "neu": false
  },
  {
-  "titel": "Markt am Tivoli Stadion Innsbruck",
-  "datum": "2026-11-14",
+  "titel": "Innsbrucks größter Sonntagsfloh- und Trödelmarkt",
+  "datum": "2026-11-15",
   "bis": "",
-  "zeit": "",
-  "ort": "Tivoli Stadion Tirol",
-  "url": "https://meine-flohmarkt-termine.de/markt-am-tivoli-stadion-innsbruck/23691307/details",
+  "zeit": "05:30",
+  "ort": "Greif Center",
+  "url": "https://meine-flohmarkt-termine.de/innsbrucks-grosster-sonntagsfloh-und-trodelmarkt/23711748/details",
   "quelle": "Flohmarkt-Termine",
   "kategorie": "markt",
   "anmeldeschluss": "",
@@ -8926,19 +9069,6 @@
   "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Innsbrucks größter Sonntagsfloh- und Trödelmarkt",
-  "datum": "2026-11-15",
-  "bis": "",
-  "zeit": "",
-  "ort": "Greif Center",
-  "url": "https://meine-flohmarkt-termine.de/innsbrucks-grosster-sonntagsfloh-und-trodelmarkt/23711748/details",
-  "quelle": "Flohmarkt-Termine",
-  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -9321,6 +9451,19 @@
   "neu": false
  },
  {
+  "titel": "Markt am Tivoli Stadion Innsbruck",
+  "datum": "2026-11-21",
+  "bis": "",
+  "zeit": "06:00",
+  "ort": "Tivoli Stadion Tirol",
+  "url": "https://meine-flohmarkt-termine.de/markt-am-tivoli-stadion-innsbruck/23691308/details",
+  "quelle": "Flohmarkt-Termine",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Alpinmesse mit Alpinforum 2026",
   "datum": "2026-11-21",
   "bis": "",
@@ -9412,19 +9555,6 @@
   "neu": false
  },
  {
-  "titel": "Markt am Tivoli Stadion Innsbruck",
-  "datum": "2026-11-21",
-  "bis": "",
-  "zeit": "",
-  "ort": "Tivoli Stadion Tirol",
-  "url": "https://meine-flohmarkt-termine.de/markt-am-tivoli-stadion-innsbruck/23691308/details",
-  "quelle": "Flohmarkt-Termine",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Orientierungsseminar in Obernberg",
   "datum": "2026-11-21",
   "bis": "2026-11-22",
@@ -9433,6 +9563,19 @@
   "url": "https://www.alpenverein.at/innsbruck/termine/index_detail.php?veranstaltungID=c4946d1b-cd92-4da2-846e-8f3e7cdaedb3&oa=1",
   "quelle": "Alpenverein Innsbruck",
   "kategorie": "kurse",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Innsbrucks größter Sonntagsfloh- und Trödelmarkt",
+  "datum": "2026-11-22",
+  "bis": "",
+  "zeit": "05:30",
+  "ort": "Greif Center",
+  "url": "https://meine-flohmarkt-termine.de/innsbrucks-grosster-sonntagsfloh-und-trodelmarkt/23711749/details",
+  "quelle": "Flohmarkt-Termine",
+  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -9485,19 +9628,6 @@
   "url": "https://data.austriaclimbing.com/Event/3731",
   "quelle": "Austria Climbing",
   "kategorie": "sport",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Innsbrucks größter Sonntagsfloh- und Trödelmarkt",
-  "datum": "2026-11-22",
-  "bis": "",
-  "zeit": "",
-  "ort": "Greif Center",
-  "url": "https://meine-flohmarkt-termine.de/innsbrucks-grosster-sonntagsfloh-und-trodelmarkt/23711749/details",
-  "quelle": "Flohmarkt-Termine",
-  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -9737,6 +9867,19 @@
   "neu": false
  },
  {
+  "titel": "DORNENREICH | VINSTA",
+  "datum": "2026-11-26",
+  "bis": "",
+  "zeit": "20:00",
+  "ort": "p.m.k, Innsbruck",
+  "url": "https://www.pmk.or.at/de/events/dornenreich-vinsta",
+  "quelle": "p.m.k",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Romeo Kaltenbrunner • HEIMWEH",
   "datum": "2026-11-26",
   "bis": "",
@@ -9744,19 +9887,6 @@
   "ort": "Die Bäckerei, Innsbruck",
   "url": "https://diebaeckerei.at/programm/2026/2026-11-26-romeo-kaltenbrunner-heimweh",
   "quelle": "Die Bäckerei",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "DORNENREICH | VINSTA",
-  "datum": "2026-11-26",
-  "bis": "",
-  "zeit": "",
-  "ort": "p.m.k, Innsbruck",
-  "url": "https://www.pmk.or.at/de/events/dornenreich-vinsta",
-  "quelle": "p.m.k",
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
@@ -9867,6 +9997,19 @@
   "neu": false
  },
  {
+  "titel": "Markt am Tivoli Stadion Innsbruck",
+  "datum": "2026-11-28",
+  "bis": "",
+  "zeit": "06:00",
+  "ort": "Tivoli Stadion Tirol",
+  "url": "https://meine-flohmarkt-termine.de/markt-am-tivoli-stadion-innsbruck/23691309/details",
+  "quelle": "Flohmarkt-Termine",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "FC Wacker Innsbruck - First Vienna",
   "datum": "2026-11-28",
   "bis": "",
@@ -9888,6 +10031,19 @@
   "url": "https://www.innsbruck.info/events/e/122230814.html",
   "quelle": "Innsbruck Tourismus",
   "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "BATCAVE W/ GVLLOW | MERLIN STORM | KLEBSTOFF",
+  "datum": "2026-11-28",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "p.m.k, Innsbruck",
+  "url": "https://www.pmk.or.at/de/events/batcave-w-gvllow-merlin-storm-klebstoff",
+  "quelle": "p.m.k",
+  "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -9958,19 +10114,6 @@
   "neu": false
  },
  {
-  "titel": "BATCAVE W/ GVLLOW | MERLIN STORM | KLEBSTOFF",
-  "datum": "2026-11-28",
-  "bis": "",
-  "zeit": "",
-  "ort": "p.m.k, Innsbruck",
-  "url": "https://www.pmk.or.at/de/events/batcave-w-gvllow-merlin-storm-klebstoff",
-  "quelle": "p.m.k",
-  "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Dammkarhütte und Predigtstuhl",
   "datum": "2026-11-28",
   "bis": "",
@@ -9979,19 +10122,6 @@
   "url": "https://www.alpenverein.at/innsbruck/termine/index_detail.php?veranstaltungID=0dd88bdd-379b-49a6-b678-fb00b1611bc9&oa=1",
   "quelle": "Alpenverein Innsbruck",
   "kategorie": "sport",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Markt am Tivoli Stadion Innsbruck",
-  "datum": "2026-11-28",
-  "bis": "",
-  "zeit": "",
-  "ort": "Tivoli Stadion Tirol",
-  "url": "https://meine-flohmarkt-termine.de/markt-am-tivoli-stadion-innsbruck/23691309/details",
-  "quelle": "Flohmarkt-Termine",
-  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -10018,6 +10148,19 @@
   "url": "https://airdrenaline.world/tickets",
   "quelle": "Airdrenaline",
   "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Innsbrucks größter Sonntagsfloh- und Trödelmarkt",
+  "datum": "2026-11-29",
+  "bis": "",
+  "zeit": "05:30",
+  "ort": "Greif Center",
+  "url": "https://meine-flohmarkt-termine.de/innsbrucks-grosster-sonntagsfloh-und-trodelmarkt/23711750/details",
+  "quelle": "Flohmarkt-Termine",
+  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -10083,19 +10226,6 @@
   "url": "https://www.innsbruck.info/events/e/122283528.html",
   "quelle": "Innsbruck Tourismus",
   "kategorie": "sport",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Innsbrucks größter Sonntagsfloh- und Trödelmarkt",
-  "datum": "2026-11-29",
-  "bis": "",
-  "zeit": "",
-  "ort": "Greif Center",
-  "url": "https://meine-flohmarkt-termine.de/innsbrucks-grosster-sonntagsfloh-und-trodelmarkt/23711750/details",
-  "quelle": "Flohmarkt-Termine",
-  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -10426,6 +10556,19 @@
   "neu": false
  },
  {
+  "titel": "H.P. ZINKER | FRIENDS OF GAS",
+  "datum": "2026-12-07",
+  "bis": "",
+  "zeit": "20:00",
+  "ort": "p.m.k, Innsbruck",
+  "url": "https://www.pmk.or.at/de/events/hp-zinker-friends-of-gas",
+  "quelle": "p.m.k",
+  "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Single Bells - Wenn das der Papale noch seh'n könnt",
   "datum": "2026-12-07",
   "bis": "",
@@ -10434,19 +10577,6 @@
   "url": "https://singlebells.live/",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "H.P. ZINKER | FRIENDS OF GAS",
-  "datum": "2026-12-07",
-  "bis": "",
-  "zeit": "",
-  "ort": "p.m.k, Innsbruck",
-  "url": "https://www.pmk.or.at/de/events/hp-zinker-friends-of-gas",
-  "quelle": "p.m.k",
-  "kategorie": "sport",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -10673,6 +10803,19 @@
   "neu": false
  },
  {
+  "titel": "ALPINE RAGE Vol. 2",
+  "datum": "2026-12-18",
+  "bis": "",
+  "zeit": "20:00",
+  "ort": "p.m.k, Innsbruck",
+  "url": "https://www.pmk.or.at/de/events/alpine-rage-vol-2",
+  "quelle": "p.m.k",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "X-MAS ROCK TRIBUTE FEST",
   "datum": "2026-12-18",
   "bis": "2026-12-19",
@@ -10680,19 +10823,6 @@
   "ort": "74 Grabenweg, Innsbruck, Tirol 6020",
   "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen/x-mas-rock-tribute-fest-3.html",
   "quelle": "Music Hall",
-  "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "ALPINE RAGE Vol. 2",
-  "datum": "2026-12-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "p.m.k, Innsbruck",
-  "url": "https://www.pmk.or.at/de/events/alpine-rage-vol-2",
-  "quelle": "p.m.k",
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
@@ -12129,6 +12259,19 @@
   "neu": false
  },
  {
+  "titel": "TRIPLE THRASH ALLIANCE | EVIL INVADERS | HEATHEN | EXHORDER | support Warfield",
+  "datum": "2027-03-18",
+  "bis": "",
+  "zeit": "18:30",
+  "ort": "p.m.k, Innsbruck",
+  "url": "https://www.pmk.or.at/de/events/triple-thrash-alliance-evil-invaders-heathen-exhorde",
+  "quelle": "p.m.k",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "5. Symphoniekonzert 2026/2027",
   "datum": "2027-03-18",
   "bis": "2027-03-19",
@@ -12136,19 +12279,6 @@
   "ort": "Congress Innsbruck",
   "url": "https://www.landestheater.at/produktionen/5-symphoniekonzert-2627",
   "quelle": "Congress Messe Innsbruck",
-  "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "TRIPLE THRASH ALLIANCE | EVIL INVADERS | HEATHEN | EXHORDER | support Warfield",
-  "datum": "2027-03-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "p.m.k, Innsbruck",
-  "url": "https://www.pmk.or.at/de/events/triple-thrash-alliance-evil-invaders-heathen-exhorde",
-  "quelle": "p.m.k",
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,

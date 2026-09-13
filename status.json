@@ -1,11 +1,11 @@
 {
- "lauf": "2026-09-13T18:18:24+00:00",
- "termine": 982,
+ "lauf": "2026-09-13T18:27:53+00:00",
+ "termine": 992,
  "serientermine": 123,
- "neu": 11,
+ "neu": 0,
  "quellen_aktiv": 70,
- "quellen_mit_treffern": 40,
- "quellen_mit_fehler": 3,
+ "quellen_mit_treffern": 41,
+ "quellen_mit_fehler": 2,
  "quellen": [
   {
    "quelle": "Innsbruck Tourismus",
@@ -17,6 +17,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {
     "kein Ort im Umkreis genannt": 6,
     "Titel ist nur eine Anschrift": 1
@@ -39,6 +40,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {
     "ausserhalb des Zeitfensters": 10
    },
@@ -54,6 +56,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -67,6 +70,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {
     "kein Ort im Umkreis genannt": 4
    },
@@ -82,6 +86,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {
     "Kirchliches Brauchtum": 2,
@@ -101,6 +106,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {
     "Laendliches Fest": 1,
@@ -117,6 +123,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {
     "kein Ort im Umkreis genannt": 2,
     "ausserhalb: kufstein": 3
@@ -133,6 +140,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -146,6 +154,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {
     "ausserhalb des Zeitfensters": 2
    },
@@ -161,6 +170,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {
     "ausserhalb des Zeitfensters": 17,
     "Universitaetsinterna": 5
@@ -180,6 +190,7 @@
    "fehler": "",
    "grund": "Antwort laeuft wiederholt in den Timeout; Inhalte werden zudem clientseitig nachgeladen. Vorverkauf mit langem Vorlauf kommt ersatzweise ueber eventfinder und die Veranstalterseiten.",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -193,6 +204,7 @@
    "fehler": "",
    "grund": "Kuratierter Newsletter in Fliesstext ohne Terminstruktur. Ein Parser dafuer erzeugt mehr Falschtreffer als Nutzen; die Termine stehen ohnehin bei den Veranstaltern.",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -206,6 +218,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 13,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -219,6 +232,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -232,6 +246,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {
     "ausserhalb des Zeitfensters": 4
    },
@@ -247,6 +262,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {
     "ausserhalb des Zeitfensters": 2
    },
@@ -262,6 +278,7 @@
    "fehler": "",
    "grund": "Die WordPress-Installation liefert keine Programmseite: alle geprueften Pfade antworten mit 404, die Startseite verlinkt nur den Feed, und der ist leer. Das Programm des groessten VAZ laeuft offenbar ueber Kanaele, die hier ausgeschlossen sind.",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -275,6 +292,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "Programm laeuft weitgehend ueber Instagram; die Website nennt selten Termine",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -288,6 +306,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "Sehr schlanke Seite, Programm ueberwiegend ueber Instagram",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -301,6 +320,7 @@
    "fehler": "",
    "grund": "Wix-Seite, Programm wird clientseitig nachgeladen. Im ausgelieferten HTML steht kein einziger Termin.",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -314,6 +334,7 @@
    "fehler": "",
    "grund": "TLS-Zertifikat der Seite ist nicht verifizierbar. Wir schalten die Pruefung nicht ab, also bleibt die Quelle aus.",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -327,6 +348,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "Festival im Juni; ausserhalb der Saison ohne Termine",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -340,6 +362,7 @@
    "fehler": "",
    "grund": "TLS-Zertifikat nicht verifizierbar. Der Club hat keine eigene Website, damit faellt er ersatzlos aus.",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -353,6 +376,7 @@
    "fehler": "",
    "grund": "ra.co beantwortet Anfragen ohne Browser mit HTTP 403 und rendert clientseitig. Eine Umgehung waere eine bewusste Sperrumgehung, darum abgeschaltet.",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -366,6 +390,7 @@
    "fehler": "",
    "grund": "Wie funkraum: HTTP 403 ohne Browser.",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -379,6 +404,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -392,6 +418,7 @@
    "fehler": "",
    "grund": "Server bricht die Verbindung ohne Antwort ab (Connection reset).",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -405,6 +432,7 @@
    "fehler": "",
    "grund": "Antwortet dauerhaft mit HTTP 503.",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -418,6 +446,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -431,6 +460,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "Elektronik-Festival auf 1905 m, jaehrlich im Juli",
+   "zeiten_nachgetragen": 0,
    "verworfen": {
     "ausserhalb des Zeitfensters": 3
    },
@@ -446,6 +476,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {
     "ausserhalb des Zeitfensters": 19
    },
@@ -461,6 +492,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "Berg-Elektronik, unregelmaessige Termine",
+   "zeiten_nachgetragen": 0,
    "verworfen": {
     "ausserhalb des Zeitfensters": 1
    },
@@ -476,6 +508,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "Festival auf der Muttereralm",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -489,6 +522,7 @@
    "fehler": "",
    "grund": "Der Spielplan wird vollstaendig aus einem JavaScript-Bundle aufgebaut; im ausgelieferten HTML steht kein einziger Termin. Geprueft und mit 404 beantwortet: /spielplan/kalender, /spielplan/<monat>-<jahr>, /api/spielplan. Mit ueber 600 Vorstellungen je Saison ist das die groesste Luecke im Kulturbereich.",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -502,6 +536,7 @@
    "fehler": "",
    "grund": "Das Wochenprogramm kommt per AJAX nach; im sichtbaren Text der Seite steht keine einzige Datumsangabe. Die Zahlen im Quelltext stammen aus SVG-Pfaden, nicht aus Terminen. Innsbrucker Kinovorstellungen kommen ersatzweise ueber UNCUT und Metropol.",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -515,6 +550,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "nur das Programm des laufenden Tages; Spielzeiten kommen clientseitig nach Auswahl eines Datums",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -528,6 +564,7 @@
    "fehler": "",
    "grund": "Spielzeiten kommen clientseitig aus einem JSON-Endpunkt, der sich ohne Browser nicht stabil ansprechen laesst. UNCUT deckt dieselben Vorstellungen serverseitig ab.",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -541,6 +578,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "Programm aller Innsbrucker Kinos fuer den laufenden Tag",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -554,6 +592,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "Festival im Juni",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -567,6 +606,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "Die Seite fuehrt das Archiv aller Ausgaben seit 2017; 242 von 243 Terminen liegen darum in der Vergangenheit. Kein Fehler.",
+   "zeiten_nachgetragen": 0,
    "verworfen": {
     "ausserhalb des Zeitfensters": 242
    },
@@ -582,6 +622,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "Festival im Oktober",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -595,6 +636,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {
     "ausserhalb des Zeitfensters": 3
    },
@@ -610,6 +652,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -623,6 +666,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "Festival im Juli/August",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -636,6 +680,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {
     "ausserhalb des Zeitfensters": 22
    },
@@ -651,6 +696,7 @@
    "fehler": "",
    "grund": "Die Terminseite enthaelt im ausgelieferten HTML genau eine Datumsangabe und keine Terminliste. Schade, denn die Konzerte sind haeufig und oft gratis -- der Volksmusikfilter stuende bereit.",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -664,6 +710,7 @@
    "fehler": "",
    "grund": "Termine stehen ausschliesslich in einer PDF-Broschuere. Der Aufwand steht in keinem Verhaeltnis zum Ertrag, zumal geistliche Musik nicht zu den genannten Interessen zaehlt.",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -677,6 +724,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "Zirkusfestival. Ausserhalb der Saison zeigt die Seite die Spielorte der letzten Ausgabe als Kacheln -- daher Ortsnamen mit altem Datum.",
+   "zeiten_nachgetragen": 0,
    "verworfen": {
     "ausserhalb des Zeitfensters": 64
    },
@@ -692,6 +740,7 @@
    "fehler": "",
    "grund": "Server bricht die Verbindung ohne Antwort ab.",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -705,6 +754,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {
     "ausserhalb des Zeitfensters": 1
    },
@@ -720,6 +770,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -733,6 +784,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {
     "Universitaetsinterna": 5
    },
@@ -748,6 +800,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {
     "kein Ort im Umkreis genannt": 13,
     "ausserhalb: dornbirn": 1,
@@ -772,6 +825,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {
     "ausserhalb des Zeitfensters": 6
    },
@@ -787,6 +841,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {
     "kein Ort im Umkreis genannt": 9
    },
@@ -802,6 +857,7 @@
    "fehler": "",
    "grund": "Die Seite ist eine Anmeldeuebersicht, keine Terminliste. Jeder Eintrag war ein Satz ueber eine Meldefrist, und das darin genannte Datum der Anmeldeschluss statt des Laufs -- also durchgehend falsche Termine. Die Laeufe selbst kommen ueber den Laufkalender Tirol.",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -815,6 +871,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -828,6 +885,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -841,6 +899,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -854,6 +913,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "Festival im Herbst; ausserhalb der Saison steht dort wenig.",
+   "zeiten_nachgetragen": 0,
    "verworfen": {
     "ausserhalb des Zeitfensters": 58
    },
@@ -869,6 +929,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -882,6 +943,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -895,6 +957,7 @@
    "fehler": "",
    "grund": "Der Server handelt einen zu schwachen Diffie-Hellman-Schluessel aus (DH_KEY_TOO_SMALL); Python lehnt die Verbindung zu Recht ab. Die Sicherheitsstufe dafuer herabzusetzen waere der falsche Weg -- das muss der Betreiber beheben.",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -908,6 +971,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {
     "Ortsmarke statt Titel": 1
    },
@@ -923,6 +987,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -936,6 +1001,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -949,6 +1015,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -962,6 +1029,7 @@
    "fehler": "",
    "grund": "Kursportal laedt vollstaendig clientseitig; im HTML steht kein einziger Kurstermin. Rund 1500 Kurse blieben so unerreichbar -- die groesste bekannte Luecke im Bestand.",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -975,6 +1043,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {
     "ausserhalb des Zeitfensters": 1
    },
@@ -990,6 +1059,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "Server weist Anfragen aus der Github-Aktion mit HTTP 429 ab.",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -1003,6 +1073,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -1016,6 +1087,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -1029,6 +1101,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {
     "ausserhalb des Zeitfensters": 8
    },
@@ -1044,6 +1117,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -1057,6 +1131,7 @@
    "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
    "grund": "",
    "hinweis": "Server weist Anfragen aus der Github-Aktion mit HTTP 429 ab.",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -1070,6 +1145,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -1083,6 +1159,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {
     "ausserhalb des Zeitfensters": 4
    },
@@ -1098,6 +1175,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -1111,6 +1189,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {
     "kein Ort im Umkreis genannt": 22
    },
@@ -1126,6 +1205,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 8,
    "verworfen": {
     "Universitaetsinterna": 2
    },
@@ -1141,6 +1221,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -1154,6 +1235,7 @@
    "fehler": "",
    "grund": "Clientseitig gerendert. Die offizielle API verlangt einen OAuth-Zugang; ohne hinterlegte Zugangsdaten nicht nutzbar. Sobald ein Schluessel vorliegt, ist die Quelle einschaltbar.",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -1167,6 +1249,7 @@
    "fehler": "",
    "grund": "Wie Meetup: clientseitig, offizielle API braucht einen persoenlichen Token.",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -1180,6 +1263,7 @@
    "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
    "grund": "",
    "hinweis": "Boerse Mitte Oktober",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -1187,12 +1271,13 @@
    "quelle": "flohmarkt.at",
    "url": "https://www.flohmarkt.at/flohmaerkte/innsbruck",
    "aktiv": true,
-   "strategie": "",
-   "gefunden": 0,
-   "uebernommen": 0,
-   "fehler": "TimeoutError: The read operation timed out",
+   "strategie": "heuristik",
+   "gefunden": 15,
+   "uebernommen": 15,
+   "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -1206,6 +1291,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 31,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -1219,6 +1305,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {
     "kein Ort im Umkreis genannt": 4
    },
@@ -1234,6 +1321,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "Boersen im Maerz und April",
+   "zeiten_nachgetragen": 0,
    "verworfen": {
     "ausserhalb des Zeitfensters": 3
    },
@@ -1249,6 +1337,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {
     "Fliesstext statt Titel": 2
    },
@@ -1264,6 +1353,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -1277,6 +1367,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -1290,6 +1381,7 @@
    "fehler": "",
    "grund": "Kein Veranstaltungskalender unter den geprueften Pfaden.",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -1303,6 +1395,7 @@
    "fehler": "",
    "grund": "Kein Veranstaltungskalender unter den geprueften Pfaden.",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -1316,6 +1409,7 @@
    "fehler": "",
    "grund": "Kein Veranstaltungskalender unter den geprueften Pfaden.",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -1329,6 +1423,7 @@
    "fehler": "",
    "grund": "Kein Veranstaltungskalender unter den geprueften Pfaden.",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -1342,6 +1437,7 @@
    "fehler": "",
    "grund": "Kein Veranstaltungskalender unter den geprueften Pfaden.",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -1355,6 +1451,7 @@
    "fehler": "",
    "grund": "Kein Veranstaltungskalender unter den geprueften Pfaden.",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -1368,6 +1465,7 @@
    "fehler": "",
    "grund": "Kein Veranstaltungskalender unter den geprueften Pfaden.",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -1381,6 +1479,7 @@
    "fehler": "",
    "grund": "Kein Veranstaltungskalender unter den geprueften Pfaden.",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -1394,6 +1493,7 @@
    "fehler": "",
    "grund": "Die Domains loesen nicht auf; die im Briefing genannten tirol.gv.at-Adressen existieren nicht mehr.",
    "hinweis": "",
+   "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {}
   }
