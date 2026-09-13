@@ -326,7 +326,7 @@
   var termine = [];
   var gewaehlteKategorie = 'alle';
   var zeitraum = 'monate3';
-  var suchwort = '';
+  var suchworte = [];
   var ansicht = 'kalender';
   var kalendermonat = '';   // "2026-09"
   var gewaehlterTag = '';   // "2026-09-19"
@@ -357,6 +357,20 @@
   //: Die Uhrzeit gehoert zum ersten Tag -- meist die Vernissage. Fuer einen
   //: laufenden Termin waere sie geraten, also lieber keine.
   function zeitVon(e, heute) { return laeuftSchon(e, heute) ? '' : e.zeit; }
+
+  //: Fuer die Suche wird beides auf dieselbe Schreibweise gebracht: Umlaute
+  //: umschrieben, alles andere ausser Buchstaben und Ziffern faellt weg --
+  //: auch die Leerzeichen. Sonst findet "pmk" die zwanzig Termine der p.m.k
+  //: nicht und "baeckerei" nicht die der Bäckerei; beides ist genau das, was
+  //: man tippt, wenn man den Namen im Ohr hat.
+  //:
+  //: Satzzeichen zu Leerzeichen zu machen reicht nicht: "p.m.k" zerfiele in
+  //: drei Einzelbuchstaben, und die stehen in fast jedem Titel.
+  function suchform(text) {
+    return String(text == null ? '' : text).toLowerCase()
+      .replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue').replace(/ß/g, 'ss')
+      .replace(/[^a-z0-9]+/g, '');
+  }
 
   function kurz(iso) {
     var d = alsDatum(iso);
@@ -415,9 +429,11 @@
       if ((e.bis || e.datum) < offenesFenster[0] ||
           e.datum > offenesFenster[1]) return false;
     }
-    if (suchwort) {
-      var heu = (e.titel + ' ' + e.ort + ' ' + e.quelle).toLowerCase();
-      if (heu.indexOf(suchwort) === -1) return false;
+    // Jedes Wort muss vorkommen, nicht die ganze Eingabe am Stueck: so
+    // findet "jazz treibhaus" den Jazzabend im Treibhaus, auch wenn Ort und
+    // Titel auseinanderliegen.
+    for (var i = 0; i < suchworte.length; i++) {
+      if (e.suchform.indexOf(suchworte[i]) === -1) return false;
     }
     return true;
   }
@@ -743,7 +759,9 @@
   suche.addEventListener('input', function () {
     clearTimeout(bremse);
     bremse = setTimeout(function () {
-      suchwort = suche.value.trim().toLowerCase();
+      // Getrennt wird nur an Leerzeichen; jedes Wort fuer sich verliert
+      // dann seine Satzzeichen.
+      suchworte = suche.value.split(/\s+/).map(suchform).filter(Boolean);
       zeichnen();
     }, 160);
   });
@@ -762,6 +780,10 @@
     var heute = ortsdatum(new Date());
     termine = roh
       .filter(function (e) { return e && e.titel && (e.bis || e.datum) >= heute; })
+      .map(function (e) {
+        e.suchform = suchform(e.titel + ' ' + e.ort + ' ' + e.quelle);
+        return e;
+      })
       .sort(function (a, b) {
         var ta = anzeigetag(a, heute), tb = anzeigetag(b, heute);
         return ta < tb ? -1 : ta > tb ? 1
