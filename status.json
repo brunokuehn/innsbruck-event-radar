@@ -1,11 +1,11 @@
 {
- "lauf": "2026-09-13T06:41:04+00:00",
- "termine": 896,
+ "lauf": "2026-09-13T06:50:28+00:00",
+ "termine": 945,
  "serientermine": 123,
- "neu": 81,
+ "neu": 118,
  "quellen_aktiv": 70,
- "quellen_mit_treffern": 39,
- "quellen_mit_fehler": 2,
+ "quellen_mit_treffern": 40,
+ "quellen_mit_fehler": 3,
  "quellen": [
   {
    "quelle": "Innsbruck Tourismus",
@@ -50,13 +50,11 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 10,
-   "uebernommen": 1,
+   "uebernommen": 10,
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {
-    "kein Ort im Umkreis genannt": 9
-   },
+   "verworfen": {},
    "brauchtum": {}
   },
   {
@@ -99,13 +97,11 @@
    "aktiv": true,
    "strategie": "jsonld",
    "gefunden": 52,
-   "uebernommen": 1,
+   "uebernommen": 52,
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "verworfen": {
-    "kein Ort im Umkreis genannt": 51
-   },
+   "verworfen": {},
    "brauchtum": {
     "Laendliches Fest": 1,
     "Blasmusik": 2
@@ -117,12 +113,13 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 10,
-   "uebernommen": 1,
+   "uebernommen": 5,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "kein Ort im Umkreis genannt": 9
+    "kein Ort im Umkreis genannt": 2,
+    "ausserhalb: kufstein": 3
    },
    "brauchtum": {}
   },
@@ -1058,7 +1055,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "",
+   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
    "grund": "",
    "hinweis": "Server weist Anfragen aus der Github-Aktion mit HTTP 429 ab.",
    "verworfen": {},
@@ -1219,12 +1216,12 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 8,
-   "uebernommen": 0,
+   "uebernommen": 4,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "verworfen": {
-    "kein Ort im Umkreis genannt": 8
+    "kein Ort im Umkreis genannt": 4
    },
    "brauchtum": {}
   },
