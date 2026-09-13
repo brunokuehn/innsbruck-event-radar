@@ -1,5 +1,5 @@
 {
- "erzeugt": "2026-09-13T18:27:53+00:00",
+ "erzeugt": "2026-09-13T18:39:35+00:00",
  "befunde": [
   {
    "dringlichkeit": "warnung",
@@ -676,7 +676,7 @@
     "tag": "2026-09-13",
     "zustand": "ok",
     "gefunden": 30,
-    "behalten": 26,
+    "behalten": 25,
     "fehler": ""
    }
   },

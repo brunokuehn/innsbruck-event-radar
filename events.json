@@ -2561,6 +2561,19 @@
   "neu": false
  },
  {
+  "titel": "China - Europe Innovation Forum",
+  "datum": "2026-09-21",
+  "bis": "",
+  "zeit": "09:00",
+  "ort": "MCI, Innsbruck",
+  "url": "https://www.mci.edu/de/hochschule/events/24-alumni/7371-china-europe-innovation-forum",
+  "quelle": "MCI",
+  "kategorie": "kurse",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Dream4Utopia - Youth exchange",
   "datum": "2026-09-21",
   "bis": "",
@@ -2639,19 +2652,6 @@
   "neu": false
  },
  {
-  "titel": "China - Europe Innovation Forum",
-  "datum": "2026-09-21",
-  "bis": "",
-  "zeit": "",
-  "ort": "MCI, Innsbruck",
-  "url": "https://www.mci.edu/de/hochschule/events/24-alumni/7371-china-europe-innovation-forum",
-  "quelle": "MCI",
-  "kategorie": "kurse",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Tag der Mechatronik",
   "datum": "2026-09-22",
   "bis": "",
@@ -2686,19 +2686,6 @@
   "url": "https://www.tourismusgespraeche.tirol/",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Rheumatag Tirol am 22. September an drei Standorten",
-  "datum": "2026-09-22",
-  "bis": "",
-  "zeit": "14:00",
-  "ort": "",
-  "url": "https://www.meinbezirk.at/event/innsbruck/c-workshop-seminar-infoveranstaltung/rheumatag-tirol-am-22-september-an-drei-standorten_e3991996",
-  "quelle": "meinbezirk",
-  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -6188,19 +6175,6 @@
   "neu": false
  },
  {
-  "titel": "Oleksandra Matviichuk",
-  "datum": "2026-10-15",
-  "bis": "",
-  "zeit": "04:30",
-  "ort": "MCI, Innsbruck",
-  "url": "https://www.mci.edu/de/hochschule/events/24-alumni/7349-oleksandra-matviichuk",
-  "quelle": "MCI",
-  "kategorie": "kurse",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "MCI Erstsemestrigen Welcome 2026",
   "datum": "2026-10-15",
   "bis": "",
@@ -6222,6 +6196,19 @@
   "url": "https://www.uibk.ac.at/de/events/2026/10/campusluft-schnuppern/",
   "quelle": "Universität Innsbruck",
   "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Oleksandra Matviichuk",
+  "datum": "2026-10-15",
+  "bis": "",
+  "zeit": "15:00",
+  "ort": "MCI, Innsbruck",
+  "url": "https://www.mci.edu/de/hochschule/events/24-alumni/7349-oleksandra-matviichuk",
+  "quelle": "MCI",
+  "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false

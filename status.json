@@ -1,6 +1,6 @@
 {
- "lauf": "2026-09-13T18:27:53+00:00",
- "termine": 992,
+ "lauf": "2026-09-13T18:39:35+00:00",
+ "termine": 991,
  "serientermine": 123,
  "neu": 0,
  "quellen_aktiv": 70,
@@ -66,13 +66,13 @@
    "aktiv": true,
    "strategie": "meinbezirk",
    "gefunden": 30,
-   "uebernommen": 26,
+   "uebernommen": 25,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 4
+    "kein Ort im Umkreis genannt": 5
    },
    "brauchtum": {}
   },
@@ -1205,7 +1205,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "zeiten_nachgetragen": 8,
+   "zeiten_nachgetragen": 9,
    "verworfen": {
     "Universitaetsinterna": 2
    },
