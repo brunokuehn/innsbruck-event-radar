@@ -1,11 +1,17 @@
 {
- "erzeugt": "2026-09-14T08:01:08+00:00",
+ "erzeugt": "2026-09-14T10:01:51+00:00",
  "befunde": [
   {
    "dringlichkeit": "fehler",
    "quelle": "Futterkutter",
    "was": "seit 7 Laeufen kaputt: HTTPError: HTTP Error 429: Too Many Requests",
    "rat": "Wenn die Seite dauerhaft weg ist: Quelle abschalten und den Grund eintragen, statt sie taeglich vergeblich zu holen."
+  },
+  {
+   "dringlichkeit": "fehler",
+   "quelle": "Route66",
+   "was": "seit diesem Lauf kaputt: URLError: <urlopen error timed out>",
+   "rat": "Der Server war langsam. Beim naechsten Lauf abwarten."
   }
  ],
  "dauerhaft_still": [],
@@ -115,8 +121,8 @@
    "zuletzt": {
     "tag": "2026-09-14",
     "zustand": "ok",
-    "gefunden": 36,
-    "behalten": 36,
+    "gefunden": 39,
+    "behalten": 39,
     "fehler": ""
    }
   },
@@ -255,8 +261,8 @@
    "zuletzt": {
     "tag": "2026-09-14",
     "zustand": "ok",
-    "gefunden": 222,
-    "behalten": 204,
+    "gefunden": 223,
+    "behalten": 205,
     "fehler": ""
    }
   },
@@ -395,7 +401,7 @@
    "zuletzt": {
     "tag": "2026-09-14",
     "zustand": "ok",
-    "gefunden": 23,
+    "gefunden": 22,
     "behalten": 21,
     "fehler": ""
    }
@@ -434,10 +440,10 @@
    "laeufe_erfasst": 12,
    "zuletzt": {
     "tag": "2026-09-14",
-    "zustand": "ok",
+    "zustand": "fehler",
     "gefunden": 0,
     "behalten": 0,
-    "fehler": ""
+    "fehler": "URLError: <urlopen error timed out>"
    }
   },
   "Skibörse Innsbruck": {
@@ -585,8 +591,8 @@
    "zuletzt": {
     "tag": "2026-09-14",
     "zustand": "ok",
-    "gefunden": 88,
-    "behalten": 84,
+    "gefunden": 90,
+    "behalten": 86,
     "fehler": ""
    }
   },

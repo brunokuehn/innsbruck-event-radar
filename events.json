@@ -520,19 +520,6 @@
   "neu": false
  },
  {
-  "titel": "Reise ins Mittelalter – Stadtführung Hall",
-  "datum": "2026-09-14",
-  "bis": "",
-  "zeit": "",
-  "ort": "Innsbruck-Land",
-  "url": "https://events.tt.com/veranstaltung/39511/reise-ins-mittelalter-stadtf-c-bchrung-hall-a-f-",
-  "quelle": "TT Events Innsbruck-Land",
-  "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Resident Evil",
   "datum": "2026-09-14",
   "bis": "",
@@ -1155,6 +1142,19 @@
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "Von wilden Häuptern, Fröschen und einer Königin – Brunnenführung Hall",
+  "datum": "2026-09-16",
+  "bis": "",
+  "zeit": "",
+  "ort": "Innsbruck-Land",
+  "url": "https://events.tt.com/veranstaltung/39515/von-wilden-h-c-auptern-fr-c-bschen-und-einer-k-c-bnigin-brunnenf-c-bchrung-hall-c-d-",
+  "quelle": "TT Events Innsbruck-Land",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "Wurzbergalm",
@@ -2205,7 +2205,7 @@
   "url": "https://data.austriaclimbing.com/Event/3862",
   "quelle": "Austria Climbing",
   "kategorie": "sport",
-  "anmeldeschluss": "2026-09-16",
+  "anmeldeschluss": "",
   "serie": false,
   "neu": false
  },
@@ -2441,7 +2441,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "TATÄÄ!: Baukasten Oper!",
@@ -2467,7 +2467,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "TATÄÄ!: Kostümwerkstättenführung",
@@ -2519,7 +2519,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "TATÄÄ!: Werkstättenführung",
@@ -2532,7 +2532,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "TATÄÄ!: Eine Minute Optimismut",
@@ -2727,7 +2727,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "China - Europe Innovation Forum",
@@ -2923,6 +2923,19 @@
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "Der Bozner Kulinarikmarkt",
+  "datum": "2026-09-23",
+  "bis": "",
+  "zeit": "12:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122286606.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "Offene Werkstatt Töpferei Kathrein",
@@ -3819,7 +3832,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Schutzengel Prozession in Aldrans",
@@ -4665,6 +4678,19 @@
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "Wutkraft für Frauen - Mehr Selbstbestimmung, ...",
+  "datum": "2026-10-02",
+  "bis": "",
+  "zeit": "13:30",
+  "ort": "Die Bäckerei, Innsbruck",
+  "url": "https://diebaeckerei.at/programm/2026/2026-10-02-wutkraft-fuer-frauen-mehr-selbstbestimmung-klarheit-und-kraft-fuer-dein-leben",
+  "quelle": "Die Bäckerei",
+  "kategorie": "kurse",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "Die Rolle von Vertrauen und Kooperation für den Erfolg von Menschen & Organisationen",
@@ -6201,6 +6227,19 @@
   "neu": false
  },
  {
+  "titel": "KATZ iM SACK :: LACHEN IM KELLER: KABARETT-NEWCOMER EROBERN BÜHNE & PUBLIKUM",
+  "datum": "2026-10-12",
+  "bis": "",
+  "zeit": "17:30",
+  "ort": "Treibhaus Innsbruck",
+  "url": "https://www.treibhaus.at/programm/2026/10/12/15335-katz-im-sack-lachen-im-keller-kabarett-newcomer-erobern-buehne-publikum",
+  "quelle": "Treibhaus",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "KRIMIFEST // STEVE CAVANAGH: KILL FOR ME",
   "datum": "2026-10-12",
   "bis": "",
@@ -6550,6 +6589,19 @@
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "Fuckup Nights Innsbruck #34",
+  "datum": "2026-10-15",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Die Bäckerei, Innsbruck",
+  "url": "https://diebaeckerei.at/programm/2026/2026-10-15-fuckup-nights-innsbruck-34",
+  "quelle": "Die Bäckerei",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "lewerentz. divine darkness",
@@ -7927,7 +7979,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Dame - Der Weg ist das Ziel Tour 2026",
@@ -8333,7 +8385,7 @@
   "neu": false
  },
  {
-  "titel": "LEFTOVERS • STADION TOUR 2026",
+  "titel": "LEFTOVERS • STADION TOUR 2026 • Support: Die ...",
   "datum": "2026-10-31",
   "bis": "",
   "zeit": "20:00",
@@ -8343,7 +8395,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": false
+  "neu": true
  },
  {
   "titel": "NIGHTMARE ON BÖGENSTREET w/ SILIUS / DEMONICERA / WORTVEHLA / TRÄGHEIT / DJ DARKER",
@@ -8931,6 +8983,19 @@
   "neu": false
  },
  {
+  "titel": "KATZ iM SACK :: LACHEN IM KELLER: KABARETT-NEWCOMER EROBERN BÜHNE & PUBLIKUM",
+  "datum": "2026-11-09",
+  "bis": "",
+  "zeit": "18:30",
+  "ort": "Treibhaus Innsbruck",
+  "url": "https://www.treibhaus.at/programm/2026/11/09/15336-katz-im-sack-lachen-im-keller-kabarett-newcomer-erobern-buehne-publikum",
+  "quelle": "Treibhaus",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "EXiT VOiD: EINE AUDIOVISUELLE SKULPTUR",
   "datum": "2026-11-09",
   "bis": "",
@@ -9318,7 +9383,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Mnozil Brass - Strauss - Blasmusik trifft Walzerkönig",
@@ -11227,7 +11292,7 @@
   "url": "https://data.austriaclimbing.com/Event/3885",
   "quelle": "Austria Climbing",
   "kategorie": "kurse",
-  "anmeldeschluss": "2026-11-30",
+  "anmeldeschluss": "",
   "serie": false,
   "neu": false
  },
