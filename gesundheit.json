@@ -1,17 +1,11 @@
 {
- "erzeugt": "2026-09-14T06:23:22+00:00",
+ "erzeugt": "2026-09-14T08:01:08+00:00",
  "befunde": [
   {
-   "dringlichkeit": "hinweis",
+   "dringlichkeit": "fehler",
    "quelle": "Futterkutter",
-   "was": "liefert wieder",
-   "rat": ""
-  },
-  {
-   "dringlichkeit": "hinweis",
-   "quelle": "Skibörse Innsbruck",
-   "was": "liefert wieder",
-   "rat": ""
+   "was": "seit 7 Laeufen kaputt: HTTPError: HTTP Error 429: Too Many Requests",
+   "rat": "Wenn die Seite dauerhaft weg ist: Quelle abschalten und den Grund eintragen, statt sie taeglich vergeblich zu holen."
   }
  ],
  "dauerhaft_still": [],
@@ -121,8 +115,8 @@
    "zuletzt": {
     "tag": "2026-09-14",
     "zustand": "ok",
-    "gefunden": 35,
-    "behalten": 35,
+    "gefunden": 36,
+    "behalten": 36,
     "fehler": ""
    }
   },
@@ -160,10 +154,10 @@
    "laeufe_erfasst": 12,
    "zuletzt": {
     "tag": "2026-09-14",
-    "zustand": "ok",
+    "zustand": "fehler",
     "gefunden": 0,
     "behalten": 0,
-    "fehler": ""
+    "fehler": "HTTPError: HTTP Error 429: Too Many Requests"
    }
   },
   "Galerie Thomas Flora": {
@@ -261,8 +255,8 @@
    "zuletzt": {
     "tag": "2026-09-14",
     "zustand": "ok",
-    "gefunden": 219,
-    "behalten": 201,
+    "gefunden": 222,
+    "behalten": 204,
     "fehler": ""
    }
   },
@@ -450,10 +444,10 @@
    "laeufe_erfasst": 12,
    "zuletzt": {
     "tag": "2026-09-14",
-    "zustand": "ok",
+    "zustand": "fehler",
     "gefunden": 0,
     "behalten": 0,
-    "fehler": ""
+    "fehler": "HTTPError: HTTP Error 429: Too Many Requests"
    }
   },
   "Spielraum FabLab": {
@@ -591,8 +585,8 @@
    "zuletzt": {
     "tag": "2026-09-14",
     "zustand": "ok",
-    "gefunden": 87,
-    "behalten": 83,
+    "gefunden": 88,
+    "behalten": 84,
     "fehler": ""
    }
   },
@@ -651,8 +645,8 @@
    "zuletzt": {
     "tag": "2026-09-14",
     "zustand": "ok",
-    "gefunden": 0,
-    "behalten": 0,
+    "gefunden": 6,
+    "behalten": 6,
     "fehler": ""
    }
   },
@@ -701,8 +695,8 @@
    "zuletzt": {
     "tag": "2026-09-14",
     "zustand": "ok",
-    "gefunden": 29,
-    "behalten": 24,
+    "gefunden": 30,
+    "behalten": 25,
     "fehler": ""
    }
   },

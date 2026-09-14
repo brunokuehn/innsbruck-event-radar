@@ -88,7 +88,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Weltentfaltung. Zeichnungen des Tiroler Barock",
@@ -244,7 +244,7 @@
   "kategorie": "brauchtum",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "25 Jahre Shrek",
@@ -257,7 +257,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Adams Acht",
@@ -270,7 +270,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Am Anfang war das Salz – Bergbaumuseum Hall",
@@ -296,7 +296,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Ausstellung Christine Knoll",
@@ -322,7 +322,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Das Ende der Sterne",
@@ -335,7 +335,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Das gewisse Etwas",
@@ -348,7 +348,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "David",
@@ -361,7 +361,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Denkmal für Schnee – Esther Strauß | RLB Kunstpreis",
@@ -387,7 +387,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Frühstück bei Audrey",
@@ -400,7 +400,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Gentle Monster",
@@ -413,7 +413,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Insidious: Out of the Further",
@@ -426,7 +426,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Muss das Pferd auch arbeiten?",
@@ -439,7 +439,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Mutiny",
@@ -452,7 +452,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Oh la la 2",
@@ -465,7 +465,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "One Night Only",
@@ -478,7 +478,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Paw Patrol: Der Dino Film",
@@ -491,7 +491,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Practical Magic 2 – Zauberhafte Schwestern",
@@ -504,7 +504,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Pressure",
@@ -517,7 +517,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Reise ins Mittelalter – Stadtführung Hall",
@@ -543,7 +543,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Runner",
@@ -556,7 +556,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Spider-Man: Brand New Day",
@@ -569,7 +569,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Steckerlfischfiasko",
@@ -582,7 +582,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Teresas Körper",
@@ -595,7 +595,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "The Uprising – Für die Freiheit",
@@ -608,7 +608,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Toy Story 5",
@@ -621,7 +621,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Wax & Gold",
@@ -634,7 +634,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Telfer Marktl",
@@ -712,7 +712,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Ausstellungen: \"Erinnerungen\" Jakob Anton Bucher",
@@ -725,7 +725,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Infosession Studienstart",
@@ -764,7 +764,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Grüne Schätze im Herzen Innsbrucks",
@@ -777,7 +777,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Verborgene Schätze im Schlosspark Ambras",
@@ -790,7 +790,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Riding Architecture",
@@ -946,7 +946,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Ausstellung: \"Erinnerungen\" Jakob Anton Bucher",
@@ -959,7 +959,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Rebuild: Figures of Space: 64 Häuser im Modell",
@@ -985,7 +985,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Verborgene Schätze im Schlosspark Ambras",
@@ -998,7 +998,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Offene Werkstatt Töpferei Kathrein",
@@ -1050,7 +1050,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "WER MACHT PAUSE?",
@@ -1232,7 +1232,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Ausstellung: \"Erinnerungen\" Jakob Anton Bucher",
@@ -1245,7 +1245,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Rebuild: Figures of Space: 64 Häuser im Modell",
@@ -1323,7 +1323,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Verborgene Schätze im Schlosspark Ambras",
@@ -1336,7 +1336,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Offene Werkstatt Töpferei Kathrein",
@@ -1570,7 +1570,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "25. Österreichischer Europarechtstag: Europa als internationaler Akteur - geoökonomischer Herausforderungen für die Souveränität der EU",
@@ -1609,7 +1609,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Kasperl und Gretel backen eine Apfelkuchen",
@@ -1752,7 +1752,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Bramböck/Kuttler Jazz Collective - Organ Intermezzo",
@@ -2064,7 +2064,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "HC TIWAG Innsbruck - Vienna Capitals",
@@ -2324,7 +2324,7 @@
   "kategorie": "sport",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Figurentheater: Kaspers Kürbisfest (ab 3)",
@@ -2363,7 +2363,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "TATÄÄ!: Late Night Show - 404 Show Not Found",
@@ -2376,7 +2376,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Almmesse beim Weidenhof",
@@ -2402,7 +2402,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "TATÄÄ!: Kuschelkonzert (ab 0 bis 4 Jahre)",
@@ -2415,7 +2415,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "TATÄÄ!: Tanzen ganz nah - Öffentliches Tanztraining",
@@ -2428,6 +2428,19 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "TATÄÄ! – Ein Fest am Platz",
+  "datum": "2026-09-20",
+  "bis": "",
+  "zeit": "13:00",
+  "ort": "Innsbruck",
+  "url": "https://www.landestheater.at/produktionen/tataeae",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
   "neu": true
  },
  {
@@ -2436,6 +2449,19 @@
   "bis": "",
   "zeit": "13:00",
   "ort": "[K2], Innsbruck",
+  "url": "https://www.landestheater.at/produktionen/tataeae",
+  "quelle": "Tiroler Landestheater",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "TATÄÄ!: Führung mit Intendantin Irene Girkinger",
+  "datum": "2026-09-20",
+  "bis": "",
+  "zeit": "13:00",
+  "ort": "Tiroler Landestheater, Innsbruck",
   "url": "https://www.landestheater.at/produktionen/tataeae",
   "quelle": "Tiroler Landestheater",
   "kategorie": "kultur",
@@ -2454,7 +2480,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "TATÄÄ!: Offenes Singen",
@@ -2467,10 +2493,36 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "TATÄÄ!: Requisitenführung",
+  "datum": "2026-09-20",
+  "bis": "",
+  "zeit": "13:00",
+  "ort": "Tiroler Landestheater, Innsbruck",
+  "url": "https://www.landestheater.at/produktionen/tataeae",
+  "quelle": "Tiroler Landestheater",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "TATÄÄ!: Technikführung",
+  "datum": "2026-09-20",
+  "bis": "",
+  "zeit": "13:00",
+  "ort": "Tiroler Landestheater, Innsbruck",
+  "url": "https://www.landestheater.at/produktionen/tataeae",
+  "quelle": "Tiroler Landestheater",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "TATÄÄ!: Werkstättenführung",
   "datum": "2026-09-20",
   "bis": "",
   "zeit": "13:00",
@@ -2493,7 +2545,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "TATÄÄ!: „Bühne zum Mitmachen!“ für Kinder & Eltern – Workshop",
@@ -2506,7 +2558,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "TATÄÄ!: In den höchsten Tönen",
@@ -2519,7 +2571,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Büchereiflohmarkt mit Spieletauschbörse, Lesungen, Gewinnspiele etc",
@@ -2545,7 +2597,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Floh- und Trödelmarkt",
@@ -2663,6 +2715,19 @@
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "Kostenlose Aortenaneurysma-Screenings in Innsbruck",
+  "datum": "2026-09-21",
+  "bis": "",
+  "zeit": "08:30",
+  "ort": "Gefäßchirurgie Ambulanz Universitätsklinik für Gefäßchirurgie, Innsbruck",
+  "url": "https://www.meinbezirk.at/event/innsbruck/c-gesundheit/kostenlose-aortenaneurysma-screenings-in-innsbruck_e3987290",
+  "quelle": "meinbezirk",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "China - Europe Innovation Forum",
@@ -3138,7 +3203,7 @@
   "bis": "",
   "zeit": "18:30",
   "ort": "Innsbruck",
-  "url": "https://www.eventfinder.at/veranstaltung/1549610/hofkirchenkonzerte-der-wiltener-saengerknaben-innsbruck/",
+  "url": "https://www.eventfinder.at/veranstaltung/1549610/hofkirchenkonzerte-der-wiltener-saengerknaben-in-innsbruck-am-2026-09-24-um-18-30-uhr/",
   "quelle": "eventfinder",
   "kategorie": "musik",
   "anmeldeschluss": "",
@@ -3742,6 +3807,19 @@
   "anmeldeschluss": "",
   "serie": true,
   "neu": false
+ },
+ {
+  "titel": "Ernte Dank 2026",
+  "datum": "2026-09-27",
+  "bis": "",
+  "zeit": "08:30",
+  "ort": "Mieming",
+  "url": "https://www.innsbruck.info/events/e/122286866.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "Schutzengel Prozession in Aldrans",
@@ -4794,7 +4872,7 @@
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Lange Nacht der Museen 2026 im Archäologischen Universitätsmuseum",
@@ -4911,7 +4989,7 @@
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Innsbrucks größter Sonntagsfloh- und Trödelmarkt",
@@ -5184,7 +5262,7 @@
   "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": true,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Museum Aguntum & Archäologischer Park",
@@ -5507,6 +5585,19 @@
   "url": "https://www.patscherkofelbahn.at/events/",
   "quelle": "Patscherkofelbahn",
   "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "astrid staufer: holzwege. ein material im wandel",
+  "datum": "2026-10-08",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "aut, Innsbruck",
+  "url": "https://aut.cc/veranstaltungen/vortrag-astrid-staufer",
+  "quelle": "aut. architektur und tirol",
+  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -6461,6 +6552,19 @@
   "neu": false
  },
  {
+  "titel": "lewerentz. divine darkness",
+  "datum": "2026-10-15",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "aut, Innsbruck",
+  "url": "https://aut.cc/veranstaltungen/lewerentz-divine-darkness",
+  "quelle": "aut. architektur und tirol",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Tiroler Abend im STERN",
   "datum": "2026-10-15",
   "bis": "",
@@ -7397,6 +7501,19 @@
   "neu": false
  },
  {
+  "titel": "Christian Inderbitzin: Wider die Abstraktion",
+  "datum": "2026-10-22",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "aut, Innsbruck",
+  "url": "https://aut.cc/veranstaltungen/vortrag-christian-inderbitzin",
+  "quelle": "aut. architektur und tirol",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Positive Futures Festival 2026: Circuit des ...",
   "datum": "2026-10-22",
   "bis": "",
@@ -7800,6 +7917,19 @@
   "neu": false
  },
  {
+  "titel": "Zouk Sunday - Taster and Social Dance",
+  "datum": "2026-10-25",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Die Bäckerei, Innsbruck",
+  "url": "https://diebaeckerei.at/programm/2026/2026-10-25-zouk-sunday-taster-and-social-dance",
+  "quelle": "Die Bäckerei",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Dame - Der Weg ist das Ziel Tour 2026",
   "datum": "2026-10-25",
   "bis": "2026-10-26",
@@ -7964,6 +8094,19 @@
   "url": "https://www.alpenverein.at/innsbruck/termine/index_detail.php?veranstaltungID=7e81ed03-9022-4a2b-b4cd-0d7d6981796d&oa=1",
   "quelle": "Alpenverein Innsbruck",
   "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "führung durch die ausstellung \"rebuild: figures of space\" mit aperitif",
+  "datum": "2026-10-29",
+  "bis": "",
+  "zeit": "18:00",
+  "ort": "aut, Innsbruck",
+  "url": "https://aut.cc/veranstaltungen/fuehrung-rebuild-3",
+  "quelle": "aut. architektur und tirol",
+  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -9160,6 +9303,19 @@
   "url": "https://www.uibk.ac.at/de/events/2026/11/auf-den-spuren/",
   "quelle": "Universität Innsbruck",
   "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "UKANDANZ: YOU CAN DANCE // ÄTHIOPIEN, FRANKREICH",
+  "datum": "2026-11-14",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Treibhaus Innsbruck",
+  "url": "https://www.treibhaus.at/programm/2026/11/14/15136-ukandanz-you-can-dance-aethiopien-frankreich",
+  "quelle": "Treibhaus",
+  "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
   "neu": true
@@ -10592,7 +10748,7 @@
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Sistranser Adventmarkt",
@@ -10696,7 +10852,7 @@
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Kirchenpatrozinium \"Hl. Nikolaus\"",
