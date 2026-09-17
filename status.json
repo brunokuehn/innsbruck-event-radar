@@ -1,19 +1,19 @@
 {
- "lauf": "2026-09-16T09:26:59+00:00",
- "termine": 1048,
+ "lauf": "2026-09-17T09:33:52+00:00",
+ "termine": 1047,
  "serientermine": 123,
- "neu": 64,
+ "neu": 58,
  "quellen_aktiv": 72,
  "quellen_mit_treffern": 44,
- "quellen_mit_fehler": 3,
+ "quellen_mit_fehler": 1,
  "quellen": [
   {
    "quelle": "Innsbruck Tourismus",
    "url": "https://www.innsbruck.info/events/d/alle.html",
    "aktiv": true,
    "strategie": "innsbruckinfo",
-   "gefunden": 223,
-   "uebernommen": 217,
+   "gefunden": 229,
+   "uebernommen": 223,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -23,11 +23,11 @@
     "Titel ist nur eine Anschrift": 1
    },
    "brauchtum": {
+    "Volksmusik": 5,
     "Blasmusik": 3,
     "Laendliches Fest": 6,
     "Kirchliches Brauchtum": 4,
-    "Trachten": 3,
-    "Volksmusik": 2
+    "Trachten": 3
    }
   },
   {
@@ -83,14 +83,16 @@
    "url": "https://www.innsbrucktermine.at",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 19,
-   "uebernommen": 19,
+   "gefunden": 20,
+   "uebernommen": 20,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {},
-   "brauchtum": {}
+   "brauchtum": {
+    "Volksmusik": 1
+   }
   },
   {
    "quelle": "eventfinder",
@@ -98,12 +100,14 @@
    "aktiv": true,
    "strategie": "jsonld",
    "gefunden": 56,
-   "uebernommen": 56,
+   "uebernommen": 55,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
-   "verworfen": {},
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 1
+   },
    "brauchtum": {
     "Laendliches Fest": 1,
     "Blasmusik": 2
@@ -161,8 +165,8 @@
    "url": "https://www.cmi.at/de/veranstaltungskalender",
    "aktiv": true,
    "strategie": "congress",
-   "gefunden": 182,
-   "uebernommen": 159,
+   "gefunden": 183,
+   "uebernommen": 160,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -223,8 +227,8 @@
    "url": "https://www.diebaeckerei.at/programm",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 44,
-   "uebernommen": 44,
+   "gefunden": 46,
+   "uebernommen": 46,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -761,8 +765,8 @@
    "url": "https://stadtbibliothek.innsbruck.gv.at/de/programm/veranstaltungskalender/5-0.html",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 2,
-   "uebernommen": 2,
+   "gefunden": 1,
+   "uebernommen": 1,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -1108,7 +1112,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
+   "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
@@ -1122,7 +1126,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
+   "fehler": "",
    "grund": "",
    "hinweis": "Server weist Anfragen aus der Github-Aktion mit HTTP 429 ab.",
    "zeiten_nachgetragen": 0,
@@ -1294,15 +1298,14 @@
    "url": "https://www.wasmachma.at/events/bundesland/tirol/flohmarkt",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 7,
+   "gefunden": 6,
    "uebernommen": 3,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 3,
-    "ausserhalb: kitzbuehel": 1
+    "kein Ort im Umkreis genannt": 3
    },
    "brauchtum": {}
   },
