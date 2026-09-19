@@ -1,19 +1,19 @@
 {
- "lauf": "2026-09-18T09:17:53+00:00",
- "termine": 922,
+ "lauf": "2026-09-19T08:58:04+00:00",
+ "termine": 1044,
  "serientermine": 123,
- "neu": 69,
+ "neu": 82,
  "quellen_aktiv": 72,
- "quellen_mit_treffern": 40,
- "quellen_mit_fehler": 5,
+ "quellen_mit_treffern": 44,
+ "quellen_mit_fehler": 3,
  "quellen": [
   {
    "quelle": "Innsbruck Tourismus",
    "url": "https://www.innsbruck.info/events/d/alle.html",
    "aktiv": true,
    "strategie": "innsbruckinfo",
-   "gefunden": 228,
-   "uebernommen": 222,
+   "gefunden": 223,
+   "uebernommen": 217,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -23,8 +23,8 @@
     "Titel ist nur eine Anschrift": 1
    },
    "brauchtum": {
+    "Laendliches Fest": 3,
     "Volksmusik": 5,
-    "Laendliches Fest": 6,
     "Kirchliches Brauchtum": 4,
     "Blasmusik": 2,
     "Trachten": 3
@@ -58,15 +58,17 @@
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {},
-   "brauchtum": {}
+   "brauchtum": {
+    "Trachten": 1
+   }
   },
   {
    "quelle": "meinbezirk",
    "url": "https://www.meinbezirk.at/event/innsbruck/list",
    "aktiv": true,
    "strategie": "meinbezirk",
-   "gefunden": 30,
-   "uebernommen": 28,
+   "gefunden": 29,
+   "uebernommen": 27,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -74,9 +76,7 @@
    "verworfen": {
     "kein Ort im Umkreis genannt": 2
    },
-   "brauchtum": {
-    "Volksmusik": 2
-   }
+   "brauchtum": {}
   },
   {
    "quelle": "Innsbruck Termine",
@@ -91,8 +91,8 @@
    "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {
-    "Volksmusik": 1,
-    "Laendliches Fest": 2
+    "Laendliches Fest": 2,
+    "Kirchliches Brauchtum": 1
    }
   },
   {
@@ -100,8 +100,8 @@
    "url": "https://www.eventfinder.at/veranstaltungen-innsbruck.php",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 56,
-   "uebernommen": 55,
+   "gefunden": 57,
+   "uebernommen": 56,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -111,7 +111,7 @@
    },
    "brauchtum": {
     "Laendliches Fest": 1,
-    "Blasmusik": 2
+    "Blasmusik": 3
    }
   },
   {
@@ -119,17 +119,21 @@
    "url": "https://www.freizeit-tirol.at/freizeit-events/eventkalender/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 10,
+   "gefunden": 13,
    "uebernommen": 7,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 2,
-    "ausserhalb: oetztal": 1
+    "kein Ort im Umkreis genannt": 3,
+    "ausserhalb: oetztal": 1,
+    "ausserhalb: mayrhofen": 1,
+    "ausserhalb: kufstein": 1
    },
-   "brauchtum": {}
+   "brauchtum": {
+    "Kirchliches Brauchtum": 1
+   }
   },
   {
    "quelle": "Stadt Innsbruck",
@@ -214,8 +218,8 @@
    "url": "https://www.pmk.or.at/de/events",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 20,
-   "uebernommen": 20,
+   "gefunden": 19,
+   "uebernommen": 19,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -228,8 +232,8 @@
    "url": "https://www.diebaeckerei.at/programm",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 47,
-   "uebernommen": 47,
+   "gefunden": 49,
+   "uebernommen": 49,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -243,13 +247,13 @@
    "aktiv": true,
    "strategie": "ics",
    "gefunden": 91,
-   "uebernommen": 86,
+   "uebernommen": 85,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 5
+    "ausserhalb des Zeitfensters": 6
    },
    "brauchtum": {}
   },
@@ -444,7 +448,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "",
+   "fehler": "URLError: <urlopen error timed out>",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
@@ -546,8 +550,8 @@
    "url": "https://www.metropol-kino.at/kinoprogramm/metropol",
    "aktiv": true,
    "strategie": "kino",
-   "gefunden": 24,
-   "uebernommen": 24,
+   "gefunden": 30,
+   "uebernommen": 30,
    "fehler": "",
    "grund": "",
    "hinweis": "nur das Programm des laufenden Tages; Spielzeiten kommen clientseitig nach Auswahl eines Datums",
@@ -648,8 +652,8 @@
    "url": "https://www.haus-der-musik-innsbruck.at/kalender/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 11,
-   "uebernommen": 11,
+   "gefunden": 10,
+   "uebernommen": 10,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -719,14 +723,16 @@
    "quelle": "KRAPOLDI",
    "url": "https://www.krapoldi.at/event/",
    "aktiv": true,
-   "strategie": "",
-   "gefunden": 0,
+   "strategie": "heuristik",
+   "gefunden": 64,
    "uebernommen": 0,
-   "fehler": "URLError: <urlopen error timed out>",
+   "fehler": "",
    "grund": "",
    "hinweis": "Zirkusfestival. Ausserhalb der Saison zeigt die Seite die Spielorte der letzten Ausgabe als Kacheln -- daher Ortsnamen mit altem Datum.",
    "zeiten_nachgetragen": 0,
-   "verworfen": {},
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 64
+   },
    "brauchtum": {}
   },
   {
@@ -777,14 +783,16 @@
    "quelle": "Universität Innsbruck",
    "url": "https://www.uibk.ac.at/de/events/",
    "aktiv": true,
-   "strategie": "",
-   "gefunden": 0,
-   "uebernommen": 0,
-   "fehler": "URLError: <urlopen error timed out>",
+   "strategie": "jsonld",
+   "gefunden": 119,
+   "uebernommen": 115,
+   "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
-   "verworfen": {},
+   "verworfen": {
+    "Universitaetsinterna": 4
+   },
    "brauchtum": {}
   },
   {
@@ -877,8 +885,8 @@
    "url": "https://www.alpenverein.at/innsbruck/termine/index.php",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 36,
-   "uebernommen": 36,
+   "gefunden": 35,
+   "uebernommen": 35,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -904,14 +912,16 @@
    "quelle": "Vorbrenner",
    "url": "https://vorbrenner.at/programm",
    "aktiv": true,
-   "strategie": "",
-   "gefunden": 0,
-   "uebernommen": 0,
-   "fehler": "URLError: <urlopen error timed out>",
+   "strategie": "vorbrenner",
+   "gefunden": 62,
+   "uebernommen": 4,
+   "fehler": "",
    "grund": "",
    "hinweis": "Festival im Herbst; ausserhalb der Saison steht dort wenig.",
    "zeiten_nachgetragen": 0,
-   "verworfen": {},
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 58
+   },
    "brauchtum": {}
   },
   {
@@ -961,14 +971,13 @@
    "url": "https://www.patscherkofelbahn.at/events/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 22,
+   "gefunden": 20,
    "uebernommen": 19,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 2,
     "Ortsmarke statt Titel": 1
    },
    "brauchtum": {}
@@ -1033,10 +1042,10 @@
    "quelle": "Töpferei Kathrein",
    "url": "https://www.toepferei-ibk.at/kurse",
    "aktiv": true,
-   "strategie": "",
-   "gefunden": 0,
-   "uebernommen": 0,
-   "fehler": "URLError: <urlopen error timed out>",
+   "strategie": "heuristik",
+   "gefunden": 4,
+   "uebernommen": 4,
+   "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
@@ -1122,7 +1131,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "",
+   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
    "grund": "",
    "hinweis": "Server weist Anfragen aus der Github-Aktion mit HTTP 429 ab.",
    "zeiten_nachgetragen": 0,
@@ -1178,8 +1187,8 @@
    "url": "https://www.standort-tirol.at/veranstaltungen",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 23,
-   "uebernommen": 3,
+   "gefunden": 22,
+   "uebernommen": 2,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -1194,14 +1203,13 @@
    "url": "https://www.mci.edu/de/hochschule/events",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 12,
+   "gefunden": 11,
    "uebernommen": 9,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 8,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 1,
     "Universitaetsinterna": 2
    },
    "brauchtum": {}
@@ -1255,7 +1263,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "",
+   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
    "grund": "",
    "hinweis": "Boerse Mitte Oktober",
    "zeiten_nachgetragen": 0,
@@ -1294,14 +1302,16 @@
    "quelle": "wasmachma",
    "url": "https://www.wasmachma.at/events/bundesland/tirol/flohmarkt",
    "aktiv": true,
-   "strategie": "",
-   "gefunden": 0,
-   "uebernommen": 0,
-   "fehler": "URLError: <urlopen error timed out>",
+   "strategie": "heuristik",
+   "gefunden": 9,
+   "uebernommen": 4,
+   "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
-   "verworfen": {},
+   "verworfen": {
+    "kein Ort im Umkreis genannt": 5
+   },
    "brauchtum": {}
   },
   {

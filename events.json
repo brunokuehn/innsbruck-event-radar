@@ -13,6 +13,19 @@
   "neu": false
  },
  {
+  "titel": "Photosensitives",
+  "datum": "2026-09-07",
+  "bis": "2026-10-11",
+  "zeit": "",
+  "ort": "BRUX / Freies Theater Innsbruck",
+  "url": "https://vorbrenner.at/programm/photosensitives",
+  "quelle": "Vorbrenner",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "SOLO FOR ONE",
   "datum": "2026-09-07",
   "bis": "2026-09-22",
@@ -20,6 +33,19 @@
   "ort": "07.-22.09., in Schwaz und Innsbruck",
   "url": "https://www.klangspuren.at/festival/festival-programm/festival-detail/solo-for-one/",
   "quelle": "Klangspuren Schwaz",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Orange the Stuben: Studentische Intervention in der Dauerausstellung des Tiroler Volkskunstmuseums",
+  "datum": "2026-09-17",
+  "bis": "2026-12-10",
+  "zeit": "12:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/09/orange-the-stuben/",
+  "quelle": "Universität Innsbruck",
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
@@ -39,914 +65,17 @@
   "neu": false
  },
  {
-  "titel": "Ausstellung - Tanja Winkler",
-  "datum": "2026-09-18",
+  "titel": "Kinderflohmarkt",
+  "datum": "2026-09-19",
   "bis": "",
-  "zeit": "08:00",
-  "ort": "Frauen-Kopf-Klinik, Gebäude im LKH Innsbruck, Innsbruck",
-  "url": "https://www.meinbezirk.at/event/innsbruck/c-ausstellung/ausstellung-tanja-winkler_e3984494",
-  "quelle": "meinbezirk",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Das Blut der Medusa - Die Korallen von Schloss Ambras",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "09:00",
-  "ort": "Schloss Ambras Innsbruck, Innsbruck",
-  "url": "https://www.meinbezirk.at/event/innsbruck/c-ausstellung/das-blut-der-medusa-die-korallen-von-schloss-ambras_e3964113",
-  "quelle": "meinbezirk",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "EXPERIENCE TIROL",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "09:00",
-  "ort": "Experience Tirol, Innsbruck",
-  "url": "https://www.meinbezirk.at/event/innsbruck/c-konzert-buehne-kino/experience-tirol_e1434668",
-  "quelle": "meinbezirk",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Weltentfaltung. Zeichnungen des Tiroler Barock",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "09:00",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbrucktermine.at/veranstaltungen/weltentfaltung-zeichnungen-des-tiroler-barock?date=1789714800",
-  "quelle": "Innsbruck Termine",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "„Orange the Stuben“ macht Gewalt sichtbar",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "09:00",
-  "ort": "Tiroler Volkskunstmuseum, Innsbruck",
-  "url": "https://www.meinbezirk.at/event/innsbruck/c-ausstellung/orange-the-stuben-macht-gewalt-sichtbar_e3995556",
-  "quelle": "meinbezirk",
-  "kategorie": "sport",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Ausstellung: \"Erinnerungen\" Jakob Anton Bucher",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "10:00",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbrucktermine.at/veranstaltungen/austellung-erinnerungen-jakob-anton-bucher?date=1789718400",
-  "quelle": "Innsbruck Termine",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Kraut & Knolle geht in die zweite Runde",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "11:00",
-  "ort": "Marktplatz, Innsbruck",
-  "url": "https://www.meinbezirk.at/event/innsbruck/c-markt-basar/kraut-and-knolle-geht-in-die-zweite-runde_e3989783",
-  "quelle": "meinbezirk",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Rebuild: Figures of Space: 64 Häuser im Modell",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "11:00",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbruck.info/events/e/122260168.html",
-  "quelle": "Innsbruck Tourismus",
-  "kategorie": "mix",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Riding Architecture",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "13:00",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbruck.info/events/e/122253655.html",
-  "quelle": "Innsbruck Tourismus",
-  "kategorie": "mix",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Kasperl und Gretel backen einen Apfelkuchen",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "15:00",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbrucktermine.at/veranstaltungen/kasperl-und-gretel-backen-einen-apfelkuchen?date=1789736400",
-  "quelle": "Innsbruck Termine",
-  "kategorie": "mix",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "New Orleans Blues & Show - DAS RAIQA",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "15:00",
-  "ort": "Innsbruck",
-  "url": "https://www.freizeit-tirol.at/freizeit-events/konzerte/event/new-orleans-blues-show-das-raiqa/",
-  "quelle": "Freizeit Tirol",
-  "kategorie": "mix",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Druckgrafik aus Polen-Agnieszka Lech-Binczycka, Pawel Binczycki,...",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "16:00",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbruck.info/events/e/122283913.html",
-  "quelle": "Innsbruck Tourismus",
-  "kategorie": "mix",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Speed Dating mit Museumsmitarbeiter*innen",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "17:00",
-  "ort": "Tiroler Landesmuseen, Innsbruck",
-  "url": "https://www.tiroler-landesmuseen.at/haus/volkskunstmuseum/",
-  "quelle": "Tiroler Landesmuseen",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Theaterworkshop „Wir und die anderen – Geschichten über soziale Ungleichheiten“",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "17:00",
-  "ort": "Tiroler Landesmuseen, Innsbruck",
-  "url": "https://www.tiroler-landesmuseen.at/haus/museum-aguntum-archaeologischer-park/",
-  "quelle": "Tiroler Landesmuseen",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "BELLA CiAO: LIEDER VON FREIHEIT & HOFFNUNG // ITALIEN",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "18:30",
-  "ort": "Treibhaus Innsbruck",
-  "url": "https://www.treibhaus.at/programm/2026/09/18/15182-bella-ciao-lieder-von-freiheit-hoffnung-italien",
-  "quelle": "Treibhaus",
-  "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Hofkirchenkonzerte der Wiltener Sängerknaben",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "18:30",
-  "ort": "Innsbruck",
-  "url": "https://www.eventfinder.at/veranstaltung/1549612/hofkirchenkonzerte-der-wiltener-saengerknaben-in-innsbruck-am-2026-09-18-um-18-30-uhr/",
-  "quelle": "eventfinder",
-  "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Ausstellungseröffnung „Transformation“",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "19:00",
-  "ort": "Tiroler Landesmuseen, Innsbruck",
-  "url": "https://www.tiroler-landesmuseen.at/terminart/eroeffnung/",
-  "quelle": "Tiroler Landesmuseen",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Klangspuren 2026 - Auf dass wir so verwandelt werden",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "19:00",
-  "ort": "Innsbruck",
-  "url": "https://www.eventfinder.at/veranstaltung/1545094/klangspuren-2026-in-innsbruck-am-2026-09-18-um-19-00-uhr/",
-  "quelle": "eventfinder",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "HC TIWAG Innsbruck - Milano HC",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "19:15",
-  "ort": "TIWAG Arena",
-  "url": "https://www.olympiaworld.at/events-tickets/hc-tiwag-innsbruck-milano-hc/",
+  "zeit": "04:00",
+  "ort": "Tivoli Stadion Tirol",
+  "url": "https://www.olympiaworld.at/events-tickets/kinderflohmarkt/",
   "quelle": "Olympiaworld",
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
- },
- {
-  "titel": "Akkordeon3 – Drei Axamer Musiker zeigen die Vielfalt des Instruments",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "20:00",
-  "ort": "Axams",
-  "url": "https://www.meinbezirk.at/event/westliches-mittelgebirge/c-konzert-buehne-kino/akkordeon-drei-axamer-musiker-zeigen-die-vielfalt-des-instruments_e3989645",
-  "quelle": "meinbezirk",
-  "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Bramböck/Kuttler Jazz Collective - Organ Intermezzo",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "20:00",
-  "ort": "Haus der Musik, Innsbruck",
-  "url": "https://www.haus-der-musik-innsbruck.at/veranstaltung/bramboeck-kuttler-jazz-collective-organ-intermezzo-18-09-26/",
-  "quelle": "Haus der Musik",
-  "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Gabriel Castaneda - Nacho Man - Comedy über Männerrollen",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "20:00",
-  "ort": "Innsbruck",
-  "url": "https://www.eventfinder.at/veranstaltung/1546678/gabriel-castaneda-in-rum-am-2026-09-18-um-20-00-uhr/",
-  "quelle": "eventfinder",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Sternenbeobachtung mit Großteleskop",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "20:00",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbrucktermine.at/veranstaltungen/sternenbeobachtung-mit-grossteleskop?date=1789754400",
-  "quelle": "Innsbruck Termine",
-  "kategorie": "mix",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Tiroler Abend mit dem Männergesangsverein",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "20:00",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbrucktermine.at/veranstaltungen/tiroler-abend-mit-dem-mannergesangsverein?date=1789754400",
-  "quelle": "Innsbruck Termine",
-  "kategorie": "brauchtum",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Tiroler Abend mit der Familie Gundolf",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "20:30",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbruck.info/events/e/122221069.html",
-  "quelle": "Innsbruck Tourismus",
-  "kategorie": "brauchtum",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "CONCERT IN THE DARK - KLANGSPUREN AT PMK",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "21:00",
-  "ort": "p.m.k, Innsbruck",
-  "url": "https://www.pmk.or.at/de/events/concert-in-the-dark---klangspuren-at-pmk",
-  "quelle": "p.m.k",
-  "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "\"Der Stein, der brennt und heilt\" Ölschieferbergbau im Karwendel",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Innsbruck-Land",
-  "url": "https://events.tt.com/veranstaltung/40695/-der-stein-der-brennt-und-heilt-c-lschieferbergbau-im-karwendel",
-  "quelle": "TT Events Innsbruck-Land",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "25 Jahre Shrek",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/25-jahre-shrek",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Adams Acht",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Cinematograph",
-  "url": "https://www.uncut.at/movies/film.php?movie_id=23998",
-  "quelle": "UNCUT Kinoprogramm",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Arnie und Barney - Retten das Wasser",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/arnie-und-barney",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Ausstellung Christine Knoll",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Innsbruck-Land",
-  "url": "https://events.tt.com/veranstaltung/40602/ausstellung-christine-knoll",
-  "quelle": "TT Events Innsbruck-Land",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Bibi Blocksberg - Die total verhexte Zeitreise",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Innsbruck",
-  "url": "https://www.uncut.at/movies/film.php?movie_id=24261",
-  "quelle": "UNCUT Kinoprogramm",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Coyote vs. ACME",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/coyote-vs-acme",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Das Ende der Sterne",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/das-ende-der-sterne",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Das gewisse Etwas",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/das-gewisse-etwas",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "David",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/david",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Denkmal für Schnee – Esther Strauß | RLB Kunstpreis",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Innsbruck-Land",
-  "url": "https://events.tt.com/veranstaltung/41510/denkmal-f-c-bcr-schnee-e---esther-strau-c-f-c-rlb-kunstpreis",
-  "quelle": "TT Events Innsbruck-Land",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Die noch unbekannten Tage",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Innsbruck",
-  "url": "https://www.uncut.at/movies/film.php?movie_id=23251",
-  "quelle": "UNCUT Kinoprogramm",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Die Odyssee",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/die-odyssee",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Ecce Homo - Der verlorene Caravaggio",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Innsbruck",
-  "url": "https://www.uncut.at/movies/film.php?movie_id=23980",
-  "quelle": "UNCUT Kinoprogramm",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Eiserne Wildnis – Heart of the Beast",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Innsbruck",
-  "url": "https://www.uncut.at/movies/film.php?movie_id=24248",
-  "quelle": "UNCUT Kinoprogramm",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Emil und die Detektive",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Innsbruck",
-  "url": "https://www.uncut.at/movies/film.php?movie_id=24249",
-  "quelle": "UNCUT Kinoprogramm",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Frühstück bei Audrey",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/fruehstueck-bei-audrey",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Gabriel Castaneda in Rum",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Veranstaltungszentrum FoRum, Rum",
-  "url": "https://www.meinbezirk.at/event/innsbruck/c-konzert-buehne-kino/gabriel-castaneda-in-rum_e3937339",
-  "quelle": "meinbezirk",
-  "kategorie": "mix",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Gentle Monster",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/gentle-monster",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Insidious: Out of the Further",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/insidious-out-of-the-further",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Marsupilami",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/marsupilami",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Minions und Monster",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/minions-und-monster",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Mit Ästen bis zum Himmel",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Innsbruck",
-  "url": "https://www.uncut.at/movies/film.php?movie_id=23257",
-  "quelle": "UNCUT Kinoprogramm",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Mutiny",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/mutiny",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Oh la la 2",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/oh-la-la-2",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "One Night Only",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/one-night-only",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Paw Patrol: Der Dino Film",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/paw-patrol-der-dino-film",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "People & Culture - HR-Forum Tirol 2026",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "",
-  "url": "https://www.standort-tirol.at/people--culture---hr-forum-tirol-2026-18september2026",
-  "quelle": "Standortagentur Tirol",
-  "kategorie": "sport",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Pressure",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/pressure",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Primetime",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Innsbruck",
-  "url": "https://www.uncut.at/movies/film.php?movie_id=24088",
-  "quelle": "UNCUT Kinoprogramm",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Resident Evil",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/resident-evil",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Runner",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/runner",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Sonderausstellung \"Andrea Lüth. Kommt da noch was?\"",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Innsbruck-Land",
-  "url": "https://events.tt.com/veranstaltung/40669/sonderausstellung-andrea-l-c-bcth-kommt-da-noch-was-",
-  "quelle": "TT Events Innsbruck-Land",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Sonderausstellung »Art Box feat. Fluoro Fleece Kunstkollektiv«",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Innsbruck-Land",
-  "url": "https://events.tt.com/veranstaltung/39510/sonderausstellung-c-bbart-box-feat-fluoro-fleece-kunstkollektiv-c-ab-",
-  "quelle": "TT Events Innsbruck-Land",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Sonderausstellung »Max Weiler und die Sammlerin«",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Innsbruck-Land",
-  "url": "https://events.tt.com/veranstaltung/41029/sonderausstellung-c-bbmax-weiler-und-die-sammlerin-c-ab",
-  "quelle": "TT Events Innsbruck-Land",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Spa Weekend",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Innsbruck",
-  "url": "https://www.uncut.at/movies/film.php?movie_id=23361",
-  "quelle": "UNCUT Kinoprogramm",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Spider-Man: Brand New Day",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/spider-man-brand-new-day",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Steckerlfischfiasko",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/steckerlfischfiasko",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Thomas Schütte – Haus T",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Innsbruck-Land",
-  "url": "https://events.tt.com/veranstaltung/40674/thomas-sch-c-bctte-e---haus-t",
-  "quelle": "TT Events Innsbruck-Land",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Toy Story 5",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/toy-story-5",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Vaiana",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/vaiana",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Wirtshausgeschichte über die Jahrhunderte – Stadtführung Hall",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Innsbruck-Land",
-  "url": "https://events.tt.com/veranstaltung/39516/wirtshausgeschichte-c-bcber-die-jahrhunderte-stadtf-c-bchrung-hall",
-  "quelle": "TT Events Innsbruck-Land",
-  "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "Zauberhafte Schwestern 2",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Metropol Kino, Innsbruck",
-  "url": "https://www.metropol-kino.at/film/metropol/zauberhafte-schwestern-2",
-  "quelle": "Metropol Kino",
-  "kategorie": "kino",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
-  "titel": "„geschenkt, gekauft, geliehen – Ein Blick in unsere Sammlung“",
-  "datum": "2026-09-18",
-  "bis": "",
-  "zeit": "",
-  "ort": "Innsbruck-Land",
-  "url": "https://events.tt.com/veranstaltung/42013/-e--egeschenkt-gekauft-geliehen-e---ein-blick-in-unsere-sammlung-e--c",
-  "quelle": "TT Events Innsbruck-Land",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
  },
  {
   "titel": "Tiroler Silberpfad Trophy 2026",
@@ -975,19 +104,6 @@
   "neu": false
  },
  {
-  "titel": "Kinderflohmarkt",
-  "datum": "2026-09-19",
-  "bis": "",
-  "zeit": "06:00",
-  "ort": "Tivoli Stadion Tirol",
-  "url": "https://www.olympiaworld.at/events-tickets/kinderflohmarkt/",
-  "quelle": "Olympiaworld",
-  "kategorie": "musik",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Markt am Tivoli Stadion Innsbruck",
   "datum": "2026-09-19",
   "bis": "",
@@ -1009,19 +125,6 @@
   "url": "https://www.meinbezirk.at/event/innsbruck/c-ausstellung/ausstellung-tanja-winkler_e3984494",
   "quelle": "meinbezirk",
   "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Innpromenade parkrun",
-  "datum": "2026-09-19",
-  "bis": "",
-  "zeit": "08:45",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbruck.info/events/e/122232321.html",
-  "quelle": "Innsbruck Tourismus",
-  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -1057,10 +160,10 @@
   "datum": "2026-09-19",
   "bis": "",
   "zeit": "09:00",
-  "ort": "Telfs",
-  "url": "https://www.innsbruck.info/events/e/122253426.html",
-  "quelle": "Innsbruck Tourismus",
-  "kategorie": "mix",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbrucktermine.at/veranstaltungen/in-telfs-lafts?date=1789801200",
+  "quelle": "Innsbruck Termine",
+  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -1102,7 +205,7 @@
   "kategorie": "sport",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Ausstellung: \"Erinnerungen\" Jakob Anton Bucher",
@@ -1115,7 +218,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Girls Flow Bike Camp Innsbruck",
@@ -1128,7 +231,7 @@
   "kategorie": "sport",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Nordkette Vertical Run",
@@ -1136,51 +239,38 @@
   "bis": "",
   "zeit": "10:00",
   "ort": "Innsbruck",
-  "url": "https://www.innsbruck.info/events/e/122167163.html",
-  "quelle": "Innsbruck Tourismus",
+  "url": "https://www.innsbrucktermine.at/veranstaltungen/nordkette-vertical-run?date=1789804800",
+  "quelle": "Innsbruck Termine",
   "kategorie": "sport",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
  },
  {
-  "titel": "Stadtspaziergang",
-  "datum": "2026-09-19",
-  "bis": "",
-  "zeit": "10:00",
-  "ort": "Tiroler Landesmuseen, Innsbruck",
-  "url": "https://www.tiroler-landesmuseen.at/terminart/fuehrung/",
-  "quelle": "Tiroler Landesmuseen",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "FÜHRUNG DURCH DIE AUSSTELLUNG \"RLB KUNSTPREIS 2026\"",
+  "titel": "Führung durch die Ausstellung \"RLB Kunstpreis 2026\"",
   "datum": "2026-09-19",
   "bis": "",
   "zeit": "10:30",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbruck.info/events/e/122278446.html",
-  "quelle": "Innsbruck Tourismus",
+  "ort": "Kunstbrücke, Innsbruck",
+  "url": "https://www.meinbezirk.at/event/innsbruck/c-ausstellung/fuehrung-durch-die-ausstellung-rlb-kunstpreis-2026_e3974007",
+  "quelle": "meinbezirk",
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
  },
  {
-  "titel": "KLANGSPUREN - STADT.KLANG.SPUREN",
+  "titel": "Druckgrafik aus Polen-Agnieszka Lech-Binczycka, Pawel Binczycki,...",
   "datum": "2026-09-19",
   "bis": "",
   "zeit": "11:00",
   "ort": "Innsbruck",
-  "url": "https://www.innsbruck.info/events/e/122274537.html",
+  "url": "https://www.innsbruck.info/events/e/122283913.html",
   "quelle": "Innsbruck Tourismus",
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": false
+  "neu": true
  },
  {
   "titel": "Kraut & Knolle geht in die zweite Runde",
@@ -1200,23 +290,10 @@
   "datum": "2026-09-19",
   "bis": "",
   "zeit": "11:00",
-  "ort": "aut. architektur und tirol, Innsbruck",
-  "url": "https://www.meinbezirk.at/event/innsbruck/c-ausstellung/rebuild-figures-of-space-64-haeuser-im-modell_e3950549",
-  "quelle": "meinbezirk",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Almabtrieb in Patsch",
-  "datum": "2026-09-19",
-  "bis": "",
-  "zeit": "12:00",
-  "ort": "Patsch",
-  "url": "https://www.innsbruck.info/events/e/122286261.html",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122260168.html",
   "quelle": "Innsbruck Tourismus",
-  "kategorie": "brauchtum",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -1239,13 +316,26 @@
   "datum": "2026-09-19",
   "bis": "",
   "zeit": "12:30",
-  "ort": "Mutters",
-  "url": "https://www.innsbruck.info/events/e/122220072.html",
-  "quelle": "Innsbruck Tourismus",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbrucktermine.at/veranstaltungen/almabtrieb-mutters-1?date=1789813800",
+  "quelle": "Innsbruck Termine",
   "kategorie": "brauchtum",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "Riding Architecture",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "13:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122253655.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "Jenischer Kulturtag 2026",
@@ -1255,6 +345,19 @@
   "ort": "Die Bäckerei, Innsbruck",
   "url": "https://diebaeckerei.at/programm/2026/2026-09-19-jenischer-kulturtag-2026",
   "quelle": "Die Bäckerei",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "[Literarische Ortserkundung] Stadtbäume",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "15:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/09/literarische-ortserkundung-stadtbaeume-a-1/",
+  "quelle": "Universität Innsbruck",
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
@@ -1336,7 +439,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "HC TIWAG Innsbruck - Vienna Capitals",
@@ -1404,6 +507,32 @@
   "neu": false
  },
  {
+  "titel": "Nina Hartmann: Good Weibrations",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "20:00",
+  "ort": "Telfs",
+  "url": "https://www.freizeit-tirol.at/freizeit-events/kultur/kabarett-theater/event/nina-hartmann-good-weibrations/",
+  "quelle": "Freizeit Tirol",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Tiroler Abend mit der Familie Gundolf",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "20:30",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122221069.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "brauchtum",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "DIE GOLDENE SCHINDEL OPENING w/ FLORENCE ARMAN & BAND",
   "datum": "2026-09-19",
   "bis": "",
@@ -1417,17 +546,17 @@
   "neu": false
  },
  {
-  "titel": "Früher war alles besser - Disco Party",
+  "titel": "Früher war alles besser - Die Disco Party",
   "datum": "2026-09-19",
   "bis": "",
   "zeit": "21:00",
   "ort": "Innsbruck",
-  "url": "https://www.eventfinder.at/veranstaltung/1553665/frueher-war-alles-besser-in-goetzens-am-2026-09-19-um-21-00-uhr/",
-  "quelle": "eventfinder",
+  "url": "https://www.innsbrucktermine.at/veranstaltungen/fruher-war-alles-besser-die-disco-party?date=1789844400",
+  "quelle": "Innsbruck Termine",
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": false
+  "neu": true
  },
  {
   "titel": "KLANGSPUREN - CONCERT IN THE DARK",
@@ -1456,6 +585,279 @@
   "neu": false
  },
  {
+  "titel": "\"Der Stein, der brennt und heilt\" Ölschieferbergbau im Karwendel",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Innsbruck-Land",
+  "url": "https://events.tt.com/veranstaltung/40695/-der-stein-der-brennt-und-heilt-c-lschieferbergbau-im-karwendel",
+  "quelle": "TT Events Innsbruck-Land",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "25 Jahre Shrek",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Metropol Kino, Innsbruck",
+  "url": "https://www.metropol-kino.at/film/metropol/25-jahre-shrek",
+  "quelle": "Metropol Kino",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Adams Acht",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Cinematograph",
+  "url": "https://www.uncut.at/movies/film.php?movie_id=23998",
+  "quelle": "UNCUT Kinoprogramm",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Arnie und Barney - Retten das Wasser",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Metropol Kino, Innsbruck",
+  "url": "https://www.metropol-kino.at/film/metropol/arnie-und-barney",
+  "quelle": "Metropol Kino",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Ausstellung – Mixed Material Arts, Sarah Berndlbauer",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Innsbruck-Land",
+  "url": "https://events.tt.com/veranstaltung/41101/ausstellung-mixed-material-arts-sarah-berndlbauer",
+  "quelle": "TT Events Innsbruck-Land",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Bibi Blocksberg - Die total verhexte Zeitreise",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Innsbruck",
+  "url": "https://www.uncut.at/movies/film.php?movie_id=24261",
+  "quelle": "UNCUT Kinoprogramm",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Coyote vs. ACME",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Metropol Kino, Innsbruck",
+  "url": "https://www.metropol-kino.at/film/metropol/coyote-vs-acme",
+  "quelle": "Metropol Kino",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Das gewisse Etwas",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Metropol Kino, Innsbruck",
+  "url": "https://www.metropol-kino.at/film/metropol/das-gewisse-etwas",
+  "quelle": "Metropol Kino",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "David",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Metropol Kino, Innsbruck",
+  "url": "https://www.metropol-kino.at/film/metropol/david",
+  "quelle": "Metropol Kino",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Denkmal für Schnee – Esther Strauß | RLB Kunstpreis",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Innsbruck-Land",
+  "url": "https://events.tt.com/veranstaltung/41510/denkmal-f-c-bcr-schnee-e---esther-strau-c-f-c-rlb-kunstpreis",
+  "quelle": "TT Events Innsbruck-Land",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Die noch unbekannten Tage",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Innsbruck",
+  "url": "https://www.uncut.at/movies/film.php?movie_id=23251",
+  "quelle": "UNCUT Kinoprogramm",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Die Odyssee",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Metropol Kino, Innsbruck",
+  "url": "https://www.metropol-kino.at/film/metropol/die-odyssee",
+  "quelle": "Metropol Kino",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Digger",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Metropol Kino, Innsbruck",
+  "url": "https://www.metropol-kino.at/film/metropol/digger",
+  "quelle": "Metropol Kino",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Disney Channel Mitmachkino September 2026",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Metropol Kino, Innsbruck",
+  "url": "https://www.metropol-kino.at/film/metropol/disney-channel-mitmachkino-september-2026",
+  "quelle": "Metropol Kino",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Ecce Homo - Der verlorene Caravaggio",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Innsbruck",
+  "url": "https://www.uncut.at/movies/film.php?movie_id=23980",
+  "quelle": "UNCUT Kinoprogramm",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Eiserne Wildnis – Heart of the Beast",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Innsbruck",
+  "url": "https://www.uncut.at/movies/film.php?movie_id=24248",
+  "quelle": "UNCUT Kinoprogramm",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Emil und die Detektive",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Innsbruck",
+  "url": "https://www.uncut.at/movies/film.php?movie_id=24249",
+  "quelle": "UNCUT Kinoprogramm",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "GEBURTSTAGSGALA (MET 2026-27)",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Metropol Kino, Innsbruck",
+  "url": "https://www.metropol-kino.at/film/metropol/geburtstagsgala",
+  "quelle": "Metropol Kino",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Gentle Monster",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Metropol Kino, Innsbruck",
+  "url": "https://www.metropol-kino.at/film/metropol/gentle-monster",
+  "quelle": "Metropol Kino",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Hall mit allen Sinnen – Stadtführung Hall in Tirol",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Innsbruck-Land",
+  "url": "https://events.tt.com/veranstaltung/39513/hall-mit-allen-sinnen-stadtf-c-bchrung-hall-in-tirol-ed-fa-ba",
+  "quelle": "TT Events Innsbruck-Land",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Haller Vintage- und Upcycling-Markt am Marktanger",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Innsbruck-Land",
+  "url": "https://events.tt.com/veranstaltung/38956/haller-vintage-und-upcycling-markt-ddc--",
+  "quelle": "TT Events Innsbruck-Land",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "IKB Nightrun Innsbruck",
   "datum": "2026-09-19",
   "bis": "",
@@ -1482,6 +884,305 @@
   "neu": false
  },
  {
+  "titel": "Insidious: Out of the Further",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Metropol Kino, Innsbruck",
+  "url": "https://www.metropol-kino.at/film/metropol/insidious-out-of-the-further",
+  "quelle": "Metropol Kino",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Marsupilami",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Metropol Kino, Innsbruck",
+  "url": "https://www.metropol-kino.at/film/metropol/marsupilami",
+  "quelle": "Metropol Kino",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Minions und Monster",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Metropol Kino, Innsbruck",
+  "url": "https://www.metropol-kino.at/film/metropol/minions-und-monster",
+  "quelle": "Metropol Kino",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Mit Ästen bis zum Himmel",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Innsbruck",
+  "url": "https://www.uncut.at/movies/film.php?movie_id=23257",
+  "quelle": "UNCUT Kinoprogramm",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Mutiny",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Metropol Kino, Innsbruck",
+  "url": "https://www.metropol-kino.at/film/metropol/mutiny",
+  "quelle": "Metropol Kino",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Oh la la 2",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Metropol Kino, Innsbruck",
+  "url": "https://www.metropol-kino.at/film/metropol/oh-la-la-2",
+  "quelle": "Metropol Kino",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "One Night Only",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Metropol Kino, Innsbruck",
+  "url": "https://www.metropol-kino.at/film/metropol/one-night-only",
+  "quelle": "Metropol Kino",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Paw Patrol: Der Dino Film",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Metropol Kino, Innsbruck",
+  "url": "https://www.metropol-kino.at/film/metropol/paw-patrol-der-dino-film",
+  "quelle": "Metropol Kino",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Pressure",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Metropol Kino, Innsbruck",
+  "url": "https://www.metropol-kino.at/film/metropol/pressure",
+  "quelle": "Metropol Kino",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Primetime",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Innsbruck",
+  "url": "https://www.uncut.at/movies/film.php?movie_id=24088",
+  "quelle": "UNCUT Kinoprogramm",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Resident Evil",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Metropol Kino, Innsbruck",
+  "url": "https://www.metropol-kino.at/film/metropol/resident-evil",
+  "quelle": "Metropol Kino",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Runner",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Metropol Kino, Innsbruck",
+  "url": "https://www.metropol-kino.at/film/metropol/runner",
+  "quelle": "Metropol Kino",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Shaun das Schaf – Spuk im Kürbisfeld",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Metropol Kino, Innsbruck",
+  "url": "https://www.metropol-kino.at/film/metropol/shaun-das-schaf",
+  "quelle": "Metropol Kino",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Sonderausstellung \"Andrea Lüth. Kommt da noch was?\"",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Innsbruck-Land",
+  "url": "https://events.tt.com/veranstaltung/40669/sonderausstellung-andrea-l-c-bcth-kommt-da-noch-was-",
+  "quelle": "TT Events Innsbruck-Land",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Sonderausstellung »Art Box feat. Fluoro Fleece Kunstkollektiv«",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Innsbruck-Land",
+  "url": "https://events.tt.com/veranstaltung/39510/sonderausstellung-c-bbart-box-feat-fluoro-fleece-kunstkollektiv-c-ab-",
+  "quelle": "TT Events Innsbruck-Land",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Spa Weekend",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Metropol Kino, Innsbruck",
+  "url": "https://www.metropol-kino.at/film/metropol/spa-weekend",
+  "quelle": "Metropol Kino",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Spider-Man: Brand New Day",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Metropol Kino, Innsbruck",
+  "url": "https://www.metropol-kino.at/film/metropol/spider-man-brand-new-day",
+  "quelle": "Metropol Kino",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Stadtschützenkompanie Major Josef Ignaz Straub, Hall in Tirol",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Innsbruck-Land",
+  "url": "https://events.tt.com/veranstaltung/42819/stadtsch-c-bctzenkompanie-major-josef-ignaz-straub-hall-in-tirol",
+  "quelle": "TT Events Innsbruck-Land",
+  "kategorie": "brauchtum",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Steckerlfischfiasko",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Metropol Kino, Innsbruck",
+  "url": "https://www.metropol-kino.at/film/metropol/steckerlfischfiasko",
+  "quelle": "Metropol Kino",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Tag der offenen Tür anlässlich 10 Jahre Arche Herzensbrücken",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Innsbruck-Land",
+  "url": "https://events.tt.com/veranstaltung/41996/tag-der-offenen-t-c-bcr-anl-c-asslich--jahre-arche-herzensbr-c-bccken",
+  "quelle": "TT Events Innsbruck-Land",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Toy Story 5",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Metropol Kino, Innsbruck",
+  "url": "https://www.metropol-kino.at/film/metropol/toy-story-5",
+  "quelle": "Metropol Kino",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Vaiana",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Metropol Kino, Innsbruck",
+  "url": "https://www.metropol-kino.at/film/metropol/vaiana",
+  "quelle": "Metropol Kino",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Verity - Dunkle Geheimnisse",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Metropol Kino, Innsbruck",
+  "url": "https://www.metropol-kino.at/film/metropol/verity",
+  "quelle": "Metropol Kino",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Westcup Bergstation Telfs",
   "datum": "2026-09-19",
   "bis": "",
@@ -1493,6 +1194,32 @@
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "Zauberhafte Schwestern 2",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Metropol Kino, Innsbruck",
+  "url": "https://www.metropol-kino.at/film/metropol/zauberhafte-schwestern-2",
+  "quelle": "Metropol Kino",
+  "kategorie": "kino",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "„geschenkt, gekauft, geliehen – Ein Blick in unsere Sammlung“",
+  "datum": "2026-09-19",
+  "bis": "",
+  "zeit": "",
+  "ort": "Innsbruck-Land",
+  "url": "https://events.tt.com/veranstaltung/42013/-e--egeschenkt-gekauft-geliehen-e---ein-blick-in-unsere-sammlung-e--c",
+  "quelle": "TT Events Innsbruck-Land",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "Flohmarkt beim Greif Center",
@@ -1544,7 +1271,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Lamberti Prozession in Lans",
@@ -1570,7 +1297,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "„Orange the Stuben“ macht Gewalt sichtbar",
@@ -1581,6 +1308,19 @@
   "url": "https://www.meinbezirk.at/event/innsbruck/c-ausstellung/orange-the-stuben-macht-gewalt-sichtbar_e3995556",
   "quelle": "meinbezirk",
   "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "EXPERIENCE TIROL",
+  "datum": "2026-09-20",
+  "bis": "",
+  "zeit": "10:00",
+  "ort": "Experience Tirol, Innsbruck",
+  "url": "https://www.meinbezirk.at/event/innsbruck/c-konzert-buehne-kino/experience-tirol_e1434668",
+  "quelle": "meinbezirk",
+  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": true
@@ -1610,6 +1350,19 @@
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "Girls Flow Bike Camp Innsbruck",
+  "datum": "2026-09-20",
+  "bis": "",
+  "zeit": "10:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbrucktermine.at/veranstaltungen/girls-flow-bike-camp-innsbruck?date=1789891200",
+  "quelle": "Innsbruck Termine",
+  "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "122 Jahre Feuerwehr Vill",
@@ -1664,6 +1417,19 @@
   "neu": false
  },
  {
+  "titel": "Kraut & Knolle geht in die zweite Runde",
+  "datum": "2026-09-20",
+  "bis": "",
+  "zeit": "11:00",
+  "ort": "Marktplatz, Innsbruck",
+  "url": "https://www.meinbezirk.at/event/innsbruck/c-markt-basar/kraut-and-knolle-geht-in-die-zweite-runde_e3989783",
+  "quelle": "meinbezirk",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Platzkonzert Musikkapelle Silz",
   "datum": "2026-09-20",
   "bis": "",
@@ -1672,19 +1438,6 @@
   "url": "https://www.innsbruck.info/events/e/122253422.html",
   "quelle": "Innsbruck Tourismus",
   "kategorie": "brauchtum",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "TATÄÄ!: Der Pilot Herr Fridolin",
-  "datum": "2026-09-20",
-  "bis": "",
-  "zeit": "11:15",
-  "ort": "Kammerspiele, Innsbruck",
-  "url": "https://www.landestheater.at/produktionen/tataeae",
-  "quelle": "Tiroler Landestheater",
-  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -1747,6 +1500,19 @@
   "bis": "",
   "zeit": "12:00",
   "ort": "Großes Haus, Innsbruck",
+  "url": "https://www.landestheater.at/produktionen/tataeae",
+  "quelle": "Tiroler Landestheater",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "TATÄÄ!: Der Pilot Herr Fridolin",
+  "datum": "2026-09-20",
+  "bis": "",
+  "zeit": "12:15",
+  "ort": "Kammerspiele, Innsbruck",
   "url": "https://www.landestheater.at/produktionen/tataeae",
   "quelle": "Tiroler Landestheater",
   "kategorie": "kultur",
@@ -1859,19 +1625,6 @@
   "neu": false
  },
  {
-  "titel": "TATÄÄ!: Eine Minute Optimismut",
-  "datum": "2026-09-20",
-  "bis": "",
-  "zeit": "13:15",
-  "ort": "Kammerspiele, Innsbruck",
-  "url": "https://www.landestheater.at/produktionen/tataeae",
-  "quelle": "Tiroler Landestheater",
-  "kategorie": "kultur",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "TATÄÄ!: „Bühne zum Mitmachen!“ für Kinder & Eltern – Workshop",
   "datum": "2026-09-20",
   "bis": "",
@@ -1890,6 +1643,45 @@
   "bis": "",
   "zeit": "13:45",
   "ort": "Haus der Musik Innsbruck, Großer Saal",
+  "url": "https://www.landestheater.at/produktionen/tataeae",
+  "quelle": "Tiroler Landestheater",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Büchereiflohmarkt mit Spieletauschbörse, Lesungen, Gewinnspiele etc",
+  "datum": "2026-09-20",
+  "bis": "",
+  "zeit": "14:00",
+  "ort": "🏡 Stams | Volksschule Stams",
+  "url": "https://wasmachma.at/event/6422-stams/buechereiflohmarkt-mit-spieletauschboerse-lesungen-gewinnspiele-etc-7197130",
+  "quelle": "wasmachma",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Großer Bücherei-Flohmarkt",
+  "datum": "2026-09-20",
+  "bis": "",
+  "zeit": "14:00",
+  "ort": "🏡 Stams | Volksschule Stams",
+  "url": "https://wasmachma.at/event/6422-stams/grosser-buecherei-flohmarkt-9169778",
+  "quelle": "wasmachma",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "TATÄÄ!: Eine Minute Optimismut",
+  "datum": "2026-09-20",
+  "bis": "",
+  "zeit": "14:15",
+  "ort": "Kammerspiele, Innsbruck",
   "url": "https://www.landestheater.at/produktionen/tataeae",
   "quelle": "Tiroler Landestheater",
   "kategorie": "kultur",
@@ -1935,6 +1727,19 @@
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "THREADS – Formen des Verbundenseins",
+  "datum": "2026-09-20",
+  "bis": "",
+  "zeit": "16:00",
+  "ort": "Kirchgasse 17, Innsbruck",
+  "url": "https://www.meinbezirk.at/event/innsbruck/c-ausstellung/threads-formen-des-verbundenseins_e3950825",
+  "quelle": "meinbezirk",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "The Power and the Glory - Konzert des Kirchenchor Kematen",
@@ -1989,19 +1794,6 @@
   "neu": false
  },
  {
-  "titel": "Agglspitze - ABGESAGT",
-  "datum": "2026-09-20",
-  "bis": "",
-  "zeit": "",
-  "ort": "Innsbruck",
-  "url": "https://www.alpenverein.at/innsbruck/termine/index_detail.php?veranstaltungID=867e662c-a3fd-4a09-abcb-ed3b1f4350f3",
-  "quelle": "Alpenverein Innsbruck",
-  "kategorie": "sport",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": true
- },
- {
   "titel": "FAFGA'26 - Fachmesse für Gastronomie, Hotel und Design",
   "datum": "2026-09-20",
   "bis": "2026-09-22",
@@ -2022,6 +1814,32 @@
   "ort": "Innsbruck",
   "url": "https://www.startup.tirol/event/kidu-x-fafga-ki-buildathon/",
   "quelle": "Startup.Tirol",
+  "kategorie": "kurse",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Ausstellung - Tanja Winkler",
+  "datum": "2026-09-21",
+  "bis": "",
+  "zeit": "08:00",
+  "ort": "Frauen-Kopf-Klinik, Gebäude im LKH Innsbruck, Innsbruck",
+  "url": "https://www.meinbezirk.at/event/innsbruck/c-ausstellung/ausstellung-tanja-winkler_e3984494",
+  "quelle": "meinbezirk",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Library and Information Studies",
+  "datum": "2026-09-21",
+  "bis": "",
+  "zeit": "08:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/09/library-and-information-studies/",
+  "quelle": "Universität Innsbruck",
   "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": false,
@@ -2054,6 +1872,19 @@
   "neu": false
  },
  {
+  "titel": "Das Blut der Medusa - Die Korallen von Schloss Ambras",
+  "datum": "2026-09-21",
+  "bis": "",
+  "zeit": "09:00",
+  "ort": "Schloss Ambras Innsbruck, Innsbruck",
+  "url": "https://www.meinbezirk.at/event/innsbruck/c-ausstellung/das-blut-der-medusa-die-korallen-von-schloss-ambras_e3964113",
+  "quelle": "meinbezirk",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Dream4Utopia - Youth exchange",
   "datum": "2026-09-21",
   "bis": "",
@@ -2062,6 +1893,58 @@
   "url": "https://diebaeckerei.at/programm/2026/2026-09-21-dream4utopia-youth-exchange",
   "quelle": "Die Bäckerei",
   "kategorie": "kurse",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "EXPERIENCE TIROL",
+  "datum": "2026-09-21",
+  "bis": "",
+  "zeit": "09:00",
+  "ort": "Experience Tirol, Innsbruck",
+  "url": "https://www.meinbezirk.at/event/innsbruck/c-konzert-buehne-kino/experience-tirol_e1434668",
+  "quelle": "meinbezirk",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Weltentfaltung. Zeichnungen des Tiroler Barock",
+  "datum": "2026-09-21",
+  "bis": "",
+  "zeit": "09:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122230959.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "„Orange the Stuben“ macht Gewalt sichtbar",
+  "datum": "2026-09-21",
+  "bis": "",
+  "zeit": "09:00",
+  "ort": "Tiroler Volkskunstmuseum, Innsbruck",
+  "url": "https://www.meinbezirk.at/event/innsbruck/c-ausstellung/orange-the-stuben-macht-gewalt-sichtbar_e3995556",
+  "quelle": "meinbezirk",
+  "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Informiert ins Studium – für alle Erstsemestrigen",
+  "datum": "2026-09-21",
+  "bis": "",
+  "zeit": "10:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/09/informiert-ins-studium/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -2090,7 +1973,20 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
+ },
+ {
+  "titel": "Inequality by Default: Care Work and Academia",
+  "datum": "2026-09-21",
+  "bis": "",
+  "zeit": "14:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/09/inequality-by-default/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
  },
  {
   "titel": "Golfschnuppern im Golfpark Mieminger Plateau",
@@ -2184,6 +2080,32 @@
   "neu": false
  },
  {
+  "titel": "Tag der Mechatronik",
+  "datum": "2026-09-22",
+  "bis": "",
+  "zeit": "09:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/09/tag-der-mechatronik/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Informiert ins Studium – für alle Erstsemestrigen",
+  "datum": "2026-09-22",
+  "bis": "",
+  "zeit": "10:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/09/informiert-ins-studium-2/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Tiroler Tourismusgespräche",
   "datum": "2026-09-22",
   "bis": "",
@@ -2205,6 +2127,32 @@
   "url": "https://diebaeckerei.at/programm/2026/2026-09-22-tag-der-tiroler-film-und-musikwirtschaft",
   "quelle": "Die Bäckerei",
   "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Open Source - offene Meditation",
+  "datum": "2026-09-22",
+  "bis": "",
+  "zeit": "17:30",
+  "ort": "Die Bäckerei, Innsbruck",
+  "url": "https://diebaeckerei.at/programm/open-source-offene-meditation",
+  "quelle": "Die Bäckerei",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Women Printers, Their Knowledge and the Intricacies of the Book Business in Early Modern Europe: von Dr. Saskia Limbach (Universität Göttingen)",
+  "datum": "2026-09-22",
+  "bis": "",
+  "zeit": "18:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/09/women-printers-knowledge/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "sport",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -2233,6 +2181,45 @@
   "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": true,
+  "neu": false
+ },
+ {
+  "titel": "Healthy Minds im Dialog: Psychische Gesundheit rund um die Geburt",
+  "datum": "2026-09-23",
+  "bis": "2026-09-24",
+  "zeit": "08:30",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/09/healthy-minds-im-dialog/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "11. Tagung der Österreichischen Gesellschaft für Geschlechterforschung: \"Gender_Queer Worldings: Gewalt, Bündnisse, Zukunftsentwürfe\"",
+  "datum": "2026-09-23",
+  "bis": "2026-09-25",
+  "zeit": "09:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/09/tagung-geschlechterforschung/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Sensing Mountains: Innsbruck Summer School of Alpine Research",
+  "datum": "2026-09-23",
+  "bis": "2026-09-29",
+  "zeit": "09:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/09/sensing-mountains/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
   "neu": false
  },
  {
@@ -2272,7 +2259,33 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Guided tour (English) | The Spirit of Historical Tyrol",
+  "datum": "2026-09-23",
+  "bis": "",
+  "zeit": "16:00",
+  "ort": "Tiroler Landesmuseen, Innsbruck",
+  "url": "https://www.tiroler-landesmuseen.at/haus/volkskunstmuseum/",
+  "quelle": "Tiroler Landesmuseen",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
   "neu": true
+ },
+ {
+  "titel": "Deutsch als Fremdsprache/Deutsch als Zweitsprache",
+  "datum": "2026-09-23",
+  "bis": "2026-10-23",
+  "zeit": "17:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/09/deutsch-als-fremdsprache-deutsch-als-zweitsprache/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kurse",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
  },
  {
   "titel": "MUSIK.moment",
@@ -2283,6 +2296,19 @@
   "url": "https://www.innsbruck.info/events/e/122286257.html",
   "quelle": "Innsbruck Tourismus",
   "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Haupttagung der ÖGSD: Interaktion, Inklusion und Innovation im Sprachunterricht: Tag 1",
+  "datum": "2026-09-23",
+  "bis": "",
+  "zeit": "18:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/09/haupttagung-der-oegsd-2/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -2322,6 +2348,19 @@
   "url": "https://diebaeckerei.at/programm/eu-stammtisch",
   "quelle": "Die Bäckerei",
   "kategorie": "kurse",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Ilma Rakusa \"Wo bleibt das Licht\": Tagebuchprosa",
+  "datum": "2026-09-23",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/09/ilma-rakusa-wo-bleibt-das-licht/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -2402,7 +2441,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Geldgeschichten – Von Macht, Vertrauen und Wandel",
@@ -2428,7 +2467,33 @@
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
+ },
+ {
+  "titel": "Haupttagung der ÖGSD: Interaktion, Inklusion und Innovation im Sprachunterricht: Tag 2",
+  "datum": "2026-09-24",
+  "bis": "",
+  "zeit": "09:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/09/haupttagung-der-oegsd/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kurse",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "NeoLatina 2026: Alte, neue Autoritäten im Dienst der Selbstdarstellung neulateinischer Autor*innen",
+  "datum": "2026-09-24",
+  "bis": "2026-09-25",
+  "zeit": "09:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/09/neolatina/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
  },
  {
   "titel": "MITTAGS.impuls",
@@ -2441,7 +2506,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Staatspreis Design 2026 – Best of Austrian Design",
@@ -2470,6 +2535,32 @@
   "neu": false
  },
  {
+  "titel": "Führung (Deutsch) | Tirols größtes Gemälde",
+  "datum": "2026-09-24",
+  "bis": "",
+  "zeit": "15:00",
+  "ort": "Tiroler Landesmuseen, Innsbruck",
+  "url": "https://www.tiroler-landesmuseen.at/haus/tirol-panorama-mit-kaiserjaegermuseum/",
+  "quelle": "Tiroler Landesmuseen",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
+  "titel": "Guided Tour (English) | Tyrol’s largest painting",
+  "datum": "2026-09-24",
+  "bis": "",
+  "zeit": "16:00",
+  "ort": "Tiroler Landesmuseen, Innsbruck",
+  "url": "https://www.tiroler-landesmuseen.at/haus/tirol-panorama-mit-kaiserjaegermuseum/",
+  "quelle": "Tiroler Landesmuseen",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Abendfahrten mit der Patscherkofelbahn",
   "datum": "2026-09-24",
   "bis": "",
@@ -2491,6 +2582,19 @@
   "url": "https://www.meinbezirk.at/event/innsbruck/c-ball-fest/sommerabende-mit-live-musik-donnerstag-am-bozner-platz_e3964263",
   "quelle": "meinbezirk",
   "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "„Kunst in Kürze“",
+  "datum": "2026-09-24",
+  "bis": "",
+  "zeit": "17:00",
+  "ort": "Tiroler Landesmuseen, Innsbruck",
+  "url": "https://www.tiroler-landesmuseen.at/haus/museum-aguntum-archaeologischer-park/",
+  "quelle": "Tiroler Landesmuseen",
+  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": true
@@ -2545,7 +2649,7 @@
   "kategorie": "sport",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "führung durch die ausstellung \"rebuild: figures of space\" mit aperitif",
@@ -2597,7 +2701,7 @@
   "kategorie": "sport",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Lesecafé mit Nikolaus Kowall",
@@ -2686,6 +2790,19 @@
   "url": "https://www.uibk.ac.at/cmbi/meeting/",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Haupttagung der ÖGSD: Interaktion, Inklusion und Innovation im Sprachunterricht: Tag 3",
+  "datum": "2026-09-25",
+  "bis": "",
+  "zeit": "09:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/09/haupttagung-der-oegsd-3/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -2808,17 +2925,17 @@
   "neu": false
  },
  {
-  "titel": "Dick Brave - Back for More - Open Air Tour 2026",
+  "titel": "Dick Brave - Back for More Tour 2026 + Support: Lena Schaur",
   "datum": "2026-09-25",
   "bis": "",
   "zeit": "20:00",
   "ort": "Innsbruck",
-  "url": "https://www.eventfinder.at/veranstaltung/1527560/dick-brave-innsbruck/",
+  "url": "https://www.eventfinder.at/veranstaltung/1527560/dick-brave-in-innsbruck-am-2026-09-25-um-20-00-uhr/",
   "quelle": "eventfinder",
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": false
+  "neu": true
  },
  {
   "titel": "Zarah 47 - Das totale Lied",
@@ -2912,6 +3029,19 @@
   "neu": false
  },
  {
+  "titel": "\"Walk the Futures\" - Walkshop: Vier mögliche Klimazukünfte für Innsbruck",
+  "datum": "2026-09-26",
+  "bis": "",
+  "zeit": "08:30",
+  "ort": "",
+  "url": "https://www.meinbezirk.at/event/innsbruck/c-workshop-seminar-infoveranstaltung/walk-the-futures-walkshop-vier-moegliche-klimazukuenfte-fuer-innsbruck_e3995676",
+  "quelle": "meinbezirk",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "MONSTER CHETWYND",
   "datum": "2026-09-26",
   "bis": "",
@@ -2975,6 +3105,19 @@
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "Bella Italia - Fest am Boznerplatz - Kulinarik, mediterrane Stimmung und Dolce Vita.",
+  "datum": "2026-09-26",
+  "bis": "",
+  "zeit": "15:00",
+  "ort": "Innsbruck",
+  "url": "https://www.eventfinder.at/veranstaltung/1555198/bella-italia-fest-am-boznerplatz-in-innsbruck-am-2026-09-26-um-15-00-uhr/",
+  "quelle": "eventfinder",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "Mama braucht Musik feat. LENA SCHAUR & ...",
@@ -3130,7 +3273,7 @@
   "kategorie": "sport",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Queerfeministische Comedy • Comedykollektiv ...",
@@ -3250,6 +3393,32 @@
   "neu": false
  },
  {
+  "titel": "Archäologisches Universitätsmuseum beim Tag des Denkmals",
+  "datum": "2026-09-27",
+  "bis": "",
+  "zeit": "10:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/09/tag-des-denkmals/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Flohmarkt bei telfsPARK",
+  "datum": "2026-09-27",
+  "bis": "",
+  "zeit": "10:00",
+  "ort": "🏡 Telfs | Telfs, telfsPARK",
+  "url": "https://wasmachma.at/event/6410-telfs/flohmarkt-bei-telfspark-3244981",
+  "quelle": "wasmachma",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Mountain Echos am KOFEL",
   "datum": "2026-09-27",
   "bis": "",
@@ -3364,7 +3533,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Pubquiz Moustache",
@@ -3404,6 +3573,19 @@
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "Offenes Stimmtraining konkret",
+  "datum": "2026-09-28",
+  "bis": "",
+  "zeit": "17:00",
+  "ort": "Innsbruck",
+  "url": "https://www.innsbruck.info/events/e/122286291.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "kurse",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "MARKUS KOSCHUH: RETTE SICH WER KANN / KABARETT ZUM TOTLACHEN",
@@ -3484,6 +3666,45 @@
   "neu": false
  },
  {
+  "titel": "Infosession Studienstart",
+  "datum": "2026-09-29",
+  "bis": "",
+  "zeit": "10:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/09/infosession-studienstart-2/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Walk & Talk gegen Einsamkeit: Gemeinsam geht mehr",
+  "datum": "2026-09-29",
+  "bis": "",
+  "zeit": "15:30",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/09/walk-talk-gegen-einsamkeit/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Eröffnungsfeier \"CD-Labor für Maschineller Tunnelbau im Hartgestein 4.0\": Eröffnungsfeier \"CD- Labor für Maschineller Tunnelbau im Hartgestein 4.0\" & Abschluss BMIMI Stiftungsprofessur für TIM",
+  "datum": "2026-09-29",
+  "bis": "",
+  "zeit": "17:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/09/eroffnungsfeier-cd-labor-fur-maschineller-tunnelba/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "MARKUS KOSCHUH: RETTE SICH WER KANN / KABARETT ZUM TOTLACHEN",
   "datum": "2026-09-29",
   "bis": "",
@@ -3507,7 +3728,7 @@
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Pubquiz Brennpunkt",
@@ -3536,6 +3757,19 @@
   "neu": false
  },
  {
+  "titel": "Meet&Greet für alle BA-Studierenden der Philosophisch-Historischen Fakultät",
+  "datum": "2026-09-30",
+  "bis": "",
+  "zeit": "12:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/09/meet-greet-studierende/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Offene Werkstatt Töpferei Kathrein",
   "datum": "2026-09-30",
   "bis": "",
@@ -3549,6 +3783,19 @@
   "neu": false
  },
  {
+  "titel": "\"Umrechnungsparty\" für Fachstudierende Geschichte",
+  "datum": "2026-09-30",
+  "bis": "",
+  "zeit": "15:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/09/umrechnungsparty-geschichte/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Atelier 6020 minis. Auf Moos geht ́s los!",
   "datum": "2026-09-30",
   "bis": "",
@@ -3556,6 +3803,32 @@
   "ort": "Stadtbibliothek Innsbruck",
   "url": "https://www.termino.gv.at/meet/de/b/6a7ff263c9e3b8560c18c5a5bb0104d2-620594",
   "quelle": "Stadtbibliothek Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Student Welcome Day der Philologisch-Kulturwissenschaftlichen Fakultät",
+  "datum": "2026-09-30",
+  "bis": "",
+  "zeit": "15:30",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/09/student-welcome-day/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Wissen. Wirtschaft. Wirkung. Industrie und Forschung im Dialog: Materialien und Prozesse",
+  "datum": "2026-09-30",
+  "bis": "",
+  "zeit": "16:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/09/wissen-wirtschaft-wirkung-industrie-forschung-dialog/",
+  "quelle": "Universität Innsbruck",
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
@@ -3718,6 +3991,32 @@
   "neu": false
  },
  {
+  "titel": "Bibliographie(n) - Praxeologie, Paratextualität, Inszenierung: Jahrestagung 2026 der Internationalen Buchwissenschaftlichen Gesellschaft (IBG)",
+  "datum": "2026-10-01",
+  "bis": "2026-10-02",
+  "zeit": "09:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/bibliographien-praxeologie/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Universitätsstudiengang Zertifizierte Kanzleiassistenz",
+  "datum": "2026-10-01",
+  "bis": "2027-07-02",
+  "zeit": "09:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/universitaetsstudiengang-kanzleiassistenz/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kurse",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Offene Werkstatt Töpferei Kathrein",
   "datum": "2026-10-01",
   "bis": "",
@@ -3778,6 +4077,19 @@
   "url": "https://www.patscherkofelbahn.at/events/",
   "quelle": "Patscherkofelbahn",
   "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Auf Buchfühlung mit...: Barbara Marković & Tanja Šljivar",
+  "datum": "2026-10-01",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/auf-buchfuehlung-mit/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -3874,6 +4186,19 @@
   "neu": false
  },
  {
+  "titel": "Wir sind Teil der Tage der Klimakultur",
+  "datum": "2026-10-01",
+  "bis": "2026-10-31",
+  "zeit": "",
+  "ort": "BRUX / Freies Theater Innsbruck und in ganz Tirol mit verschiedenen Veranstaltungen",
+  "url": "https://vorbrenner.at/programm/tag-der-klimakultur",
+  "quelle": "Vorbrenner",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "ÖQUASTA Symposium 2026",
   "datum": "2026-10-01",
   "bis": "2026-10-02",
@@ -3881,6 +4206,19 @@
   "ort": "Congresspark Igls",
   "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
+  "kategorie": "kurse",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "uWIN How to Prototype Fast",
+  "datum": "2026-10-02",
+  "bis": "2026-10-03",
+  "zeit": "08:30",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/uwin-how-to-prototype-fast/",
+  "quelle": "Universität Innsbruck",
   "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": false,
@@ -3897,6 +4235,19 @@
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": true,
+  "neu": false
+ },
+ {
+  "titel": "Dies Academicus",
+  "datum": "2026-10-02",
+  "bis": "",
+  "zeit": "10:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/dies-academicus/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
   "neu": false
  },
  {
@@ -3921,6 +4272,19 @@
   "url": "https://www.innsbruck.info/events/e/122268336.html",
   "quelle": "Innsbruck Tourismus",
   "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "uWIN Sprechen ohne Worte: Nonverbale Kommunikation und Emotionsmanagement",
+  "datum": "2026-10-02",
+  "bis": "2026-10-03",
+  "zeit": "13:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/uwin-sprechen-ohne-worte/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -3952,6 +4316,19 @@
   "neu": false
  },
  {
+  "titel": "Die Rolle von Vertrauen und Kooperation für den Erfolg von Menschen & Organisationen",
+  "datum": "2026-10-02",
+  "bis": "",
+  "zeit": "14:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/vertrauen-kooperation-erfolg/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Shopping Night Oktober",
   "datum": "2026-10-02",
   "bis": "",
@@ -3963,6 +4340,19 @@
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "Hofkirchenkonzerte der Wiltener Sängerknaben",
+  "datum": "2026-10-02",
+  "bis": "",
+  "zeit": "18:30",
+  "ort": "Innsbruck",
+  "url": "https://www.eventfinder.at/veranstaltung/1549611/hofkirchenkonzerte-der-wiltener-saengerknaben-innsbruck/",
+  "quelle": "eventfinder",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "Anneleen Lenaerts | Quatuor Van Kuijk",
@@ -4069,19 +4459,6 @@
   "neu": false
  },
  {
-  "titel": "How to Prototype Fast",
-  "datum": "2026-10-02",
-  "bis": "2026-10-03",
-  "zeit": "",
-  "ort": "Innsbruck",
-  "url": "https://www.startup.tirol/event/how-to-prototype-fast/",
-  "quelle": "Startup.Tirol",
-  "kategorie": "kurse",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Markt am Tivoli Stadion Innsbruck",
   "datum": "2026-10-03",
   "bis": "",
@@ -4155,6 +4532,19 @@
   "url": "https://www.flohmarkt.at/flohmaerkte/tirol/veranstaltung/331441",
   "quelle": "flohmarkt.at",
   "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Lange Nacht der Museen 2026 im Archäologischen Universitätsmuseum",
+  "datum": "2026-10-03",
+  "bis": "2026-10-04",
+  "zeit": "18:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/lange-nacht-der-museen-2026/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -4316,6 +4706,19 @@
   "neu": false
  },
  {
+  "titel": "Flohmarkt bei telfsPARK",
+  "datum": "2026-10-04",
+  "bis": "",
+  "zeit": "10:00",
+  "ort": "🏡 Telfs | Telfs, telfsPARK",
+  "url": "https://wasmachma.at/event/6410-telfs/flohmarkt-bei-telfspark-3244981",
+  "quelle": "wasmachma",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Oktoberfest",
   "datum": "2026-10-04",
   "bis": "",
@@ -4407,6 +4810,19 @@
   "neu": false
  },
  {
+  "titel": "Herbert-Tichy-Dokumentation – Vorpremiere zugunsten der Nepalhilfe Tirol",
+  "datum": "2026-10-04",
+  "bis": "",
+  "zeit": "17:30",
+  "ort": "",
+  "url": "https://www.meinbezirk.at/event/innsbruck/c-konzert-buehne-kino/herbert-tichy-dokumentation-vorpremiere-zugunsten-der-nepalhilfe-tirol_e3995715",
+  "quelle": "meinbezirk",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "SEVERIN GRÖBNER: ICH BIN DAS VOLK // KABARETT / KABARETT-PREMiERENTAGE",
   "datum": "2026-10-04",
   "bis": "",
@@ -4431,6 +4847,19 @@
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "Codeborn",
+  "datum": "2026-10-04",
+  "bis": "",
+  "zeit": "19:30",
+  "ort": "Haus der Musik, Innsbruck",
+  "url": "https://www.haus-der-musik-innsbruck.at/veranstaltung/codeborn-04-10-26/",
+  "quelle": "Haus der Musik",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "Pubquiz Moustache",
@@ -4459,6 +4888,45 @@
   "neu": false
  },
  {
+  "titel": "\"Umrechnungsparty\" für Fachstudierende Geschichte",
+  "datum": "2026-10-05",
+  "bis": "",
+  "zeit": "08:30",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/umrechnungsparty-geschichte-2/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "„Dorfoase“: Orte der Begegnung im Dorf",
+  "datum": "2026-10-05",
+  "bis": "",
+  "zeit": "16:45",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/dorfoase/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Lieben Lecture: Memory of Chirality in Radical Chemistry",
+  "datum": "2026-10-05",
+  "bis": "",
+  "zeit": "17:15",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/lieben-lecture-memory-of-chirality/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "FLORIAN KLENK & FLORIAN SCHEUBA: SAG DU, FLORIAN, WAS IST JETZT SCHON WIEDER",
   "datum": "2026-10-05",
   "bis": "",
@@ -4466,6 +4934,19 @@
   "ort": "Treibhaus Innsbruck",
   "url": "https://www.treibhaus.at/programm/2026/10/05/14988-florian-klenk-florian-scheuba-sag-du-florian-was-ist-jetzt-schon-wieder",
   "quelle": "Treibhaus",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Aktuelle Probleme des Wirtschaftsprivatrechts",
+  "datum": "2026-10-05",
+  "bis": "",
+  "zeit": "18:30",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/aktuelle-probleme-des-wirtschaftsprivatrechts-a-1/",
+  "quelle": "Universität Innsbruck",
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
@@ -4482,6 +4963,45 @@
   "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": true,
+  "neu": false
+ },
+ {
+  "titel": "Infosession Studienstart",
+  "datum": "2026-10-06",
+  "bis": "",
+  "zeit": "10:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/infosession-studienstart-3/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "FSP-Tag: Do we still care? Über Demokratien in Krise",
+  "datum": "2026-10-06",
+  "bis": "",
+  "zeit": "13:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/fsp-tag-do-we-still-care-demokratien-in-krise/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Metabolisch-Bariatrische Chirurgie – Sexy or not?",
+  "datum": "2026-10-06",
+  "bis": "",
+  "zeit": "17:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/metabolisch-bariatrische-chirurgie-sexy-or-not/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
   "neu": false
  },
  {
@@ -4519,6 +5039,19 @@
   "url": "https://www.innsbruck.info/events/e/122285215.html",
   "quelle": "Innsbruck Tourismus",
   "kategorie": "kurse",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Katherina Braschel \"Heim holen\" & Miriam Unterthiner \"Blutbrot\"",
+  "datum": "2026-10-06",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/braschel-unterthiner/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -4599,7 +5132,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Innsbrucker Herbstmesse 2026",
@@ -4625,6 +5158,19 @@
   "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": true,
+  "neu": false
+ },
+ {
+  "titel": "Museum im Werden – Museumspraxis und Museologie: Museum: radikal demokratisch",
+  "datum": "2026-10-07",
+  "bis": "",
+  "zeit": "17:15",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/museum-im-werden-museumspraxis-und-museologie/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
   "neu": false
  },
  {
@@ -4700,6 +5246,19 @@
   "ort": "Mieming",
   "url": "https://www.innsbruck.info/events/e/122280606.html",
   "quelle": "Innsbruck Tourismus",
+  "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "FSP-Tag: Cluster of Excellence „EurAsian Transformations“",
+  "datum": "2026-10-08",
+  "bis": "",
+  "zeit": "09:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/cluster-of-excellence/",
+  "quelle": "Universität Innsbruck",
   "kategorie": "sport",
   "anmeldeschluss": "",
   "serie": false,
@@ -4896,6 +5455,45 @@
   "url": "https://www.olympiaworld.at/events-tickets/skiboerse-innsbruck-2026/",
   "quelle": "Olympiaworld",
   "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "uWIN Deeskalationstraining: Strategien zur Gewaltprävention",
+  "datum": "2026-10-09",
+  "bis": "2026-10-10",
+  "zeit": "14:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/uwin-deeskalationstraining/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Angewandte Ethik",
+  "datum": "2026-10-09",
+  "bis": "",
+  "zeit": "14:45",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/angewandte-ethik/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "6. Lustenauer Geschichtsforum: Krieg im Gebirge - die beiden Weltkriege und die Alpen",
+  "datum": "2026-10-09",
+  "bis": "2026-10-10",
+  "zeit": "16:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/lustenauer-geschichtsforum/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -5135,7 +5733,7 @@
   "neu": false
  },
  {
-  "titel": "Poxrucker Sisters - DNA Tour - Dialektpop, neues Album & Band",
+  "titel": "Poxrucker Sisters - DNA Tour",
   "datum": "2026-10-10",
   "bis": "",
   "zeit": "20:00",
@@ -5145,7 +5743,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": false
+  "neu": true
  },
  {
   "titel": "Sie sagt. Er sagt.",
@@ -5317,6 +5915,19 @@
   "neu": false
  },
  {
+  "titel": "Clay & Wine",
+  "datum": "2026-10-11",
+  "bis": "",
+  "zeit": "18:00",
+  "ort": "Die Bäckerei, Innsbruck",
+  "url": "https://diebaeckerei.at/programm/2026/clay-wine",
+  "quelle": "Die Bäckerei",
+  "kategorie": "kurse",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Der Vorname",
   "datum": "2026-10-11",
   "bis": "",
@@ -5382,6 +5993,32 @@
   "neu": false
  },
  {
+  "titel": "Socialist De-Colony: Black and Soviet Entanglements in Ghana’s Cold War",
+  "datum": "2026-10-12",
+  "bis": "",
+  "zeit": "17:15",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/socialist-de-colony/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Structure and function of cobalamin-dependent Radical SAM methyltransferases",
+  "datum": "2026-10-12",
+  "bis": "",
+  "zeit": "17:15",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/structure-and-function-of-cobalamin-dependent-radi/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "KRIMIFEST // STEVE CAVANAGH: KILL FOR ME",
   "datum": "2026-10-12",
   "bis": "",
@@ -5416,6 +6053,32 @@
   "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Onlinesession Studieren an der Universität Innsbruck",
+  "datum": "2026-10-13",
+  "bis": "",
+  "zeit": "15:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/onlinesession-studieren-uni-innsbruck/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Eröffnung der International Days 2026: Gemeinsam. International.",
+  "datum": "2026-10-13",
+  "bis": "",
+  "zeit": "17:15",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/eroeffnung-der-international-days-2026/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -5473,6 +6136,32 @@
   "neu": false
  },
  {
+  "titel": "Schmelzende Zeugen: Klimakommunikation am Beispiel der Alpengletscher: Nina Maria Allmoslechner, Wolfgang Gurgiser und Chris Matt",
+  "datum": "2026-10-13",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/schmelzende-zeugen-klimakommunikation/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "„Messingguss in der Renaissance: Innsbrucks Schwarze Mander“",
+  "datum": "2026-10-13",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/messingguss-innsbrucks-schwarze-mander/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Ein Mords-Sonntag",
   "datum": "2026-10-13",
   "bis": "",
@@ -5494,6 +6183,58 @@
   "url": "https://www.startup.tirol/event/4-biotech-summit-austria-2026/",
   "quelle": "Startup.Tirol",
   "kategorie": "kurse",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Eltern-Kind Coffee Talk",
+  "datum": "2026-10-14",
+  "bis": "",
+  "zeit": "10:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/eltern-kind-coffee-talk/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Fulbright Informationsveranstaltung: Eine im Rahmen der International Days 2026",
+  "datum": "2026-10-14",
+  "bis": "",
+  "zeit": "14:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/fulbright-informationsveranstaltung/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Interieurs des Exil: Internationaler Workshop im Rahmen der UIBK-SAS-Kooperation",
+  "datum": "2026-10-14",
+  "bis": "2026-10-15",
+  "zeit": "15:45",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/interieurs-des-exil/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Ringvorlesung Klimaschutz: “Introduction to the Lecture Series: Winter Semester 2026/27”",
+  "datum": "2026-10-14",
+  "bis": "",
+  "zeit": "17:15",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/ringvorlesung-klimaschutz-ws2026-27/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -5564,6 +6305,19 @@
   "neu": false
  },
  {
+  "titel": "Campusluft schnuppern",
+  "datum": "2026-10-15",
+  "bis": "",
+  "zeit": "15:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/campusluft-schnuppern/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Oleksandra Matviichuk",
   "datum": "2026-10-15",
   "bis": "",
@@ -5598,6 +6352,19 @@
   "url": "https://www.treibhaus.at/programm/2026/10/15/15191-dirk-stermann-20-spritzer-bis-amstetten-das-neue-programm",
   "quelle": "Treibhaus",
   "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Ringvorlesung Recht für morgen: Impulse für Nachhaltigkeit und Digitalisierung: Digitalisierung und Zivilprozess",
+  "datum": "2026-10-15",
+  "bis": "",
+  "zeit": "18:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/ringvorlesung-recht-fuer-morgen/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -5694,6 +6461,19 @@
   "neu": false
  },
  {
+  "titel": "Donnerstag, den findet von 10 - 22 Uhr",
+  "datum": "2026-10-15",
+  "bis": "",
+  "zeit": "22:00",
+  "ort": "Markthalle, Innsbruck",
+  "url": "https://www.markthalle-innsbruck.at",
+  "quelle": "Markthalle Innsbruck",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "1. Symphoniekonzert 2026/2027",
   "datum": "2026-10-15",
   "bis": "2026-10-16",
@@ -5759,6 +6539,19 @@
   "neu": false
  },
  {
+  "titel": "MIP Alumni Homecoming Day 2026",
+  "datum": "2026-10-16",
+  "bis": "",
+  "zeit": "16:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/mip-alumni-homecoming-day-2026/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "DIRK STERMANN: 20 SPRITZER BIS AMSTETTEN // DAS NEUE PROGRAMM",
   "datum": "2026-10-16",
   "bis": "",
@@ -5767,6 +6560,19 @@
   "url": "https://www.treibhaus.at/programm/2026/10/16/15192-dirk-stermann-20-spritzer-bis-amstetten-das-neue-programm",
   "quelle": "Treibhaus",
   "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "[Bühne frei] Reisebüro Schleich. Ein Dilemma.",
+  "datum": "2026-10-16",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/buehne-frei-reisebuero-schleich-ein-dilemma/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -5837,19 +6643,6 @@
   "neu": false
  },
  {
-  "titel": "Donnerstag, den findet von 10 - 22 Uhr",
-  "datum": "2026-10-16",
-  "bis": "",
-  "zeit": "22:00",
-  "ort": "Markthalle, Innsbruck",
-  "url": "https://www.markthalle-innsbruck.at",
-  "quelle": "Markthalle Innsbruck",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
   "titel": "Auenlauf Oberhofen",
   "datum": "2026-10-16",
   "bis": "",
@@ -5889,6 +6682,19 @@
   "neu": false
  },
  {
+  "titel": "Silbernes Doktorjubiläum 2026",
+  "datum": "2026-10-17",
+  "bis": "",
+  "zeit": "10:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/silbernes-doktorjubilaum-2026/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Tapas mit Pfiff Tour",
   "datum": "2026-10-17",
   "bis": "",
@@ -5923,6 +6729,19 @@
   "url": "https://www.olympiaworld.at/events-tickets/circus-roncalli-2026/",
   "quelle": "Olympiaworld",
   "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "POLYPHONIE – Vom [Zu]hören in einer „messy world“: PFF Salon",
+  "datum": "2026-10-17",
+  "bis": "",
+  "zeit": "17:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/polyphonie-vom-zuhoeren/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -6201,6 +7020,32 @@
   "neu": false
  },
  {
+  "titel": "Aurora Informations- und Diskussionsveranstaltung: Eine Veranstaltung im Rahmen der International Days 2026",
+  "datum": "2026-10-19",
+  "bis": "",
+  "zeit": "11:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/aurora-info/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Friedrich Eberhard von Rochows philanthropische Musterschule in Reckahn (1773): und sein Lesebuch „Der Kinderfreund“ als Bestseller der Aufklärung",
+  "datum": "2026-10-19",
+  "bis": "",
+  "zeit": "16:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/friedrich-eberhard-philanthropische-musterschule/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "FINK :::: THE CITY IS COMING TO ERASE IT ALL.",
   "datum": "2026-10-19",
   "bis": "",
@@ -6214,6 +7059,32 @@
   "neu": false
  },
  {
+  "titel": "Aktuelle Probleme des Wirtschaftsprivatrechts",
+  "datum": "2026-10-19",
+  "bis": "",
+  "zeit": "18:30",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/aktuelle-probleme-des-wirtschaftsprivatrechts/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Imagines Illustrium: Eine archäologische Porträtforschung",
+  "datum": "2026-10-19",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/imagines-illustrium/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Fink - europe tour 2026 - Neues Album, Folk & Country-Vibes",
   "datum": "2026-10-19",
   "bis": "",
@@ -6222,6 +7093,32 @@
   "url": "https://www.eventfinder.at/veranstaltung/1531743/fink-innsbruck/",
   "quelle": "eventfinder",
   "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Pos. 19 Relations_Act II lost objects",
+  "datum": "2026-10-19",
+  "bis": "2026-10-25",
+  "zeit": "",
+  "ort": "BRUX / Freies Theater Innsbruck - schwarzer Raum",
+  "url": "https://vorbrenner.at/programm/pos-19-relations-act1-lost-objects",
+  "quelle": "Vorbrenner",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Forschungssicherheit in Österreich und an der Universität Innsbruck: Eine Fortbildung im Rahmen der International Days 2026",
+  "datum": "2026-10-20",
+  "bis": "",
+  "zeit": "10:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/forschungssicherheit/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -6248,6 +7145,19 @@
   "url": "https://www.mci.edu/de/hochschule/events/2345-online-infosessions",
   "quelle": "MCI",
   "kategorie": "kurse",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "KI. Der neue Gott?: Miteinander Zukunft gestalten. Eine interreligiöse Gesprächsreihe.",
+  "datum": "2026-10-20",
+  "bis": "",
+  "zeit": "18:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/ki-der-neue-gott/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -6305,6 +7215,45 @@
   "neu": false
  },
  {
+  "titel": "Day of Scientific Computing",
+  "datum": "2026-10-21",
+  "bis": "",
+  "zeit": "13:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/day-of-scientific-computing/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Rules, Norms, and Agency: The Structure of Normativity in Law and Automated Decision-Making",
+  "datum": "2026-10-21",
+  "bis": "",
+  "zeit": "16:45",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/rules-norms-and-agency-the-structure-of-normativit/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Museum im Werden – Museumspraxis und Museologie: Vom Zeigen zur gesellschaftlichen Intervention",
+  "datum": "2026-10-21",
+  "bis": "",
+  "zeit": "17:15",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/museum-im-werden-museumspraxis-und-museologie-2/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "ENDLESS WELLNESS: INDIE, FUZZ-FOLK // AUS WIEN",
   "datum": "2026-10-21",
   "bis": "",
@@ -6318,17 +7267,17 @@
   "neu": false
  },
  {
-  "titel": "Philosophisches Café: \"Kann ein Konzern für die ...",
+  "titel": "Philo-Café: Kann ein Konzern für die Gefährdung von Rechten durch CO2-Ausstoß verantwortlich sein?: Der Fall Shell und die philosophischen Probleme, die durch Klimaklagen zutage treten.",
   "datum": "2026-10-21",
   "bis": "",
   "zeit": "18:00",
-  "ort": "Die Bäckerei, Innsbruck",
-  "url": "https://diebaeckerei.at/programm/2026/philosophisches-cafe-kann-ein-konzern-fuer-die-gefaehrdung-von-rechten-durch-co2-ausstoss-verantwortlich-sein-der-fall-shell-und-die-philosophischen-probleme-die-durch-klimaklagen-zutage-treten",
-  "quelle": "Die Bäckerei",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/philo-cafe-konzern-gefaehrdung/",
+  "quelle": "Universität Innsbruck",
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "Eva Menasse | Alleinruhelage",
@@ -6417,6 +7366,45 @@
   "url": "https://www.cmi.at/de/veranstaltungskalender",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "kurse",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Care im Fokus: Selbstbestimmt entscheiden - heute für morgen",
+  "datum": "2026-10-22",
+  "bis": "",
+  "zeit": "11:30",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/care-im-fokus-selbstbestimmt-entscheiden/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Rechtsupdate Strafrecht: Russland-Sanktionen und Geldwäscherei",
+  "datum": "2026-10-22",
+  "bis": "",
+  "zeit": "17:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/rechtsupdate-strafrecht/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "53. Radiologie-Update: Neue MR-Technologie – Wo entsteht echter Mehrwert?",
+  "datum": "2026-10-22",
+  "bis": "",
+  "zeit": "17:30",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/53-radiologie-update/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -6513,6 +7501,45 @@
   "neu": false
  },
  {
+  "titel": "Literaturverwaltung mit Citavi",
+  "datum": "2026-10-23",
+  "bis": "",
+  "zeit": "10:15",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/literaturverwaltung-mit-citavi/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Literaturverwaltung mit EndNote Web",
+  "datum": "2026-10-23",
+  "bis": "",
+  "zeit": "10:15",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/literaturverwaltung-mit-endnote-web/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Literaturverwaltung mit Zotero",
+  "datum": "2026-10-23",
+  "bis": "",
+  "zeit": "10:15",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/literaturverwaltung-mit-zotero/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "ARTfair Innsbruck 2026",
   "datum": "2026-10-23",
   "bis": "",
@@ -6599,6 +7626,19 @@
   "url": "https://diebaeckerei.at/programm/2026/2026-09-14-baeckerei-poetry-slam-im-oktober-2026",
   "quelle": "Die Bäckerei",
   "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Carolina Schutti \"Relative Ruhe\" & Valerie Fritz am Cello",
+  "datum": "2026-10-23",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/relative-ruhe/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -6703,19 +7743,6 @@
   "url": "https://meine-flohmarkt-termine.de/euroantik-innsbruck-messe-fur-kunst-antiquitaten-altwaren/23811974/details",
   "quelle": "Flohmarkt-Termine",
   "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Aufg’horcht in Innsbruck – Volksmusik erobert die Stadt & Volksmusikfrühschoppen",
-  "datum": "2026-10-24",
-  "bis": "",
-  "zeit": "11:00",
-  "ort": "",
-  "url": "https://www.meinbezirk.at/event/innsbruck/c-brauchtum-kultur/aufghorcht-in-innsbruck-volksmusik-erobert-die-stadt-und-volksmusikfruehschoppen_e3994491",
-  "quelle": "meinbezirk",
-  "kategorie": "brauchtum",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -6864,6 +7891,19 @@
   "neu": false
  },
  {
+  "titel": "Dame – Der Weg ist das Ziel 2.0 - Live-Rap mit Energie & Emotion",
+  "datum": "2026-10-25",
+  "bis": "",
+  "zeit": "20:00",
+  "ort": "Innsbruck",
+  "url": "https://www.eventfinder.at/veranstaltung/1515395/dame-innsbruck/",
+  "quelle": "eventfinder",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "Positive Futures Festival - Heinali & Andriana -Yaroslava Saienko...",
   "datum": "2026-10-25",
   "bis": "",
@@ -6981,6 +8021,45 @@
   "neu": false
  },
  {
+  "titel": "Museum im Werden – Museumspraxis und Museologie: Aufarbeiten und Öffnen",
+  "datum": "2026-10-28",
+  "bis": "",
+  "zeit": "17:15",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/museum-im-werden-museumspraxis-und-museologie-3/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Ringvorlesung Klimaschutz - Microbes! How the Unseen World is Affecting our Climate",
+  "datum": "2026-10-28",
+  "bis": "",
+  "zeit": "17:15",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/ringvorlesung-klimaschutz-microbes/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "FC Wacker Innsbruck - WSG Tirol / 3. Runde des UNIQA ÖFB Cup",
+  "datum": "2026-10-28",
+  "bis": "",
+  "zeit": "18:00",
+  "ort": "Tivoli Stadion Tirol",
+  "url": "https://www.olympiaworld.at/events-tickets/fc-wacker-innsbruck-wsg-tirol-3-runde-des-uniqa-oefb-cup/",
+  "quelle": "Olympiaworld",
+  "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "REEL ROCK // KLETTER-FILM-FESTIVAL",
   "datum": "2026-10-28",
   "bis": "",
@@ -7085,6 +8164,19 @@
   "neu": false
  },
  {
+  "titel": "Miriam Carbe \"Unerwünschte Töchter\" und Jessica Mawuena Lawson \"Kekeli\"",
+  "datum": "2026-10-29",
+  "bis": "",
+  "zeit": "19:30",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/10/unerwuenschte-toechter/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Fiddlers Green - Jubiläumstour 35 Jahre auf der Bühne!",
   "datum": "2026-10-29",
   "bis": "2026-10-30",
@@ -7184,6 +8276,19 @@
   "url": "https://www.pmk.or.at/de/events/our-ceasing-voice---record-release-with-nutcracker-l",
   "quelle": "p.m.k",
   "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Tintinnabulum",
+  "datum": "2026-10-30",
+  "bis": "2026-11-08",
+  "zeit": "",
+  "ort": "BRUX / Freies Theater Innsbruck - im Rahmen der Premierenatage",
+  "url": "https://vorbrenner.at/programm/tintinnabulum",
+  "quelle": "Vorbrenner",
+  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -7384,6 +8489,19 @@
   "neu": false
  },
  {
+  "titel": "Wem gehört die digitale Zukunft? Wege aus der BigTech-Abhängigkeit: Digitale Lebenswelten 2026",
+  "datum": "2026-11-02",
+  "bis": "",
+  "zeit": "18:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/11/wem-gehoert-die-digitale-zukunft/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "DR BOHL: \"SOLO\": EiN TiNDER TAGEBUCH - iN 5 AKTEN",
   "datum": "2026-11-02",
   "bis": "",
@@ -7436,6 +8554,32 @@
   "neu": false
  },
  {
+  "titel": "Museum im Werden – Museumspraxis und Museologie: Doing Museum: Museum im Wandel",
+  "datum": "2026-11-04",
+  "bis": "",
+  "zeit": "17:15",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/11/museum-im-werden-museumspraxis-und-museologie-4/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Holt uns jetzt der Teufel?: Theologie, Politik und die neuen Machtzentren der Technologie",
+  "datum": "2026-11-04",
+  "bis": "",
+  "zeit": "18:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/11/holt-uns-jetzt-der-teufel/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "MANUEL RUBEY & SIMON SCHWARZ: LIEBE // VORPREMIERE",
   "datum": "2026-11-04",
   "bis": "",
@@ -7470,6 +8614,19 @@
   "url": "https://www.freizeit-tirol.at/freizeit-events/kultur/event/st-johanner-wochenmarkt/",
   "quelle": "Freizeit Tirol",
   "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Persönliches Wissensmanagement im Studium",
+  "datum": "2026-11-06",
+  "bis": "",
+  "zeit": "10:15",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/11/persoenliches-wissensmanagement-im-studium/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -7514,14 +8671,14 @@
   "neu": false
  },
  {
-  "titel": "Jan Křesadlos „Astronautilia“ - Ein altgriechisch-tschechisches...",
+  "titel": "Jan Křesadlos „Astronautilia“ – Ein altgriechisch-tschechisches Sci-Fi-Epos: Erstmals ediert und ins Deutsche übersetzt",
   "datum": "2026-11-06",
   "bis": "",
   "zeit": "19:00",
-  "ort": "Innsbruck",
-  "url": "https://www.innsbruck.info/events/e/122285328.html",
-  "quelle": "Innsbruck Tourismus",
-  "kategorie": "mix",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/11/jan-kresadlos-astronautilia/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -7787,6 +8944,45 @@
   "neu": false
  },
  {
+  "titel": "Woche der Nachhaltigkeit: Zusammen.Wachsen.",
+  "datum": "2026-11-09",
+  "bis": "2026-11-13",
+  "zeit": "10:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/11/woche-der-nachhaltigkeit/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Gemeinsam zur gesunden Jause: Eltern-Kind-Workshop und Abendjause für Mitarbeitende zusammen mit ihren Kindern ”Mitmachen, Ausprobieren, Genießen”",
+  "datum": "2026-11-09",
+  "bis": "",
+  "zeit": "16:30",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/11/gemeinsam-zur-gesunden-jause/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Man versus Machine – The ‘Measurement’ of Odour",
+  "datum": "2026-11-09",
+  "bis": "",
+  "zeit": "17:15",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/11/man-versus-machine-the-measurement-of-odour/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "KATZ iM SACK :: LACHEN IM KELLER: KABARETT-NEWCOMER EROBERN BÜHNE & PUBLIKUM",
   "datum": "2026-11-09",
   "bis": "",
@@ -7813,6 +9009,19 @@
   "neu": false
  },
  {
+  "titel": "Roundtable: Koloniale Verflechtungen und dekoloniale Strategien und Praktiken: 93. Innsbrucker Gender Lecture mit Palestinians and Jews for Peace, Amancay Jenny, Dr.in Muriel González Athenas, Dr.in Denise Bergold-Caldwell",
+  "datum": "2026-11-10",
+  "bis": "",
+  "zeit": "18:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/11/roundtable-koloniale-verflechtungen/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Die Gelenke aus dem Lot: Hypermobilitätskrankheiten verstehen und...",
   "datum": "2026-11-10",
   "bis": "",
@@ -7834,6 +9043,19 @@
   "url": "https://www.treibhaus.at/programm/2026/11/10/15279-eric-bibb-blues-troubadour-songwriter-gitarrist",
   "quelle": "Treibhaus",
   "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Museum im Werden – Museumspraxis und Museologie: „Und ist es Wahnsinn, so hat es doch Methode“",
+  "datum": "2026-11-11",
+  "bis": "",
+  "zeit": "17:15",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/11/museum-im-werden-museumspraxis-und-museologie-5/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -7886,6 +9108,32 @@
   "url": "https://www.alpenverein.at/innsbruck/termine/index_detail.php?veranstaltungID=f0a443b4-5fe0-4724-b668-013e3d6178f5&oa=1",
   "quelle": "Alpenverein Innsbruck",
   "kategorie": "sport",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "\"Ressource\" Mensch im Krieg: 3. Internationale Ressourcentagung Europaregion Tirol-Südtirol-Trentino",
+  "datum": "2026-11-12",
+  "bis": "2026-11-13",
+  "zeit": "09:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/11/ressource-mensch-im-krieg/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "11. Herlinde-Pissarek-Hudelist-Vorlesung: Whose Authority? Zwischen Deutungshoheit und Sagbarkeitsgrenzen in der Religionspädagogik",
+  "datum": "2026-11-12",
+  "bis": "",
+  "zeit": "18:30",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/11/herlinde-pissarek-hudelist-vorlesung/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -7951,6 +9199,45 @@
   "url": "https://www.updategastro-stoffwechsel.at",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Vierter Forschungstag von Sophia forscht: Forschungstag für Dissertantinnen der Katholisch-Theologischen Fakultät und des Instituts für Islamische Theologie und Religionspädagogik",
+  "datum": "2026-11-13",
+  "bis": "",
+  "zeit": "09:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/11/vierter-forschungstag-von-sophia-forscht/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Zur Aktualität der Bundesstaatslehre von Hans Kelsen",
+  "datum": "2026-11-13",
+  "bis": "",
+  "zeit": "09:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/11/aktualitaet-bundesstaatslehre-hans-kelsen/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Desinformation auf der Spur",
+  "datum": "2026-11-13",
+  "bis": "",
+  "zeit": "10:15",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/11/desinformation-auf-der-spur/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kurse",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -8081,6 +9368,19 @@
   "url": "https://meine-flohmarkt-termine.de/markt-am-tivoli-stadion-innsbruck/23691307/details",
   "quelle": "Flohmarkt-Termine",
   "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Auf den Spuren der Griechen und Römer: Führung durch das Archäologische Universitätsmuseum Innsbruck",
+  "datum": "2026-11-14",
+  "bis": "",
+  "zeit": "10:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/11/auf-den-spuren/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -8242,6 +9542,19 @@
   "neu": false
  },
  {
+  "titel": "Filmvorführung & Podiumsdiskussion: „Ich verstehe Ihren Unmut\"",
+  "datum": "2026-11-17",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/11/filmvorfuehrung-ich-verstehe-ihren-unmut/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Geschichten vom Storch",
   "datum": "2026-11-17",
   "bis": "",
@@ -8250,6 +9563,19 @@
   "url": "https://www.innsbruck.info/events/e/122285332.html",
   "quelle": "Innsbruck Tourismus",
   "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "uWIN AI-driven Leadership",
+  "datum": "2026-11-18",
+  "bis": "",
+  "zeit": "09:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/11/uwin-ai-driven-leadership/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -8268,6 +9594,19 @@
   "neu": false
  },
  {
+  "titel": "Museum im Werden – Museumspraxis und Museologie: Ein Museum gründen",
+  "datum": "2026-11-18",
+  "bis": "",
+  "zeit": "17:15",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/11/museum-im-werden-museumspraxis-und-museologie-6/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "MOMI MAIGA: KORA, STIMME, CELLO, GEIGE // SENEGAL",
   "datum": "2026-11-18",
   "bis": "",
@@ -8276,6 +9615,45 @@
   "url": "https://www.treibhaus.at/programm/2026/11/18/15305-momi-maiga-kora-stimme-cello-geige-senegal",
   "quelle": "Treibhaus",
   "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Campusluft schnuppern",
+  "datum": "2026-11-19",
+  "bis": "",
+  "zeit": "15:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/11/campusluft-schnuppern-2/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Debattieren statt Polarisieren: Wie wir gemeinsam eine offene Gesellschaft stärken",
+  "datum": "2026-11-19",
+  "bis": "",
+  "zeit": "18:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/11/debattieren-statt-polarisieren/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Was war Bildwissenschaft?: Eine kunstgeschichtliche Methode und ihre Geschichte",
+  "datum": "2026-11-19",
+  "bis": "",
+  "zeit": "18:30",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/11/was-war-bildwissenschaft/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -8320,6 +9698,45 @@
   "neu": false
  },
  {
+  "titel": "Literaturverwaltung mit Citavi",
+  "datum": "2026-11-20",
+  "bis": "",
+  "zeit": "10:15",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/11/literaturverwaltung-mit-citavi-2/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Literaturverwaltung mit EndNote Web",
+  "datum": "2026-11-20",
+  "bis": "",
+  "zeit": "10:15",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/11/literaturverwaltung-mit-endnote-web-2/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Literaturverwaltung mit Zotero",
+  "datum": "2026-11-20",
+  "bis": "",
+  "zeit": "10:15",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/11/literaturverwaltung-mit-zotero-2/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Snowfest Innsbruck",
   "datum": "2026-11-20",
   "bis": "",
@@ -8354,19 +9771,6 @@
   "url": "https://www.innsbruck.info/events/e/122286372.html",
   "quelle": "Innsbruck Tourismus",
   "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": false,
-  "neu": false
- },
- {
-  "titel": "Hoadl House Winter Opening",
-  "datum": "2026-11-20",
-  "bis": "",
-  "zeit": "16:00",
-  "ort": "Innsbruck",
-  "url": "https://www.eventfinder.at/veranstaltung/1557132/hoadl-house-winter-opening-axams/",
-  "quelle": "eventfinder",
-  "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -8510,6 +9914,19 @@
   "url": "https://www.innsbruck.info/events/e/122281479.html",
   "quelle": "Innsbruck Tourismus",
   "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "ÖAW-Tagung in Innsbruck: The Achaemenid Persian Empire and its Non-Western Borderlands: A Change of Paradigm",
+  "datum": "2026-11-21",
+  "bis": "2026-11-22",
+  "zeit": "10:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/11/oeaw-tagung-in-innsbruck/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "sport",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -8684,6 +10101,19 @@
   "neu": false
  },
  {
+  "titel": "Aktuelle Probleme des Wirtschaftsprivatrechts",
+  "datum": "2026-11-23",
+  "bis": "",
+  "zeit": "18:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/11/aktuelle-probleme-des-wirtschaftsprivatrechts-a-1/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "Meisterkonzert",
   "datum": "2026-11-23",
   "bis": "",
@@ -8692,6 +10122,19 @@
   "url": "https://www.meisterkammerkonzerte.at/veranstaltungen/wdr-sinfonieorchester-marie-jacquot-antoine-tamestit-iveta-apkalna",
   "quelle": "Congress Messe Innsbruck",
   "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Würdevoll sterben? Selbstbestimmung und ethische Anfragen: Miteinander Zukunft gestalten. Eine interreligiöse Gesprächsreihe.",
+  "datum": "2026-11-24",
+  "bis": "",
+  "zeit": "18:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/11/wuerdevoll-sterben/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -8723,6 +10166,19 @@
   "neu": false
  },
  {
+  "titel": "DGPuK Advertising Communication Division Annual Conference: \"Persuasion in Transition? Current Topics in Persuasion and Advertising Research\"",
+  "datum": "2026-11-25",
+  "bis": "2026-11-27",
+  "zeit": "09:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/11/dgpuk-advertising-communication-division/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "CHRISTKINDLMARKT MARIA-THERESIEN-STRASSE",
   "datum": "2026-11-25",
   "bis": "",
@@ -8731,6 +10187,19 @@
   "url": "https://www.innsbruck.info/events/e/122286361.html",
   "quelle": "Innsbruck Tourismus",
   "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Museum im Werden – Museumspraxis und Museologie: Das Focke-Museum in der Migrationsgesellschaft",
+  "datum": "2026-11-25",
+  "bis": "",
+  "zeit": "17:15",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/11/museum-im-werden-museumspraxis-und-museologie-7/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -8840,17 +10309,17 @@
   "neu": false
  },
  {
-  "titel": "GERY SEIDL",
+  "titel": "Gery Seidl - Aufputzt is - Komödie rund ums Weihnachtsfest",
   "datum": "2026-11-26",
   "bis": "",
   "zeit": "19:30",
-  "ort": "Congress Innsbruck",
-  "url": "https://www.oeticket.com/event/gery-seidl-aufputzt-is-congress-innsbruck-20771749/",
-  "quelle": "Congress Messe Innsbruck",
-  "kategorie": "kultur",
+  "ort": "Innsbruck",
+  "url": "https://www.eventfinder.at/veranstaltung/1500671/gery-seidl-innsbruck/",
+  "quelle": "eventfinder",
+  "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": false
+  "neu": true
  },
  {
   "titel": "DORNENREICH | VINSTA",
@@ -8874,6 +10343,19 @@
   "url": "https://diebaeckerei.at/programm/2026/2026-11-26-romeo-kaltenbrunner-heimweh",
   "quelle": "Die Bäckerei",
   "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Humanitarian Action in Armed Conflict: Law, Principles, Practice – Unit 1: uWIN - University Continuing Education intensive",
+  "datum": "2026-11-27",
+  "bis": "2026-11-28",
+  "zeit": "14:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/11/humanitarian-action-in-armed-conflict/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
@@ -9243,6 +10725,45 @@
   "neu": false
  },
  {
+  "titel": "Aktuelle Probleme des Wirtschaftsprivatrechts",
+  "datum": "2026-11-30",
+  "bis": "",
+  "zeit": "18:30",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/11/aktuelle-probleme-des-wirtschaftsprivatrechts/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Neros Erbe im Untergrund: Die Domus Aurea und ihre architektonische Metamorphose",
+  "datum": "2026-11-30",
+  "bis": "",
+  "zeit": "19:00",
+  "ort": "Universität Innsbruck",
+  "url": "https://www.uibk.ac.at/de/events/2026/11/neros-erbe/",
+  "quelle": "Universität Innsbruck",
+  "kategorie": "kultur",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
+  "titel": "Am , um 8:00, werden die 3h Kurse",
+  "datum": "2026-12-01",
+  "bis": "",
+  "zeit": "08:00",
+  "ort": "Töpferei Kathrein, Innsbruck",
+  "url": "https://www.toepferei-ibk.at/kurse",
+  "quelle": "Töpferei Kathrein",
+  "kategorie": "kurse",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "BeSt Innsbruck 2026 – Die große Messe für Beruf, Studium und...",
   "datum": "2026-12-02",
   "bis": "",
@@ -9266,7 +10787,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
  },
  {
   "titel": "HC TIWAG Innsbruck - Moser Medical Graz99ers",
@@ -9293,6 +10814,19 @@
   "anmeldeschluss": "",
   "serie": false,
   "neu": false
+ },
+ {
+  "titel": "Christmas in the Country",
+  "datum": "2026-12-02",
+  "bis": "",
+  "zeit": "20:00",
+  "ort": "Innsbruck",
+  "url": "https://www.eventfinder.at/veranstaltung/1559873/christmas-in-the-country-innsbruck/",
+  "quelle": "eventfinder",
+  "kategorie": "musik",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
  },
  {
   "titel": "30. Internationales HolzBau-Forum (IHF 2026)",
@@ -9737,6 +11271,19 @@
   "neu": false
  },
  {
+  "titel": "Weihnachtsmarkt",
+  "datum": "2026-12-12",
+  "bis": "",
+  "zeit": "14:59",
+  "ort": "Kematen in Tirol",
+  "url": "https://www.innsbruck.info/events/e/122287554.html",
+  "quelle": "Innsbruck Tourismus",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": true
+ },
+ {
   "titel": "WSG Tirol - SCR Altach",
   "datum": "2026-12-12",
   "bis": "",
@@ -10023,17 +11570,17 @@
   "neu": false
  },
  {
-  "titel": "Ein Feuerwerk der Blasmusik",
+  "titel": "Feuerwerk der Blasmusik 2026",
   "datum": "2026-12-27",
   "bis": "",
   "zeit": "17:00",
-  "ort": "Congress Innsbruck",
-  "url": "https://www.wiltener.at/events-2/?event=2014",
-  "quelle": "Congress Messe Innsbruck",
+  "ort": "Innsbruck",
+  "url": "https://www.eventfinder.at/veranstaltung/1559691/feuerwerk-der-blasmusik-2026-innsbruck/",
+  "quelle": "eventfinder",
   "kategorie": "brauchtum",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": false
+  "neu": true
  },
  {
   "titel": "HC TIWAG Innsbruck - Pioneers Vorarlberg",
@@ -11037,6 +12584,19 @@
   "neu": false
  },
  {
+  "titel": "Am , um 8:00, werden die 3h Kurse",
+  "datum": "2027-03-01",
+  "bis": "",
+  "zeit": "08:00",
+  "ort": "Töpferei Kathrein, Innsbruck",
+  "url": "https://www.toepferei-ibk.at/kurse",
+  "quelle": "Töpferei Kathrein",
+  "kategorie": "kurse",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "BFI Tirol Sicherheitsfachkrafttag",
   "datum": "2027-03-04",
   "bis": "",
@@ -11934,6 +13494,19 @@
   "neu": false
  },
  {
+  "titel": "Juli bis September 2027 freigeschalten",
+  "datum": "2027-06-01",
+  "bis": "",
+  "zeit": "08:00",
+  "ort": "Töpferei Kathrein, Innsbruck",
+  "url": "https://www.toepferei-ibk.at/kurse",
+  "quelle": "Töpferei Kathrein",
+  "kategorie": "kurse",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
+ },
+ {
   "titel": "THE SIMON & GARFUNKEL STORY",
   "datum": "2027-06-04",
   "bis": "",
@@ -11983,6 +13556,19 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true
+  "neu": false
+ },
+ {
+  "titel": "Oktober bis November 2027 freigeschalten",
+  "datum": "2027-09-15",
+  "bis": "",
+  "zeit": "08:00",
+  "ort": "Töpferei Kathrein, Innsbruck",
+  "url": "https://www.toepferei-ibk.at/kurse",
+  "quelle": "Töpferei Kathrein",
+  "kategorie": "kurse",
+  "anmeldeschluss": "",
+  "serie": false,
+  "neu": false
  }
 ]
