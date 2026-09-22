@@ -1,19 +1,19 @@
 {
- "lauf": "2026-09-21T10:02:50+00:00",
- "termine": 1014,
+ "lauf": "2026-09-22T09:26:15+00:00",
+ "termine": 1018,
  "serientermine": 123,
- "neu": 89,
+ "neu": 75,
  "quellen_aktiv": 72,
  "quellen_mit_treffern": 43,
- "quellen_mit_fehler": 1,
+ "quellen_mit_fehler": 2,
  "quellen": [
   {
    "quelle": "Innsbruck Tourismus",
    "url": "https://www.innsbruck.info/events/d/alle.html",
    "aktiv": true,
    "strategie": "innsbruckinfo",
-   "gefunden": 217,
-   "uebernommen": 199,
+   "gefunden": 224,
+   "uebernommen": 206,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -26,7 +26,7 @@
    "brauchtum": {
     "Volksmusik": 5,
     "Trachten": 3,
-    "Kirchliches Brauchtum": 4,
+    "Kirchliches Brauchtum": 5,
     "Laendliches Fest": 2,
     "Blasmusik": 1
    }
@@ -66,14 +66,14 @@
    "url": "https://www.meinbezirk.at/event/innsbruck/list",
    "aktiv": true,
    "strategie": "meinbezirk",
-   "gefunden": 28,
-   "uebernommen": 26,
+   "gefunden": 27,
+   "uebernommen": 24,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 2
+    "kein Ort im Umkreis genannt": 3
    },
    "brauchtum": {}
   },
@@ -97,13 +97,13 @@
    "aktiv": true,
    "strategie": "jsonld",
    "gefunden": 55,
-   "uebernommen": 54,
+   "uebernommen": 53,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 1
+    "ausserhalb des Zeitfensters": 2
    },
    "brauchtum": {
     "Blasmusik": 3
@@ -161,8 +161,8 @@
    "url": "https://www.cmi.at/de/veranstaltungskalender",
    "aktiv": true,
    "strategie": "congress",
-   "gefunden": 183,
-   "uebernommen": 159,
+   "gefunden": 184,
+   "uebernommen": 160,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -209,8 +209,8 @@
    "url": "https://www.pmk.or.at/de/events",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 18,
-   "uebernommen": 18,
+   "gefunden": 19,
+   "uebernommen": 19,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -223,15 +223,13 @@
    "url": "https://www.diebaeckerei.at/programm",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 49,
+   "gefunden": 47,
    "uebernommen": 47,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
-   "verworfen": {
-    "ausserhalb des Zeitfensters": 2
-   },
+   "verworfen": {},
    "brauchtum": {}
   },
   {
@@ -411,8 +409,8 @@
    "url": "https://www.bierstindl.eu/veranstaltungen",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 16,
-   "uebernommen": 16,
+   "gefunden": 18,
+   "uebernommen": 18,
    "fehler": "",
    "grund": "",
    "hinweis": "War wegen abgebrochener Verbindungen abgeschaltet. Beim Nachpruefen antwortete der Server wieder und die Heuristik fand 18 Termine -- Kabarett und Theater im Haus.",
@@ -629,8 +627,8 @@
    "url": "https://www.tiroler-landesmuseen.at/besuch/veranstaltungen/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 10,
-   "uebernommen": 7,
+   "gefunden": 9,
+   "uebernommen": 6,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -966,13 +964,14 @@
    "url": "https://www.patscherkofelbahn.at/events/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 19,
+   "gefunden": 20,
    "uebernommen": 18,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
+    "Begruessungsbanner statt Titel": 1,
     "Ortsmarke statt Titel": 1
    },
    "brauchtum": {}
@@ -1126,7 +1125,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "",
+   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
    "grund": "",
    "hinweis": "Server weist Anfragen aus der Github-Aktion mit HTTP 429 ab.",
    "zeiten_nachgetragen": 0,
@@ -1182,14 +1181,14 @@
    "url": "https://www.standort-tirol.at/veranstaltungen",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 22,
+   "gefunden": 23,
    "uebernommen": 2,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 20
+    "kein Ort im Umkreis genannt": 21
    },
    "brauchtum": {}
   },
@@ -1198,12 +1197,12 @@
    "url": "https://www.mci.edu/de/hochschule/events",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 12,
-   "uebernommen": 10,
+   "gefunden": 11,
+   "uebernommen": 9,
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "zeiten_nachgetragen": 9,
+   "zeiten_nachgetragen": 8,
    "verworfen": {
     "Universitaetsinterna": 2
    },

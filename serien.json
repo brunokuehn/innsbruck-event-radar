@@ -1,18 +1,5 @@
 [
  {
-  "titel": "Pubquiz Galway Bay",
-  "datum": "2026-09-21",
-  "bis": "",
-  "zeit": "20:00",
-  "ort": "Galway Bay, Innsbruck",
-  "url": "https://www.quizaustria.at/locations/",
-  "quelle": "Quiz Austria",
-  "kategorie": "kurse",
-  "anmeldeschluss": "",
-  "serie": true,
-  "neu": false
- },
- {
   "titel": "Pubquiz Brennpunkt",
   "datum": "2026-09-22",
   "bis": "",
@@ -1591,6 +1578,19 @@
   "bis": "",
   "zeit": "20:00",
   "ort": "Moustache, Innsbruck",
+  "url": "https://www.quizaustria.at/locations/",
+  "quelle": "Quiz Austria",
+  "kategorie": "kurse",
+  "anmeldeschluss": "",
+  "serie": true,
+  "neu": false
+ },
+ {
+  "titel": "Pubquiz Galway Bay",
+  "datum": "2026-12-21",
+  "bis": "",
+  "zeit": "20:00",
+  "ort": "Galway Bay, Innsbruck",
   "url": "https://www.quizaustria.at/locations/",
   "quelle": "Quiz Austria",
   "kategorie": "kurse",
