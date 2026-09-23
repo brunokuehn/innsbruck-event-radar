@@ -37,6 +37,7 @@
     --gletscher: #17636f;
     --signal: #b8760c;
     --frist: #a8501c;
+    --herz: #c2394a;
     --schrift: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     --eng: "Avenir Next Condensed", "Helvetica Neue", var(--schrift);
     --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
@@ -45,6 +46,7 @@
     :root {
       --grund: #0f1519; --karte: #161f25; --fels: #e6ebec; --stein: #8a99a1;
       --linie: #26333b; --gletscher: #4bb3c4; --signal: #e0a53c; --frist: #e08a5a;
+      --herz: #ec6f7c;
     }
   }
   * { box-sizing: border-box; }
@@ -159,7 +161,20 @@
     cursor: pointer;
   }
   .ansicht button[aria-pressed="true"] { background: var(--fels); color: var(--grund); }
+  .ansicht button + button { border-left: 1px solid var(--linie); }
+  .ansicht button[aria-pressed="true"],
+  .ansicht button[aria-pressed="true"] + button { border-left-color: transparent; }
+  /* Die Zahl am dritten Knopf sagt, ob sich der Blick lohnt -- ohne dass
+     man hinwechseln muss. Leer bleibt sie weg statt "0" zu zeigen. */
+  .ansicht .anzahl { font-weight: 700; color: var(--herz); margin-left: 5px; }
+  .ansicht .anzahl:empty { display: none; }
+  .ansicht button[aria-pressed="true"] .anzahl { color: inherit; }
   .ansicht button:focus-visible { outline: 2px solid var(--gletscher); outline-offset: -2px; }
+  /* Drei Knoepfe auf 320 Pixeln: mit der vollen Sperrung sprengt
+     "Gemerkt 12" seine Haelfte, und die Drittel werden ungleich. */
+  @media (max-width: 380px) {
+    .ansicht button { letter-spacing: .04em; padding: 12px 4px; }
+  }
 
   /* ---------- Kalender ---------- */
   /* Das Raster ist Navigation, keine Anzeige: unter 360 Pixel passt in eine
@@ -197,6 +212,10 @@
   .legende { display: flex; align-items: center; gap: 5px; margin: 9px 2px 0;
              font: 400 10px/1 var(--mono); color: var(--stein); }
   .legende i { width: 12px; height: 12px; border-radius: 3px; display: block; }
+  .legende { flex-wrap: wrap; }
+  .legende span { display: flex; align-items: center; gap: 5px; white-space: nowrap; }
+  .legende .fav { margin-left: auto; }
+  .legende .favpunkt { width: 5px; height: 5px; border-radius: 50%; background: var(--herz); }
   @media (prefers-color-scheme: dark) {
     .zelle.d1 { background: rgba(75, 179, 196, .10); }
     .zelle.d2 { background: rgba(75, 179, 196, .24); }
@@ -208,6 +227,13 @@
      gewinnt. Standen sie davor, ueberschrieb im Dunkeln die Dichtefarbe den
      gewaehlten Tag, und man sah nicht mehr, welcher Tag unten steht. */
   .zelle.heute { border-color: var(--gletscher); font-weight: 700; }
+  /* Ein Tag mit etwas Gemerktem traegt einen Punkt in Herzfarbe: so sieht
+     man im Monat, wo man schon etwas vorhat. */
+  .zelle { position: relative; }
+  .zelle.fav::after {
+    content: ""; position: absolute; left: 50%; bottom: 13%; width: 5px; height: 5px;
+    margin-left: -2.5px; border-radius: 50%; background: var(--herz);
+  }
   .zelle.gewaehlt { background: var(--fels); border-color: var(--fels); color: var(--grund); }
   .zelle:focus-visible { outline: 2px solid var(--gletscher); outline-offset: 1px; }
   /* In der Tagesliste steht links die Uhrzeit statt des Datums -- das Datum
@@ -221,12 +247,39 @@
     border-bottom: 1px solid var(--linie);
     position: sticky; top: 0; background: var(--grund); padding-top: 10px; z-index: 1;
   }
+  /* Das Herz braucht einen eigenen Knopf, und ein Knopf darf nicht in
+     einem Verweis stecken. Der Verweis sitzt darum am Titel und spannt
+     seine Flaeche mit ::after ueber die ganze Zeile -- angetippt wird
+     weiterhin irgendwo, nur das Herz liegt darueber. */
   .ev {
-    display: grid; grid-template-columns: 42px 1fr; gap: 12px; align-items: start;
-    padding: 13px 2px; border-bottom: 1px solid var(--linie);
-    color: inherit; text-decoration: none;
+    display: grid; grid-template-columns: 42px 1fr 36px; gap: 12px; align-items: start;
+    padding: 13px 0 13px 2px; border-bottom: 1px solid var(--linie);
+    position: relative;
   }
-  .ev:focus-visible { outline: 2px solid var(--gletscher); outline-offset: 2px; border-radius: 4px; }
+  .ziel { color: inherit; text-decoration: none; }
+  .ziel::after { content: ""; position: absolute; inset: 0; }
+  .ziel:focus-visible { outline: none; }
+  .ziel:focus-visible::after { outline: 2px solid var(--gletscher); outline-offset: -2px;
+                               border-radius: 4px; }
+  .herz {
+    position: relative; z-index: 1; width: 36px; height: 36px; margin: -7px 0 0;
+    display: flex; align-items: center; justify-content: center;
+    border: 0; border-radius: 50%; background: transparent; padding: 0;
+    color: var(--linie); cursor: pointer; -webkit-tap-highlight-color: transparent;
+  }
+  .herz svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.8;
+              stroke-linejoin: round; transition: transform .18s ease; }
+  .herz[aria-pressed="true"] { color: var(--herz); }
+  .herz[aria-pressed="true"] svg { fill: currentColor; }
+  .herz.ploepp svg { animation: ploepp .32s ease; }
+  @keyframes ploepp { 40% { transform: scale(1.3); } 100% { transform: scale(1); } }
+  @media (hover: hover) { .herz:hover { color: var(--herz); } }
+  .herz:focus-visible { outline: 2px solid var(--gletscher); outline-offset: -2px; }
+  /* Auf der Merkliste Entherztes bleibt stehen, bis man die Ansicht
+     verlaesst: so laesst sich ein Fehltipp mit einem zweiten Tipp
+     zuruecknehmen, statt dass die Zeile unter dem Finger verschwindet. */
+  .ev.weg { opacity: .4; }
+  .fehlt { font: 600 11.5px/1.5 var(--mono); color: var(--frist); margin-top: 3px; }
   .tag { text-align: right; padding-top: 1px; }
   .tag b { display: block; font: 600 21px/1 var(--mono); letter-spacing: -.02em; }
   .tag span { display: block; font: 500 10px/1.5 var(--mono); letter-spacing: .1em;
@@ -269,6 +322,17 @@
   .jetzt .wort { font: 600 10px/1 var(--mono); letter-spacing: .1em;
                  text-transform: uppercase; color: var(--gletscher);
                  opacity: .85; }
+  .merkkopf { display: flex; align-items: center; justify-content: space-between;
+              gap: 12px; margin: 16px 0 0; }
+  .merkkopf p { font: 400 11px/1.5 var(--mono); color: var(--stein); margin: 0; }
+  .teilen {
+    flex: none; font: 600 11px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase;
+    padding: 10px 13px; border: 1px solid var(--linie); border-radius: 999px;
+    background: var(--karte); color: var(--fels); cursor: pointer;
+  }
+  .teilen:focus-visible { outline: 2px solid var(--gletscher); outline-offset: 1px; }
+  .leer .herzbild { display: inline-block; width: 15px; height: 15px; vertical-align: -2px;
+                    fill: none; stroke: var(--herz); stroke-width: 2; }
   .leer { padding: 44px 4px; color: var(--stein); text-align: center; }
   .lade { padding: 60px 4px; color: var(--stein); text-align: center; font: 400 13px var(--mono); }
   footer { margin-top: 34px; padding-top: 22px; border-top: 1px solid var(--linie);
@@ -297,10 +361,12 @@
   <div class="ansicht" id="ansicht" role="group" aria-label="Ansicht">
     <button type="button" data-v="liste" aria-pressed="false">Liste</button>
     <button type="button" data-v="kalender" aria-pressed="true">Kalender</button>
+    <button type="button" data-v="merkliste" aria-pressed="false">Gemerkt<span
+      class="anzahl" id="merkzahl"></span></button>
   </div>
 
   <!-- Zwei Fragen, zwei Menues: was, und wann. Beide gelten zugleich.
-       Im Kalender sind sie ausgeblendet -- dort bestimmt der Monat den
+       Im Kalender und auf der Merkliste sind sie ausgeblendet -- dort bestimmt der Monat den
        Zeitraum, und ein Filter, den man nicht sieht, waere einer, den man
        sich nicht erklaeren kann. Ausgeblendet heisst darum auch: wirkt
        nicht. -->
@@ -343,7 +409,8 @@
   <footer>
     <p class="gruss">Ein kleines Herzensprojekt: alles, was in Innsbruck und
        30&nbsp;km drumherum passiert, auf einer Seite. Ohne App, ohne Konto,
-       ohne Endlos-Feed.</p>
+       ohne Endlos-Feed. Was du dir mit dem Herz merkst, bleibt auf deinem
+       Gerät.</p>
     <p class="gruss">Etwas fehlt, etwas stimmt nicht, oder du kennst eine Quelle,
        die hier hineingehört? Schreib mir — ich freue mich über jede Rückmeldung:<br>
        <a href="mailto:ibk-events.enrich569@passmail.com">ibk-events.enrich569@passmail.com</a></p>
@@ -371,6 +438,7 @@
   var wannMenue = document.getElementById('wann');
   var suche = document.getElementById('suche');
   var zaehler = document.getElementById('zaehler');
+  var merkzahl = document.getElementById('merkzahl');
 
   var termine = [];
   var gewaehlt = [];   // leer heisst: der Hauptfeed
@@ -509,13 +577,249 @@
       if ((e.bis || e.datum) < offenesFenster[0] ||
           e.datum > offenesFenster[1]) return false;
     }
-    // Jedes Wort muss vorkommen, nicht die ganze Eingabe am Stueck: so
-    // findet "jazz treibhaus" den Jazzabend im Treibhaus, auch wenn Ort und
-    // Titel auseinanderliegen.
+    return suchtreffer(e);
+  }
+
+  // Jedes Wort muss vorkommen, nicht die ganze Eingabe am Stueck: so
+  // findet "jazz treibhaus" den Jazzabend im Treibhaus, auch wenn Ort und
+  // Titel auseinanderliegen.
+  function suchtreffer(e) {
     for (var i = 0; i < suchworte.length; i++) {
       if (e.suchform.indexOf(suchworte[i]) === -1) return false;
     }
     return true;
+  }
+
+  // ---------- Merkliste ---------------------------------------------------
+
+  //: Gemerkt wird im Browser, nicht auf einem Server: ohne Konto gibt es
+  //: niemanden, dem eine Liste gehoeren koennte, und die Seite soll auch
+  //: keinen brauchen.
+  //:
+  //: Gespeichert wird der ganze Termin, nicht nur ein Verweis darauf. Faellt
+  //: er aus dem Feed -- weil die Quelle ihn streicht, oder weil sie an dem
+  //: Tag nicht geantwortet hat --, steht er auf der Merkliste trotzdem noch,
+  //: mit einem Hinweis. Gerade das will man wissen, wenn man hingehen wollte.
+  var MERKSPEICHER = 'eventradar.merkliste.v1';
+  var MERKFELDER = ['titel', 'datum', 'bis', 'zeit', 'ort', 'url', 'quelle',
+                    'kategorie', 'anmeldeschluss', 'serie'];
+  var merkliste = {};        // Schluessel -> Abbild des Termins
+  var nachSchluessel = {};   // Schluessel -> Termin im heutigen Feed
+  //: Was auf der Merkliste gerade entherzt wurde. Es bleibt blass stehen,
+  //: bis man die Ansicht verlaesst -- ein Fehltipp laesst sich so mit einem
+  //: zweiten Tipp zuruecknehmen.
+  var eben_entfernt = {};
+
+  var HERZ = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.3s-7.4-4.5-9.1' +
+    '-9.2C1.7 7.8 3.9 4.6 7.2 4.6c2 0 3.6 1.1 4.8 2.8 1.2-1.7 2.8-2.8 4.8-2.8 3.3 0 5.5' +
+    ' 3.2 4.3 6.5-1.7 4.7-9.1 9.2-9.1 9.2z"/></svg>';
+
+  //: Datum plus Titel in Suchform -- dieselbe Idee wie der Schluessel des
+  //: Sammlers, nur ohne dass der Feed dafuer ein zehntes Feld braeuchte.
+  function schluesselVon(e) { return e.datum + '|' + suchform(e.titel).slice(0, 60); }
+
+  // Private Fenster und abgeschaltete Website-Daten werfen hier Fehler. Die
+  // Herzen funktionieren dann fuer die Dauer des Besuchs, mehr nicht.
+  function merkLaden() {
+    try { merkliste = JSON.parse(localStorage.getItem(MERKSPEICHER)) || {}; }
+    catch (fehler) { merkliste = {}; }
+    if (typeof merkliste !== 'object' || Array.isArray(merkliste)) merkliste = {};
+  }
+  function merkSichern() {
+    try { localStorage.setItem(MERKSPEICHER, JSON.stringify(merkliste)); }
+    catch (fehler) { /* siehe merkLaden */ }
+  }
+
+  function abbild(e, vorher) {
+    var a = { gemerkt: (vorher && vorher.gemerkt) || Date.now() };
+    MERKFELDER.forEach(function (f) { a[f] = e[f] == null ? '' : e[f]; });
+    return a;
+  }
+
+  function istGemerkt(schluessel) {
+    return Object.prototype.hasOwnProperty.call(merkliste, schluessel);
+  }
+
+  //: Nach dem Laden des Feeds: Vergangenes faellt heraus, Gemerktes wird
+  //: aufgefrischt -- eine Uhrzeit, die gestern noch fehlte, steht heute da.
+  //: Hat der Sammler den Titel anders zusammengefuehrt ("Flohmarkt
+  //: Greifcenter" statt "Flohmarkt beim Greif Center"), passt der
+  //: Schluessel nicht mehr; derselbe Tag mit derselben Adresse ist dann
+  //: derselbe Termin, und das Herz zieht mit um.
+  function merkAbgleichen(heute) {
+    Object.keys(merkliste).forEach(function (k) {
+      var alt = merkliste[k];
+      if (!alt || !alt.datum || (alt.bis || alt.datum) < heute) { delete merkliste[k]; return; }
+      if (nachSchluessel[k]) { merkliste[k] = abbild(nachSchluessel[k], alt); return; }
+      if (!alt.url) return;
+      for (var i = 0; i < termine.length; i++) {
+        var e = termine[i];
+        if (e.datum === alt.datum && e.url === alt.url && !istGemerkt(e.schluessel)) {
+          delete merkliste[k];
+          merkliste[e.schluessel] = abbild(e, alt);
+          return;
+        }
+      }
+    });
+    merkSichern();
+  }
+
+  //: Die Termine der Merkliste, wo moeglich in ihrer heutigen Fassung.
+  function merkTermine() {
+    var heute = ortsdatum(new Date());
+    var alle = [];
+    function aufnehmen(k, a, weg) {
+      var e = nachSchluessel[k];
+      if (!e) {
+        e = {};
+        MERKFELDER.forEach(function (f) { e[f] = a[f]; });
+        e.schluessel = k;
+        e.suchform = suchform(e.titel + ' ' + e.ort + ' ' + e.quelle);
+        e.fehlt = true;
+      }
+      alle.push({ e: e, weg: weg });
+    }
+    Object.keys(merkliste).forEach(function (k) { aufnehmen(k, merkliste[k], false); });
+    Object.keys(eben_entfernt).forEach(function (k) {
+      if (!istGemerkt(k)) aufnehmen(k, eben_entfernt[k], true);
+    });
+    return alle.filter(function (x) { return (x.e.bis || x.e.datum) >= heute; })
+      .sort(function (a, b) {
+        var ta = anzeigetag(a.e, heute), tb = anzeigetag(b.e, heute);
+        return ta < tb ? -1 : ta > tb ? 1
+             : (zeitVon(a.e, heute) || '99:99') < (zeitVon(b.e, heute) || '99:99') ? -1 : 1;
+      });
+  }
+
+  function zahlZeigen() {
+    var n = Object.keys(merkliste).length;
+    merkzahl.textContent = n ? String(n) : '';
+  }
+
+  //: Die Tage, an denen etwas Gemerktes liegt -- fuer die Punkte im Kalender.
+  function merkTage(abTag) {
+    return nachTagen(merkTermine()
+      .filter(function (x) { return !x.weg; })
+      .map(function (x) { return x.e; }), abTag);
+  }
+
+  function umschalten(knopf) {
+    var k = knopf.dataset.k;
+    var e = nachSchluessel[k] || merkliste[k] || eben_entfernt[k];
+    if (!e) return;
+    var merken = !istGemerkt(k);
+    if (merken) {
+      merkliste[k] = abbild(e, eben_entfernt[k]);
+      delete eben_entfernt[k];
+      // Bittet den Browser, die Liste nicht beim Aufraeumen zu verwerfen.
+      // Safari entscheidet selbst; schaden kann die Bitte nicht.
+      if (navigator.storage && navigator.storage.persist) navigator.storage.persist();
+    } else {
+      if (ansicht === 'merkliste') eben_entfernt[k] = merkliste[k];
+      delete merkliste[k];
+    }
+    merkSichern();
+    zahlZeigen();
+
+    Array.prototype.forEach.call(liste.querySelectorAll('.herz[data-k="' + k + '"]'),
+      function (h) {
+        h.setAttribute('aria-pressed', String(merken));
+        h.setAttribute('aria-label', (merken ? 'Nicht mehr merken: ' : 'Merken: ') +
+                       h.dataset.titel);
+        h.classList.remove('ploepp');
+        if (merken) { void h.offsetWidth; h.classList.add('ploepp'); }
+        if (ansicht === 'merkliste') h.closest('.ev').classList.toggle('weg', !merken);
+      });
+    if (ansicht === 'merkliste') merkZaehler();
+    // Im Kalender aendern sich Punkt und Legende mit; neu gezeichnet ist
+    // der Knopf ein anderer, darum Fokus und Ploepp auf den neuen.
+    if (ansicht === 'kalender') {
+      zeichnen();
+      var neu = liste.querySelector('.herz[data-k="' + k + '"]');
+      if (neu) {
+        if (merken) neu.classList.add('ploepp');
+        neu.focus({ preventScroll: true });
+      }
+    }
+  }
+
+  function merkZaehler() {
+    zaehler.textContent = '';
+    var info = document.getElementById('merkinfo');
+    var n = Object.keys(merkliste).length;
+    if (info) info.textContent = (n === 1 ? '1 Termin' : n + ' Termine') +
+                                 ' · nur auf diesem Gerät gespeichert';
+  }
+
+  //: Als Text, weil das jeder Messenger versteht: die Liste an die Leute
+  //: schicken, mit denen man hingeht.
+  function merkText() {
+    var heute = ortsdatum(new Date());
+    var zeilen = ['Meine Termine vom Event-Radar Innsbruck', ''];
+    merkTermine().forEach(function (x) {
+      if (x.weg) return;
+      var e = x.e, tag = anzeigetag(e, heute), zeit = zeitVon(e, heute);
+      zeilen.push(WOTAG[alsDatum(tag).getDay()] + ' ' + kurz(tag) +
+                  (zeit ? ' · ' + zeit : '') + ' — ' + e.titel);
+      if (e.ort) zeilen.push(e.ort);
+      if (e.url) zeilen.push(e.url);
+      zeilen.push('');
+    });
+    zeilen.push(location.origin + location.pathname);
+    return zeilen.join('\n');
+  }
+
+  function teilen(knopf) {
+    var text = merkText();
+    if (navigator.share) {
+      navigator.share({ title: 'Meine Termine', text: text }).catch(function () {});
+      return;
+    }
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(text).then(function () {
+        knopf.textContent = 'Kopiert ✓';
+        setTimeout(function () { knopf.textContent = 'Teilen'; }, 1800);
+      });
+    }
+  }
+
+  function zeichneMerkliste() {
+    var jetztTag = ortsdatum(new Date());
+    var alle = merkTermine();
+    var sichtbar = alle.filter(function (x) { return suchtreffer(x.e); });
+    zaehler.textContent = '';
+
+    if (!alle.length) {
+      liste.innerHTML = '<p class="leer">Noch nichts gemerkt.<br>Tipp in der Liste oder im ' +
+        'Kalender auf das <svg class="herzbild" viewBox="0 0 24 24" aria-hidden="true">' +
+        HERZ.slice(HERZ.indexOf('<path')) + ' neben einem Termin — er landet hier, ' +
+        'nach Tagen geordnet.</p>';
+      return;
+    }
+    var teile = ['<div class="merkkopf"><p id="merkinfo"></p>' +
+                 '<button type="button" class="teilen" id="teilen">Teilen</button></div>'];
+    if (!sichtbar.length) {
+      teile.push('<p class="leer">Nichts gefunden. Anderes Suchwort?</p>');
+      liste.innerHTML = teile.join('');
+      merkZaehler();
+      return;
+    }
+    var morgen = new Date(alsDatum(jetztTag)); morgen.setDate(morgen.getDate() + 1);
+    morgen = ortsdatum(morgen);
+    var tag = '';
+    sichtbar.forEach(function (x) {
+      var t = anzeigetag(x.e, jetztTag);
+      if (t !== tag) {
+        tag = t;
+        var d = alsDatum(t);
+        var vorne = t === jetztTag ? 'Heute · ' : t === morgen ? 'Morgen · ' : '';
+        teile.push('<h2 class="kaltag">' + vorne + WOCHENTAG[d.getDay()] + ', ' +
+                   d.getDate() + '. ' + MONATE[d.getMonth()] + '</h2>');
+      }
+      teile.push(zeile(x.e, jetztTag, 'zeit', x.weg));
+    });
+    liste.innerHTML = teile.join('');
+    merkZaehler();
   }
 
   var HINWEISE = {
@@ -544,7 +848,7 @@
   //: Eine Terminzeile. ``spalte`` sagt, was links steht: in der Liste das
   //: Datum, im Kalender die Uhrzeit -- das Datum steht dort schon als
   //: Ueberschrift darueber und muesste sich nicht zwanzigmal wiederholen.
-  function zeile(e, jetztTag, spalte) {
+  function zeile(e, jetztTag, spalte, weg) {
     var tag = anzeigetag(e, jetztTag);
     var laeuft = tag !== e.datum;
     var zeit = zeitVon(e, jetztTag);
@@ -571,18 +875,30 @@
       : '<div class="tag"><b>' + ('0' + d.getDate()).slice(-2) + '</b><span>' +
         WOTAG[d.getDay()] + '</span></div>';
 
-    var auf = e.url ? '<a class="ev" href="' + esc(e.url) + '" target="_blank" rel="noopener">'
-                    : '<div class="ev">';
-    var zu = e.url ? '</a>' : '</div>';
+    var titel = e.url
+      ? '<a class="ziel" href="' + esc(e.url) + '" target="_blank" rel="noopener">' +
+        esc(e.titel) + '</a>'
+      : esc(e.titel);
+    var fehlt = e.fehlt
+      ? '<div class="fehlt">Steht heute nicht mehr im Feed — beim Veranstalter nachsehen.</div>'
+      : '';
 
-    return auf + links +
+    var gemerkt = !weg && istGemerkt(e.schluessel);
+    var herz = '<button type="button" class="herz" data-k="' + esc(e.schluessel) +
+      '" data-titel="' + esc(e.titel) + '" aria-pressed="' + gemerkt + '" aria-label="' +
+      (gemerkt ? 'Nicht mehr merken: ' : 'Merken: ') + esc(e.titel) + '">' + HERZ + '</button>';
+
+    return '<div class="ev' + (weg ? ' weg' : '') + '">' + links +
       '<div><div class="titel"><span class="punkt k-' + esc(e.kategorie) + '"></span>' +
-        esc(e.titel) + marken + '</div>' +
+        titel + marken + '</div>' +
       (meta.length ? '<div class="meta">' + esc(meta.join(' · ')) + '</div>' : '') +
-      frist + '</div>' + zu;
+      frist + fehlt + '</div>' + herz + '</div>';
   }
 
   function zeichnen() {
+    // Die Merkliste gehorcht keinem Filter: was man sich gemerkt hat, will
+    // man sehen, auch wenn es ein Kinofilm ist und oben "Musik" steht.
+    if (ansicht === 'merkliste') { zeichneMerkliste(); return; }
     // Im Kalender bestimmt der Monat den Zeitraum; das Menue daneben ist
     // dann gesperrt und sein Fenster gilt nicht.
     offenesFenster = (ansicht === 'kalender' || wannMenue.disabled
@@ -689,6 +1005,7 @@
     var jetztTag = ortsdatum(new Date());
     var karte = nachTagen(sichtbar, jetztTag);
     var belegt = Object.keys(karte).sort();
+    var gemerkteTage = merkTage(jetztTag);
 
     if (!belegt.length) {
       liste.innerHTML = hinweisHtml() +
@@ -738,6 +1055,7 @@
       if (wieviele) klassen.push('hat', stufe(wieviele, grenzen));
       if (iso === jetztTag) klassen.push('heute');
       if (iso === gewaehlterTag) klassen.push('gewaehlt');
+      if (gemerkteTage[iso]) klassen.push('fav');
       teile.push(wieviele
         ? '<button type="button" class="' + klassen.join(' ') + '" data-tag="' + iso +
           '" aria-label="' + tagNr + '. — ' + wieviele +
@@ -746,8 +1064,13 @@
         : '<div class="' + klassen.join(' ') + '">' + tagNr + '</div>');
     }
     teile.push('</div>');
-    teile.push('<p class="legende">im Monatsvergleich: ruhiger <i class="zelle d1"></i>' +
-      '<i class="zelle d2"></i><i class="zelle d3"></i><i class="zelle d4"></i> voller</p>');
+    var favImMonat = Object.keys(gemerkteTage).some(function (iso) {
+      return monatVon(iso) === kalendermonat;
+    });
+    teile.push('<p class="legende"><span>im Monatsvergleich:</span><span>ruhiger ' +
+      '<i class="zelle d1"></i><i class="zelle d2"></i><i class="zelle d3"></i>' +
+      '<i class="zelle d4"></i> voller</span>' +
+      (favImMonat ? '<span class="fav"><i class="favpunkt"></i> gemerkt</span>' : '') + '</p>');
 
     if (gewaehlterTag) {
       var d = alsDatum(gewaehlterTag);
@@ -780,7 +1103,7 @@
   function menuesAbgleichen() {
     // Im Kalender bestimmt der Monat den Zeitraum -- die beiden Menues
     // haetten dort nichts zu entscheiden und stehen darum nicht da.
-    filterreihe.hidden = (ansicht === 'kalender');
+    filterreihe.hidden = (ansicht !== 'liste');
     // Das Kinoprogramm gilt nur fuer heute; ein Zeitraum daneben koennte
     // nur leere Listen erzeugen. Nur wenn es allein dasteht -- zusammen mit
     // anderen Listen hat der Zeitraum wieder etwas zu entscheiden.
@@ -791,6 +1114,7 @@
     var b = ev.target.closest('button');
     if (!b || b.dataset.v === ansicht) return;
     ansicht = b.dataset.v;
+    eben_entfernt = {};
     Array.prototype.forEach.call(ansichtWahl.querySelectorAll('button'), function (c) {
       c.setAttribute('aria-pressed', String(c === b));
     });
@@ -802,6 +1126,10 @@
   //: Der Kalender wird bei jedem Zeichnen neu gebaut; die Bedienung haengt
   //: darum an der Liste, nicht an den Zellen selbst.
   liste.addEventListener('click', function (ev) {
+    var herz = ev.target.closest('.herz');
+    if (herz) { umschalten(herz); return; }
+    var teilenKnopf = ev.target.closest('#teilen');
+    if (teilenKnopf) { teilen(teilenKnopf); return; }
     var zelle = ev.target.closest('.zelle[data-tag]');
     if (zelle) { gewaehlterTag = zelle.dataset.tag; zeichnen(); return; }
     var pfeil = ev.target.closest('#zurueck, #vor');
@@ -903,6 +1231,8 @@
   }
 
   menuesAbgleichen();
+  merkLaden();
+  zahlZeigen();
 
   hole('events.json').then(function (roh) {
     var heute = ortsdatum(new Date());
@@ -910,6 +1240,7 @@
       .filter(function (e) { return e && e.titel && (e.bis || e.datum) >= heute; })
       .map(function (e) {
         e.suchform = suchform(e.titel + ' ' + e.ort + ' ' + e.quelle);
+        e.schluessel = schluesselVon(e);
         return e;
       })
       .sort(function (a, b) {
@@ -917,6 +1248,10 @@
         return ta < tb ? -1 : ta > tb ? 1
              : (zeitVon(a, heute) || '99:99') < (zeitVon(b, heute) || '99:99') ? -1 : 1;
       });
+    nachSchluessel = {};
+    termine.forEach(function (e) { nachSchluessel[e.schluessel] = e; });
+    merkAbgleichen(heute);
+    zahlZeigen();
     zeichnen();
     return hole('status.json');
   }).then(function (s) {
