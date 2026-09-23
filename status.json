@@ -1,11 +1,11 @@
 {
- "lauf": "2026-09-22T09:26:15+00:00",
- "termine": 1018,
+ "lauf": "2026-09-23T09:26:45+00:00",
+ "termine": 1016,
  "serientermine": 123,
- "neu": 75,
+ "neu": 72,
  "quellen_aktiv": 72,
- "quellen_mit_treffern": 43,
- "quellen_mit_fehler": 2,
+ "quellen_mit_treffern": 42,
+ "quellen_mit_fehler": 1,
  "quellen": [
   {
    "quelle": "Innsbruck Tourismus",
@@ -19,14 +19,15 @@
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 16,
     "Titel ist nur eine Anschrift": 1,
+    "kein Ort im Umkreis genannt": 16,
     "ausserhalb des Zeitfensters": 1
    },
    "brauchtum": {
     "Volksmusik": 5,
     "Trachten": 3,
     "Kirchliches Brauchtum": 5,
+    "Fruehschoppen": 1,
     "Laendliches Fest": 2,
     "Blasmusik": 1
    }
@@ -66,8 +67,8 @@
    "url": "https://www.meinbezirk.at/event/innsbruck/list",
    "aktiv": true,
    "strategie": "meinbezirk",
-   "gefunden": 27,
-   "uebernommen": 24,
+   "gefunden": 29,
+   "uebernommen": 26,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -82,8 +83,8 @@
    "url": "https://www.innsbrucktermine.at",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 21,
-   "uebernommen": 21,
+   "gefunden": 19,
+   "uebernommen": 19,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -96,8 +97,8 @@
    "url": "https://www.eventfinder.at/veranstaltungen-innsbruck.php",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 55,
-   "uebernommen": 53,
+   "gefunden": 53,
+   "uebernommen": 51,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -106,7 +107,7 @@
     "ausserhalb des Zeitfensters": 2
    },
    "brauchtum": {
-    "Blasmusik": 3
+    "Blasmusik": 2
    }
   },
   {
@@ -114,8 +115,8 @@
    "url": "https://www.freizeit-tirol.at/freizeit-events/eventkalender/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 10,
-   "uebernommen": 8,
+   "gefunden": 11,
+   "uebernommen": 9,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -162,13 +163,13 @@
    "aktiv": true,
    "strategie": "congress",
    "gefunden": 184,
-   "uebernommen": 160,
+   "uebernommen": 157,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 19,
+    "ausserhalb des Zeitfensters": 22,
     "Universitaetsinterna": 5
    },
    "brauchtum": {
@@ -224,12 +225,14 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 47,
-   "uebernommen": 47,
+   "uebernommen": 45,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
-   "verworfen": {},
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 2
+   },
    "brauchtum": {}
   },
   {
@@ -643,8 +646,8 @@
    "url": "https://www.haus-der-musik-innsbruck.at/kalender/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 10,
-   "uebernommen": 10,
+   "gefunden": 9,
+   "uebernommen": 9,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -775,8 +778,8 @@
    "url": "https://www.uibk.ac.at/de/events/",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 119,
-   "uebernommen": 115,
+   "gefunden": 123,
+   "uebernommen": 119,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -1125,7 +1128,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
+   "fehler": "",
    "grund": "",
    "hinweis": "Server weist Anfragen aus der Github-Aktion mit HTTP 429 ab.",
    "zeiten_nachgetragen": 0,
@@ -1180,16 +1183,14 @@
    "quelle": "Standortagentur Tirol",
    "url": "https://www.standort-tirol.at/veranstaltungen",
    "aktiv": true,
-   "strategie": "heuristik",
-   "gefunden": 23,
-   "uebernommen": 2,
-   "fehler": "",
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "TimeoutError: The read operation timed out",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
-   "verworfen": {
-    "kein Ort im Umkreis genannt": 21
-   },
+   "verworfen": {},
    "brauchtum": {}
   },
   {
@@ -1257,7 +1258,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
+   "fehler": "",
    "grund": "",
    "hinweis": "Boerse Mitte Oktober",
    "zeiten_nachgetragen": 0,
