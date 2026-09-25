@@ -1,12 +1,6 @@
 {
- "erzeugt": "2026-09-25T09:44:39+00:00",
+ "erzeugt": "2026-09-25T14:20:15+00:00",
  "befunde": [
-  {
-   "dringlichkeit": "fehler",
-   "quelle": "Futterkutter",
-   "was": "seit diesem Lauf kaputt: HTTPError: HTTP Error 429: Too Many Requests",
-   "rat": "Der Server hat uns heute abgewiesen, frueher aber geliefert. Das liegt meist an der Maschine, auf der der Lauf gerade laeuft -- den naechsten Lauf abwarten, nicht abschalten."
-  },
   {
    "dringlichkeit": "warnung",
    "quelle": "Tiroler Landestheater",
@@ -192,10 +186,10 @@
    "laeufe_erfasst": 22,
    "zuletzt": {
     "tag": "2026-09-25",
-    "zustand": "fehler",
+    "zustand": "ok",
     "gefunden": 0,
     "behalten": 0,
-    "fehler": "HTTPError: HTTP Error 429: Too Many Requests"
+    "fehler": ""
    }
   },
   "Galerie Thomas Flora": {
@@ -293,8 +287,8 @@
    "zuletzt": {
     "tag": "2026-09-25",
     "zustand": "ok",
-    "gefunden": 219,
-    "behalten": 214,
+    "gefunden": 222,
+    "behalten": 217,
     "fehler": ""
    }
   },
@@ -363,8 +357,8 @@
    "zuletzt": {
     "tag": "2026-09-25",
     "zustand": "ok",
-    "gefunden": 22,
-    "behalten": 22,
+    "gefunden": 16,
+    "behalten": 16,
     "fehler": ""
    }
   },
@@ -733,8 +727,8 @@
    "zuletzt": {
     "tag": "2026-09-25",
     "zustand": "ok",
-    "gefunden": 29,
-    "behalten": 24,
+    "gefunden": 30,
+    "behalten": 25,
     "fehler": ""
    }
   },

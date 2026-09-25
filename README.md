@@ -4,7 +4,7 @@ Täglich gesammelte Veranstaltungstermine im Raum Innsbruck
 (Innsbruck plus rund 30 km). Dieses Repository enthält **nur die
 Ausgabe**; der Sammler liegt woanders.
 
-Stand: 2026-09-25 · **1006 Termine**, davon 83 neu seit dem letzten Lauf.
+Stand: 2026-09-25 · **1005 Termine**, davon 7 neu seit dem letzten Lauf.
 
 | Datei | Inhalt |
 |---|---|
@@ -30,3 +30,8 @@ als Wahrheitswerte. Datumsangaben sind `JJJJ-MM-TT` oder leer,
 Uhrzeiten `HH:MM` oder leer. `kategorie` ist eine von
 `sport`, `musik`, `kultur`, `kino`, `kurse`,
 `markt`, `brauchtum`, `mix`.
+
+Seit dem 25.09.2026 zusätzlich `zielgruppe` (`kinder` oder
+leer, erkannt am Titel) und `eintritt` (`frei` oder leer,
+nur wo die Quelle freien Eintritt ausdrücklich nennt). Leer heißt
+„nicht bekannt“, nicht „nein“.
