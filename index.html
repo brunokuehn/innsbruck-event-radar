@@ -38,6 +38,14 @@
     --signal: #b8760c;
     --frist: #a8501c;
     --herz: #c2394a;
+    /* Kategorien. Vier Farbtoene, weil mehr sich nicht in jeder Paarung
+       auseinanderhalten lassen: geprueft fuer Hell und Dunkel, fuer normales
+       Sehen und die drei haeufigen Farbsehschwaechen, jedes Paar gegen jedes
+       (in einer Liste kann jede Kategorie neben jeder stehen). Alles
+       darueber traegt eine eigene Form statt einer fuenften Farbe: Kurse ein
+       Quadrat, Sonstiges, Kino und Brauchtum einen Ring. */
+    --k-musik: #e87ba4; --k-kultur: #4a3aa7; --k-sport: #008300;
+    --k-markt: #eda100; --k-kurse: #2a78d6; --k-mix: #8a979e;
     --schrift: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     --eng: "Avenir Next Condensed", "Helvetica Neue", var(--schrift);
     --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
@@ -47,6 +55,8 @@
       --grund: #0f1519; --karte: #161f25; --fels: #e6ebec; --stein: #8a99a1;
       --linie: #26333b; --gletscher: #4bb3c4; --signal: #e0a53c; --frist: #e08a5a;
       --herz: #ec6f7c;
+      --k-musik: #d55181; --k-kultur: #9085e9; --k-sport: #008300;
+      --k-markt: #c98500; --k-kurse: #3987e5; --k-mix: #8a99a1;
     }
   }
   * { box-sizing: border-box; }
@@ -58,10 +68,59 @@
   .huelle { max-width: 620px; margin: 0 auto; padding: 16px 14px 64px; }
 
   /* ---------- Kopf ---------- */
-  header { padding: 6px 0 14px; }
+  header { padding: 6px 0 14px; position: relative; }
+  /* Das Zahnrad: Einstellungen, die bleiben. Die Menues darunter sind fuer
+     den Moment, das hier ist fuer "so bin ich". Ein Punkt daran zeigt, dass
+     gerade etwas ausgeblendet wird -- sonst vergisst man es und wundert
+     sich, wo die Termine hin sind. */
+  .zahnrad {
+    position: absolute; top: 0; right: -6px; width: 44px; height: 44px;
+    display: flex; align-items: center; justify-content: center;
+    border: 0; border-radius: 50%; background: transparent; color: var(--stein);
+    cursor: pointer; -webkit-tap-highlight-color: transparent;
+  }
+  .zahnrad svg { width: 22px; height: 22px; fill: none; stroke: currentColor;
+                 stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+  .zahnrad.aktiv::after {
+    content: ""; position: absolute; top: 10px; right: 9px; width: 7px; height: 7px;
+    border-radius: 50%; background: var(--gletscher); box-shadow: 0 0 0 2px var(--grund);
+  }
+  .zahnrad:focus-visible { outline: 2px solid var(--gletscher); outline-offset: -2px; }
+  .einstellungen {
+    width: min(420px, calc(100vw - 28px)); max-height: calc(100vh - 40px);
+    padding: 18px 16px 16px; border: 1px solid var(--linie); border-radius: 14px;
+    background: var(--karte); color: var(--fels); box-shadow: 0 18px 50px rgba(0, 0, 0, .28);
+  }
+  .einstellungen::backdrop { background: rgba(10, 16, 20, .45); }
+  .einstellungen h2 { font: 700 20px/1 var(--eng); letter-spacing: .02em;
+                      text-transform: uppercase; margin: 0 0 4px; }
+  .einstellungen .unter { font: 400 11.5px/1.5 var(--mono); color: var(--stein); margin: 0 0 14px; }
+  .einstellungen label {
+    display: flex; align-items: center; gap: 10px; padding: 9px 8px; border-radius: 7px;
+    font: 400 14px/1.3 var(--schrift); cursor: pointer;
+  }
+  .einstellungen label:has(input:checked) { background: rgba(23, 99, 111, .10); }
+  .einstellungen input { accent-color: var(--gletscher); width: 17px; height: 17px; flex: none; }
+  .einstellungen .punkt { margin: 0 -2px 0 0; }
+  .einstellungen .klein { font: 400 11.5px/1.45 var(--mono); color: var(--stein);
+                          margin: 2px 8px 0 35px; }
+  .einstellungen .fertig {
+    width: 100%; margin-top: 16px; padding: 12px; border: 0; border-radius: 9px;
+    background: var(--fels); color: var(--grund); cursor: pointer;
+    font: 600 12px/1 var(--mono); letter-spacing: .1em; text-transform: uppercase;
+  }
+  .zaehler button {
+    font: inherit; color: var(--gletscher); background: none; border: 0; padding: 0;
+    text-decoration: underline; text-underline-offset: 2px; cursor: pointer;
+  }
+  @media (prefers-color-scheme: dark) {
+    .einstellungen label:has(input:checked) { background: rgba(75, 179, 196, .14); }
+    .einstellungen::backdrop { background: rgba(0, 0, 0, .6); }
+  }
   .augenbraue {
     font: 600 10.5px/1 var(--mono); letter-spacing: .16em; text-transform: uppercase;
     color: var(--stein); margin: 0 0 6px;
+    padding-right: 44px;   /* Platz fuer das Zahnrad */
   }
   h1 {
     font: 700 34px/0.95 var(--eng); letter-spacing: .01em; text-transform: uppercase;
@@ -138,6 +197,7 @@
   }
   .wasfeld label:has(input:checked) { background: rgba(23, 99, 111, .10); }
   .wasfeld input { accent-color: var(--gletscher); width: 15px; height: 15px; flex: none; }
+  .wasfeld label .punkt { margin: 0 -3px 0 1px; }
   @media (prefers-color-scheme: dark) {
     .wasknopf {
       background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%238a99a1' stroke-width='1.5'/%3E%3C/svg%3E");
@@ -252,7 +312,9 @@
      seine Flaeche mit ::after ueber die ganze Zeile -- angetippt wird
      weiterhin irgendwo, nur das Herz liegt darueber. */
   .ev {
-    display: grid; grid-template-columns: 42px 1fr 36px; gap: 12px; align-items: start;
+    /* minmax(0, ...) statt 1fr: sonst dehnt ein langes, unteilbares Wort im
+       Titel die Mitte, und das Herz rutscht am Telefon ueber den Rand. */
+    display: grid; grid-template-columns: 42px minmax(0, 1fr) 36px; gap: 12px; align-items: start;
     padding: 13px 0 13px 2px; border-bottom: 1px solid var(--linie);
     position: relative;
   }
@@ -284,17 +346,25 @@
   .tag b { display: block; font: 600 21px/1 var(--mono); letter-spacing: -.02em; }
   .tag span { display: block; font: 500 10px/1.5 var(--mono); letter-spacing: .1em;
               text-transform: uppercase; color: var(--stein); }
-  .titel { font-weight: 600; font-size: 15.5px; line-height: 1.28; }
+  .titel { font-weight: 600; font-size: 15.5px; line-height: 1.28; overflow-wrap: anywhere; }
   .punkt { display: inline-block; width: 7px; height: 7px; border-radius: 50%;
            margin-right: 7px; vertical-align: 1.5px; flex: none; }
-  .k-sport  { background: #17636f; }
-  .k-musik  { background: #b23a48; }
-  .k-kultur { background: #4a7c3d; }
-  .k-kino   { background: #7a4a7c; }
-  .k-kurse  { background: #8a6d3b; }
-  .k-markt  { background: #6e7d85; }
-  .k-brauchtum { background: #8c4a2f; }
-  .k-mix    { background: #9aa5aa; }
+  .k-musik  { background: var(--k-musik); }
+  .k-kultur { background: var(--k-kultur); }
+  .k-sport  { background: var(--k-sport); }
+  .k-markt  { background: var(--k-markt); }
+  .k-kurse  { background: var(--k-kurse); border-radius: 1.5px; }
+  .k-mix, .k-kino, .k-brauchtum { background: transparent; box-shadow: inset 0 0 0 1.6px var(--k-mix); }
+  .k-kino      { box-shadow: inset 0 0 0 1.6px var(--k-kultur); }
+  .k-brauchtum { box-shadow: inset 0 0 0 1.6px var(--k-musik); }
+  /* Die Legende. Sie steht in allen drei Ansichten, weil die Punkte auch
+     ueberall stehen -- und im Kalender gibt es kein Menue, das sie erklaert. */
+  .farben { display: flex; flex-wrap: wrap; gap: 4px 12px; margin: 8px 0 0 2px;
+            font: 400 10.5px/1.4 var(--mono); color: var(--stein); }
+  .farben span { display: inline-flex; align-items: center; white-space: nowrap; }
+  .farben .punkt { margin-right: 5px; vertical-align: 0; }
+  .farben [hidden] { display: none; }
+  .marke.frei { background: transparent; color: var(--gletscher); border: 1px solid currentColor; }
   .meta { font: 400 12px/1.5 var(--mono); color: var(--stein); margin-top: 4px; word-break: break-word; }
   .marke {
     display: inline-block; font: 700 9.5px/1 var(--mono); letter-spacing: .1em;
@@ -349,6 +419,11 @@
 <body>
 <div class="huelle">
   <header>
+    <button type="button" class="zahnrad" id="zahnrad" aria-haspopup="dialog"
+            aria-label="Einstellungen"><svg viewBox="0 0 24 24" aria-hidden="true">
+      <circle cx="12" cy="12" r="3.2"/>
+      <path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/>
+    </svg></button>
     <p class="augenbraue">Innsbruck + 30 km · ohne Instagram</p>
     <h1>Event-<em>Radar</em></h1>
     <p class="stand" id="stand">wird geladen …</p>
@@ -380,16 +455,16 @@
               aria-controls="wasfeld">Alle Kategorien</button>
       <div class="wasfeld" id="wasfeld" hidden>
         <p class="wasgruppe">Kategorie</p>
-        <label><input type="checkbox" value="musik"><span>Musik</span></label>
-        <label><input type="checkbox" value="kultur"><span>Kultur</span></label>
-        <label><input type="checkbox" value="sport"><span>Sport</span></label>
-        <label><input type="checkbox" value="markt"><span>Märkte</span></label>
-        <label><input type="checkbox" value="kurse"><span>Kurse</span></label>
-        <label><input type="checkbox" value="mix"><span>Sonstiges</span></label>
+        <label><input type="checkbox" value="musik"><span class="punkt k-musik"></span><span>Musik</span></label>
+        <label><input type="checkbox" value="kultur"><span class="punkt k-kultur"></span><span>Kultur</span></label>
+        <label><input type="checkbox" value="sport"><span class="punkt k-sport"></span><span>Sport</span></label>
+        <label><input type="checkbox" value="markt"><span class="punkt k-markt"></span><span>Märkte</span></label>
+        <label><input type="checkbox" value="kurse"><span class="punkt k-kurse"></span><span>Kurse</span></label>
+        <label><input type="checkbox" value="mix"><span class="punkt k-mix"></span><span>Sonstiges</span></label>
         <p class="wasgruppe">Eigene Listen</p>
-        <label><input type="checkbox" value="kino"><span>Kino heute</span></label>
-        <label><input type="checkbox" value="brauchtum"><span>Brauchtum</span></label>
-        <label><input type="checkbox" value="alpenverein"><span>Alpenverein</span></label>
+        <label><input type="checkbox" value="kino"><span class="punkt k-kino"></span><span>Kino heute</span></label>
+        <label><input type="checkbox" value="brauchtum"><span class="punkt k-brauchtum"></span><span>Brauchtum</span></label>
+        <label><input type="checkbox" value="alpenverein"><span class="punkt k-sport"></span><span>Alpenverein</span></label>
         <p class="wasgruppe">Eingrenzen</p>
         <label><input type="checkbox" id="nurneu"><span>Nur neu dazugekommene</span></label>
       </div>
@@ -403,6 +478,42 @@
     </select>
   </div>
   <p class="zaehler" id="zaehler"></p>
+  <p class="farben" id="farben" aria-label="Farblegende">
+    <span><i class="punkt k-musik"></i>Musik</span>
+    <span><i class="punkt k-kultur"></i>Kultur</span>
+    <span><i class="punkt k-sport"></i>Sport</span>
+    <span><i class="punkt k-markt"></i>Märkte</span>
+    <span><i class="punkt k-kurse"></i>Kurse</span>
+    <span><i class="punkt k-mix"></i>Sonstiges</span>
+    <span data-liste="kino" hidden><i class="punkt k-kino"></i>Kino</span>
+    <span data-liste="brauchtum" hidden><i class="punkt k-brauchtum"></i>Brauchtum</span>
+  </p>
+
+  <!-- Dauerhafte Einstellungen. Ein <dialog>: Escape schliesst, der Fokus
+       bleibt drin, und das Telefon legt einen Schleier darunter. -->
+  <dialog class="einstellungen" id="einstellungen" aria-labelledby="einst-titel">
+    <form method="dialog">
+      <h2 id="einst-titel">Meine Einstellungen</h2>
+      <p class="unter">Gelten in Liste und Kalender, bis du sie änderst.
+        Gespeichert nur auf diesem Gerät.</p>
+      <label><input type="checkbox" id="ohnekinder"><span>Kinder- und
+        Familienveranstaltungen ausblenden</span></label>
+      <p class="klein">Erkannt am Titel: Kindertheater, Kasperl, „ab 4“,
+        Kinderflohmarkt. Was nicht so heißt, bleibt stehen.</p>
+      <p class="wasgruppe" style="margin-top:16px">Diese Kategorien nie zeigen</p>
+      <div id="niekategorien">
+        <label><input type="checkbox" value="musik"><span class="punkt k-musik"></span><span>Musik</span></label>
+        <label><input type="checkbox" value="kultur"><span class="punkt k-kultur"></span><span>Kultur</span></label>
+        <label><input type="checkbox" value="sport"><span class="punkt k-sport"></span><span>Sport</span></label>
+        <label><input type="checkbox" value="markt"><span class="punkt k-markt"></span><span>Märkte</span></label>
+        <label><input type="checkbox" value="kurse"><span class="punkt k-kurse"></span><span>Kurse</span></label>
+        <label><input type="checkbox" value="mix"><span class="punkt k-mix"></span><span>Sonstiges</span></label>
+      </div>
+      <p class="klein" style="margin-left:8px">Wählst du eine davon oben im Menü
+        ausdrücklich aus, wird sie trotzdem gezeigt.</p>
+      <button class="fertig" value="fertig">Fertig</button>
+    </form>
+  </dialog>
 
   <main id="liste"><p class="lade">Termine werden geladen …</p></main>
 
@@ -439,6 +550,48 @@
   var suche = document.getElementById('suche');
   var zaehler = document.getElementById('zaehler');
   var merkzahl = document.getElementById('merkzahl');
+  var zahnrad = document.getElementById('zahnrad');
+  var einstDialog = document.getElementById('einstellungen');
+  var ohneKinderFeld = document.getElementById('ohnekinder');
+  var nieFeld = document.getElementById('niekategorien');
+  var farben = document.getElementById('farben');
+
+  //: Was dauerhaft ausgeblendet bleibt. Getrennt von den Menues: die sind
+  //: fuer den Moment und vergessen sich mit dem naechsten Besuch, das hier
+  //: nicht.
+  var EINSTSPEICHER = 'eventradar.einstellungen.v1';
+  var einst = { ohneKinder: false, nie: [] };
+  //: "anzeigen" neben der Zahl der Ausgeblendeten setzt die Einstellungen
+  //: fuer diesen Besuch aus, ohne sie zu aendern.
+  var einstAusgesetzt = false;
+
+  function einstLaden() {
+    try {
+      var roh = JSON.parse(localStorage.getItem(EINSTSPEICHER)) || {};
+      einst.ohneKinder = roh.ohneKinder === true;
+      einst.nie = Array.isArray(roh.nie) ? roh.nie.filter(function (k) {
+        return typeof k === 'string';
+      }) : [];
+    } catch (fehler) { /* Werkseinstellung */ }
+  }
+  function einstSichern() {
+    try { localStorage.setItem(EINSTSPEICHER, JSON.stringify(einst)); }
+    catch (fehler) { /* gilt dann nur fuer diesen Besuch */ }
+  }
+  function einstAktiv() { return einst.ohneKinder || einst.nie.length > 0; }
+
+  //: Blendet die Einstellung diesen Termin aus? Ausdruecklich im Menue
+  //: Gewaehltes gewinnt: wer "nie Sport" eingestellt hat und heute doch
+  //: Sport anhakt, will Sport sehen.
+  function ausgeblendet(e) {
+    if (einstAusgesetzt) return false;
+    if (einst.ohneKinder && e.zielgruppe === 'kinder') return true;
+    if (einst.nie.indexOf(e.kategorie) > -1) {
+      var auswahl = (ansicht === 'kalender') ? [] : gewaehlt;
+      return auswahl.indexOf(e.kategorie) === -1;
+    }
+    return false;
+  }
 
   var termine = [];
   var gewaehlt = [];   // leer heisst: der Hauptfeed
@@ -866,6 +1019,7 @@
     var marken = '';
     if (e.neu) marken += '<span class="marke">neu</span>';
     if (e.serie) marken += '<span class="marke serie">wöchentlich</span>';
+    if (e.eintritt === 'frei') marken += '<span class="marke frei">Eintritt frei</span>';
 
     var frist = e.anmeldeschluss
       ? '<div class="deadline">Anmeldung bis ' + kurz(e.anmeldeschluss) + '</div>' : '';
@@ -903,10 +1057,16 @@
     // dann gesperrt und sein Fenster gilt nicht.
     offenesFenster = (ansicht === 'kalender' || wannMenue.disabled
                       || zeitraum === 'alle') ? null : fenster(ortsdatum(new Date()));
-    var sichtbar = termine.filter(passt);
+    var passend = termine.filter(passt);
+    var sichtbar = passend.filter(function (e) { return !ausgeblendet(e); });
     // Welcher Zeitraum gilt, steht im Menue daneben -- hier nur die Zahl.
-    zaehler.textContent = sichtbar.length +
-      (sichtbar.length === 1 ? ' Termin' : ' Termine');
+    // Was die Einstellungen ausblenden, wird genannt: sonst fehlt etwas,
+    // und niemand weiss warum.
+    var weg = passend.length - sichtbar.length;
+    zaehler.innerHTML = sichtbar.length + (sichtbar.length === 1 ? ' Termin' : ' Termine') +
+      (weg ? ' · ' + weg + ' ausgeblendet · <button type="button" id="aussetzen">anzeigen</button>'
+           : einstAusgesetzt && einstAktiv()
+             ? ' · <button type="button" id="aussetzen">Einstellungen wieder anwenden</button>' : '');
 
     if (ansicht === 'kalender') { zeichneKalender(sichtbar); return; }
 
@@ -1100,7 +1260,14 @@
     window.scrollTo({ top: ziel > 24 ? ziel : 0 });
   }
 
+  function legendeAbgleichen() {
+    Array.prototype.forEach.call(farben.querySelectorAll('[data-liste]'), function (s) {
+      s.hidden = ansicht === 'kalender' || gewaehlt.indexOf(s.dataset.liste) === -1;
+    });
+  }
+
   function menuesAbgleichen() {
+    legendeAbgleichen();
     // Im Kalender bestimmt der Monat den Zeitraum -- die beiden Menues
     // haetten dort nichts zu entscheiden und stehen darum nicht da.
     filterreihe.hidden = (ansicht !== 'liste');
@@ -1167,7 +1334,7 @@
   function knopfbeschriften() {
     var namen = gewaehlt.map(function (wert) {
       return wasFeld.querySelector('input[value="' + wert + '"]')
-                    .nextElementSibling.textContent;
+                    .parentNode.lastElementChild.textContent;
     });
     var text = !namen.length ? (nurNeu ? 'Nur neu dazugekommene' : 'Alle Kategorien')
              : namen.length === 1 ? namen[0]
@@ -1206,6 +1373,44 @@
     if (ev.key === 'Escape' && !wasFeld.hidden) { feldZu(); wasKnopf.focus(); }
   });
 
+  zaehler.addEventListener('click', function (ev) {
+    if (!ev.target.closest('#aussetzen')) return;
+    einstAusgesetzt = !einstAusgesetzt;
+    zeichnen();
+  });
+
+  function zahnradZeigen() {
+    zahnrad.classList.toggle('aktiv', einstAktiv());
+    zahnrad.setAttribute('aria-label', einstAktiv()
+      ? 'Einstellungen (etwas wird ausgeblendet)' : 'Einstellungen');
+  }
+
+  zahnrad.addEventListener('click', function () {
+    ohneKinderFeld.checked = einst.ohneKinder;
+    Array.prototype.forEach.call(nieFeld.querySelectorAll('input'), function (k) {
+      k.checked = einst.nie.indexOf(k.value) > -1;
+    });
+    if (einstDialog.showModal) einstDialog.showModal(); else einstDialog.setAttribute('open', '');
+  });
+
+  // Jede Aenderung gilt sofort; "Fertig" schliesst nur.
+  einstDialog.addEventListener('change', function () {
+    einst.ohneKinder = ohneKinderFeld.checked;
+    einst.nie = Array.prototype.filter
+      .call(nieFeld.querySelectorAll('input'), function (k) { return k.checked; })
+      .map(function (k) { return k.value; });
+    einstAusgesetzt = false;
+    einstSichern();
+    zahnradZeigen();
+    zeichnen();
+  });
+
+  // Tippen auf den Schleier schliesst. Der Dialog selbst fuellt sein
+  // Rechteck; ein Klick, dessen Ziel der Dialog ist, lag also daneben.
+  einstDialog.addEventListener('click', function (ev) {
+    if (ev.target === einstDialog) einstDialog.close();
+  });
+
   wannMenue.addEventListener('change', function () {
     zeitraum = wannMenue.value;
     zeichnen();
@@ -1230,6 +1435,8 @@
     });
   }
 
+  einstLaden();
+  zahnradZeigen();
   menuesAbgleichen();
   merkLaden();
   zahlZeigen();
