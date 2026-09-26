@@ -1,12 +1,6 @@
 {
- "erzeugt": "2026-09-26T09:30:05+00:00",
+ "erzeugt": "2026-09-26T09:37:39+00:00",
  "befunde": [
-  {
-   "dringlichkeit": "fehler",
-   "quelle": "Dachsbau",
-   "was": "seit diesem Lauf kaputt: URLError: <urlopen error [Errno 101] Network is unreachable>",
-   "rat": "Seite im Browser oeffnen und vergleichen, was sich geaendert hat."
-  },
   {
    "dringlichkeit": "fehler",
    "quelle": "Nähcafé",
@@ -14,16 +8,16 @@
    "rat": "Der Server hat uns heute abgewiesen, frueher aber geliefert. Das liegt meist an der Maschine, auf der der Lauf gerade laeuft -- den naechsten Lauf abwarten, nicht abschalten."
   },
   {
-   "dringlichkeit": "fehler",
-   "quelle": "Skibörse Innsbruck",
-   "was": "seit 7 Laeufen kaputt: HTTPError: HTTP Error 429: Too Many Requests",
-   "rat": "Wenn die Seite dauerhaft weg ist: Quelle abschalten und den Grund eintragen, statt sie taeglich vergeblich zu holen."
-  },
-  {
    "dringlichkeit": "warnung",
    "quelle": "Tiroler Landestheater",
    "was": "nur noch 6 statt ueblicherweise 25",
    "rat": "Teilweiser Umbau der Seite, oder die Quelle hat wirklich weniger im Programm."
+  },
+  {
+   "dringlichkeit": "hinweis",
+   "quelle": "Skibörse Innsbruck",
+   "was": "liefert wieder",
+   "rat": ""
   }
  ],
  "dauerhaft_still": [
@@ -60,7 +54,7 @@
     "tag": "2026-09-26",
     "zustand": "ok",
     "gefunden": 3,
-    "behalten": 3,
+    "behalten": 2,
     "fehler": ""
    }
   },
@@ -148,10 +142,10 @@
    "laeufe_erfasst": 23,
    "zuletzt": {
     "tag": "2026-09-26",
-    "zustand": "fehler",
+    "zustand": "ok",
     "gefunden": 0,
     "behalten": 0,
-    "fehler": "URLError: <urlopen error [Errno 101] Network is unreachable>"
+    "fehler": ""
    }
   },
   "Die Bäckerei": {
@@ -270,7 +264,7 @@
     "tag": "2026-09-26",
     "zustand": "ok",
     "gefunden": 10,
-    "behalten": 2,
+    "behalten": 1,
     "fehler": ""
    }
   },
@@ -320,7 +314,7 @@
     "tag": "2026-09-26",
     "zustand": "ok",
     "gefunden": 24,
-    "behalten": 4,
+    "behalten": 3,
     "fehler": ""
    }
   },
@@ -360,7 +354,7 @@
     "tag": "2026-09-26",
     "zustand": "ok",
     "gefunden": 3,
-    "behalten": 1,
+    "behalten": 0,
     "fehler": ""
    }
   },
@@ -440,7 +434,7 @@
     "tag": "2026-09-26",
     "zustand": "ok",
     "gefunden": 16,
-    "behalten": 15,
+    "behalten": 13,
     "fehler": ""
    }
   },
@@ -488,10 +482,10 @@
    "laeufe_erfasst": 23,
    "zuletzt": {
     "tag": "2026-09-26",
-    "zustand": "fehler",
+    "zustand": "ok",
     "gefunden": 0,
     "behalten": 0,
-    "fehler": "HTTPError: HTTP Error 429: Too Many Requests"
+    "fehler": ""
    }
   },
   "Spielraum FabLab": {
@@ -650,7 +644,7 @@
     "tag": "2026-09-26",
     "zustand": "ok",
     "gefunden": 4,
-    "behalten": 4,
+    "behalten": 0,
     "fehler": ""
    }
   },

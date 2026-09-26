@@ -1,11 +1,11 @@
 {
- "lauf": "2026-09-26T09:30:05+00:00",
- "termine": 1002,
+ "lauf": "2026-09-26T09:37:39+00:00",
+ "termine": 992,
  "serientermine": 123,
  "neu": 0,
  "quellen_aktiv": 72,
- "quellen_mit_treffern": 43,
- "quellen_mit_fehler": 3,
+ "quellen_mit_treffern": 41,
+ "quellen_mit_fehler": 1,
  "quellen": [
   {
    "quelle": "Innsbruck Tourismus",
@@ -127,7 +127,7 @@
    "zeiten_nachgetragen": 0,
    "verworfen": {
     "kein Ort im Umkreis genannt": 2,
-    "ausserhalb: zell am ziller": 1,
+    "ausserhalb: gerlos": 1,
     "ausserhalb: kufstein": 1,
     "ausserhalb: landeck": 1,
     "ausserhalb: mayrhofen": 1
@@ -312,7 +312,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "URLError: <urlopen error [Errno 101] Network is unreachable>",
+   "fehler": "",
    "grund": "",
    "hinweis": "Sehr schlanke Seite, Programm ueberwiegend ueber Instagram",
    "zeiten_nachgetragen": 0,
@@ -699,13 +699,14 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 24,
-   "uebernommen": 4,
+   "uebernommen": 3,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 20
+    "ausserhalb des Zeitfensters": 20,
+    "Fliesstext statt Titel": 1
    },
    "brauchtum": {}
   },
@@ -994,13 +995,15 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 16,
-   "uebernommen": 15,
+   "uebernommen": 13,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "Begruessungsbanner statt Titel": 1
+    "Begruessungsbanner statt Titel": 1,
+    "Fliesstext statt Titel": 1,
+    "Hinweis der Seite statt Titel": 1
    },
    "brauchtum": {}
   },
@@ -1038,12 +1041,14 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 3,
-   "uebernommen": 3,
+   "uebernommen": 2,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
-   "verworfen": {},
+   "verworfen": {
+    "Hinweis der Seite statt Titel": 1
+   },
    "brauchtum": {}
   },
   {
@@ -1066,12 +1071,15 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 4,
-   "uebernommen": 4,
+   "uebernommen": 0,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
-   "verworfen": {},
+   "verworfen": {
+    "Fliesstext statt Titel": 2,
+    "Hinweis der Seite statt Titel": 2
+   },
    "brauchtum": {}
   },
   {
@@ -1122,13 +1130,14 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 10,
-   "uebernommen": 2,
+   "uebernommen": 1,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 8
+    "ausserhalb des Zeitfensters": 8,
+    "Satzmitte statt Titel": 1
    },
    "brauchtum": {}
   },
@@ -1286,7 +1295,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
+   "fehler": "",
    "grund": "",
    "hinweis": "Boerse Mitte Oktober",
    "zeiten_nachgetragen": 0,
@@ -1360,13 +1369,13 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 3,
-   "uebernommen": 1,
+   "uebernommen": 0,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "Fliesstext statt Titel": 2
+    "Fliesstext statt Titel": 3
    },
    "brauchtum": {}
   },
