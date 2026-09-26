@@ -1,11 +1,11 @@
 {
- "lauf": "2026-09-26T09:37:39+00:00",
- "termine": 992,
+ "lauf": "2026-09-26T09:55:47+00:00",
+ "termine": 1831,
  "serientermine": 123,
- "neu": 0,
+ "neu": 893,
  "quellen_aktiv": 72,
- "quellen_mit_treffern": 41,
- "quellen_mit_fehler": 1,
+ "quellen_mit_treffern": 42,
+ "quellen_mit_fehler": 2,
  "quellen": [
   {
    "quelle": "Innsbruck Tourismus",
@@ -36,30 +36,38 @@
    "quelle": "TT Events",
    "url": "https://events.tt.com/veranstaltungen/innsbruck/alle-kategorien",
    "aktiv": true,
-   "strategie": "heuristik",
-   "gefunden": 10,
-   "uebernommen": 0,
+   "strategie": "ttevents",
+   "gefunden": 1028,
+   "uebernommen": 1009,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 10
+    "Satzmitte statt Titel": 1,
+    "ausserhalb: salzburg": 1,
+    "ausserhalb des Zeitfensters": 17
    },
-   "brauchtum": {}
+   "brauchtum": {
+    "Blasmusik": 3,
+    "Volksmusik": 12
+   }
   },
   {
    "quelle": "TT Events Innsbruck-Land",
    "url": "https://events.tt.com/veranstaltungen/innsbruck-land/alle-kategorien",
    "aktiv": true,
-   "strategie": "heuristik",
-   "gefunden": 10,
-   "uebernommen": 10,
+   "strategie": "ttevents",
+   "gefunden": 259,
+   "uebernommen": 255,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
-   "verworfen": {},
+   "verworfen": {
+    "ausserhalb: mittenwald": 1,
+    "ausserhalb des Zeitfensters": 3
+   },
    "brauchtum": {}
   },
   {
@@ -1295,7 +1303,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "",
+   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
    "grund": "",
    "hinweis": "Boerse Mitte Oktober",
    "zeiten_nachgetragen": 0,
