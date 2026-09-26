@@ -145,7 +145,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -205,7 +205,7 @@
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -250,7 +250,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -325,7 +325,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -610,7 +610,7 @@
   "kategorie": "brauchtum",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -625,7 +625,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -640,7 +640,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -655,7 +655,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -670,7 +670,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -685,7 +685,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -700,7 +700,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -715,7 +715,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -730,7 +730,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -745,7 +745,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -760,7 +760,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -775,7 +775,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -790,7 +790,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -805,7 +805,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -820,7 +820,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -835,7 +835,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -850,7 +850,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -865,7 +865,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -880,7 +880,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -895,7 +895,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -910,7 +910,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -925,7 +925,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -940,7 +940,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -955,7 +955,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -970,7 +970,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -985,7 +985,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -1000,7 +1000,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -1015,7 +1015,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -1030,7 +1030,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -1045,7 +1045,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -1060,7 +1060,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -1075,7 +1075,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -1090,7 +1090,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -1105,7 +1105,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -1120,7 +1120,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -1135,7 +1135,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -1150,7 +1150,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -1165,7 +1165,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -1180,7 +1180,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -1195,7 +1195,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -1210,7 +1210,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -1225,7 +1225,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -1240,7 +1240,7 @@
   "kategorie": "kino",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -1255,7 +1255,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -1360,7 +1360,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -1405,7 +1405,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -1435,7 +1435,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -1555,7 +1555,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -1570,7 +1570,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -1585,7 +1585,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -1630,7 +1630,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -1660,7 +1660,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -1690,7 +1690,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -1765,7 +1765,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -1780,7 +1780,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -1795,7 +1795,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -1810,7 +1810,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -1825,7 +1825,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -1840,7 +1840,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -1990,7 +1990,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -2020,7 +2020,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -2650,7 +2650,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -2680,7 +2680,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -2725,7 +2725,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -3085,7 +3085,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -4690,7 +4690,7 @@
   "kategorie": "kultur",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -5290,7 +5290,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -5650,7 +5650,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -5830,7 +5830,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -6100,7 +6100,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -6385,7 +6385,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -7645,7 +7645,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -11500,7 +11500,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -12428,7 +12428,7 @@
   "url": "https://data.austriaclimbing.com/Event/3885",
   "quelle": "Austria Climbing",
   "kategorie": "sport",
-  "anmeldeschluss": "2026-11-30",
+  "anmeldeschluss": "",
   "serie": false,
   "neu": false,
   "zielgruppe": "",
@@ -12610,7 +12610,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -13465,7 +13465,7 @@
   "kategorie": "mix",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
@@ -14860,7 +14860,7 @@
   "kategorie": "musik",
   "anmeldeschluss": "",
   "serie": false,
-  "neu": true,
+  "neu": false,
   "zielgruppe": "",
   "eintritt": ""
  },
