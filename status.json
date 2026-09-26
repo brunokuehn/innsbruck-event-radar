@@ -1,8 +1,8 @@
 {
- "lauf": "2026-09-25T14:20:15+00:00",
- "termine": 1005,
+ "lauf": "2026-09-26T09:12:58+00:00",
+ "termine": 1002,
  "serientermine": 123,
- "neu": 7,
+ "neu": 80,
  "quellen_aktiv": 72,
  "quellen_mit_treffern": 43,
  "quellen_mit_fehler": 1,
@@ -12,8 +12,8 @@
    "url": "https://www.innsbruck.info/events/d/alle.html",
    "aktiv": true,
    "strategie": "innsbruckinfo",
-   "gefunden": 222,
-   "uebernommen": 217,
+   "gefunden": 220,
+   "uebernommen": 215,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -23,11 +23,12 @@
     "Titel ist nur eine Anschrift": 1
    },
    "brauchtum": {
+    "Trachten": 2,
     "Volksmusik": 6,
-    "Trachten": 3,
     "Kirchliches Brauchtum": 5,
     "Fruehschoppen": 1,
     "Laendliches Fest": 2,
+    "Advent- und Perchtenbrauch": 5,
     "Blasmusik": 1
    }
   },
@@ -82,14 +83,15 @@
    "url": "https://www.innsbrucktermine.at",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 22,
-   "uebernommen": 22,
+   "gefunden": 23,
+   "uebernommen": 23,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {
+    "Advent- und Perchtenbrauch": 1,
     "Trachten": 3,
     "Kirchliches Brauchtum": 1
    }
@@ -118,16 +120,22 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 11,
-   "uebernommen": 9,
+   "uebernommen": 5,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 1,
+    "kein Ort im Umkreis genannt": 2,
+    "ausserhalb: gerlos": 1,
+    "ausserhalb: kufstein": 1,
+    "ausserhalb: landeck": 1,
     "ausserhalb: mayrhofen": 1
    },
-   "brauchtum": {}
+   "brauchtum": {
+    "Laendliches Fest": 1,
+    "Kirchliches Brauchtum": 1
+   }
   },
   {
    "quelle": "Stadt Innsbruck",
@@ -165,13 +173,13 @@
    "aktiv": true,
    "strategie": "congress",
    "gefunden": 186,
-   "uebernommen": 159,
+   "uebernommen": 157,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 22,
+    "ausserhalb des Zeitfensters": 24,
     "Universitaetsinterna": 5
    },
    "brauchtum": {
@@ -212,8 +220,8 @@
    "url": "https://www.pmk.or.at/de/events",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 19,
-   "uebernommen": 19,
+   "gefunden": 18,
+   "uebernommen": 18,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -227,12 +235,14 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 45,
-   "uebernommen": 45,
+   "uebernommen": 43,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
-   "verworfen": {},
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 2
+   },
    "brauchtum": {}
   },
   {
@@ -241,13 +251,13 @@
    "aktiv": true,
    "strategie": "ics",
    "gefunden": 91,
-   "uebernommen": 82,
+   "uebernommen": 80,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 9
+    "ausserhalb des Zeitfensters": 11
    },
    "brauchtum": {}
   },
@@ -256,8 +266,8 @@
    "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen.html",
    "aktiv": true,
    "strategie": "microdata",
-   "gefunden": 36,
-   "uebernommen": 34,
+   "gefunden": 35,
+   "uebernommen": 33,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -332,6 +342,20 @@
    "uebernommen": 0,
    "fehler": "",
    "grund": "TLS-Zertifikat der Seite ist nicht verifizierbar. Wir schalten die Pruefung nicht ab, also bleibt die Quelle aus.",
+   "hinweis": "",
+   "zeiten_nachgetragen": 0,
+   "verworfen": {},
+   "brauchtum": {}
+  },
+  {
+   "quelle": "Montagu",
+   "url": "https://www.montagu-hostel.com/bar/programm/",
+   "aktiv": false,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "",
+   "grund": "Geprueft am 25.9.2026: Das Programm ist ein einziges Bild, das Monatsplakat (wp-content/uploads/.../September-26-print-1.jpg), ohne Text und ohne Bildbeschreibung. Robots.txt erlaubt den Abruf, es gibt nur nichts zu lesen. rss.xml fuehrt nur den Blog, Songkick nichts, und in den Rohdaten aller Quellen kommt das Montagu nicht vor. Texterkennung auf dem Plakat haben wir bewusst verworfen (Brunos Entscheidung): sie braeuchte ein Zusatzprogramm im Lauf, und jede Fehllesung waere ein falscher Termin.",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {},
@@ -471,13 +495,13 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 22,
-   "uebernommen": 3,
+   "uebernommen": 2,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 19
+    "ausserhalb des Zeitfensters": 20
    },
    "brauchtum": {}
   },
@@ -516,8 +540,8 @@
    "url": "https://www.landestheater.at/spielplan",
    "aktiv": true,
    "strategie": "landestheater",
-   "gefunden": 8,
-   "uebernommen": 8,
+   "gefunden": 6,
+   "uebernommen": 6,
    "fehler": "",
    "grund": "",
    "hinweis": "Die einzige Quelle, die gerendert geholt wird. Ohne Browser steht im HTML kein einziger Termin, mit Browser das ganze Programm -- gemessen 32.000 gegen 160.000 Zeichen. Geholt werden die naechsten 25 Vorstellungen; dahinter verbirgt eine Schaltflaeche \"MEHR LADEN\" den Rest der Spielzeit, und die verlangt einen Klick, den --dump-dom nicht geben kann. Ein mitwanderndes Fenster also, kein Saisonabzug.",
@@ -544,8 +568,8 @@
    "url": "https://www.metropol-kino.at/kinoprogramm/metropol",
    "aktiv": true,
    "strategie": "kino",
-   "gefunden": 16,
-   "uebernommen": 16,
+   "gefunden": 22,
+   "uebernommen": 22,
    "fehler": "",
    "grund": "",
    "hinweis": "nur das Programm des laufenden Tages; Spielzeiten kommen clientseitig nach Auswahl eines Datums",
@@ -630,8 +654,8 @@
    "url": "https://www.tiroler-landesmuseen.at/besuch/veranstaltungen/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 9,
-   "uebernommen": 6,
+   "gefunden": 11,
+   "uebernommen": 8,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -778,8 +802,8 @@
    "url": "https://www.uibk.ac.at/de/events/",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 117,
-   "uebernommen": 113,
+   "gefunden": 116,
+   "uebernommen": 112,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -812,7 +836,9 @@
     "ausserhalb: ehrwald": 1,
     "ausserhalb: schladming": 2
    },
-   "brauchtum": {}
+   "brauchtum": {
+    "Advent- und Perchtenbrauch": 1
+   }
   },
   {
    "quelle": "Kletterzentrum Innsbruck",
@@ -1113,7 +1139,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "",
+   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
@@ -1260,7 +1286,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
+   "fehler": "",
    "grund": "",
    "hinweis": "Boerse Mitte Oktober",
    "zeiten_nachgetragen": 0,
@@ -1301,13 +1327,13 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 7,
-   "uebernommen": 2,
+   "uebernommen": 1,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 4,
+    "kein Ort im Umkreis genannt": 5,
     "ausserhalb: kitzbuehel": 1
    },
    "brauchtum": {}
