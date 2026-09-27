@@ -1,20 +1,5 @@
 [
  {
-  "titel": "Markt am Tivoli",
-  "datum": "2026-09-26",
-  "bis": "",
-  "zeit": "06:00",
-  "ort": "Tivoli Stadion Tirol, Innsbruck",
-  "url": "https://www.olympiaworld.at/events-tickets/",
-  "quelle": "Olympiaworld",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": true,
-  "neu": false,
-  "zielgruppe": "",
-  "eintritt": ""
- },
- {
   "titel": "Flohmarkt Greifcenter",
   "datum": "2026-09-27",
   "bis": "",
@@ -1838,6 +1823,21 @@
   "url": "https://www.toepferei-ibk.at/kurse",
   "quelle": "Töpferei Kathrein",
   "kategorie": "kurse",
+  "anmeldeschluss": "",
+  "serie": true,
+  "neu": false,
+  "zielgruppe": "",
+  "eintritt": ""
+ },
+ {
+  "titel": "Markt am Tivoli",
+  "datum": "2026-12-26",
+  "bis": "",
+  "zeit": "06:00",
+  "ort": "Tivoli Stadion Tirol, Innsbruck",
+  "url": "https://www.olympiaworld.at/events-tickets/",
+  "quelle": "Olympiaworld",
+  "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": true,
   "neu": false,
