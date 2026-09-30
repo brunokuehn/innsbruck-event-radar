@@ -1,20 +1,5 @@
 [
  {
-  "titel": "Pubquiz Brennpunkt",
-  "datum": "2026-09-29",
-  "bis": "",
-  "zeit": "20:00",
-  "ort": "Brennpunkt, Innsbruck",
-  "url": "https://www.quizaustria.at/locations/",
-  "quelle": "Quiz Austria",
-  "kategorie": "mix",
-  "anmeldeschluss": "",
-  "serie": true,
-  "neu": false,
-  "zielgruppe": "",
-  "eintritt": ""
- },
- {
   "titel": "Offene Werkstatt Töpferei Kathrein",
   "datum": "2026-09-30",
   "bis": "",
@@ -1835,6 +1820,21 @@
   "bis": "",
   "zeit": "20:00",
   "ort": "Galway Bay, Innsbruck",
+  "url": "https://www.quizaustria.at/locations/",
+  "quelle": "Quiz Austria",
+  "kategorie": "mix",
+  "anmeldeschluss": "",
+  "serie": true,
+  "neu": false,
+  "zielgruppe": "",
+  "eintritt": ""
+ },
+ {
+  "titel": "Pubquiz Brennpunkt",
+  "datum": "2026-12-29",
+  "bis": "",
+  "zeit": "20:00",
+  "ort": "Brennpunkt, Innsbruck",
   "url": "https://www.quizaustria.at/locations/",
   "quelle": "Quiz Austria",
   "kategorie": "mix",
