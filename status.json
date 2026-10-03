@@ -1,33 +1,33 @@
 {
- "lauf": "2026-10-02T10:38:51+00:00",
- "termine": 1874,
+ "lauf": "2026-10-03T09:59:51+00:00",
+ "termine": 1842,
  "serientermine": 123,
- "neu": 117,
+ "neu": 79,
  "quellen_aktiv": 72,
  "quellen_mit_treffern": 41,
- "quellen_mit_fehler": 1,
+ "quellen_mit_fehler": 0,
  "quellen": [
   {
    "quelle": "Innsbruck Tourismus",
    "url": "https://www.innsbruck.info/events/d/alle.html",
    "aktiv": true,
    "strategie": "innsbruckinfo",
-   "gefunden": 225,
-   "uebernommen": 220,
+   "gefunden": 223,
+   "uebernommen": 217,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 4,
+    "kein Ort im Umkreis genannt": 5,
     "Titel ist nur eine Anschrift": 1
    },
    "brauchtum": {
-    "Volksmusik": 5,
     "Fruehschoppen": 1,
     "Trachten": 1,
     "Laendliches Fest": 2,
     "Kirchliches Brauchtum": 3,
+    "Volksmusik": 4,
     "Advent- und Perchtenbrauch": 5,
     "Blasmusik": 1
    }
@@ -37,8 +37,8 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 1023,
-   "uebernommen": 1005,
+   "gefunden": 1008,
+   "uebernommen": 990,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -58,15 +58,15 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck-land/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 254,
-   "uebernommen": 250,
+   "gefunden": 252,
+   "uebernommen": 246,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
     "ausserhalb: mittenwald": 1,
-    "ausserhalb des Zeitfensters": 3
+    "ausserhalb des Zeitfensters": 5
    },
    "brauchtum": {}
   },
@@ -75,14 +75,14 @@
    "url": "https://www.meinbezirk.at/event/innsbruck/list",
    "aktiv": true,
    "strategie": "meinbezirk",
-   "gefunden": 29,
+   "gefunden": 30,
    "uebernommen": 26,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 3
+    "kein Ort im Umkreis genannt": 4
    },
    "brauchtum": {}
   },
@@ -91,15 +91,14 @@
    "url": "https://www.innsbrucktermine.at",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 24,
-   "uebernommen": 24,
+   "gefunden": 23,
+   "uebernommen": 23,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {
-    "Advent- und Perchtenbrauch": 1,
     "Kirchliches Brauchtum": 1,
     "Fruehschoppen": 1,
     "Laendliches Fest": 2,
@@ -111,15 +110,15 @@
    "url": "https://www.eventfinder.at/veranstaltungen-innsbruck.php",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 62,
-   "uebernommen": 62,
+   "gefunden": 61,
+   "uebernommen": 61,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {
-    "Blasmusik": 2
+    "Blasmusik": 1
    }
   },
   {
@@ -127,17 +126,21 @@
    "url": "https://www.freizeit-tirol.at/freizeit-events/eventkalender/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 10,
-   "uebernommen": 7,
+   "gefunden": 11,
+   "uebernommen": 5,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
     "kein Ort im Umkreis genannt": 1,
-    "ausserhalb: mayrhofen": 2
+    "ausserhalb: mayrhofen": 3,
+    "ausserhalb: reutte": 1,
+    "ausserhalb: kufstein": 1
    },
-   "brauchtum": {}
+   "brauchtum": {
+    "Fruehschoppen": 1
+   }
   },
   {
    "quelle": "Stadt Innsbruck",
@@ -158,8 +161,8 @@
    "url": "https://www.olympiaworld.at/events-tickets/",
    "aktiv": true,
    "strategie": "microdata",
-   "gefunden": 62,
-   "uebernommen": 59,
+   "gefunden": 61,
+   "uebernommen": 58,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -174,14 +177,14 @@
    "url": "https://www.cmi.at/de/veranstaltungskalender",
    "aktiv": true,
    "strategie": "congress",
-   "gefunden": 181,
+   "gefunden": 182,
    "uebernommen": 158,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 18,
+    "ausserhalb des Zeitfensters": 19,
     "Universitaetsinterna": 5
    },
    "brauchtum": {
@@ -222,12 +225,12 @@
    "url": "https://www.pmk.or.at/de/events",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 16,
-   "uebernommen": 16,
+   "gefunden": 15,
+   "uebernommen": 15,
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "zeiten_nachgetragen": 13,
+   "zeiten_nachgetragen": 12,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -237,13 +240,13 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 45,
-   "uebernommen": 44,
+   "uebernommen": 42,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 1
+    "ausserhalb des Zeitfensters": 3
    },
    "brauchtum": {}
   },
@@ -253,13 +256,13 @@
    "aktiv": true,
    "strategie": "ics",
    "gefunden": 94,
-   "uebernommen": 93,
+   "uebernommen": 92,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 1
+    "ausserhalb des Zeitfensters": 2
    },
    "brauchtum": {
     "Schlager": 1
@@ -440,8 +443,8 @@
    "url": "https://www.bierstindl.eu/veranstaltungen",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 21,
-   "uebernommen": 21,
+   "gefunden": 20,
+   "uebernommen": 20,
    "fehler": "",
    "grund": "",
    "hinweis": "War wegen abgebrochener Verbindungen abgeschaltet. Beim Nachpruefen antwortete der Server wieder und die Heuristik fand 18 Termine -- Kabarett und Theater im Haus.",
@@ -572,8 +575,8 @@
    "url": "https://www.metropol-kino.at/kinoprogramm/metropol",
    "aktiv": true,
    "strategie": "kino",
-   "gefunden": 23,
-   "uebernommen": 23,
+   "gefunden": 21,
+   "uebernommen": 21,
    "fehler": "",
    "grund": "",
    "hinweis": "nur das Programm des laufenden Tages; Spielzeiten kommen clientseitig nach Auswahl eines Datums",
@@ -674,8 +677,8 @@
    "url": "https://www.haus-der-musik-innsbruck.at/kalender/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 8,
-   "uebernommen": 8,
+   "gefunden": 7,
+   "uebernommen": 7,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -807,8 +810,8 @@
    "url": "https://www.uibk.ac.at/de/events/",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 149,
-   "uebernommen": 145,
+   "gefunden": 144,
+   "uebernommen": 140,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -1152,7 +1155,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
+   "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
@@ -1240,12 +1243,13 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 11,
-   "uebernommen": 9,
+   "uebernommen": 8,
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "zeiten_nachgetragen": 8,
+   "zeiten_nachgetragen": 7,
    "verworfen": {
+    "ausserhalb des Zeitfensters": 1,
     "Universitaetsinterna": 2
    },
    "brauchtum": {}
@@ -1341,14 +1345,14 @@
    "url": "https://www.wasmachma.at/events/bundesland/tirol/flohmarkt",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 8,
+   "gefunden": 9,
    "uebernommen": 1,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 7
+    "kein Ort im Umkreis genannt": 8
    },
    "brauchtum": {}
   },
@@ -1373,14 +1377,14 @@
    "url": "https://www.markthalle-innsbruck.at",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 3,
+   "gefunden": 2,
    "uebernommen": 0,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "Fliesstext statt Titel": 3
+    "Fliesstext statt Titel": 2
    },
    "brauchtum": {}
   },
