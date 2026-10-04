@@ -1,20 +1,5 @@
 [
  {
-  "titel": "Markt am Tivoli",
-  "datum": "2026-10-03",
-  "bis": "",
-  "zeit": "06:00",
-  "ort": "Tivoli Stadion Tirol, Innsbruck",
-  "url": "https://www.olympiaworld.at/events-tickets/",
-  "quelle": "Olympiaworld",
-  "kategorie": "markt",
-  "anmeldeschluss": "",
-  "serie": true,
-  "neu": false,
-  "zielgruppe": "",
-  "eintritt": ""
- },
- {
   "titel": "Flohmarkt Greifcenter",
   "datum": "2026-10-04",
   "bis": "",
@@ -1837,6 +1822,21 @@
   "ort": "Markthalle, Innsbruck",
   "url": "https://www.markthalle-innsbruck.at",
   "quelle": "Markthalle",
+  "kategorie": "markt",
+  "anmeldeschluss": "",
+  "serie": true,
+  "neu": false,
+  "zielgruppe": "",
+  "eintritt": ""
+ },
+ {
+  "titel": "Markt am Tivoli",
+  "datum": "2027-01-02",
+  "bis": "",
+  "zeit": "06:00",
+  "ort": "Tivoli Stadion Tirol, Innsbruck",
+  "url": "https://www.olympiaworld.at/events-tickets/",
+  "quelle": "Olympiaworld",
   "kategorie": "markt",
   "anmeldeschluss": "",
   "serie": true,

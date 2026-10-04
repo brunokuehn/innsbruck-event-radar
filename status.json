@@ -1,8 +1,8 @@
 {
- "lauf": "2026-10-03T09:59:51+00:00",
- "termine": 1842,
+ "lauf": "2026-10-04T10:42:10+00:00",
+ "termine": 1838,
  "serientermine": 123,
- "neu": 79,
+ "neu": 98,
  "quellen_aktiv": 72,
  "quellen_mit_treffern": 41,
  "quellen_mit_fehler": 0,
@@ -12,22 +12,20 @@
    "url": "https://www.innsbruck.info/events/d/alle.html",
    "aktiv": true,
    "strategie": "innsbruckinfo",
-   "gefunden": 223,
-   "uebernommen": 217,
+   "gefunden": 218,
+   "uebernommen": 213,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 5,
+    "kein Ort im Umkreis genannt": 4,
     "Titel ist nur eine Anschrift": 1
    },
    "brauchtum": {
-    "Fruehschoppen": 1,
-    "Trachten": 1,
-    "Laendliches Fest": 2,
+    "Volksmusik": 5,
+    "Laendliches Fest": 1,
     "Kirchliches Brauchtum": 3,
-    "Volksmusik": 4,
     "Advent- und Perchtenbrauch": 5,
     "Blasmusik": 1
    }
@@ -37,8 +35,8 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 1008,
-   "uebernommen": 990,
+   "gefunden": 994,
+   "uebernommen": 976,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -58,8 +56,8 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck-land/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 252,
-   "uebernommen": 246,
+   "gefunden": 250,
+   "uebernommen": 244,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -99,6 +97,7 @@
    "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {
+    "Advent- und Perchtenbrauch": 1,
     "Kirchliches Brauchtum": 1,
     "Fruehschoppen": 1,
     "Laendliches Fest": 2,
@@ -111,12 +110,14 @@
    "aktiv": true,
    "strategie": "jsonld",
    "gefunden": 61,
-   "uebernommen": 61,
+   "uebernommen": 60,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
-   "verworfen": {},
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 1
+   },
    "brauchtum": {
     "Blasmusik": 1
    }
@@ -126,21 +127,17 @@
    "url": "https://www.freizeit-tirol.at/freizeit-events/eventkalender/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 11,
-   "uebernommen": 5,
+   "gefunden": 10,
+   "uebernommen": 8,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
     "kein Ort im Umkreis genannt": 1,
-    "ausserhalb: mayrhofen": 3,
-    "ausserhalb: reutte": 1,
-    "ausserhalb: kufstein": 1
+    "ausserhalb: mayrhofen": 1
    },
-   "brauchtum": {
-    "Fruehschoppen": 1
-   }
+   "brauchtum": {}
   },
   {
    "quelle": "Stadt Innsbruck",
@@ -240,13 +237,13 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 45,
-   "uebernommen": 42,
+   "uebernommen": 41,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 3
+    "ausserhalb des Zeitfensters": 4
    },
    "brauchtum": {}
   },
@@ -256,13 +253,13 @@
    "aktiv": true,
    "strategie": "ics",
    "gefunden": 94,
-   "uebernommen": 92,
+   "uebernommen": 91,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 2
+    "ausserhalb des Zeitfensters": 3
    },
    "brauchtum": {
     "Schlager": 1
@@ -575,8 +572,8 @@
    "url": "https://www.metropol-kino.at/kinoprogramm/metropol",
    "aktiv": true,
    "strategie": "kino",
-   "gefunden": 21,
-   "uebernommen": 21,
+   "gefunden": 27,
+   "uebernommen": 27,
    "fehler": "",
    "grund": "",
    "hinweis": "nur das Programm des laufenden Tages; Spielzeiten kommen clientseitig nach Auswahl eines Datums",
@@ -661,8 +658,8 @@
    "url": "https://www.tiroler-landesmuseen.at/besuch/veranstaltungen/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 12,
-   "uebernommen": 9,
+   "gefunden": 13,
+   "uebernommen": 10,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -810,8 +807,8 @@
    "url": "https://www.uibk.ac.at/de/events/",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 144,
-   "uebernommen": 140,
+   "gefunden": 143,
+   "uebernommen": 139,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -826,7 +823,7 @@
    "url": "https://data.austriaclimbing.com/Calendar",
    "aktiv": true,
    "strategie": "austriaclimbing",
-   "gefunden": 26,
+   "gefunden": 25,
    "uebernommen": 5,
    "fehler": "",
    "grund": "",
@@ -842,7 +839,7 @@
     "ausserhalb: linz": 1,
     "ausserhalb: steyr": 1,
     "ausserhalb: ehrwald": 1,
-    "ausserhalb: schladming": 2
+    "ausserhalb: schladming": 1
    },
    "brauchtum": {
     "Advent- und Perchtenbrauch": 1
@@ -869,14 +866,14 @@
    "url": "https://www.runme.at/laufkalender/tirol/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 9,
+   "gefunden": 8,
    "uebernommen": 6,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 3
+    "kein Ort im Umkreis genannt": 2
    },
    "brauchtum": {}
   },
@@ -929,8 +926,8 @@
    "url": "https://www.aut.cc/veranstaltungen",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 5,
-   "uebernommen": 5,
+   "gefunden": 4,
+   "uebernommen": 4,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -1242,14 +1239,13 @@
    "url": "https://www.mci.edu/de/hochschule/events",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 11,
+   "gefunden": 10,
    "uebernommen": 8,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 7,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 1,
     "Universitaetsinterna": 2
    },
    "brauchtum": {}
@@ -1345,14 +1341,14 @@
    "url": "https://www.wasmachma.at/events/bundesland/tirol/flohmarkt",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 9,
-   "uebernommen": 1,
+   "gefunden": 8,
+   "uebernommen": 2,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 8
+    "kein Ort im Umkreis genannt": 6
    },
    "brauchtum": {}
   },
