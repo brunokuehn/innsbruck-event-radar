@@ -1,25 +1,26 @@
 {
- "lauf": "2026-10-07T11:13:07+00:00",
- "termine": 1709,
+ "lauf": "2026-10-08T11:32:55+00:00",
+ "termine": 1880,
  "serientermine": 123,
- "neu": 130,
+ "neu": 134,
  "quellen_aktiv": 72,
  "quellen_mit_treffern": 41,
- "quellen_mit_fehler": 0,
+ "quellen_mit_fehler": 2,
  "quellen": [
   {
    "quelle": "Innsbruck Tourismus",
    "url": "https://www.innsbruck.info/events/d/alle.html",
    "aktiv": true,
    "strategie": "innsbruckinfo",
-   "gefunden": 239,
-   "uebernommen": 234,
+   "gefunden": 249,
+   "uebernommen": 243,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 5
+    "kein Ort im Umkreis genannt": 5,
+    "Titel ist nur eine Anschrift": 1
    },
    "brauchtum": {
     "Volksmusik": 5,
@@ -34,8 +35,8 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 802,
-   "uebernommen": 783,
+   "gefunden": 1009,
+   "uebernommen": 989,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -43,7 +44,7 @@
    "verworfen": {
     "Satzmitte statt Titel": 1,
     "ausserhalb: salzburg": 1,
-    "ausserhalb des Zeitfensters": 17
+    "ausserhalb des Zeitfensters": 18
    },
    "brauchtum": {
     "Blasmusik": 3,
@@ -55,8 +56,8 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck-land/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 247,
-   "uebernommen": 241,
+   "gefunden": 252,
+   "uebernommen": 246,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -72,14 +73,14 @@
    "url": "https://www.meinbezirk.at/event/innsbruck/list",
    "aktiv": true,
    "strategie": "meinbezirk",
-   "gefunden": 30,
-   "uebernommen": 26,
+   "gefunden": 29,
+   "uebernommen": 27,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 4
+    "kein Ort im Umkreis genannt": 2
    },
    "brauchtum": {}
   },
@@ -88,8 +89,8 @@
    "url": "https://www.innsbrucktermine.at",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 24,
-   "uebernommen": 22,
+   "gefunden": 25,
+   "uebernommen": 23,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -106,14 +107,14 @@
    "url": "https://www.eventfinder.at/veranstaltungen-innsbruck.php",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 62,
-   "uebernommen": 61,
+   "gefunden": 61,
+   "uebernommen": 59,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 1
+    "ausserhalb des Zeitfensters": 2
    },
    "brauchtum": {
     "Blasmusik": 1
@@ -125,14 +126,15 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 10,
-   "uebernommen": 8,
+   "uebernommen": 7,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
     "kein Ort im Umkreis genannt": 1,
-    "ausserhalb: kitzbuehel": 1
+    "ausserhalb: kitzbuehel": 1,
+    "ausserhalb: koessen": 1
    },
    "brauchtum": {}
   },
@@ -171,8 +173,8 @@
    "url": "https://www.cmi.at/de/veranstaltungskalender",
    "aktiv": true,
    "strategie": "congress",
-   "gefunden": 182,
-   "uebernommen": 157,
+   "gefunden": 183,
+   "uebernommen": 158,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -248,13 +250,13 @@
    "aktiv": true,
    "strategie": "ics",
    "gefunden": 94,
-   "uebernommen": 87,
+   "uebernommen": 85,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 7
+    "ausserhalb des Zeitfensters": 9
    },
    "brauchtum": {
     "Schlager": 1
@@ -435,8 +437,8 @@
    "url": "https://www.bierstindl.eu/veranstaltungen",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 22,
-   "uebernommen": 22,
+   "gefunden": 21,
+   "uebernommen": 21,
    "fehler": "",
    "grund": "",
    "hinweis": "War wegen abgebrochener Verbindungen abgeschaltet. Beim Nachpruefen antwortete der Server wieder und die Heuristik fand 18 Termine -- Kabarett und Theater im Haus.",
@@ -567,8 +569,8 @@
    "url": "https://www.metropol-kino.at/kinoprogramm/metropol",
    "aktiv": true,
    "strategie": "kino",
-   "gefunden": 25,
-   "uebernommen": 25,
+   "gefunden": 24,
+   "uebernommen": 24,
    "fehler": "",
    "grund": "",
    "hinweis": "nur das Programm des laufenden Tages; Spielzeiten kommen clientseitig nach Auswahl eines Datums",
@@ -624,13 +626,13 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 243,
-   "uebernommen": 1,
+   "uebernommen": 2,
    "fehler": "",
    "grund": "",
    "hinweis": "Die Seite fuehrt das Archiv aller Ausgaben seit 2017; 242 von 243 Terminen liegen darum in der Vergangenheit. Kein Fehler.",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 242
+    "ausserhalb des Zeitfensters": 241
    },
    "brauchtum": {}
   },
@@ -788,8 +790,8 @@
    "url": "https://stadtbibliothek.innsbruck.gv.at/de/programm/veranstaltungskalender/5-0.html",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 4,
-   "uebernommen": 4,
+   "gefunden": 3,
+   "uebernommen": 3,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -802,8 +804,8 @@
    "url": "https://www.uibk.ac.at/de/events/",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 152,
-   "uebernommen": 149,
+   "gefunden": 164,
+   "uebernommen": 161,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -818,14 +820,14 @@
    "url": "https://data.austriaclimbing.com/Calendar",
    "aktiv": true,
    "strategie": "austriaclimbing",
-   "gefunden": 24,
+   "gefunden": 25,
    "uebernommen": 5,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 8,
+    "kein Ort im Umkreis genannt": 9,
     "ausserhalb: dornbirn": 1,
     "ausserhalb: voecklabruck": 1,
     "ausserhalb: wien": 2,
@@ -845,13 +847,13 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 10,
-   "uebernommen": 3,
+   "uebernommen": 4,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 7
+    "ausserhalb des Zeitfensters": 6
    },
    "brauchtum": {}
   },
@@ -860,14 +862,14 @@
    "url": "https://www.runme.at/laufkalender/tirol/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 8,
+   "gefunden": 9,
    "uebernommen": 6,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 2
+    "kein Ort im Umkreis genannt": 3
    },
    "brauchtum": {}
   },
@@ -920,8 +922,8 @@
    "url": "https://www.aut.cc/veranstaltungen",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 4,
-   "uebernommen": 4,
+   "gefunden": 15,
+   "uebernommen": 15,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -1146,7 +1148,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "",
+   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
@@ -1216,7 +1218,7 @@
    "url": "https://www.standort-tirol.at/veranstaltungen",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 20,
+   "gefunden": 19,
    "uebernommen": 4,
    "fehler": "",
    "grund": "",
@@ -1224,7 +1226,7 @@
    "zeiten_nachgetragen": 0,
    "verworfen": {
     "ausserhalb des Zeitfensters": 1,
-    "kein Ort im Umkreis genannt": 15
+    "kein Ort im Umkreis genannt": 14
    },
    "brauchtum": {}
   },
@@ -1306,10 +1308,10 @@
    "quelle": "flohmarkt.at",
    "url": "https://www.flohmarkt.at/flohmaerkte/innsbruck",
    "aktiv": true,
-   "strategie": "heuristik",
-   "gefunden": 15,
-   "uebernommen": 15,
-   "fehler": "",
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "TimeoutError: The read operation timed out",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
@@ -1335,14 +1337,14 @@
    "url": "https://www.wasmachma.at/events/bundesland/tirol/flohmarkt",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 8,
+   "gefunden": 7,
    "uebernommen": 2,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 6
+    "kein Ort im Umkreis genannt": 5
    },
    "brauchtum": {}
   },
@@ -1351,8 +1353,8 @@
    "url": "https://www.radlobby.at/tirol/radlboerse",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 3,
-   "uebernommen": 0,
+   "gefunden": 4,
+   "uebernommen": 1,
    "fehler": "",
    "grund": "",
    "hinweis": "Boersen im Maerz und April",
