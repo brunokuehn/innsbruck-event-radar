@@ -1,8 +1,8 @@
 {
- "lauf": "2026-10-09T11:27:35+00:00",
- "termine": 1727,
+ "lauf": "2026-10-10T10:44:32+00:00",
+ "termine": 1838,
  "serientermine": 123,
- "neu": 109,
+ "neu": 92,
  "quellen_aktiv": 72,
  "quellen_mit_treffern": 42,
  "quellen_mit_fehler": 1,
@@ -12,8 +12,8 @@
    "url": "https://www.innsbruck.info/events/d/alle.html",
    "aktiv": true,
    "strategie": "innsbruckinfo",
-   "gefunden": 249,
-   "uebernommen": 243,
+   "gefunden": 241,
+   "uebernommen": 235,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -35,8 +35,8 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 784,
-   "uebernommen": 765,
+   "gefunden": 976,
+   "uebernommen": 956,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -44,10 +44,10 @@
    "verworfen": {
     "Satzmitte statt Titel": 1,
     "ausserhalb: salzburg": 1,
-    "ausserhalb des Zeitfensters": 17
+    "ausserhalb des Zeitfensters": 18
    },
    "brauchtum": {
-    "Blasmusik": 2,
+    "Blasmusik": 3,
     "Volksmusik": 12
    }
   },
@@ -56,8 +56,8 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck-land/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 250,
-   "uebernommen": 244,
+   "gefunden": 252,
+   "uebernommen": 246,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -73,8 +73,8 @@
    "url": "https://www.meinbezirk.at/event/innsbruck/list",
    "aktiv": true,
    "strategie": "meinbezirk",
-   "gefunden": 29,
-   "uebernommen": 27,
+   "gefunden": 30,
+   "uebernommen": 28,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -89,15 +89,18 @@
    "url": "https://www.innsbrucktermine.at",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 23,
-   "uebernommen": 23,
+   "gefunden": 22,
+   "uebernommen": 22,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {
-    "Advent- und Perchtenbrauch": 1
+    "Advent- und Perchtenbrauch": 1,
+    "Laendliches Fest": 1,
+    "Kirchliches Brauchtum": 1,
+    "Fruehschoppen": 1
    }
   },
   {
@@ -123,17 +126,19 @@
    "url": "https://www.freizeit-tirol.at/freizeit-events/eventkalender/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 10,
+   "gefunden": 12,
    "uebernommen": 7,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 2,
-    "ausserhalb: oetztal": 1
+    "kein Ort im Umkreis genannt": 3,
+    "ausserhalb: oetztal": 2
    },
-   "brauchtum": {}
+   "brauchtum": {
+    "Laendliches Fest": 1
+   }
   },
   {
    "quelle": "Stadt Innsbruck",
@@ -155,13 +160,13 @@
    "aktiv": true,
    "strategie": "microdata",
    "gefunden": 61,
-   "uebernommen": 58,
+   "uebernommen": 57,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 3
+    "ausserhalb des Zeitfensters": 4
    },
    "brauchtum": {}
   },
@@ -233,13 +238,13 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 42,
-   "uebernommen": 41,
+   "uebernommen": 39,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 1
+    "ausserhalb des Zeitfensters": 3
    },
    "brauchtum": {}
   },
@@ -249,13 +254,13 @@
    "aktiv": true,
    "strategie": "ics",
    "gefunden": 95,
-   "uebernommen": 84,
+   "uebernommen": 82,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 11
+    "ausserhalb des Zeitfensters": 13
    },
    "brauchtum": {
     "Schlager": 1
@@ -436,8 +441,8 @@
    "url": "https://www.bierstindl.eu/veranstaltungen",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 21,
-   "uebernommen": 21,
+   "gefunden": 20,
+   "uebernommen": 20,
    "fehler": "",
    "grund": "",
    "hinweis": "War wegen abgebrochener Verbindungen abgeschaltet. Beim Nachpruefen antwortete der Server wieder und die Heuristik fand 18 Termine -- Kabarett und Theater im Haus.",
@@ -568,8 +573,8 @@
    "url": "https://www.metropol-kino.at/kinoprogramm/metropol",
    "aktiv": true,
    "strategie": "kino",
-   "gefunden": 30,
-   "uebernommen": 30,
+   "gefunden": 26,
+   "uebernommen": 26,
    "fehler": "",
    "grund": "",
    "hinweis": "nur das Programm des laufenden Tages; Spielzeiten kommen clientseitig nach Auswahl eines Datums",
@@ -654,8 +659,8 @@
    "url": "https://www.tiroler-landesmuseen.at/besuch/veranstaltungen/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 11,
-   "uebernommen": 8,
+   "gefunden": 12,
+   "uebernommen": 9,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -803,14 +808,14 @@
    "url": "https://www.uibk.ac.at/de/events/",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 163,
-   "uebernommen": 160,
+   "gefunden": 156,
+   "uebernommen": 154,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "Universitaetsinterna": 3
+    "Universitaetsinterna": 2
    },
    "brauchtum": {}
   },
@@ -846,8 +851,8 @@
    "url": "https://www.kletterzentrum-innsbruck.at/category/events/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 10,
-   "uebernommen": 4,
+   "gefunden": 11,
+   "uebernommen": 5,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -862,14 +867,14 @@
    "url": "https://www.runme.at/laufkalender/tirol/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 9,
-   "uebernommen": 6,
+   "gefunden": 12,
+   "uebernommen": 5,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 3
+    "kein Ort im Umkreis genannt": 7
    },
    "brauchtum": {}
   },
@@ -1335,14 +1340,14 @@
    "url": "https://www.wasmachma.at/events/bundesland/tirol/flohmarkt",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 8,
-   "uebernommen": 2,
+   "gefunden": 10,
+   "uebernommen": 1,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 6
+    "kein Ort im Umkreis genannt": 9
    },
    "brauchtum": {}
   },
@@ -1367,14 +1372,14 @@
    "url": "https://www.markthalle-innsbruck.at",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 2,
+   "gefunden": 3,
    "uebernommen": 0,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "Fliesstext statt Titel": 2
+    "Fliesstext statt Titel": 3
    },
    "brauchtum": {}
   },
