@@ -1,8 +1,8 @@
 {
- "lauf": "2026-10-11T10:57:00+00:00",
- "termine": 1674,
+ "lauf": "2026-10-12T12:07:56+00:00",
+ "termine": 1814,
  "serientermine": 123,
- "neu": 100,
+ "neu": 102,
  "quellen_aktiv": 72,
  "quellen_mit_treffern": 42,
  "quellen_mit_fehler": 1,
@@ -12,19 +12,18 @@
    "url": "https://www.innsbruck.info/events/d/alle.html",
    "aktiv": true,
    "strategie": "innsbruckinfo",
-   "gefunden": 233,
-   "uebernommen": 228,
+   "gefunden": 227,
+   "uebernommen": 223,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 4,
-    "Titel ist nur eine Anschrift": 1
+    "kein Ort im Umkreis genannt": 4
    },
    "brauchtum": {
-    "Kirchliches Brauchtum": 2,
     "Volksmusik": 5,
+    "Kirchliches Brauchtum": 1,
     "Advent- und Perchtenbrauch": 5,
     "Blasmusik": 1
    }
@@ -34,8 +33,8 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 756,
-   "uebernommen": 737,
+   "gefunden": 962,
+   "uebernommen": 942,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -43,10 +42,10 @@
    "verworfen": {
     "Satzmitte statt Titel": 1,
     "ausserhalb: salzburg": 1,
-    "ausserhalb des Zeitfensters": 17
+    "ausserhalb des Zeitfensters": 18
    },
    "brauchtum": {
-    "Blasmusik": 2,
+    "Blasmusik": 3,
     "Volksmusik": 12
    }
   },
@@ -55,17 +54,20 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck-land/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 238,
-   "uebernommen": 232,
+   "gefunden": 259,
+   "uebernommen": 252,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
     "ausserhalb: mittenwald": 1,
+    "ausserhalb: wien": 1,
     "ausserhalb des Zeitfensters": 5
    },
-   "brauchtum": {}
+   "brauchtum": {
+    "Blasmusik": 1
+   }
   },
   {
    "quelle": "meinbezirk",
@@ -73,13 +75,13 @@
    "aktiv": true,
    "strategie": "meinbezirk",
    "gefunden": 29,
-   "uebernommen": 27,
+   "uebernommen": 24,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 2
+    "kein Ort im Umkreis genannt": 5
    },
    "brauchtum": {}
   },
@@ -96,9 +98,7 @@
    "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {
-    "Advent- und Perchtenbrauch": 1,
-    "Kirchliches Brauchtum": 1,
-    "Fruehschoppen": 1
+    "Advent- und Perchtenbrauch": 1
    }
   },
   {
@@ -125,14 +125,15 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 10,
-   "uebernommen": 8,
+   "uebernommen": 7,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
     "kein Ort im Umkreis genannt": 1,
-    "ausserhalb: mayrhofen": 1
+    "ausserhalb: pertisau": 1,
+    "ausserhalb: kirchberg": 1
    },
    "brauchtum": {}
   },
@@ -155,8 +156,8 @@
    "url": "https://www.olympiaworld.at/events-tickets/",
    "aktiv": true,
    "strategie": "microdata",
-   "gefunden": 60,
-   "uebernommen": 56,
+   "gefunden": 59,
+   "uebernommen": 55,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -172,13 +173,13 @@
    "aktiv": true,
    "strategie": "congress",
    "gefunden": 184,
-   "uebernommen": 157,
+   "uebernommen": 156,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 22,
+    "ausserhalb des Zeitfensters": 23,
     "Universitaetsinterna": 5
    },
    "brauchtum": {
@@ -234,13 +235,13 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 42,
-   "uebernommen": 38,
+   "uebernommen": 36,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 4
+    "ausserhalb des Zeitfensters": 6
    },
    "brauchtum": {}
   },
@@ -249,14 +250,14 @@
    "url": "https://www.treibhaus.at/programm.ics",
    "aktiv": true,
    "strategie": "ics",
-   "gefunden": 95,
-   "uebernommen": 80,
+   "gefunden": 96,
+   "uebernommen": 79,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 15
+    "ausserhalb des Zeitfensters": 17
    },
    "brauchtum": {
     "Schlager": 1
@@ -569,8 +570,8 @@
    "url": "https://www.metropol-kino.at/kinoprogramm/metropol",
    "aktiv": true,
    "strategie": "kino",
-   "gefunden": 31,
-   "uebernommen": 31,
+   "gefunden": 22,
+   "uebernommen": 22,
    "fehler": "",
    "grund": "",
    "hinweis": "nur das Programm des laufenden Tages; Spielzeiten kommen clientseitig nach Auswahl eines Datums",
@@ -804,8 +805,8 @@
    "url": "https://www.uibk.ac.at/de/events/",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 154,
-   "uebernommen": 153,
+   "gefunden": 159,
+   "uebernommen": 158,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -862,8 +863,8 @@
    "url": "https://www.runme.at/laufkalender/tirol/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 11,
-   "uebernommen": 4,
+   "gefunden": 10,
+   "uebernommen": 3,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -937,13 +938,13 @@
    "aktiv": true,
    "strategie": "vorbrenner",
    "gefunden": 62,
-   "uebernommen": 4,
+   "uebernommen": 3,
    "fehler": "",
    "grund": "",
    "hinweis": "Festival im Herbst; ausserhalb der Saison steht dort wenig.",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 58
+    "ausserhalb des Zeitfensters": 59
    },
    "brauchtum": {}
   },
@@ -994,8 +995,8 @@
    "url": "https://www.patscherkofelbahn.at/events/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 6,
-   "uebernommen": 5,
+   "gefunden": 5,
+   "uebernommen": 4,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -1321,12 +1322,12 @@
    "url": "https://www.meine-flohmarkt-termine.de/ort/innsbruck",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 30,
-   "uebernommen": 30,
+   "gefunden": 29,
+   "uebernommen": 29,
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "zeiten_nachgetragen": 30,
+   "zeiten_nachgetragen": 29,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -1335,14 +1336,14 @@
    "url": "https://www.wasmachma.at/events/bundesland/tirol/flohmarkt",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 10,
-   "uebernommen": 4,
+   "gefunden": 8,
+   "uebernommen": 3,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 6
+    "kein Ort im Umkreis genannt": 5
    },
    "brauchtum": {}
   },
