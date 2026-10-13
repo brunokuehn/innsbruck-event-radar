@@ -1,8 +1,8 @@
 {
- "lauf": "2026-10-12T12:07:56+00:00",
- "termine": 1814,
+ "lauf": "2026-10-13T11:57:57+00:00",
+ "termine": 1693,
  "serientermine": 123,
- "neu": 102,
+ "neu": 108,
  "quellen_aktiv": 72,
  "quellen_mit_treffern": 42,
  "quellen_mit_fehler": 1,
@@ -12,14 +12,14 @@
    "url": "https://www.innsbruck.info/events/d/alle.html",
    "aktiv": true,
    "strategie": "innsbruckinfo",
-   "gefunden": 227,
-   "uebernommen": 223,
+   "gefunden": 225,
+   "uebernommen": 222,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 4
+    "kein Ort im Umkreis genannt": 3
    },
    "brauchtum": {
     "Volksmusik": 5,
@@ -33,8 +33,8 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 962,
-   "uebernommen": 942,
+   "gefunden": 774,
+   "uebernommen": 755,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -42,7 +42,7 @@
    "verworfen": {
     "Satzmitte statt Titel": 1,
     "ausserhalb: salzburg": 1,
-    "ausserhalb des Zeitfensters": 18
+    "ausserhalb des Zeitfensters": 17
    },
    "brauchtum": {
     "Blasmusik": 3,
@@ -54,8 +54,8 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck-land/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 259,
-   "uebernommen": 252,
+   "gefunden": 269,
+   "uebernommen": 262,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -74,14 +74,14 @@
    "url": "https://www.meinbezirk.at/event/innsbruck/list",
    "aktiv": true,
    "strategie": "meinbezirk",
-   "gefunden": 29,
+   "gefunden": 27,
    "uebernommen": 24,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 5
+    "kein Ort im Umkreis genannt": 3
    },
    "brauchtum": {}
   },
@@ -98,7 +98,8 @@
    "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {
-    "Advent- und Perchtenbrauch": 1
+    "Advent- und Perchtenbrauch": 1,
+    "Volksmusik": 1
    }
   },
   {
@@ -106,8 +107,8 @@
    "url": "https://www.eventfinder.at/veranstaltungen-innsbruck.php",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 63,
-   "uebernommen": 60,
+   "gefunden": 57,
+   "uebernommen": 54,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -125,13 +126,13 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 10,
-   "uebernommen": 7,
+   "uebernommen": 6,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 1,
+    "kein Ort im Umkreis genannt": 2,
     "ausserhalb: pertisau": 1,
     "ausserhalb: kirchberg": 1
    },
@@ -173,13 +174,13 @@
    "aktiv": true,
    "strategie": "congress",
    "gefunden": 184,
-   "uebernommen": 156,
+   "uebernommen": 155,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 23,
+    "ausserhalb des Zeitfensters": 24,
     "Universitaetsinterna": 5
    },
    "brauchtum": {
@@ -234,15 +235,13 @@
    "url": "https://www.diebaeckerei.at/programm",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 42,
-   "uebernommen": 36,
+   "gefunden": 43,
+   "uebernommen": 43,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
-   "verworfen": {
-    "ausserhalb des Zeitfensters": 6
-   },
+   "verworfen": {},
    "brauchtum": {}
   },
   {
@@ -250,14 +249,14 @@
    "url": "https://www.treibhaus.at/programm.ics",
    "aktiv": true,
    "strategie": "ics",
-   "gefunden": 96,
+   "gefunden": 98,
    "uebernommen": 79,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 17
+    "ausserhalb des Zeitfensters": 19
    },
    "brauchtum": {
     "Schlager": 1
@@ -438,8 +437,8 @@
    "url": "https://www.bierstindl.eu/veranstaltungen",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 20,
-   "uebernommen": 20,
+   "gefunden": 23,
+   "uebernommen": 23,
    "fehler": "",
    "grund": "",
    "hinweis": "War wegen abgebrochener Verbindungen abgeschaltet. Beim Nachpruefen antwortete der Server wieder und die Heuristik fand 18 Termine -- Kabarett und Theater im Haus.",
@@ -468,7 +467,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "",
+   "fehler": "URLError: <urlopen error timed out>",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
@@ -570,8 +569,8 @@
    "url": "https://www.metropol-kino.at/kinoprogramm/metropol",
    "aktiv": true,
    "strategie": "kino",
-   "gefunden": 22,
-   "uebernommen": 22,
+   "gefunden": 23,
+   "uebernommen": 23,
    "fehler": "",
    "grund": "",
    "hinweis": "nur das Programm des laufenden Tages; Spielzeiten kommen clientseitig nach Auswahl eines Datums",
@@ -627,13 +626,13 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 243,
-   "uebernommen": 1,
+   "uebernommen": 2,
    "fehler": "",
    "grund": "",
    "hinweis": "Die Seite fuehrt das Archiv aller Ausgaben seit 2017; 242 von 243 Terminen liegen darum in der Vergangenheit. Kein Fehler.",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 242
+    "ausserhalb des Zeitfensters": 241
    },
    "brauchtum": {}
   },
@@ -656,8 +655,8 @@
    "url": "https://www.tiroler-landesmuseen.at/besuch/veranstaltungen/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 12,
-   "uebernommen": 9,
+   "gefunden": 11,
+   "uebernommen": 8,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -805,8 +804,8 @@
    "url": "https://www.uibk.ac.at/de/events/",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 159,
-   "uebernommen": 158,
+   "gefunden": 158,
+   "uebernommen": 157,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -1147,7 +1146,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
+   "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
@@ -1217,7 +1216,7 @@
    "url": "https://www.standort-tirol.at/veranstaltungen",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 17,
+   "gefunden": 20,
    "uebernommen": 4,
    "fehler": "",
    "grund": "",
@@ -1225,7 +1224,7 @@
    "zeiten_nachgetragen": 0,
    "verworfen": {
     "ausserhalb des Zeitfensters": 1,
-    "kein Ort im Umkreis genannt": 12
+    "kein Ort im Umkreis genannt": 15
    },
    "brauchtum": {}
   },
