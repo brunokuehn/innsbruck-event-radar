@@ -1,8 +1,8 @@
 {
- "lauf": "2026-10-13T11:57:57+00:00",
- "termine": 1693,
+ "lauf": "2026-10-14T09:38:51+00:00",
+ "termine": 1824,
  "serientermine": 123,
- "neu": 108,
+ "neu": 94,
  "quellen_aktiv": 72,
  "quellen_mit_treffern": 42,
  "quellen_mit_fehler": 1,
@@ -13,13 +13,13 @@
    "aktiv": true,
    "strategie": "innsbruckinfo",
    "gefunden": 225,
-   "uebernommen": 222,
+   "uebernommen": 221,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 3
+    "kein Ort im Umkreis genannt": 4
    },
    "brauchtum": {
     "Volksmusik": 5,
@@ -33,8 +33,8 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 774,
-   "uebernommen": 755,
+   "gefunden": 974,
+   "uebernommen": 954,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -42,7 +42,7 @@
    "verworfen": {
     "Satzmitte statt Titel": 1,
     "ausserhalb: salzburg": 1,
-    "ausserhalb des Zeitfensters": 17
+    "ausserhalb des Zeitfensters": 18
    },
    "brauchtum": {
     "Blasmusik": 3,
@@ -54,8 +54,8 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck-land/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 269,
-   "uebernommen": 262,
+   "gefunden": 270,
+   "uebernommen": 263,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -74,14 +74,14 @@
    "url": "https://www.meinbezirk.at/event/innsbruck/list",
    "aktiv": true,
    "strategie": "meinbezirk",
-   "gefunden": 27,
-   "uebernommen": 24,
+   "gefunden": 29,
+   "uebernommen": 25,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 3
+    "kein Ort im Umkreis genannt": 4
    },
    "brauchtum": {}
   },
@@ -107,8 +107,8 @@
    "url": "https://www.eventfinder.at/veranstaltungen-innsbruck.php",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 57,
-   "uebernommen": 54,
+   "gefunden": 63,
+   "uebernommen": 60,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -173,14 +173,14 @@
    "url": "https://www.cmi.at/de/veranstaltungskalender",
    "aktiv": true,
    "strategie": "congress",
-   "gefunden": 184,
-   "uebernommen": 155,
+   "gefunden": 185,
+   "uebernommen": 154,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 24,
+    "ausserhalb des Zeitfensters": 26,
     "Universitaetsinterna": 5
    },
    "brauchtum": {
@@ -236,12 +236,14 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 43,
-   "uebernommen": 43,
+   "uebernommen": 39,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
-   "verworfen": {},
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 4
+   },
    "brauchtum": {}
   },
   {
@@ -249,14 +251,14 @@
    "url": "https://www.treibhaus.at/programm.ics",
    "aktiv": true,
    "strategie": "ics",
-   "gefunden": 98,
-   "uebernommen": 79,
+   "gefunden": 99,
+   "uebernommen": 78,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 19
+    "ausserhalb des Zeitfensters": 21
    },
    "brauchtum": {
     "Schlager": 1
@@ -467,7 +469,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "URLError: <urlopen error timed out>",
+   "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
@@ -569,8 +571,8 @@
    "url": "https://www.metropol-kino.at/kinoprogramm/metropol",
    "aktiv": true,
    "strategie": "kino",
-   "gefunden": 23,
-   "uebernommen": 23,
+   "gefunden": 22,
+   "uebernommen": 22,
    "fehler": "",
    "grund": "",
    "hinweis": "nur das Programm des laufenden Tages; Spielzeiten kommen clientseitig nach Auswahl eines Datums",
@@ -626,13 +628,13 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 243,
-   "uebernommen": 2,
+   "uebernommen": 1,
    "fehler": "",
    "grund": "",
    "hinweis": "Die Seite fuehrt das Archiv aller Ausgaben seit 2017; 242 von 243 Terminen liegen darum in der Vergangenheit. Kein Fehler.",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 241
+    "ausserhalb des Zeitfensters": 242
    },
    "brauchtum": {}
   },
@@ -655,8 +657,8 @@
    "url": "https://www.tiroler-landesmuseen.at/besuch/veranstaltungen/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 11,
-   "uebernommen": 8,
+   "gefunden": 13,
+   "uebernommen": 10,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -790,8 +792,8 @@
    "url": "https://stadtbibliothek.innsbruck.gv.at/de/programm/veranstaltungskalender/5-0.html",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 3,
-   "uebernommen": 3,
+   "gefunden": 2,
+   "uebernommen": 2,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -804,8 +806,8 @@
    "url": "https://www.uibk.ac.at/de/events/",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 158,
-   "uebernommen": 157,
+   "gefunden": 156,
+   "uebernommen": 155,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -1146,7 +1148,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "",
+   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
@@ -1351,8 +1353,8 @@
    "url": "https://www.radlobby.at/tirol/radlboerse",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 4,
-   "uebernommen": 1,
+   "gefunden": 3,
+   "uebernommen": 0,
    "fehler": "",
    "grund": "",
    "hinweis": "Boersen im Maerz und April",
@@ -1396,9 +1398,9 @@
    "quelle": "Stadt Hall in Tirol",
    "url": "https://www.hall-in-tirol.at/Veranstaltungskalender",
    "aktiv": true,
-   "strategie": "",
-   "gefunden": 0,
-   "uebernommen": 0,
+   "strategie": "gem2go",
+   "gefunden": 1,
+   "uebernommen": 1,
    "fehler": "",
    "grund": "",
    "hinweis": "",
