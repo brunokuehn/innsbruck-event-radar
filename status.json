@@ -1,8 +1,8 @@
 {
- "lauf": "2026-10-14T09:38:51+00:00",
- "termine": 1824,
+ "lauf": "2026-10-15T09:17:28+00:00",
+ "termine": 1813,
  "serientermine": 123,
- "neu": 94,
+ "neu": 108,
  "quellen_aktiv": 72,
  "quellen_mit_treffern": 42,
  "quellen_mit_fehler": 1,
@@ -12,8 +12,8 @@
    "url": "https://www.innsbruck.info/events/d/alle.html",
    "aktiv": true,
    "strategie": "innsbruckinfo",
-   "gefunden": 225,
-   "uebernommen": 221,
+   "gefunden": 227,
+   "uebernommen": 223,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -33,8 +33,8 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 974,
-   "uebernommen": 954,
+   "gefunden": 979,
+   "uebernommen": 960,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -42,7 +42,7 @@
    "verworfen": {
     "Satzmitte statt Titel": 1,
     "ausserhalb: salzburg": 1,
-    "ausserhalb des Zeitfensters": 18
+    "ausserhalb des Zeitfensters": 17
    },
    "brauchtum": {
     "Blasmusik": 3,
@@ -54,8 +54,8 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck-land/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 270,
-   "uebernommen": 263,
+   "gefunden": 274,
+   "uebernommen": 268,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -63,7 +63,7 @@
    "verworfen": {
     "ausserhalb: mittenwald": 1,
     "ausserhalb: wien": 1,
-    "ausserhalb des Zeitfensters": 5
+    "ausserhalb des Zeitfensters": 4
    },
    "brauchtum": {
     "Blasmusik": 1
@@ -74,14 +74,14 @@
    "url": "https://www.meinbezirk.at/event/innsbruck/list",
    "aktiv": true,
    "strategie": "meinbezirk",
-   "gefunden": 29,
-   "uebernommen": 25,
+   "gefunden": 27,
+   "uebernommen": 24,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 4
+    "kein Ort im Umkreis genannt": 3
    },
    "brauchtum": {}
   },
@@ -90,8 +90,8 @@
    "url": "https://www.innsbrucktermine.at",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 23,
-   "uebernommen": 23,
+   "gefunden": 22,
+   "uebernommen": 22,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -226,7 +226,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "zeiten_nachgetragen": 13,
+   "zeiten_nachgetragen": 12,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -235,15 +235,13 @@
    "url": "https://www.diebaeckerei.at/programm",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 43,
-   "uebernommen": 39,
+   "gefunden": 44,
+   "uebernommen": 44,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
-   "verworfen": {
-    "ausserhalb des Zeitfensters": 4
-   },
+   "verworfen": {},
    "brauchtum": {}
   },
   {
@@ -252,13 +250,13 @@
    "aktiv": true,
    "strategie": "ics",
    "gefunden": 99,
-   "uebernommen": 78,
+   "uebernommen": 76,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 21
+    "ausserhalb des Zeitfensters": 23
    },
    "brauchtum": {
     "Schlager": 1
@@ -270,13 +268,13 @@
    "aktiv": true,
    "strategie": "microdata",
    "gefunden": 39,
-   "uebernommen": 36,
+   "uebernommen": 37,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 3
+    "ausserhalb des Zeitfensters": 2
    },
    "brauchtum": {}
   },
@@ -571,8 +569,8 @@
    "url": "https://www.metropol-kino.at/kinoprogramm/metropol",
    "aktiv": true,
    "strategie": "kino",
-   "gefunden": 22,
-   "uebernommen": 22,
+   "gefunden": 20,
+   "uebernommen": 20,
    "fehler": "",
    "grund": "",
    "hinweis": "nur das Programm des laufenden Tages; Spielzeiten kommen clientseitig nach Auswahl eines Datums",
@@ -657,8 +655,8 @@
    "url": "https://www.tiroler-landesmuseen.at/besuch/veranstaltungen/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 13,
-   "uebernommen": 10,
+   "gefunden": 12,
+   "uebernommen": 9,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -673,8 +671,8 @@
    "url": "https://www.haus-der-musik-innsbruck.at/kalender/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 10,
-   "uebernommen": 10,
+   "gefunden": 9,
+   "uebernommen": 9,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -806,8 +804,8 @@
    "url": "https://www.uibk.ac.at/de/events/",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 156,
-   "uebernommen": 155,
+   "gefunden": 153,
+   "uebernommen": 152,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -821,27 +819,15 @@
    "quelle": "Austria Climbing",
    "url": "https://data.austriaclimbing.com/Calendar",
    "aktiv": true,
-   "strategie": "austriaclimbing",
-   "gefunden": 23,
-   "uebernommen": 5,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
-   "verworfen": {
-    "ausserhalb: kapfenberg": 1,
-    "kein Ort im Umkreis genannt": 8,
-    "ausserhalb: dornbirn": 1,
-    "ausserhalb: voecklabruck": 1,
-    "ausserhalb: wien": 1,
-    "ausserhalb: imst": 1,
-    "ausserhalb: graz": 3,
-    "ausserhalb: linz": 1,
-    "ausserhalb: steyr": 1
-   },
-   "brauchtum": {
-    "Advent- und Perchtenbrauch": 1
-   }
+   "verworfen": {},
+   "brauchtum": {}
   },
   {
    "quelle": "Kletterzentrum Innsbruck",
@@ -864,14 +850,14 @@
    "url": "https://www.runme.at/laufkalender/tirol/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 10,
+   "gefunden": 15,
    "uebernommen": 3,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 7
+    "kein Ort im Umkreis genannt": 12
    },
    "brauchtum": {}
   },
@@ -939,13 +925,13 @@
    "aktiv": true,
    "strategie": "vorbrenner",
    "gefunden": 62,
-   "uebernommen": 3,
+   "uebernommen": 2,
    "fehler": "",
    "grund": "",
    "hinweis": "Festival im Herbst; ausserhalb der Saison steht dort wenig.",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 59
+    "ausserhalb des Zeitfensters": 60
    },
    "brauchtum": {}
   },
@@ -1218,7 +1204,7 @@
    "url": "https://www.standort-tirol.at/veranstaltungen",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 20,
+   "gefunden": 18,
    "uebernommen": 4,
    "fehler": "",
    "grund": "",
@@ -1226,7 +1212,7 @@
    "zeiten_nachgetragen": 0,
    "verworfen": {
     "ausserhalb des Zeitfensters": 1,
-    "kein Ort im Umkreis genannt": 15
+    "kein Ort im Umkreis genannt": 13
    },
    "brauchtum": {}
   },
@@ -1252,14 +1238,12 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 1,
-   "uebernommen": 0,
+   "uebernommen": 1,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
-   "verworfen": {
-    "ausserhalb des Zeitfensters": 1
-   },
+   "verworfen": {},
    "brauchtum": {}
   },
   {
