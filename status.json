@@ -1,19 +1,19 @@
 {
- "lauf": "2026-10-15T09:17:28+00:00",
- "termine": 1813,
+ "lauf": "2026-10-16T09:08:58+00:00",
+ "termine": 1632,
  "serientermine": 123,
- "neu": 108,
+ "neu": 110,
  "quellen_aktiv": 72,
- "quellen_mit_treffern": 42,
- "quellen_mit_fehler": 1,
+ "quellen_mit_treffern": 43,
+ "quellen_mit_fehler": 0,
  "quellen": [
   {
    "quelle": "Innsbruck Tourismus",
    "url": "https://www.innsbruck.info/events/d/alle.html",
    "aktiv": true,
    "strategie": "innsbruckinfo",
-   "gefunden": 227,
-   "uebernommen": 223,
+   "gefunden": 226,
+   "uebernommen": 222,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -22,7 +22,7 @@
     "kein Ort im Umkreis genannt": 4
    },
    "brauchtum": {
-    "Volksmusik": 5,
+    "Volksmusik": 4,
     "Kirchliches Brauchtum": 1,
     "Advent- und Perchtenbrauch": 5,
     "Blasmusik": 1
@@ -33,8 +33,8 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 979,
-   "uebernommen": 960,
+   "gefunden": 746,
+   "uebernommen": 728,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -42,10 +42,10 @@
    "verworfen": {
     "Satzmitte statt Titel": 1,
     "ausserhalb: salzburg": 1,
-    "ausserhalb des Zeitfensters": 17
+    "ausserhalb des Zeitfensters": 16
    },
    "brauchtum": {
-    "Blasmusik": 3,
+    "Blasmusik": 2,
     "Volksmusik": 12
    }
   },
@@ -54,8 +54,8 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck-land/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 274,
-   "uebernommen": 268,
+   "gefunden": 261,
+   "uebernommen": 255,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -74,8 +74,8 @@
    "url": "https://www.meinbezirk.at/event/innsbruck/list",
    "aktiv": true,
    "strategie": "meinbezirk",
-   "gefunden": 27,
-   "uebernommen": 24,
+   "gefunden": 28,
+   "uebernommen": 25,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -90,8 +90,8 @@
    "url": "https://www.innsbrucktermine.at",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 22,
-   "uebernommen": 22,
+   "gefunden": 23,
+   "uebernommen": 23,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -99,7 +99,7 @@
    "verworfen": {},
    "brauchtum": {
     "Advent- und Perchtenbrauch": 1,
-    "Volksmusik": 1
+    "Kirchliches Brauchtum": 1
    }
   },
   {
@@ -107,8 +107,8 @@
    "url": "https://www.eventfinder.at/veranstaltungen-innsbruck.php",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 63,
-   "uebernommen": 60,
+   "gefunden": 60,
+   "uebernommen": 57,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -174,13 +174,13 @@
    "aktiv": true,
    "strategie": "congress",
    "gefunden": 185,
-   "uebernommen": 154,
+   "uebernommen": 153,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 26,
+    "ausserhalb des Zeitfensters": 27,
     "Universitaetsinterna": 5
    },
    "brauchtum": {
@@ -236,12 +236,14 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 44,
-   "uebernommen": 44,
+   "uebernommen": 42,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
-   "verworfen": {},
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 2
+   },
    "brauchtum": {}
   },
   {
@@ -250,13 +252,13 @@
    "aktiv": true,
    "strategie": "ics",
    "gefunden": 99,
-   "uebernommen": 76,
+   "uebernommen": 74,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 23
+    "ausserhalb des Zeitfensters": 25
    },
    "brauchtum": {
     "Schlager": 1
@@ -569,8 +571,8 @@
    "url": "https://www.metropol-kino.at/kinoprogramm/metropol",
    "aktiv": true,
    "strategie": "kino",
-   "gefunden": 20,
-   "uebernommen": 20,
+   "gefunden": 24,
+   "uebernommen": 24,
    "fehler": "",
    "grund": "",
    "hinweis": "nur das Programm des laufenden Tages; Spielzeiten kommen clientseitig nach Auswahl eines Datums",
@@ -597,8 +599,8 @@
    "url": "https://www.uncut.at/innsbruck/",
    "aktiv": true,
    "strategie": "kino",
-   "gefunden": 16,
-   "uebernommen": 16,
+   "gefunden": 12,
+   "uebernommen": 12,
    "fehler": "",
    "grund": "",
    "hinweis": "Programm aller Innsbrucker Kinos fuer den laufenden Tag",
@@ -655,8 +657,8 @@
    "url": "https://www.tiroler-landesmuseen.at/besuch/veranstaltungen/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 12,
-   "uebernommen": 9,
+   "gefunden": 11,
+   "uebernommen": 8,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -804,8 +806,8 @@
    "url": "https://www.uibk.ac.at/de/events/",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 153,
-   "uebernommen": 152,
+   "gefunden": 157,
+   "uebernommen": 156,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -910,8 +912,8 @@
    "url": "https://www.aut.cc/veranstaltungen",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 14,
-   "uebernommen": 14,
+   "gefunden": 13,
+   "uebernommen": 13,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -983,13 +985,13 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 5,
-   "uebernommen": 4,
+   "uebernommen": 3,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 1
+    "ausserhalb des Zeitfensters": 2
    },
    "brauchtum": {}
   },
@@ -1134,7 +1136,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
+   "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
@@ -1221,12 +1223,12 @@
    "url": "https://www.mci.edu/de/hochschule/events",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 10,
-   "uebernommen": 8,
+   "gefunden": 8,
+   "uebernommen": 6,
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "zeiten_nachgetragen": 7,
+   "zeiten_nachgetragen": 5,
    "verworfen": {
     "Universitaetsinterna": 2
    },
@@ -1321,8 +1323,8 @@
    "url": "https://www.wasmachma.at/events/bundesland/tirol/flohmarkt",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 8,
-   "uebernommen": 3,
+   "gefunden": 6,
+   "uebernommen": 1,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -1353,14 +1355,14 @@
    "url": "https://www.markthalle-innsbruck.at",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 3,
-   "uebernommen": 0,
+   "gefunden": 2,
+   "uebernommen": 1,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "Fliesstext statt Titel": 3
+    "Fliesstext statt Titel": 1
    },
    "brauchtum": {}
   },
