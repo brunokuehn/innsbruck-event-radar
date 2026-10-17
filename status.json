@@ -1,19 +1,19 @@
 {
- "lauf": "2026-10-16T09:08:58+00:00",
- "termine": 1632,
+ "lauf": "2026-10-17T08:41:09+00:00",
+ "termine": 1583,
  "serientermine": 123,
- "neu": 110,
+ "neu": 90,
  "quellen_aktiv": 72,
- "quellen_mit_treffern": 43,
- "quellen_mit_fehler": 0,
+ "quellen_mit_treffern": 42,
+ "quellen_mit_fehler": 1,
  "quellen": [
   {
    "quelle": "Innsbruck Tourismus",
    "url": "https://www.innsbruck.info/events/d/alle.html",
    "aktiv": true,
    "strategie": "innsbruckinfo",
-   "gefunden": 226,
-   "uebernommen": 222,
+   "gefunden": 219,
+   "uebernommen": 215,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -33,8 +33,8 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 746,
-   "uebernommen": 728,
+   "gefunden": 700,
+   "uebernommen": 684,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -42,11 +42,11 @@
    "verworfen": {
     "Satzmitte statt Titel": 1,
     "ausserhalb: salzburg": 1,
-    "ausserhalb des Zeitfensters": 16
+    "ausserhalb des Zeitfensters": 14
    },
    "brauchtum": {
     "Blasmusik": 2,
-    "Volksmusik": 12
+    "Volksmusik": 10
    }
   },
   {
@@ -54,15 +54,14 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck-land/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 261,
-   "uebernommen": 255,
+   "gefunden": 254,
+   "uebernommen": 249,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
     "ausserhalb: mittenwald": 1,
-    "ausserhalb: wien": 1,
     "ausserhalb des Zeitfensters": 4
    },
    "brauchtum": {
@@ -74,8 +73,8 @@
    "url": "https://www.meinbezirk.at/event/innsbruck/list",
    "aktiv": true,
    "strategie": "meinbezirk",
-   "gefunden": 28,
-   "uebernommen": 25,
+   "gefunden": 29,
+   "uebernommen": 26,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -90,8 +89,8 @@
    "url": "https://www.innsbrucktermine.at",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 23,
-   "uebernommen": 23,
+   "gefunden": 22,
+   "uebernommen": 22,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -107,8 +106,8 @@
    "url": "https://www.eventfinder.at/veranstaltungen-innsbruck.php",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 60,
-   "uebernommen": 57,
+   "gefunden": 64,
+   "uebernommen": 61,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -125,16 +124,14 @@
    "url": "https://www.freizeit-tirol.at/freizeit-events/eventkalender/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 10,
-   "uebernommen": 6,
+   "gefunden": 11,
+   "uebernommen": 9,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 2,
-    "ausserhalb: pertisau": 1,
-    "ausserhalb: kirchberg": 1
+    "kein Ort im Umkreis genannt": 2
    },
    "brauchtum": {}
   },
@@ -157,8 +154,8 @@
    "url": "https://www.olympiaworld.at/events-tickets/",
    "aktiv": true,
    "strategie": "microdata",
-   "gefunden": 59,
-   "uebernommen": 55,
+   "gefunden": 57,
+   "uebernommen": 53,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -174,13 +171,13 @@
    "aktiv": true,
    "strategie": "congress",
    "gefunden": 185,
-   "uebernommen": 153,
+   "uebernommen": 151,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 27,
+    "ausserhalb des Zeitfensters": 29,
     "Universitaetsinterna": 5
    },
    "brauchtum": {
@@ -221,12 +218,12 @@
    "url": "https://www.pmk.or.at/de/events",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 13,
-   "uebernommen": 13,
+   "gefunden": 12,
+   "uebernommen": 12,
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "zeiten_nachgetragen": 12,
+   "zeiten_nachgetragen": 11,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -236,13 +233,13 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 44,
-   "uebernommen": 42,
+   "uebernommen": 41,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 2
+    "ausserhalb des Zeitfensters": 3
    },
    "brauchtum": {}
   },
@@ -252,13 +249,13 @@
    "aktiv": true,
    "strategie": "ics",
    "gefunden": 99,
-   "uebernommen": 74,
+   "uebernommen": 72,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 25
+    "ausserhalb des Zeitfensters": 27
    },
    "brauchtum": {
     "Schlager": 1
@@ -571,8 +568,8 @@
    "url": "https://www.metropol-kino.at/kinoprogramm/metropol",
    "aktiv": true,
    "strategie": "kino",
-   "gefunden": 24,
-   "uebernommen": 24,
+   "gefunden": 23,
+   "uebernommen": 23,
    "fehler": "",
    "grund": "",
    "hinweis": "nur das Programm des laufenden Tages; Spielzeiten kommen clientseitig nach Auswahl eines Datums",
@@ -628,13 +625,13 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 243,
-   "uebernommen": 1,
+   "uebernommen": 0,
    "fehler": "",
    "grund": "",
    "hinweis": "Die Seite fuehrt das Archiv aller Ausgaben seit 2017; 242 von 243 Terminen liegen darum in der Vergangenheit. Kein Fehler.",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 242
+    "ausserhalb des Zeitfensters": 243
    },
    "brauchtum": {}
   },
@@ -792,8 +789,8 @@
    "url": "https://stadtbibliothek.innsbruck.gv.at/de/programm/veranstaltungskalender/5-0.html",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 2,
-   "uebernommen": 2,
+   "gefunden": 1,
+   "uebernommen": 1,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -806,8 +803,8 @@
    "url": "https://www.uibk.ac.at/de/events/",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 157,
-   "uebernommen": 156,
+   "gefunden": 151,
+   "uebernommen": 150,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -852,8 +849,8 @@
    "url": "https://www.runme.at/laufkalender/tirol/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 15,
-   "uebernommen": 3,
+   "gefunden": 14,
+   "uebernommen": 2,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -984,15 +981,13 @@
    "url": "https://www.patscherkofelbahn.at/events/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 5,
+   "gefunden": 3,
    "uebernommen": 3,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
-   "verworfen": {
-    "ausserhalb des Zeitfensters": 2
-   },
+   "verworfen": {},
    "brauchtum": {}
   },
   {
@@ -1136,7 +1131,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "",
+   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
@@ -1206,8 +1201,8 @@
    "url": "https://www.standort-tirol.at/veranstaltungen",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 18,
-   "uebernommen": 4,
+   "gefunden": 17,
+   "uebernommen": 3,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -1323,14 +1318,14 @@
    "url": "https://www.wasmachma.at/events/bundesland/tirol/flohmarkt",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 6,
+   "gefunden": 5,
    "uebernommen": 1,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 5
+    "kein Ort im Umkreis genannt": 4
    },
    "brauchtum": {}
   },
