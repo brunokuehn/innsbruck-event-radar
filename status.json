@@ -1,19 +1,19 @@
 {
- "lauf": "2026-10-19T10:02:53+00:00",
- "termine": 1744,
+ "lauf": "2026-10-20T09:32:12+00:00",
+ "termine": 1804,
  "serientermine": 123,
- "neu": 102,
+ "neu": 130,
  "quellen_aktiv": 72,
- "quellen_mit_treffern": 41,
- "quellen_mit_fehler": 3,
+ "quellen_mit_treffern": 43,
+ "quellen_mit_fehler": 0,
  "quellen": [
   {
    "quelle": "Innsbruck Tourismus",
    "url": "https://www.innsbruck.info/events/d/alle.html",
    "aktiv": true,
    "strategie": "innsbruckinfo",
-   "gefunden": 218,
-   "uebernommen": 201,
+   "gefunden": 220,
+   "uebernommen": 203,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -24,9 +24,9 @@
     "ausserhalb des Zeitfensters": 1
    },
    "brauchtum": {
-    "Volksmusik": 4,
+    "Volksmusik": 6,
     "Advent- und Perchtenbrauch": 5,
-    "Blasmusik": 1
+    "Blasmusik": 2
    }
   },
   {
@@ -34,8 +34,8 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 948,
-   "uebernommen": 925,
+   "gefunden": 977,
+   "uebernommen": 953,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -43,11 +43,11 @@
    "verworfen": {
     "Satzmitte statt Titel": 2,
     "ausserhalb: salzburg": 1,
-    "ausserhalb des Zeitfensters": 20
+    "ausserhalb des Zeitfensters": 21
    },
    "brauchtum": {
     "Blasmusik": 3,
-    "Volksmusik": 11
+    "Volksmusik": 10
    }
   },
   {
@@ -55,8 +55,8 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck-land/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 268,
-   "uebernommen": 263,
+   "gefunden": 283,
+   "uebernommen": 278,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -66,6 +66,7 @@
     "ausserhalb des Zeitfensters": 4
    },
    "brauchtum": {
+    "Laendliches Fest": 1,
     "Blasmusik": 1
    }
   },
@@ -74,16 +75,18 @@
    "url": "https://www.meinbezirk.at/event/innsbruck/list",
    "aktiv": true,
    "strategie": "meinbezirk",
-   "gefunden": 28,
-   "uebernommen": 25,
+   "gefunden": 30,
+   "uebernommen": 26,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 3
+    "kein Ort im Umkreis genannt": 4
    },
-   "brauchtum": {}
+   "brauchtum": {
+    "Volksmusik": 2
+   }
   },
   {
    "quelle": "Innsbruck Termine",
@@ -107,13 +110,13 @@
    "aktiv": true,
    "strategie": "jsonld",
    "gefunden": 65,
-   "uebernommen": 63,
+   "uebernommen": 64,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 2
+    "ausserhalb des Zeitfensters": 1
    },
    "brauchtum": {
     "Blasmusik": 1,
@@ -155,8 +158,8 @@
    "url": "https://www.olympiaworld.at/events-tickets/",
    "aktiv": true,
    "strategie": "microdata",
-   "gefunden": 55,
-   "uebernommen": 51,
+   "gefunden": 56,
+   "uebernommen": 52,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -219,12 +222,12 @@
    "url": "https://www.pmk.or.at/de/events",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 15,
-   "uebernommen": 15,
+   "gefunden": 16,
+   "uebernommen": 16,
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "zeiten_nachgetragen": 11,
+   "zeiten_nachgetragen": 12,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -248,13 +251,13 @@
    "aktiv": true,
    "strategie": "ics",
    "gefunden": 99,
-   "uebernommen": 68,
+   "uebernommen": 67,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 31
+    "ausserhalb des Zeitfensters": 32
    },
    "brauchtum": {
     "Schlager": 1
@@ -538,10 +541,10 @@
    "quelle": "Tiroler Landestheater",
    "url": "https://www.landestheater.at/spielplan",
    "aktiv": true,
-   "strategie": "",
-   "gefunden": 0,
-   "uebernommen": 0,
-   "fehler": "Browser ueberschreitet 45s",
+   "strategie": "landestheater",
+   "gefunden": 22,
+   "uebernommen": 22,
+   "fehler": "",
    "grund": "",
    "hinweis": "Die einzige Quelle, die gerendert geholt wird. Ohne Browser steht im HTML kein einziger Termin, mit Browser das ganze Programm -- gemessen 32.000 gegen 160.000 Zeichen. Geholt werden die naechsten 25 Vorstellungen; dahinter verbirgt eine Schaltflaeche \"MEHR LADEN\" den Rest der Spielzeit, und die verlangt einen Klick, den --dump-dom nicht geben kann. Ein mitwanderndes Fenster also, kein Saisonabzug.",
    "zeiten_nachgetragen": 0,
@@ -653,8 +656,8 @@
    "url": "https://www.tiroler-landesmuseen.at/besuch/veranstaltungen/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 12,
-   "uebernommen": 9,
+   "gefunden": 11,
+   "uebernommen": 8,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -802,8 +805,8 @@
    "url": "https://www.uibk.ac.at/de/events/",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 161,
-   "uebernommen": 159,
+   "gefunden": 171,
+   "uebernommen": 169,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -939,8 +942,8 @@
    "url": "https://www.alpenzoo.at/de/veranstaltungen",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 1,
-   "uebernommen": 1,
+   "gefunden": 3,
+   "uebernommen": 3,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -981,15 +984,13 @@
    "url": "https://www.patscherkofelbahn.at/events/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 3,
-   "uebernommen": 2,
+   "gefunden": 1,
+   "uebernommen": 1,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
-   "verworfen": {
-    "ausserhalb des Zeitfensters": 1
-   },
+   "verworfen": {},
    "brauchtum": {}
   },
   {
@@ -1133,7 +1134,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
+   "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
@@ -1203,7 +1204,7 @@
    "url": "https://www.standort-tirol.at/veranstaltungen",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 17,
+   "gefunden": 19,
    "uebernommen": 3,
    "fehler": "",
    "grund": "",
@@ -1211,7 +1212,7 @@
    "zeiten_nachgetragen": 0,
    "verworfen": {
     "ausserhalb des Zeitfensters": 1,
-    "kein Ort im Umkreis genannt": 13
+    "kein Ort im Umkreis genannt": 15
    },
    "brauchtum": {}
   },
@@ -1291,10 +1292,10 @@
    "quelle": "flohmarkt.at",
    "url": "https://www.flohmarkt.at/flohmaerkte/innsbruck",
    "aktiv": true,
-   "strategie": "",
-   "gefunden": 0,
-   "uebernommen": 0,
-   "fehler": "TimeoutError: The read operation timed out",
+   "strategie": "heuristik",
+   "gefunden": 15,
+   "uebernommen": 15,
+   "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
@@ -1320,14 +1321,14 @@
    "url": "https://www.wasmachma.at/events/bundesland/tirol/flohmarkt",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 7,
-   "uebernommen": 3,
+   "gefunden": 5,
+   "uebernommen": 2,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 4
+    "kein Ort im Umkreis genannt": 3
    },
    "brauchtum": {}
   },
