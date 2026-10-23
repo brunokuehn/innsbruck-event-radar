@@ -1,31 +1,32 @@
 {
- "lauf": "2026-10-22T09:34:33+00:00",
- "termine": 1697,
+ "lauf": "2026-10-23T09:29:24+00:00",
+ "termine": 1789,
  "serientermine": 123,
- "neu": 93,
+ "neu": 127,
  "quellen_aktiv": 72,
- "quellen_mit_treffern": 38,
- "quellen_mit_fehler": 4,
+ "quellen_mit_treffern": 40,
+ "quellen_mit_fehler": 1,
  "quellen": [
   {
    "quelle": "Innsbruck Tourismus",
    "url": "https://www.innsbruck.info/events/d/alle.html",
    "aktiv": true,
    "strategie": "innsbruckinfo",
-   "gefunden": 226,
-   "uebernommen": 188,
+   "gefunden": 227,
+   "uebernommen": 208,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 22,
-    "kein Ort im Umkreis genannt": 16
+    "kein Ort im Umkreis genannt": 17,
+    "Titel ist nur eine Anschrift": 1,
+    "ausserhalb des Zeitfensters": 1
    },
    "brauchtum": {
-    "Volksmusik": 6,
-    "Advent- und Perchtenbrauch": 5,
-    "Blasmusik": 2
+    "Volksmusik": 7,
+    "Advent- und Perchtenbrauch": 6,
+    "Blasmusik": 3
    }
   },
   {
@@ -33,8 +34,8 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 983,
-   "uebernommen": 958,
+   "gefunden": 975,
+   "uebernommen": 950,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -45,8 +46,8 @@
     "ausserhalb des Zeitfensters": 22
    },
    "brauchtum": {
-    "Blasmusik": 3,
-    "Volksmusik": 10
+    "Volksmusik": 9,
+    "Blasmusik": 3
    }
   },
   {
@@ -54,8 +55,8 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck-land/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 289,
-   "uebernommen": 284,
+   "gefunden": 297,
+   "uebernommen": 292,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -74,8 +75,8 @@
    "url": "https://www.meinbezirk.at/event/innsbruck/list",
    "aktiv": true,
    "strategie": "meinbezirk",
-   "gefunden": 27,
-   "uebernommen": 24,
+   "gefunden": 26,
+   "uebernommen": 23,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -91,23 +92,25 @@
    "quelle": "Innsbruck Termine",
    "url": "https://www.innsbrucktermine.at",
    "aktiv": true,
-   "strategie": "",
-   "gefunden": 0,
-   "uebernommen": 0,
-   "fehler": "HTTPError: HTTP Error 503: Service Temporarily Unavailable",
+   "strategie": "heuristik",
+   "gefunden": 23,
+   "uebernommen": 23,
+   "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {},
-   "brauchtum": {}
+   "brauchtum": {
+    "Advent- und Perchtenbrauch": 3
+   }
   },
   {
    "quelle": "eventfinder",
    "url": "https://www.eventfinder.at/veranstaltungen-innsbruck.php",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 63,
-   "uebernommen": 62,
+   "gefunden": 62,
+   "uebernommen": 61,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -155,8 +158,8 @@
    "url": "https://www.olympiaworld.at/events-tickets/",
    "aktiv": true,
    "strategie": "microdata",
-   "gefunden": 56,
-   "uebernommen": 52,
+   "gefunden": 55,
+   "uebernommen": 51,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -170,15 +173,21 @@
    "quelle": "Congress Messe Innsbruck",
    "url": "https://www.cmi.at/de/veranstaltungskalender",
    "aktiv": true,
-   "strategie": "",
-   "gefunden": 0,
-   "uebernommen": 0,
-   "fehler": "HTTPError: HTTP Error 502: Bad Gateway",
+   "strategie": "congress",
+   "gefunden": 185,
+   "uebernommen": 143,
+   "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
-   "verworfen": {},
-   "brauchtum": {}
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 38,
+    "Universitaetsinterna": 4
+   },
+   "brauchtum": {
+    "Volksmusik": 2,
+    "Blasmusik": 3
+   }
   },
   {
    "quelle": "oeticket Innsbruck",
@@ -228,12 +237,14 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 41,
-   "uebernommen": 41,
+   "uebernommen": 40,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
-   "verworfen": {},
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 1
+   },
    "brauchtum": {}
   },
   {
@@ -242,13 +253,13 @@
    "aktiv": true,
    "strategie": "ics",
    "gefunden": 100,
-   "uebernommen": 66,
+   "uebernommen": 65,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 34
+    "ausserhalb des Zeitfensters": 35
    },
    "brauchtum": {
     "Schlager": 1
@@ -533,8 +544,8 @@
    "url": "https://www.landestheater.at/spielplan",
    "aktiv": true,
    "strategie": "landestheater",
-   "gefunden": 19,
-   "uebernommen": 19,
+   "gefunden": 15,
+   "uebernommen": 15,
    "fehler": "",
    "grund": "",
    "hinweis": "Die einzige Quelle, die gerendert geholt wird. Ohne Browser steht im HTML kein einziger Termin, mit Browser das ganze Programm -- gemessen 32.000 gegen 160.000 Zeichen. Geholt werden die naechsten 25 Vorstellungen; dahinter verbirgt eine Schaltflaeche \"MEHR LADEN\" den Rest der Spielzeit, und die verlangt einen Klick, den --dump-dom nicht geben kann. Ein mitwanderndes Fenster also, kein Saisonabzug.",
@@ -561,8 +572,8 @@
    "url": "https://www.metropol-kino.at/kinoprogramm/metropol",
    "aktiv": true,
    "strategie": "kino",
-   "gefunden": 19,
-   "uebernommen": 19,
+   "gefunden": 10,
+   "uebernommen": 10,
    "fehler": "",
    "grund": "",
    "hinweis": "nur das Programm des laufenden Tages; Spielzeiten kommen clientseitig nach Auswahl eines Datums",
@@ -646,14 +657,16 @@
    "quelle": "Tiroler Landesmuseen",
    "url": "https://www.tiroler-landesmuseen.at/besuch/veranstaltungen/",
    "aktiv": true,
-   "strategie": "",
-   "gefunden": 0,
-   "uebernommen": 0,
-   "fehler": "HTTPError: HTTP Error 503: Service Unavailable",
+   "strategie": "heuristik",
+   "gefunden": 11,
+   "uebernommen": 8,
+   "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
-   "verworfen": {},
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 3
+   },
    "brauchtum": {}
   },
   {
@@ -794,8 +807,8 @@
    "url": "https://www.uibk.ac.at/de/events/",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 170,
-   "uebernommen": 168,
+   "gefunden": 167,
+   "uebernommen": 165,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -841,14 +854,14 @@
    "url": "https://www.runme.at/laufkalender/tirol/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 15,
+   "gefunden": 16,
    "uebernommen": 2,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 12,
+    "kein Ort im Umkreis genannt": 13,
     "ausserhalb: pitztal": 1
    },
    "brauchtum": {}
@@ -902,8 +915,8 @@
    "url": "https://www.aut.cc/veranstaltungen",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 13,
-   "uebernommen": 13,
+   "gefunden": 12,
+   "uebernommen": 12,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -931,14 +944,16 @@
    "quelle": "Alpenzoo",
    "url": "https://www.alpenzoo.at/de/veranstaltungen",
    "aktiv": true,
-   "strategie": "",
-   "gefunden": 0,
-   "uebernommen": 0,
-   "fehler": "URLError: <urlopen error timed out>",
+   "strategie": "heuristik",
+   "gefunden": 8,
+   "uebernommen": 7,
+   "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
-   "verworfen": {},
+   "verworfen": {
+    "Fliesstext statt Titel": 1
+   },
    "brauchtum": {}
   },
   {
@@ -1225,9 +1240,9 @@
    "quelle": "Impact Hub Tirol",
    "url": "https://tirol.impacthub.net",
    "aktiv": true,
-   "strategie": "heuristik",
-   "gefunden": 1,
-   "uebernommen": 1,
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -1281,10 +1296,10 @@
    "quelle": "flohmarkt.at",
    "url": "https://www.flohmarkt.at/flohmaerkte/innsbruck",
    "aktiv": true,
-   "strategie": "heuristik",
-   "gefunden": 15,
-   "uebernommen": 15,
-   "fehler": "",
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "TimeoutError: The read operation timed out",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
