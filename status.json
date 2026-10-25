@@ -1,30 +1,30 @@
 {
- "lauf": "2026-10-24T08:59:48+00:00",
- "termine": 1642,
+ "lauf": "2026-10-25T09:16:35+00:00",
+ "termine": 1569,
  "serientermine": 123,
- "neu": 104,
+ "neu": 83,
  "quellen_aktiv": 72,
  "quellen_mit_treffern": 40,
- "quellen_mit_fehler": 0,
+ "quellen_mit_fehler": 1,
  "quellen": [
   {
    "quelle": "Innsbruck Tourismus",
    "url": "https://www.innsbruck.info/events/d/alle.html",
    "aktiv": true,
    "strategie": "innsbruckinfo",
-   "gefunden": 228,
-   "uebernommen": 209,
+   "gefunden": 220,
+   "uebernommen": 203,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 17,
     "Titel ist nur eine Anschrift": 1,
+    "kein Ort im Umkreis genannt": 15,
     "ausserhalb des Zeitfensters": 1
    },
    "brauchtum": {
-    "Volksmusik": 8,
+    "Volksmusik": 7,
     "Advent- und Perchtenbrauch": 6,
     "Blasmusik": 3
    }
@@ -34,8 +34,8 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 782,
-   "uebernommen": 757,
+   "gefunden": 729,
+   "uebernommen": 707,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -43,11 +43,11 @@
    "verworfen": {
     "Satzmitte statt Titel": 2,
     "ausserhalb: salzburg": 1,
-    "ausserhalb des Zeitfensters": 22
+    "ausserhalb des Zeitfensters": 19
    },
    "brauchtum": {
-    "Volksmusik": 6,
-    "Blasmusik": 3
+    "Blasmusik": 3,
+    "Volksmusik": 3
    }
   },
   {
@@ -55,8 +55,8 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck-land/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 275,
-   "uebernommen": 270,
+   "gefunden": 265,
+   "uebernommen": 260,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -75,8 +75,8 @@
    "url": "https://www.meinbezirk.at/event/innsbruck/list",
    "aktiv": true,
    "strategie": "meinbezirk",
-   "gefunden": 29,
-   "uebernommen": 25,
+   "gefunden": 28,
+   "uebernommen": 24,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -85,7 +85,7 @@
     "kein Ort im Umkreis genannt": 4
    },
    "brauchtum": {
-    "Volksmusik": 4
+    "Volksmusik": 2
    }
   },
   {
@@ -101,7 +101,7 @@
    "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {
-    "Advent- und Perchtenbrauch": 3,
+    "Advent- und Perchtenbrauch": 2,
     "Blasmusik": 1
    }
   },
@@ -110,8 +110,8 @@
    "url": "https://www.eventfinder.at/veranstaltungen-innsbruck.php",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 59,
-   "uebernommen": 58,
+   "gefunden": 57,
+   "uebernommen": 56,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -120,7 +120,6 @@
     "ausserhalb des Zeitfensters": 1
    },
    "brauchtum": {
-    "Volksmusik": 1,
     "Blasmusik": 1
    }
   },
@@ -159,8 +158,8 @@
    "url": "https://www.olympiaworld.at/events-tickets/",
    "aktiv": true,
    "strategie": "microdata",
-   "gefunden": 54,
-   "uebernommen": 49,
+   "gefunden": 52,
+   "uebernommen": 47,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -176,18 +175,18 @@
    "aktiv": true,
    "strategie": "congress",
    "gefunden": 185,
-   "uebernommen": 143,
+   "uebernommen": 142,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 38,
+    "ausserhalb des Zeitfensters": 39,
     "Universitaetsinterna": 4
    },
    "brauchtum": {
-    "Volksmusik": 2,
-    "Blasmusik": 3
+    "Blasmusik": 3,
+    "Volksmusik": 1
    }
   },
   {
@@ -238,13 +237,13 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 41,
-   "uebernommen": 39,
+   "uebernommen": 38,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 2
+    "ausserhalb des Zeitfensters": 3
    },
    "brauchtum": {}
   },
@@ -254,13 +253,13 @@
    "aktiv": true,
    "strategie": "ics",
    "gefunden": 100,
-   "uebernommen": 63,
+   "uebernommen": 62,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 37
+    "ausserhalb des Zeitfensters": 38
    },
    "brauchtum": {
     "Schlager": 1
@@ -440,10 +439,10 @@
    "quelle": "Bierstindl",
    "url": "https://www.bierstindl.eu/veranstaltungen",
    "aktiv": true,
-   "strategie": "heuristik",
-   "gefunden": 22,
-   "uebernommen": 22,
-   "fehler": "",
+   "strategie": "",
+   "gefunden": 0,
+   "uebernommen": 0,
+   "fehler": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)>",
    "grund": "",
    "hinweis": "War wegen abgebrochener Verbindungen abgeschaltet. Beim Nachpruefen antwortete der Server wieder und die Heuristik fand 18 Termine -- Kabarett und Theater im Haus.",
    "zeiten_nachgetragen": 0,
@@ -545,8 +544,8 @@
    "url": "https://www.landestheater.at/spielplan",
    "aktiv": true,
    "strategie": "landestheater",
-   "gefunden": 13,
-   "uebernommen": 13,
+   "gefunden": 11,
+   "uebernommen": 11,
    "fehler": "",
    "grund": "",
    "hinweis": "Die einzige Quelle, die gerendert geholt wird. Ohne Browser steht im HTML kein einziger Termin, mit Browser das ganze Programm -- gemessen 32.000 gegen 160.000 Zeichen. Geholt werden die naechsten 25 Vorstellungen; dahinter verbirgt eine Schaltflaeche \"MEHR LADEN\" den Rest der Spielzeit, und die verlangt einen Klick, den --dump-dom nicht geben kann. Ein mitwanderndes Fenster also, kein Saisonabzug.",
@@ -778,8 +777,8 @@
    "url": "https://www.galerie-thomas-flora.at/ausstellungen",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 1,
-   "uebernommen": 0,
+   "gefunden": 2,
+   "uebernommen": 1,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -1226,14 +1225,13 @@
    "url": "https://www.mci.edu/de/hochschule/events",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 7,
+   "gefunden": 6,
    "uebernommen": 4,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 3,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 1,
     "Universitaetsinterna": 2
    },
    "brauchtum": {}
@@ -1313,12 +1311,12 @@
    "url": "https://www.meine-flohmarkt-termine.de/ort/innsbruck",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 26,
-   "uebernommen": 26,
+   "gefunden": 24,
+   "uebernommen": 24,
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "zeiten_nachgetragen": 26,
+   "zeiten_nachgetragen": 24,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -1327,8 +1325,8 @@
    "url": "https://www.wasmachma.at/events/bundesland/tirol/flohmarkt",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 6,
-   "uebernommen": 1,
+   "gefunden": 7,
+   "uebernommen": 2,
    "fehler": "",
    "grund": "",
    "hinweis": "",
