@@ -1,19 +1,19 @@
 {
- "lauf": "2026-10-26T10:16:33+00:00",
- "termine": 1561,
+ "lauf": "2026-10-27T09:57:37+00:00",
+ "termine": 1723,
  "serientermine": 123,
- "neu": 80,
+ "neu": 75,
  "quellen_aktiv": 72,
- "quellen_mit_treffern": 39,
- "quellen_mit_fehler": 2,
+ "quellen_mit_treffern": 40,
+ "quellen_mit_fehler": 1,
  "quellen": [
   {
    "quelle": "Innsbruck Tourismus",
    "url": "https://www.innsbruck.info/events/d/alle.html",
    "aktiv": true,
    "strategie": "innsbruckinfo",
-   "gefunden": 213,
-   "uebernommen": 197,
+   "gefunden": 207,
+   "uebernommen": 191,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -24,8 +24,8 @@
     "ausserhalb des Zeitfensters": 1
    },
    "brauchtum": {
-    "Volksmusik": 6,
     "Advent- und Perchtenbrauch": 5,
+    "Volksmusik": 6,
     "Blasmusik": 2
    }
   },
@@ -34,8 +34,8 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 738,
-   "uebernommen": 713,
+   "gefunden": 932,
+   "uebernommen": 906,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -43,7 +43,7 @@
    "verworfen": {
     "Satzmitte statt Titel": 2,
     "ausserhalb: salzburg": 1,
-    "ausserhalb des Zeitfensters": 22
+    "ausserhalb des Zeitfensters": 23
    },
    "brauchtum": {
     "Blasmusik": 3,
@@ -55,8 +55,8 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck-land/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 259,
-   "uebernommen": 254,
+   "gefunden": 264,
+   "uebernommen": 259,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -104,14 +104,14 @@
    "url": "https://www.eventfinder.at/veranstaltungen-innsbruck.php",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 60,
-   "uebernommen": 59,
+   "gefunden": 59,
+   "uebernommen": 57,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 1
+    "ausserhalb des Zeitfensters": 2
    },
    "brauchtum": {
     "Blasmusik": 1
@@ -231,13 +231,13 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 41,
-   "uebernommen": 37,
+   "uebernommen": 36,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 4
+    "ausserhalb des Zeitfensters": 5
    },
    "brauchtum": {}
   },
@@ -310,7 +310,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "URLError: <urlopen error [Errno 101] Network is unreachable>",
+   "fehler": "",
    "grund": "",
    "hinweis": "Sehr schlanke Seite, Programm ueberwiegend ueber Instagram",
    "zeiten_nachgetragen": 0,
@@ -433,10 +433,10 @@
    "quelle": "Bierstindl",
    "url": "https://www.bierstindl.eu/veranstaltungen",
    "aktiv": true,
-   "strategie": "",
-   "gefunden": 0,
-   "uebernommen": 0,
-   "fehler": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)>",
+   "strategie": "heuristik",
+   "gefunden": 20,
+   "uebernommen": 20,
+   "fehler": "",
    "grund": "",
    "hinweis": "War wegen abgebrochener Verbindungen abgeschaltet. Beim Nachpruefen antwortete der Server wieder und die Heuristik fand 18 Termine -- Kabarett und Theater im Haus.",
    "zeiten_nachgetragen": 0,
@@ -566,8 +566,8 @@
    "url": "https://www.metropol-kino.at/kinoprogramm/metropol",
    "aktiv": true,
    "strategie": "kino",
-   "gefunden": 22,
-   "uebernommen": 22,
+   "gefunden": 24,
+   "uebernommen": 24,
    "fehler": "",
    "grund": "",
    "hinweis": "nur das Programm des laufenden Tages; Spielzeiten kommen clientseitig nach Auswahl eines Datums",
@@ -621,16 +621,14 @@
    "quelle": "DIAMETRALE",
    "url": "https://www.diametrale.at/program/",
    "aktiv": true,
-   "strategie": "heuristik",
-   "gefunden": 243,
+   "strategie": "",
+   "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "",
+   "fehler": "TimeoutError: The read operation timed out",
    "grund": "",
    "hinweis": "Die Seite fuehrt das Archiv aller Ausgaben seit 2017; 242 von 243 Terminen liegen darum in der Vergangenheit. Kein Fehler.",
    "zeiten_nachgetragen": 0,
-   "verworfen": {
-    "ausserhalb des Zeitfensters": 243
-   },
+   "verworfen": {},
    "brauchtum": {}
   },
   {
@@ -848,14 +846,14 @@
    "url": "https://www.runme.at/laufkalender/tirol/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 19,
+   "gefunden": 18,
    "uebernommen": 2,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 16,
+    "kein Ort im Umkreis genannt": 15,
     "ausserhalb: pitztal": 1
    },
    "brauchtum": {}
@@ -1319,14 +1317,14 @@
    "url": "https://www.wasmachma.at/events/bundesland/tirol/flohmarkt",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 7,
+   "gefunden": 6,
    "uebernommen": 2,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 5
+    "kein Ort im Umkreis genannt": 4
    },
    "brauchtum": {}
   },
