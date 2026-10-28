@@ -1,32 +1,32 @@
 {
- "lauf": "2026-10-27T09:57:37+00:00",
- "termine": 1723,
+ "lauf": "2026-10-28T10:42:20+00:00",
+ "termine": 1591,
  "serientermine": 123,
- "neu": 75,
+ "neu": 133,
  "quellen_aktiv": 72,
- "quellen_mit_treffern": 40,
- "quellen_mit_fehler": 1,
+ "quellen_mit_treffern": 39,
+ "quellen_mit_fehler": 0,
  "quellen": [
   {
    "quelle": "Innsbruck Tourismus",
    "url": "https://www.innsbruck.info/events/d/alle.html",
    "aktiv": true,
    "strategie": "innsbruckinfo",
-   "gefunden": 207,
-   "uebernommen": 191,
+   "gefunden": 211,
+   "uebernommen": 196,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
     "Titel ist nur eine Anschrift": 1,
-    "kein Ort im Umkreis genannt": 14,
+    "kein Ort im Umkreis genannt": 13,
     "ausserhalb des Zeitfensters": 1
    },
    "brauchtum": {
-    "Advent- und Perchtenbrauch": 5,
     "Volksmusik": 6,
-    "Blasmusik": 2
+    "Blasmusik": 2,
+    "Advent- und Perchtenbrauch": 4
    }
   },
   {
@@ -34,8 +34,8 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 932,
-   "uebernommen": 906,
+   "gefunden": 710,
+   "uebernommen": 689,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -43,10 +43,11 @@
    "verworfen": {
     "Satzmitte statt Titel": 2,
     "ausserhalb: salzburg": 1,
-    "ausserhalb des Zeitfensters": 23
+    "ausserhalb des Zeitfensters": 17,
+    "ausserhalb: kufstein": 1
    },
    "brauchtum": {
-    "Blasmusik": 3,
+    "Blasmusik": 2,
     "Volksmusik": 1
    }
   },
@@ -55,17 +56,19 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck-land/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 264,
-   "uebernommen": 259,
+   "gefunden": 251,
+   "uebernommen": 248,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
     "ausserhalb: mittenwald": 1,
-    "ausserhalb des Zeitfensters": 4
+    "ausserhalb des Zeitfensters": 2
    },
-   "brauchtum": {}
+   "brauchtum": {
+    "Blasmusik": 1
+   }
   },
   {
    "quelle": "meinbezirk",
@@ -73,13 +76,13 @@
    "aktiv": true,
    "strategie": "meinbezirk",
    "gefunden": 27,
-   "uebernommen": 23,
+   "uebernommen": 24,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 4
+    "kein Ort im Umkreis genannt": 3
    },
    "brauchtum": {}
   },
@@ -104,8 +107,8 @@
    "url": "https://www.eventfinder.at/veranstaltungen-innsbruck.php",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 59,
-   "uebernommen": 57,
+   "gefunden": 61,
+   "uebernommen": 59,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -129,7 +132,8 @@
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 2
+    "kein Ort im Umkreis genannt": 1,
+    "ausserhalb: pertisau": 1
    },
    "brauchtum": {}
   },
@@ -230,14 +234,14 @@
    "url": "https://www.diebaeckerei.at/programm",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 41,
-   "uebernommen": 36,
+   "gefunden": 38,
+   "uebernommen": 34,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 5
+    "ausserhalb des Zeitfensters": 4
    },
    "brauchtum": {}
   },
@@ -246,14 +250,14 @@
    "url": "https://www.treibhaus.at/programm.ics",
    "aktiv": true,
    "strategie": "ics",
-   "gefunden": 104,
+   "gefunden": 105,
    "uebernommen": 64,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 40
+    "ausserhalb des Zeitfensters": 41
    },
    "brauchtum": {
     "Schlager": 1
@@ -621,14 +625,16 @@
    "quelle": "DIAMETRALE",
    "url": "https://www.diametrale.at/program/",
    "aktiv": true,
-   "strategie": "",
-   "gefunden": 0,
+   "strategie": "heuristik",
+   "gefunden": 243,
    "uebernommen": 0,
-   "fehler": "TimeoutError: The read operation timed out",
+   "fehler": "",
    "grund": "",
    "hinweis": "Die Seite fuehrt das Archiv aller Ausgaben seit 2017; 242 von 243 Terminen liegen darum in der Vergangenheit. Kein Fehler.",
    "zeiten_nachgetragen": 0,
-   "verworfen": {},
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 243
+   },
    "brauchtum": {}
   },
   {
@@ -650,8 +656,8 @@
    "url": "https://www.tiroler-landesmuseen.at/besuch/veranstaltungen/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 11,
-   "uebernommen": 8,
+   "gefunden": 10,
+   "uebernommen": 7,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -770,13 +776,13 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 2,
-   "uebernommen": 1,
+   "uebernommen": 0,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 1
+    "ausserhalb des Zeitfensters": 2
    },
    "brauchtum": {}
   },
@@ -799,8 +805,8 @@
    "url": "https://www.uibk.ac.at/de/events/",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 175,
-   "uebernommen": 173,
+   "gefunden": 183,
+   "uebernommen": 181,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -980,14 +986,16 @@
    "quelle": "Patscherkofelbahn",
    "url": "https://www.patscherkofelbahn.at/events/",
    "aktiv": true,
-   "strategie": "",
-   "gefunden": 0,
-   "uebernommen": 0,
+   "strategie": "heuristik",
+   "gefunden": 3,
+   "uebernommen": 2,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
-   "verworfen": {},
+   "verworfen": {
+    "Fliesstext statt Titel": 1
+   },
    "brauchtum": {}
   },
   {
@@ -1185,8 +1193,8 @@
    "url": "https://startup.tirol/events/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 9,
-   "uebernommen": 9,
+   "gefunden": 8,
+   "uebernommen": 8,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -1199,7 +1207,7 @@
    "url": "https://www.standort-tirol.at/veranstaltungen",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 21,
+   "gefunden": 23,
    "uebernommen": 3,
    "fehler": "",
    "grund": "",
@@ -1207,7 +1215,7 @@
    "zeiten_nachgetragen": 0,
    "verworfen": {
     "ausserhalb des Zeitfensters": 1,
-    "kein Ort im Umkreis genannt": 16,
+    "kein Ort im Umkreis genannt": 18,
     "ausserhalb: muenchen": 1
    },
    "brauchtum": {}
@@ -1217,12 +1225,12 @@
    "url": "https://www.mci.edu/de/hochschule/events",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 6,
-   "uebernommen": 4,
+   "gefunden": 7,
+   "uebernommen": 5,
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "zeiten_nachgetragen": 3,
+   "zeiten_nachgetragen": 4,
    "verworfen": {
     "Universitaetsinterna": 2
    },
@@ -1333,8 +1341,8 @@
    "url": "https://www.radlobby.at/tirol/radlboerse",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 4,
-   "uebernommen": 1,
+   "gefunden": 3,
+   "uebernommen": 0,
    "fehler": "",
    "grund": "",
    "hinweis": "Boersen im Maerz und April",
