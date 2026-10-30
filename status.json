@@ -1,10 +1,10 @@
 {
- "lauf": "2026-10-29T11:00:31+00:00",
- "termine": 1765,
+ "lauf": "2026-10-30T10:58:04+00:00",
+ "termine": 1534,
  "serientermine": 123,
- "neu": 120,
+ "neu": 83,
  "quellen_aktiv": 72,
- "quellen_mit_treffern": 40,
+ "quellen_mit_treffern": 41,
  "quellen_mit_fehler": 0,
  "quellen": [
   {
@@ -12,8 +12,8 @@
    "url": "https://www.innsbruck.info/events/d/alle.html",
    "aktiv": true,
    "strategie": "innsbruckinfo",
-   "gefunden": 215,
-   "uebernommen": 201,
+   "gefunden": 213,
+   "uebernommen": 199,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -33,20 +33,19 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 961,
-   "uebernommen": 934,
+   "gefunden": 642,
+   "uebernommen": 625,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "Satzmitte statt Titel": 2,
     "ausserhalb: salzburg": 1,
-    "ausserhalb des Zeitfensters": 23,
+    "ausserhalb des Zeitfensters": 15,
     "ausserhalb: kufstein": 1
    },
    "brauchtum": {
-    "Blasmusik": 3,
+    "Blasmusik": 2,
     "Volksmusik": 1
    }
   },
@@ -55,15 +54,15 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck-land/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 268,
-   "uebernommen": 264,
+   "gefunden": 234,
+   "uebernommen": 231,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
     "ausserhalb: mittenwald": 1,
-    "ausserhalb des Zeitfensters": 3
+    "ausserhalb des Zeitfensters": 2
    },
    "brauchtum": {
     "Blasmusik": 1
@@ -90,8 +89,8 @@
    "url": "https://www.innsbrucktermine.at",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 22,
-   "uebernommen": 22,
+   "gefunden": 23,
+   "uebernommen": 23,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -155,8 +154,8 @@
    "url": "https://www.olympiaworld.at/events-tickets/",
    "aktiv": true,
    "strategie": "microdata",
-   "gefunden": 51,
-   "uebernommen": 47,
+   "gefunden": 52,
+   "uebernommen": 48,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -219,8 +218,8 @@
    "url": "https://www.pmk.or.at/de/events",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 17,
-   "uebernommen": 17,
+   "gefunden": 18,
+   "uebernommen": 18,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -234,12 +233,14 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 37,
-   "uebernommen": 37,
+   "uebernommen": 36,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
-   "verworfen": {},
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 1
+   },
    "brauchtum": {}
   },
   {
@@ -248,13 +249,13 @@
    "aktiv": true,
    "strategie": "ics",
    "gefunden": 105,
-   "uebernommen": 62,
+   "uebernommen": 61,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 43
+    "ausserhalb des Zeitfensters": 44
    },
    "brauchtum": {
     "Schlager": 1
@@ -265,14 +266,14 @@
    "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen.html",
    "aktiv": true,
    "strategie": "microdata",
-   "gefunden": 37,
+   "gefunden": 36,
    "uebernommen": 35,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 2
+    "ausserhalb des Zeitfensters": 1
    },
    "brauchtum": {}
   },
@@ -435,8 +436,8 @@
    "url": "https://www.bierstindl.eu/veranstaltungen",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 19,
-   "uebernommen": 19,
+   "gefunden": 17,
+   "uebernommen": 17,
    "fehler": "",
    "grund": "",
    "hinweis": "War wegen abgebrochener Verbindungen abgeschaltet. Beim Nachpruefen antwortete der Server wieder und die Heuristik fand 18 Termine -- Kabarett und Theater im Haus.",
@@ -539,8 +540,8 @@
    "url": "https://www.landestheater.at/spielplan",
    "aktiv": true,
    "strategie": "landestheater",
-   "gefunden": 5,
-   "uebernommen": 5,
+   "gefunden": 3,
+   "uebernommen": 3,
    "fehler": "",
    "grund": "",
    "hinweis": "Die einzige Quelle, die gerendert geholt wird. Ohne Browser steht im HTML kein einziger Termin, mit Browser das ganze Programm -- gemessen 32.000 gegen 160.000 Zeichen. Geholt werden die naechsten 25 Vorstellungen; dahinter verbirgt eine Schaltflaeche \"MEHR LADEN\" den Rest der Spielzeit, und die verlangt einen Klick, den --dump-dom nicht geben kann. Ein mitwanderndes Fenster also, kein Saisonabzug.",
@@ -567,8 +568,8 @@
    "url": "https://www.metropol-kino.at/kinoprogramm/metropol",
    "aktiv": true,
    "strategie": "kino",
-   "gefunden": 22,
-   "uebernommen": 22,
+   "gefunden": 23,
+   "uebernommen": 23,
    "fehler": "",
    "grund": "",
    "hinweis": "nur das Programm des laufenden Tages; Spielzeiten kommen clientseitig nach Auswahl eines Datums",
@@ -595,8 +596,8 @@
    "url": "https://www.uncut.at/innsbruck/",
    "aktiv": true,
    "strategie": "kino",
-   "gefunden": 12,
-   "uebernommen": 12,
+   "gefunden": 9,
+   "uebernommen": 9,
    "fehler": "",
    "grund": "",
    "hinweis": "Programm aller Innsbrucker Kinos fuer den laufenden Tag",
@@ -624,13 +625,13 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 243,
-   "uebernommen": 0,
+   "uebernommen": 1,
    "fehler": "",
    "grund": "",
    "hinweis": "Die Seite fuehrt das Archiv aller Ausgaben seit 2017; 242 von 243 Terminen liegen darum in der Vergangenheit. Kein Fehler.",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 243
+    "ausserhalb des Zeitfensters": 242
    },
    "brauchtum": {}
   },
@@ -669,8 +670,8 @@
    "url": "https://www.haus-der-musik-innsbruck.at/kalender/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 10,
-   "uebernommen": 10,
+   "gefunden": 9,
+   "uebernommen": 9,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -802,14 +803,13 @@
    "url": "https://www.uibk.ac.at/de/events/",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 178,
-   "uebernommen": 176,
+   "gefunden": 172,
+   "uebernommen": 171,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "Satzmitte statt Titel": 1,
     "Universitaetsinterna": 1
    },
    "brauchtum": {}
@@ -849,14 +849,14 @@
    "url": "https://www.runme.at/laufkalender/tirol/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 18,
+   "gefunden": 19,
    "uebernommen": 2,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 15,
+    "kein Ort im Umkreis genannt": 16,
     "ausserhalb: pitztal": 1
    },
    "brauchtum": {}
@@ -910,8 +910,8 @@
    "url": "https://www.aut.cc/veranstaltungen",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 12,
-   "uebernommen": 12,
+   "gefunden": 11,
+   "uebernommen": 11,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -924,8 +924,8 @@
    "url": "https://vorbrenner.at/programm",
    "aktiv": true,
    "strategie": "vorbrenner",
-   "gefunden": 62,
-   "uebernommen": 1,
+   "gefunden": 63,
+   "uebernommen": 2,
    "fehler": "",
    "grund": "",
    "hinweis": "Festival im Herbst; ausserhalb der Saison steht dort wenig.",
@@ -1205,14 +1205,13 @@
    "url": "https://www.standort-tirol.at/veranstaltungen",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 22,
+   "gefunden": 21,
    "uebernommen": 3,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 1,
     "kein Ort im Umkreis genannt": 17,
     "ausserhalb: muenchen": 1
    },
@@ -1323,14 +1322,14 @@
    "url": "https://www.wasmachma.at/events/bundesland/tirol/flohmarkt",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 6,
+   "gefunden": 7,
    "uebernommen": 2,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 4
+    "kein Ort im Umkreis genannt": 5
    },
    "brauchtum": {}
   },
