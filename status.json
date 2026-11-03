@@ -1,10 +1,10 @@
 {
- "lauf": "2026-11-02T12:31:12+00:00",
- "termine": 1645,
+ "lauf": "2026-11-03T12:01:45+00:00",
+ "termine": 1815,
  "serientermine": 123,
- "neu": 80,
+ "neu": 113,
  "quellen_aktiv": 72,
- "quellen_mit_treffern": 40,
+ "quellen_mit_treffern": 41,
  "quellen_mit_fehler": 1,
  "quellen": [
   {
@@ -12,8 +12,8 @@
    "url": "https://www.innsbruck.info/events/d/alle.html",
    "aktiv": true,
    "strategie": "innsbruckinfo",
-   "gefunden": 201,
-   "uebernommen": 186,
+   "gefunden": 207,
+   "uebernommen": 192,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -33,15 +33,15 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 756,
-   "uebernommen": 734,
+   "gefunden": 951,
+   "uebernommen": 926,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
     "ausserhalb: salzburg": 1,
-    "ausserhalb des Zeitfensters": 20,
+    "ausserhalb des Zeitfensters": 23,
     "ausserhalb: kufstein": 1
    },
    "brauchtum": {
@@ -55,15 +55,15 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck-land/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 255,
-   "uebernommen": 252,
+   "gefunden": 271,
+   "uebernommen": 269,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
     "ausserhalb: mittenwald": 1,
-    "ausserhalb des Zeitfensters": 2
+    "ausserhalb des Zeitfensters": 1
    },
    "brauchtum": {
     "Blasmusik": 1
@@ -74,8 +74,8 @@
    "url": "https://www.meinbezirk.at/event/innsbruck/list",
    "aktiv": true,
    "strategie": "meinbezirk",
-   "gefunden": 29,
-   "uebernommen": 27,
+   "gefunden": 28,
+   "uebernommen": 26,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -109,15 +109,13 @@
    "url": "https://www.eventfinder.at/veranstaltungen-innsbruck.php",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 59,
-   "uebernommen": 58,
+   "gefunden": 60,
+   "uebernommen": 60,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
-   "verworfen": {
-    "ausserhalb des Zeitfensters": 1
-   },
+   "verworfen": {},
    "brauchtum": {
     "Blasmusik": 1
    }
@@ -160,8 +158,8 @@
    "url": "https://www.olympiaworld.at/events-tickets/",
    "aktiv": true,
    "strategie": "microdata",
-   "gefunden": 48,
-   "uebernommen": 44,
+   "gefunden": 49,
+   "uebernommen": 45,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -176,14 +174,14 @@
    "url": "https://www.cmi.at/de/veranstaltungskalender",
    "aktiv": true,
    "strategie": "congress",
-   "gefunden": 181,
+   "gefunden": 182,
    "uebernommen": 138,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 40,
+    "ausserhalb des Zeitfensters": 41,
     "Universitaetsinterna": 3
    },
    "brauchtum": {
@@ -224,12 +222,12 @@
    "url": "https://www.pmk.or.at/de/events",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 16,
-   "uebernommen": 16,
+   "gefunden": 18,
+   "uebernommen": 18,
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "zeiten_nachgetragen": 10,
+   "zeiten_nachgetragen": 12,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -239,12 +237,14 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 38,
-   "uebernommen": 38,
+   "uebernommen": 37,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
-   "verworfen": {},
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 1
+   },
    "brauchtum": {}
   },
   {
@@ -252,13 +252,15 @@
    "url": "https://www.treibhaus.at/programm.ics",
    "aktiv": true,
    "strategie": "ics",
-   "gefunden": 74,
-   "uebernommen": 74,
+   "gefunden": 72,
+   "uebernommen": 71,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
-   "verworfen": {},
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 1
+   },
    "brauchtum": {
     "Schlager": 1
    }
@@ -570,8 +572,8 @@
    "url": "https://www.metropol-kino.at/kinoprogramm/metropol",
    "aktiv": true,
    "strategie": "kino",
-   "gefunden": 28,
-   "uebernommen": 28,
+   "gefunden": 22,
+   "uebernommen": 22,
    "fehler": "",
    "grund": "",
    "hinweis": "nur das Programm des laufenden Tages; Spielzeiten kommen clientseitig nach Auswahl eines Datums",
@@ -805,8 +807,8 @@
    "url": "https://www.uibk.ac.at/de/events/",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 207,
-   "uebernommen": 203,
+   "gefunden": 212,
+   "uebernommen": 208,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -942,14 +944,13 @@
    "url": "https://www.alpenzoo.at/de/veranstaltungen",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 8,
+   "gefunden": 7,
    "uebernommen": 6,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 1,
     "Fliesstext statt Titel": 1
    },
    "brauchtum": {}
@@ -1137,7 +1138,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "",
+   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
@@ -1295,10 +1296,10 @@
    "quelle": "flohmarkt.at",
    "url": "https://www.flohmarkt.at/flohmaerkte/innsbruck",
    "aktiv": true,
-   "strategie": "",
-   "gefunden": 0,
-   "uebernommen": 0,
-   "fehler": "TimeoutError: The read operation timed out",
+   "strategie": "heuristik",
+   "gefunden": 15,
+   "uebernommen": 15,
+   "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
