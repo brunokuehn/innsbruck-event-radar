@@ -1,10 +1,10 @@
 {
- "lauf": "2026-11-05T12:26:04+00:00",
- "termine": 1813,
+ "lauf": "2026-11-06T12:13:07+00:00",
+ "termine": 1838,
  "serientermine": 123,
- "neu": 109,
+ "neu": 120,
  "quellen_aktiv": 72,
- "quellen_mit_treffern": 40,
+ "quellen_mit_treffern": 41,
  "quellen_mit_fehler": 0,
  "quellen": [
   {
@@ -12,8 +12,8 @@
    "url": "https://www.innsbruck.info/events/d/alle.html",
    "aktiv": true,
    "strategie": "innsbruckinfo",
-   "gefunden": 214,
-   "uebernommen": 199,
+   "gefunden": 211,
+   "uebernommen": 196,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -33,15 +33,15 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 936,
-   "uebernommen": 907,
+   "gefunden": 939,
+   "uebernommen": 912,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
     "ausserhalb: salzburg": 1,
-    "ausserhalb des Zeitfensters": 24,
+    "ausserhalb des Zeitfensters": 22,
     "ausserhalb: kufstein": 3,
     "ausserhalb: reutte": 1
    },
@@ -56,8 +56,8 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck-land/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 284,
-   "uebernommen": 283,
+   "gefunden": 288,
+   "uebernommen": 287,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -75,13 +75,13 @@
    "aktiv": true,
    "strategie": "meinbezirk",
    "gefunden": 29,
-   "uebernommen": 25,
+   "uebernommen": 24,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 4
+    "kein Ort im Umkreis genannt": 5
    },
    "brauchtum": {
     "Advent- und Perchtenbrauch": 1
@@ -93,13 +93,13 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 22,
-   "uebernommen": 19,
+   "uebernommen": 21,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 3
+    "ausserhalb des Zeitfensters": 1
    },
    "brauchtum": {
     "Advent- und Perchtenbrauch": 1,
@@ -111,14 +111,14 @@
    "url": "https://www.eventfinder.at/veranstaltungen-innsbruck.php",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 62,
-   "uebernommen": 59,
+   "gefunden": 63,
+   "uebernommen": 61,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 3
+    "ausserhalb des Zeitfensters": 2
    },
    "brauchtum": {
     "Blasmusik": 1
@@ -137,8 +137,7 @@
    "zeiten_nachgetragen": 0,
    "verworfen": {
     "kein Ort im Umkreis genannt": 1,
-    "ausserhalb: kufstein": 1,
-    "ausserhalb: woergl": 1,
+    "ausserhalb: woergl": 2,
     "ausserhalb: pertisau": 1
    },
    "brauchtum": {}
@@ -163,13 +162,13 @@
    "aktiv": true,
    "strategie": "microdata",
    "gefunden": 49,
-   "uebernommen": 45,
+   "uebernommen": 46,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 4
+    "ausserhalb des Zeitfensters": 3
    },
    "brauchtum": {}
   },
@@ -178,8 +177,8 @@
    "url": "https://www.cmi.at/de/veranstaltungskalender",
    "aktiv": true,
    "strategie": "congress",
-   "gefunden": 183,
-   "uebernommen": 138,
+   "gefunden": 184,
+   "uebernommen": 139,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -240,13 +239,15 @@
    "url": "https://www.diebaeckerei.at/programm",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 38,
+   "gefunden": 39,
    "uebernommen": 38,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
-   "verworfen": {},
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 1
+   },
    "brauchtum": {}
   },
   {
@@ -255,13 +256,13 @@
    "aktiv": true,
    "strategie": "ics",
    "gefunden": 75,
-   "uebernommen": 72,
+   "uebernommen": 71,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 3
+    "ausserhalb des Zeitfensters": 4
    },
    "brauchtum": {
     "Schlager": 1
@@ -273,14 +274,12 @@
    "aktiv": true,
    "strategie": "microdata",
    "gefunden": 35,
-   "uebernommen": 34,
+   "uebernommen": 35,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
-   "verworfen": {
-    "ausserhalb des Zeitfensters": 1
-   },
+   "verworfen": {},
    "brauchtum": {}
   },
   {
@@ -500,14 +499,14 @@
    "url": "https://www.imkreis.at",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 22,
-   "uebernommen": 2,
+   "gefunden": 26,
+   "uebernommen": 5,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 20
+    "ausserhalb des Zeitfensters": 21
    },
    "brauchtum": {}
   },
@@ -574,8 +573,8 @@
    "url": "https://www.metropol-kino.at/kinoprogramm/metropol",
    "aktiv": true,
    "strategie": "kino",
-   "gefunden": 22,
-   "uebernommen": 22,
+   "gefunden": 25,
+   "uebernommen": 25,
    "fehler": "",
    "grund": "",
    "hinweis": "nur das Programm des laufenden Tages; Spielzeiten kommen clientseitig nach Auswahl eines Datums",
@@ -602,8 +601,8 @@
    "url": "https://www.uncut.at/innsbruck/",
    "aktiv": true,
    "strategie": "kino",
-   "gefunden": 17,
-   "uebernommen": 17,
+   "gefunden": 18,
+   "uebernommen": 18,
    "fehler": "",
    "grund": "",
    "hinweis": "Programm aller Innsbrucker Kinos fuer den laufenden Tag",
@@ -676,8 +675,8 @@
    "url": "https://www.haus-der-musik-innsbruck.at/kalender/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 7,
-   "uebernommen": 7,
+   "gefunden": 8,
+   "uebernommen": 8,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -809,8 +808,8 @@
    "url": "https://www.uibk.ac.at/de/events/",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 206,
-   "uebernommen": 202,
+   "gefunden": 214,
+   "uebernommen": 210,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -887,14 +886,12 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 1,
-   "uebernommen": 0,
+   "uebernommen": 1,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
-   "verworfen": {
-    "ausserhalb des Zeitfensters": 1
-   },
+   "verworfen": {},
    "brauchtum": {}
   },
   {
@@ -1210,14 +1207,14 @@
    "url": "https://www.standort-tirol.at/veranstaltungen",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 22,
-   "uebernommen": 4,
+   "gefunden": 21,
+   "uebernommen": 5,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 17,
+    "kein Ort im Umkreis genannt": 15,
     "ausserhalb: muenchen": 1
    },
    "brauchtum": {}
@@ -1227,14 +1224,13 @@
    "url": "https://www.mci.edu/de/hochschule/events",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 7,
+   "gefunden": 6,
    "uebernommen": 5,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 4,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 1,
     "Universitaetsinterna": 1
    },
    "brauchtum": {}
@@ -1328,14 +1324,14 @@
    "url": "https://www.wasmachma.at/events/bundesland/tirol/flohmarkt",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 6,
+   "gefunden": 7,
    "uebernommen": 1,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 5
+    "kein Ort im Umkreis genannt": 6
    },
    "brauchtum": {}
   },

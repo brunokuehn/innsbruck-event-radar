@@ -1,13 +1,6 @@
 {
- "erzeugt": "2026-11-05T12:26:04+00:00",
- "befunde": [
-  {
-   "dringlichkeit": "hinweis",
-   "quelle": "flohmarkt.at",
-   "was": "liefert wieder",
-   "rat": ""
-  }
- ],
+ "erzeugt": "2026-11-06T12:13:07+00:00",
+ "befunde": [],
  "dauerhaft_still": [
   "Bonanza Festival",
   "Dachsbau",
@@ -19,7 +12,6 @@
   "IFFI Filmfestival",
   "KRAPOLDI",
   "Nature Film Festival",
-  "Nordkette Vertical Run",
   "Nordkette Wetterleuchten",
   "Nähcafé",
   "Repair-Cafe",
@@ -40,7 +32,7 @@
   "Airdrenaline": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 3,
     "behalten": 3,
@@ -50,7 +42,7 @@
   "Alpenverein Innsbruck": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 10,
     "behalten": 10,
@@ -60,7 +52,7 @@
   "Alpenzoo": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 9,
     "behalten": 8,
@@ -70,7 +62,7 @@
   "Austria Climbing": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 0,
     "behalten": 0,
@@ -80,7 +72,7 @@
   "Bergisel": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 2,
     "behalten": 2,
@@ -90,7 +82,7 @@
   "Bierstindl": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 16,
     "behalten": 16,
@@ -100,7 +92,7 @@
   "Bonanza Festival": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 0,
     "behalten": 0,
@@ -110,17 +102,17 @@
   "Congress Messe Innsbruck": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
-    "gefunden": 183,
-    "behalten": 138,
+    "gefunden": 184,
+    "behalten": 139,
     "fehler": ""
    }
   },
   "DIAMETRALE": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 243,
     "behalten": 0,
@@ -130,7 +122,7 @@
   "Dachsbau": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 0,
     "behalten": 0,
@@ -140,9 +132,9 @@
   "Die Bäckerei": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
-    "gefunden": 38,
+    "gefunden": 39,
     "behalten": 38,
     "fehler": ""
    }
@@ -150,7 +142,7 @@
   "Festwochen Alte Musik": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 0,
     "behalten": 0,
@@ -160,7 +152,7 @@
   "Flohmarkt-Termine": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 20,
     "behalten": 20,
@@ -170,7 +162,7 @@
   "Freizeit Tirol": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 10,
     "behalten": 6,
@@ -180,7 +172,7 @@
   "Futterkutter": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 0,
     "behalten": 0,
@@ -190,7 +182,7 @@
   "Galerie Thomas Flora": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 1,
     "behalten": 0,
@@ -200,7 +192,7 @@
   "Gans Anders": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 1,
     "behalten": 0,
@@ -210,7 +202,7 @@
   "Gemeinde Telfs": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 0,
     "behalten": 0,
@@ -220,17 +212,17 @@
   "Haus der Musik": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
-    "gefunden": 7,
-    "behalten": 7,
+    "gefunden": 8,
+    "behalten": 8,
     "fehler": ""
    }
   },
   "Heart of Noise": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 0,
     "behalten": 0,
@@ -240,7 +232,7 @@
   "IFFI Filmfestival": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 0,
     "behalten": 0,
@@ -250,7 +242,7 @@
   "IT-Syndikat": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 10,
     "behalten": 1,
@@ -260,7 +252,7 @@
   "Impact Hub Tirol": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 0,
     "behalten": 0,
@@ -270,27 +262,27 @@
   "Innsbruck Termine": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 22,
-    "behalten": 19,
+    "behalten": 21,
     "fehler": ""
    }
   },
   "Innsbruck Tourismus": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
-    "gefunden": 214,
-    "behalten": 199,
+    "gefunden": 211,
+    "behalten": 196,
     "fehler": ""
    }
   },
   "KRAPOLDI": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 64,
     "behalten": 0,
@@ -300,7 +292,7 @@
   "Klangspuren Schwaz": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 25,
     "behalten": 3,
@@ -310,7 +302,7 @@
   "Kletterzentrum Innsbruck": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 11,
     "behalten": 4,
@@ -320,7 +312,7 @@
   "Laufkalender Tirol": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 20,
     "behalten": 2,
@@ -330,9 +322,9 @@
   "MCI": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
-    "gefunden": 7,
+    "gefunden": 6,
     "behalten": 5,
     "fehler": ""
    }
@@ -340,7 +332,7 @@
   "Markthalle Innsbruck": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 2,
     "behalten": 1,
@@ -350,27 +342,27 @@
   "Metropol Kino": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
-    "gefunden": 22,
-    "behalten": 22,
+    "gefunden": 25,
+    "behalten": 25,
     "fehler": ""
    }
   },
   "Music Hall": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 35,
-    "behalten": 34,
+    "behalten": 35,
     "fehler": ""
    }
   },
   "Nature Film Festival": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 0,
     "behalten": 0,
@@ -380,17 +372,17 @@
   "Nordkette Vertical Run": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 1,
-    "behalten": 0,
+    "behalten": 1,
     "fehler": ""
    }
   },
   "Nordkette Wetterleuchten": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 3,
     "behalten": 0,
@@ -400,7 +392,7 @@
   "Nähcafé": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 0,
     "behalten": 0,
@@ -410,17 +402,17 @@
   "Olympiaworld": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 49,
-    "behalten": 45,
+    "behalten": 46,
     "fehler": ""
    }
   },
   "Patscherkofelbahn": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 4,
     "behalten": 3,
@@ -430,7 +422,7 @@
   "RadlBörse Tirol": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 4,
     "behalten": 1,
@@ -440,7 +432,7 @@
   "Repair-Cafe": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 4,
     "behalten": 0,
@@ -450,7 +442,7 @@
   "Rosshütte Seefeld": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 0,
     "behalten": 0,
@@ -460,7 +452,7 @@
   "Route66": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 0,
     "behalten": 0,
@@ -470,7 +462,7 @@
   "Skibörse Innsbruck": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 0,
     "behalten": 0,
@@ -480,7 +472,7 @@
   "Spielraum FabLab": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 0,
     "behalten": 0,
@@ -490,7 +482,7 @@
   "Stadt Hall in Tirol": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 0,
     "behalten": 0,
@@ -500,7 +492,7 @@
   "Stadt Innsbruck": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 0,
     "behalten": 0,
@@ -510,7 +502,7 @@
   "Stadtbibliothek Innsbruck": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 0,
     "behalten": 0,
@@ -520,17 +512,17 @@
   "Standortagentur Tirol": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
-    "gefunden": 22,
-    "behalten": 4,
+    "gefunden": 21,
+    "behalten": 5,
     "fehler": ""
    }
   },
   "Startup.Tirol": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 8,
     "behalten": 8,
@@ -540,27 +532,27 @@
   "TT Events": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
-    "gefunden": 936,
-    "behalten": 907,
+    "gefunden": 939,
+    "behalten": 912,
     "fehler": ""
    }
   },
   "TT Events Innsbruck-Land": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
-    "gefunden": 284,
-    "behalten": 283,
+    "gefunden": 288,
+    "behalten": 287,
     "fehler": ""
    }
   },
   "Tante Emma": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 0,
     "behalten": 0,
@@ -570,7 +562,7 @@
   "Tiroler Landesmuseen": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 13,
     "behalten": 10,
@@ -580,7 +572,7 @@
   "Tiroler Landestheater": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 25,
     "behalten": 25,
@@ -590,7 +582,7 @@
   "Tiroler Skiverband": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 0,
     "behalten": 0,
@@ -600,7 +592,7 @@
   "Tonwerkstatt": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 0,
     "behalten": 0,
@@ -610,17 +602,17 @@
   "Treibhaus": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 75,
-    "behalten": 72,
+    "behalten": 71,
     "fehler": ""
    }
   },
   "Tribaun": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 0,
     "behalten": 0,
@@ -630,7 +622,7 @@
   "Töpferei Kathrein": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 4,
     "behalten": 0,
@@ -640,27 +632,27 @@
   "UNCUT Kinoprogramm": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
-    "gefunden": 17,
-    "behalten": 17,
+    "gefunden": 18,
+    "behalten": 18,
     "fehler": ""
    }
   },
   "Universität Innsbruck": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
-    "gefunden": 206,
-    "behalten": 202,
+    "gefunden": 214,
+    "behalten": 210,
     "fehler": ""
    }
   },
   "Vorbrenner": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 63,
     "behalten": 2,
@@ -670,7 +662,7 @@
   "aut. architektur und tirol": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 11,
     "behalten": 11,
@@ -680,7 +672,7 @@
   "coffeekult": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 0,
     "behalten": 0,
@@ -690,17 +682,17 @@
   "eventfinder": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
-    "gefunden": 62,
-    "behalten": 59,
+    "gefunden": 63,
+    "behalten": 61,
     "fehler": ""
    }
   },
   "flohmarkt.at": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 15,
     "behalten": 15,
@@ -710,27 +702,27 @@
   "imkreis": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
-    "gefunden": 22,
-    "behalten": 2,
+    "gefunden": 26,
+    "behalten": 5,
     "fehler": ""
    }
   },
   "meinbezirk": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 29,
-    "behalten": 25,
+    "behalten": 24,
     "fehler": ""
    }
   },
   "p.m.k": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 21,
     "behalten": 21,
@@ -740,7 +732,7 @@
   "studio amano": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
     "gefunden": 0,
     "behalten": 0,
@@ -750,9 +742,9 @@
   "wasmachma": {
    "laeufe_erfasst": 30,
    "zuletzt": {
-    "tag": "2026-11-05",
+    "tag": "2026-11-06",
     "zustand": "ok",
-    "gefunden": 6,
+    "gefunden": 7,
     "behalten": 1,
     "fehler": ""
    }
