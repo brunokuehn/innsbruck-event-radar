@@ -1,25 +1,25 @@
 {
- "lauf": "2026-11-09T12:58:44+00:00",
- "termine": 1761,
+ "lauf": "2026-11-10T12:45:32+00:00",
+ "termine": 1757,
  "serientermine": 123,
- "neu": 113,
+ "neu": 83,
  "quellen_aktiv": 72,
  "quellen_mit_treffern": 41,
- "quellen_mit_fehler": 1,
+ "quellen_mit_fehler": 0,
  "quellen": [
   {
    "quelle": "Innsbruck Tourismus",
    "url": "https://www.innsbruck.info/events/d/alle.html",
    "aktiv": true,
    "strategie": "innsbruckinfo",
-   "gefunden": 187,
-   "uebernommen": 174,
+   "gefunden": 191,
+   "uebernommen": 177,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 12,
+    "kein Ort im Umkreis genannt": 13,
     "ausserhalb des Zeitfensters": 1
    },
    "brauchtum": {
@@ -33,8 +33,8 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 905,
-   "uebernommen": 878,
+   "gefunden": 917,
+   "uebernommen": 890,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -56,8 +56,8 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck-land/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 252,
-   "uebernommen": 251,
+   "gefunden": 253,
+   "uebernommen": 252,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -74,8 +74,8 @@
    "url": "https://www.meinbezirk.at/event/innsbruck/list",
    "aktiv": true,
    "strategie": "meinbezirk",
-   "gefunden": 30,
-   "uebernommen": 25,
+   "gefunden": 27,
+   "uebernommen": 22,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -108,8 +108,8 @@
    "url": "https://www.eventfinder.at/veranstaltungen-innsbruck.php",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 60,
-   "uebernommen": 58,
+   "gefunden": 57,
+   "uebernommen": 55,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -134,9 +134,9 @@
    "zeiten_nachgetragen": 0,
    "verworfen": {
     "kein Ort im Umkreis genannt": 1,
-    "ausserhalb: kufstein": 1,
     "ausserhalb: landeck": 1,
-    "ausserhalb: reutte": 2
+    "ausserhalb: reutte": 2,
+    "ausserhalb: kufstein": 1
    },
    "brauchtum": {}
   },
@@ -237,8 +237,8 @@
    "url": "https://www.diebaeckerei.at/programm",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 38,
-   "uebernommen": 38,
+   "gefunden": 41,
+   "uebernommen": 41,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -252,13 +252,13 @@
    "aktiv": true,
    "strategie": "ics",
    "gefunden": 77,
-   "uebernommen": 68,
+   "uebernommen": 66,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 9
+    "ausserhalb des Zeitfensters": 11
    },
    "brauchtum": {
     "Schlager": 1
@@ -496,13 +496,13 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 26,
-   "uebernommen": 4,
+   "uebernommen": 3,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 22
+    "ausserhalb des Zeitfensters": 23
    },
    "brauchtum": {}
   },
@@ -804,8 +804,8 @@
    "url": "https://www.uibk.ac.at/de/events/",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 206,
-   "uebernommen": 202,
+   "gefunden": 201,
+   "uebernommen": 197,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -1133,7 +1133,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
+   "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
