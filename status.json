@@ -1,8 +1,8 @@
 {
- "lauf": "2026-11-13T12:19:16+00:00",
- "termine": 1788,
+ "lauf": "2026-11-14T11:35:12+00:00",
+ "termine": 1755,
  "serientermine": 123,
- "neu": 123,
+ "neu": 101,
  "quellen_aktiv": 72,
  "quellen_mit_treffern": 39,
  "quellen_mit_fehler": 1,
@@ -12,15 +12,14 @@
    "url": "https://www.innsbruck.info/events/d/alle.html",
    "aktiv": true,
    "strategie": "innsbruckinfo",
-   "gefunden": 198,
+   "gefunden": 197,
    "uebernommen": 182,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 15,
-    "ausserhalb des Zeitfensters": 1
+    "kein Ort im Umkreis genannt": 15
    },
    "brauchtum": {
     "Volksmusik": 7,
@@ -33,15 +32,15 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 949,
-   "uebernommen": 924,
+   "gefunden": 931,
+   "uebernommen": 907,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
     "ausserhalb: salzburg": 1,
-    "ausserhalb des Zeitfensters": 20,
+    "ausserhalb des Zeitfensters": 19,
     "ausserhalb: kufstein": 3,
     "ausserhalb: reutte": 1
    },
@@ -56,14 +55,15 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck-land/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 254,
-   "uebernommen": 253,
+   "gefunden": 242,
+   "uebernommen": 240,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb: mittenwald": 1
+    "ausserhalb: mittenwald": 1,
+    "ausserhalb des Zeitfensters": 1
    },
    "brauchtum": {
     "Blasmusik": 2
@@ -92,8 +92,8 @@
    "url": "https://www.innsbrucktermine.at",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 25,
-   "uebernommen": 25,
+   "gefunden": 24,
+   "uebernommen": 24,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -124,16 +124,14 @@
    "url": "https://www.freizeit-tirol.at/freizeit-events/eventkalender/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 17,
-   "uebernommen": 12,
+   "gefunden": 10,
+   "uebernommen": 9,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 1,
-    "ausserhalb: reutte": 3,
-    "ausserhalb: kufstein": 1
+    "kein Ort im Umkreis genannt": 1
    },
    "brauchtum": {}
   },
@@ -173,13 +171,13 @@
    "aktiv": true,
    "strategie": "congress",
    "gefunden": 184,
-   "uebernommen": 134,
+   "uebernommen": 133,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 47,
+    "ausserhalb des Zeitfensters": 48,
     "Universitaetsinterna": 3
    },
    "brauchtum": {
@@ -220,8 +218,8 @@
    "url": "https://www.pmk.or.at/de/events",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 19,
-   "uebernommen": 19,
+   "gefunden": 18,
+   "uebernommen": 18,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -234,13 +232,15 @@
    "url": "https://www.diebaeckerei.at/programm",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 40,
+   "gefunden": 41,
    "uebernommen": 40,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
-   "verworfen": {},
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 1
+   },
    "brauchtum": {}
   },
   {
@@ -249,13 +249,13 @@
    "aktiv": true,
    "strategie": "ics",
    "gefunden": 85,
-   "uebernommen": 69,
+   "uebernommen": 68,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 16
+    "ausserhalb des Zeitfensters": 17
    },
    "brauchtum": {
     "Schlager": 1
@@ -266,8 +266,8 @@
    "url": "https://www.music-hall.at/veranstaltungen/aktuelleveranstaltungen.html",
    "aktiv": true,
    "strategie": "microdata",
-   "gefunden": 34,
-   "uebernommen": 34,
+   "gefunden": 33,
+   "uebernommen": 33,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -436,8 +436,8 @@
    "url": "https://www.bierstindl.eu/veranstaltungen",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 24,
-   "uebernommen": 24,
+   "gefunden": 23,
+   "uebernommen": 23,
    "fehler": "",
    "grund": "",
    "hinweis": "War wegen abgebrochener Verbindungen abgeschaltet. Beim Nachpruefen antwortete der Server wieder und die Heuristik fand 18 Termine -- Kabarett und Theater im Haus.",
@@ -568,8 +568,8 @@
    "url": "https://www.metropol-kino.at/kinoprogramm/metropol",
    "aktiv": true,
    "strategie": "kino",
-   "gefunden": 23,
-   "uebernommen": 23,
+   "gefunden": 26,
+   "uebernommen": 26,
    "fehler": "",
    "grund": "",
    "hinweis": "nur das Programm des laufenden Tages; Spielzeiten kommen clientseitig nach Auswahl eines Datums",
@@ -670,8 +670,8 @@
    "url": "https://www.haus-der-musik-innsbruck.at/kalender/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 10,
-   "uebernommen": 9,
+   "gefunden": 9,
+   "uebernommen": 8,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -805,8 +805,8 @@
    "url": "https://www.uibk.ac.at/de/events/",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 171,
-   "uebernommen": 167,
+   "gefunden": 169,
+   "uebernommen": 165,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -941,12 +941,13 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 9,
-   "uebernommen": 8,
+   "uebernommen": 7,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
+    "ausserhalb des Zeitfensters": 1,
     "Fliesstext statt Titel": 1
    },
    "brauchtum": {}
@@ -1321,14 +1322,15 @@
    "url": "https://www.wasmachma.at/events/bundesland/tirol/flohmarkt",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 11,
+   "gefunden": 12,
    "uebernommen": 2,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 9
+    "kein Ort im Umkreis genannt": 9,
+    "ausserhalb: tannheim": 1
    },
    "brauchtum": {}
   },
