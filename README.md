@@ -4,7 +4,7 @@ Täglich gesammelte Veranstaltungstermine im Raum Innsbruck
 (Innsbruck plus rund 30 km). Dieses Repository enthält **nur die
 Ausgabe**; der Sammler liegt woanders.
 
-Stand: 2026-11-14 · **1755 Termine**, davon 101 neu seit dem letzten Lauf.
+Stand: 2026-11-15 · **1721 Termine**, davon 75 neu seit dem letzten Lauf.
 
 | Datei | Inhalt |
 |---|---|
