@@ -1,10 +1,10 @@
 {
- "lauf": "2026-11-15T12:03:37+00:00",
- "termine": 1721,
+ "lauf": "2026-11-16T12:51:15+00:00",
+ "termine": 1729,
  "serientermine": 123,
- "neu": 75,
+ "neu": 109,
  "quellen_aktiv": 72,
- "quellen_mit_treffern": 39,
+ "quellen_mit_treffern": 40,
  "quellen_mit_fehler": 1,
  "quellen": [
   {
@@ -32,8 +32,8 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 909,
-   "uebernommen": 885,
+   "gefunden": 914,
+   "uebernommen": 890,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -55,8 +55,8 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck-land/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 233,
-   "uebernommen": 231,
+   "gefunden": 242,
+   "uebernommen": 240,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -74,14 +74,14 @@
    "url": "https://www.meinbezirk.at/event/innsbruck/list",
    "aktiv": true,
    "strategie": "meinbezirk",
-   "gefunden": 30,
-   "uebernommen": 25,
+   "gefunden": 29,
+   "uebernommen": 26,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 5
+    "kein Ort im Umkreis genannt": 3
    },
    "brauchtum": {}
   },
@@ -90,15 +90,15 @@
    "url": "https://www.innsbrucktermine.at",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 21,
-   "uebernommen": 21,
+   "gefunden": 18,
+   "uebernommen": 18,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {},
    "brauchtum": {
-    "Advent- und Perchtenbrauch": 1
+    "Advent- und Perchtenbrauch": 2
    }
   },
   {
@@ -121,14 +121,15 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 10,
-   "uebernommen": 8,
+   "uebernommen": 7,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
     "kein Ort im Umkreis genannt": 1,
-    "ausserhalb: hopfgarten": 1
+    "ausserhalb: hopfgarten": 1,
+    "ausserhalb: lienz": 1
    },
    "brauchtum": {}
   },
@@ -151,8 +152,8 @@
    "url": "https://www.olympiaworld.at/events-tickets/",
    "aktiv": true,
    "strategie": "microdata",
-   "gefunden": 50,
-   "uebernommen": 48,
+   "gefunden": 49,
+   "uebernommen": 47,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -168,13 +169,13 @@
    "aktiv": true,
    "strategie": "congress",
    "gefunden": 184,
-   "uebernommen": 131,
+   "uebernommen": 129,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 50,
+    "ausserhalb des Zeitfensters": 52,
     "Universitaetsinterna": 3
    },
    "brauchtum": {
@@ -215,8 +216,8 @@
    "url": "https://www.pmk.or.at/de/events",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 17,
-   "uebernommen": 17,
+   "gefunden": 16,
+   "uebernommen": 16,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -229,15 +230,13 @@
    "url": "https://www.diebaeckerei.at/programm",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 41,
-   "uebernommen": 39,
+   "gefunden": 38,
+   "uebernommen": 38,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
-   "verworfen": {
-    "ausserhalb des Zeitfensters": 2
-   },
+   "verworfen": {},
    "brauchtum": {}
   },
   {
@@ -245,14 +244,14 @@
    "url": "https://www.treibhaus.at/programm.ics",
    "aktiv": true,
    "strategie": "ics",
-   "gefunden": 88,
-   "uebernommen": 70,
+   "gefunden": 91,
+   "uebernommen": 72,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 18
+    "ausserhalb des Zeitfensters": 19
    },
    "brauchtum": {
     "Schlager": 1
@@ -433,8 +432,8 @@
    "url": "https://www.bierstindl.eu/veranstaltungen",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 23,
-   "uebernommen": 23,
+   "gefunden": 22,
+   "uebernommen": 22,
    "fehler": "",
    "grund": "",
    "hinweis": "War wegen abgebrochener Verbindungen abgeschaltet. Beim Nachpruefen antwortete der Server wieder und die Heuristik fand 18 Termine -- Kabarett und Theater im Haus.",
@@ -565,8 +564,8 @@
    "url": "https://www.metropol-kino.at/kinoprogramm/metropol",
    "aktiv": true,
    "strategie": "kino",
-   "gefunden": 24,
-   "uebernommen": 24,
+   "gefunden": 22,
+   "uebernommen": 22,
    "fehler": "",
    "grund": "",
    "hinweis": "nur das Programm des laufenden Tages; Spielzeiten kommen clientseitig nach Auswahl eines Datums",
@@ -848,14 +847,14 @@
    "url": "https://www.runme.at/laufkalender/tirol/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 25,
+   "gefunden": 26,
    "uebernommen": 4,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 20,
+    "kein Ort im Umkreis genannt": 21,
     "ausserhalb: pitztal": 1
    },
    "brauchtum": {}
@@ -937,14 +936,13 @@
    "url": "https://www.alpenzoo.at/de/veranstaltungen",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 9,
+   "gefunden": 8,
    "uebernommen": 7,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 1,
     "Fliesstext statt Titel": 1
    },
    "brauchtum": {}
@@ -1084,10 +1082,10 @@
    "quelle": "Tonwerkstatt",
    "url": "https://www.tonwerkstatt.eu/ton-kurse",
    "aktiv": true,
-   "strategie": "",
-   "gefunden": 0,
-   "uebernommen": 0,
-   "fehler": "HTTP 401",
+   "strategie": "heuristik",
+   "gefunden": 4,
+   "uebernommen": 4,
+   "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
@@ -1132,7 +1130,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "",
+   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
@@ -1305,12 +1303,12 @@
    "url": "https://www.meine-flohmarkt-termine.de/ort/innsbruck",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 14,
-   "uebernommen": 14,
+   "gefunden": 13,
+   "uebernommen": 13,
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "zeiten_nachgetragen": 14,
+   "zeiten_nachgetragen": 13,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -1319,14 +1317,14 @@
    "url": "https://www.wasmachma.at/events/bundesland/tirol/flohmarkt",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 9,
-   "uebernommen": 2,
+   "gefunden": 7,
+   "uebernommen": 1,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 7
+    "kein Ort im Umkreis genannt": 6
    },
    "brauchtum": {}
   },
