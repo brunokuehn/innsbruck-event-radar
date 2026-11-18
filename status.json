@@ -1,30 +1,31 @@
 {
- "lauf": "2026-11-17T13:31:46+00:00",
- "termine": 1750,
+ "lauf": "2026-11-18T13:08:51+00:00",
+ "termine": 1752,
  "serientermine": 123,
- "neu": 111,
+ "neu": 116,
  "quellen_aktiv": 72,
  "quellen_mit_treffern": 40,
- "quellen_mit_fehler": 0,
+ "quellen_mit_fehler": 1,
  "quellen": [
   {
    "quelle": "Innsbruck Tourismus",
    "url": "https://www.innsbruck.info/events/d/alle.html",
    "aktiv": true,
    "strategie": "innsbruckinfo",
-   "gefunden": 203,
-   "uebernommen": 189,
+   "gefunden": 220,
+   "uebernommen": 202,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 14
+    "kein Ort im Umkreis genannt": 18
    },
    "brauchtum": {
     "Volksmusik": 7,
-    "Advent- und Perchtenbrauch": 8,
-    "Blasmusik": 2
+    "Advent- und Perchtenbrauch": 10,
+    "Blasmusik": 2,
+    "Trachten": 1
    }
   },
   {
@@ -32,8 +33,8 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 916,
-   "uebernommen": 894,
+   "gefunden": 920,
+   "uebernommen": 898,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -55,8 +56,8 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck-land/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 269,
-   "uebernommen": 267,
+   "gefunden": 268,
+   "uebernommen": 266,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -74,8 +75,8 @@
    "url": "https://www.meinbezirk.at/event/innsbruck/list",
    "aktiv": true,
    "strategie": "meinbezirk",
-   "gefunden": 27,
-   "uebernommen": 24,
+   "gefunden": 28,
+   "uebernommen": 25,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -120,15 +121,15 @@
    "url": "https://www.freizeit-tirol.at/freizeit-events/eventkalender/",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 10,
-   "uebernommen": 7,
+   "gefunden": 11,
+   "uebernommen": 8,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
     "kein Ort im Umkreis genannt": 1,
-    "ausserhalb: hopfgarten": 1,
+    "ausserhalb: kitzbuehel": 1,
     "ausserhalb: lienz": 1
    },
    "brauchtum": {}
@@ -152,14 +153,14 @@
    "url": "https://www.olympiaworld.at/events-tickets/",
    "aktiv": true,
    "strategie": "microdata",
-   "gefunden": 49,
+   "gefunden": 50,
    "uebernommen": 47,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 2
+    "ausserhalb des Zeitfensters": 3
    },
    "brauchtum": {}
   },
@@ -216,12 +217,12 @@
    "url": "https://www.pmk.or.at/de/events",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 16,
-   "uebernommen": 16,
+   "gefunden": 17,
+   "uebernommen": 17,
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "zeiten_nachgetragen": 13,
+   "zeiten_nachgetragen": 12,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -245,13 +246,13 @@
    "aktiv": true,
    "strategie": "ics",
    "gefunden": 91,
-   "uebernommen": 71,
+   "uebernommen": 70,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 20
+    "ausserhalb des Zeitfensters": 21
    },
    "brauchtum": {
     "Schlager": 1
@@ -564,8 +565,8 @@
    "url": "https://www.metropol-kino.at/kinoprogramm/metropol",
    "aktiv": true,
    "strategie": "kino",
-   "gefunden": 23,
-   "uebernommen": 23,
+   "gefunden": 21,
+   "uebernommen": 21,
    "fehler": "",
    "grund": "",
    "hinweis": "nur das Programm des laufenden Tages; Spielzeiten kommen clientseitig nach Auswahl eines Datums",
@@ -740,16 +741,14 @@
    "quelle": "KRAPOLDI",
    "url": "https://www.krapoldi.at/event/",
    "aktiv": true,
-   "strategie": "heuristik",
-   "gefunden": 64,
+   "strategie": "",
+   "gefunden": 0,
    "uebernommen": 0,
    "fehler": "",
    "grund": "",
    "hinweis": "Zirkusfestival. Ausserhalb der Saison zeigt die Seite die Spielorte der letzten Ausgabe als Kacheln -- daher Ortsnamen mit altem Datum.",
    "zeiten_nachgetragen": 0,
-   "verworfen": {
-    "ausserhalb des Zeitfensters": 64
-   },
+   "verworfen": {},
    "brauchtum": {}
   },
   {
@@ -801,8 +800,8 @@
    "url": "https://www.uibk.ac.at/de/events/",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 164,
-   "uebernommen": 160,
+   "gefunden": 156,
+   "uebernommen": 152,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -1130,7 +1129,7 @@
    "strategie": "",
    "gefunden": 0,
    "uebernommen": 0,
-   "fehler": "",
+   "fehler": "HTTPError: HTTP Error 429: Too Many Requests",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
@@ -1200,14 +1199,14 @@
    "url": "https://www.standort-tirol.at/veranstaltungen",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 20,
+   "gefunden": 17,
    "uebernommen": 5,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 14,
+    "kein Ort im Umkreis genannt": 11,
     "ausserhalb: muenchen": 1
    },
    "brauchtum": {}
