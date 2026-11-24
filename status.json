@@ -1,10 +1,10 @@
 {
- "lauf": "2026-11-23T14:46:03+00:00",
- "termine": 1712,
+ "lauf": "2026-11-24T14:58:33+00:00",
+ "termine": 1713,
  "serientermine": 123,
- "neu": 122,
+ "neu": 94,
  "quellen_aktiv": 72,
- "quellen_mit_treffern": 38,
+ "quellen_mit_treffern": 39,
  "quellen_mit_fehler": 0,
  "quellen": [
   {
@@ -12,8 +12,8 @@
    "url": "https://www.innsbruck.info/events/d/alle.html",
    "aktiv": true,
    "strategie": "innsbruckinfo",
-   "gefunden": 268,
-   "uebernommen": 252,
+   "gefunden": 281,
+   "uebernommen": 265,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -33,15 +33,15 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 898,
-   "uebernommen": 878,
+   "gefunden": 902,
+   "uebernommen": 885,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
     "ausserhalb: kufstein": 3,
-    "ausserhalb des Zeitfensters": 16,
+    "ausserhalb des Zeitfensters": 13,
     "ausserhalb: reutte": 1
    },
    "brauchtum": {
@@ -55,8 +55,8 @@
    "url": "https://events.tt.com/veranstaltungen/innsbruck-land/alle-kategorien",
    "aktiv": true,
    "strategie": "ttevents",
-   "gefunden": 276,
-   "uebernommen": 275,
+   "gefunden": 278,
+   "uebernommen": 277,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -108,14 +108,14 @@
    "url": "https://www.eventfinder.at/veranstaltungen-innsbruck.php",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 61,
-   "uebernommen": 60,
+   "gefunden": 60,
+   "uebernommen": 58,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 1
+    "ausserhalb des Zeitfensters": 2
    },
    "brauchtum": {}
   },
@@ -131,7 +131,8 @@
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 2
+    "kein Ort im Umkreis genannt": 1,
+    "ausserhalb: pertisau": 1
    },
    "brauchtum": {}
   },
@@ -154,8 +155,8 @@
    "url": "https://www.olympiaworld.at/events-tickets/",
    "aktiv": true,
    "strategie": "microdata",
-   "gefunden": 46,
-   "uebernommen": 43,
+   "gefunden": 47,
+   "uebernommen": 44,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -170,14 +171,14 @@
    "url": "https://www.cmi.at/de/veranstaltungskalender",
    "aktiv": true,
    "strategie": "congress",
-   "gefunden": 187,
-   "uebernommen": 125,
+   "gefunden": 185,
+   "uebernommen": 122,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 60,
+    "ausserhalb des Zeitfensters": 61,
     "Universitaetsinterna": 2
    },
    "brauchtum": {
@@ -223,7 +224,7 @@
    "fehler": "",
    "grund": "",
    "hinweis": "",
-   "zeiten_nachgetragen": 16,
+   "zeiten_nachgetragen": 17,
    "verworfen": {},
    "brauchtum": {}
   },
@@ -233,12 +234,14 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 31,
-   "uebernommen": 31,
+   "uebernommen": 30,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
-   "verworfen": {},
+   "verworfen": {
+    "ausserhalb des Zeitfensters": 1
+   },
    "brauchtum": {}
   },
   {
@@ -495,13 +498,13 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 26,
-   "uebernommen": 2,
+   "uebernommen": 1,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 24
+    "ausserhalb des Zeitfensters": 25
    },
    "brauchtum": {}
   },
@@ -568,8 +571,8 @@
    "url": "https://www.metropol-kino.at/kinoprogramm/metropol",
    "aktiv": true,
    "strategie": "kino",
-   "gefunden": 18,
-   "uebernommen": 18,
+   "gefunden": 16,
+   "uebernommen": 16,
    "fehler": "",
    "grund": "",
    "hinweis": "nur das Programm des laufenden Tages; Spielzeiten kommen clientseitig nach Auswahl eines Datums",
@@ -625,13 +628,13 @@
    "aktiv": true,
    "strategie": "heuristik",
    "gefunden": 243,
-   "uebernommen": 0,
+   "uebernommen": 1,
    "fehler": "",
    "grund": "",
    "hinweis": "Die Seite fuehrt das Archiv aller Ausgaben seit 2017; 242 von 243 Terminen liegen darum in der Vergangenheit. Kein Fehler.",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "ausserhalb des Zeitfensters": 243
+    "ausserhalb des Zeitfensters": 242
    },
    "brauchtum": {}
   },
@@ -803,8 +806,8 @@
    "url": "https://www.uibk.ac.at/de/events/",
    "aktiv": true,
    "strategie": "jsonld",
-   "gefunden": 143,
-   "uebernommen": 140,
+   "gefunden": 142,
+   "uebernommen": 139,
    "fehler": "",
    "grund": "",
    "hinweis": "",
@@ -1202,14 +1205,14 @@
    "url": "https://www.standort-tirol.at/veranstaltungen",
    "aktiv": true,
    "strategie": "heuristik",
-   "gefunden": 13,
+   "gefunden": 15,
    "uebernommen": 4,
    "fehler": "",
    "grund": "",
    "hinweis": "",
    "zeiten_nachgetragen": 0,
    "verworfen": {
-    "kein Ort im Umkreis genannt": 8,
+    "kein Ort im Umkreis genannt": 10,
     "ausserhalb: muenchen": 1
    },
    "brauchtum": {}
